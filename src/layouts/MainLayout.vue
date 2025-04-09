@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -9,11 +9,10 @@
           icon="menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
+          class="hidden"
         />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
+        <q-toolbar-title> Quasar App </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -21,22 +20,33 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
+      :width="300"
+      :mini="miniState"
+      no-mini-animation
       show-if-above
       bordered
+      :breakpoint="640"
     >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+      <div class="flex row" :class="{ 'justify-center': miniState }">
+        <!-- <q-list padding>
 
-        <EssentialLink
-          v-for="link in linksList"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
+          <q-item>
+            <q-icon name="info" @click="activeTab = 'info'" size="md" />
+          </q-item>
+
+          <q-item>
+            <q-icon name="face" @click="activeTab = 'user'" size="md" />
+          </q-item> -->
+
+        <!-- <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" class="hidden" /> -->
+        <!-- </q-list> -->
+
+        <!-- <q-scroll-area class="fit"> -->
+        <div v-show="navContent">
+          <InfoTab />
+        </div>
+        <!-- </q-scroll-area> -->
+      </div>
     </q-drawer>
 
     <q-page-container>
@@ -46,57 +56,39 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink.vue';
+import { ref, watch } from 'vue'
 
-const linksList: EssentialLinkProps[] = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+import InfoTab from 'src/components/SideBar/InfoTab.vue'
+import { selectedFeatures } from 'src/controllers/mapDataController'
+
+const leftDrawerOpen = ref(true)
+
+const miniState = ref(true)
+
+// const activeTab = ref('info')
+
+const navContent = ref(false)
+
+watch(miniState, () => {
+  // if (miniState.value) {
+  //   navContent.value = !miniState.value
+  // } else {
+  //   setTimeout(() => {
+  //     navContent.value = !miniState.value
+  //   }, 100)
+  // }
+  navContent.value = !miniState.value
+})
+
+watch(selectedFeatures, () => {
+  if (selectedFeatures.value.length >= 1) {
+    miniState.value = false
+  } else {
+    miniState.value = true
   }
-];
+})
 
-const leftDrawerOpen = ref(false);
-
-function toggleLeftDrawer () {
-  leftDrawerOpen.value = !leftDrawerOpen.value;
+function toggleLeftDrawer() {
+  leftDrawerOpen.value = !leftDrawerOpen.value
 }
 </script>
