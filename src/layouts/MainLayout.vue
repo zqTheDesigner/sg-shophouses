@@ -20,12 +20,11 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
-      :width="300"
-      :mini="miniState"
+      :width="360"
       no-mini-animation
       show-if-above
       bordered
-      :breakpoint="640"
+      :breakpoint="0"
     >
       <div class="flex row" :class="{ 'justify-center': miniState }">
         <!-- <q-list padding>

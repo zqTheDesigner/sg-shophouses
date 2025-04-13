@@ -40,7 +40,9 @@ const fetchCompanyJSON = async (url: string): Promise<CompanyDataI[]> => {
 const selectedFeaturesRef: Ref<OlFeature[]> = ref([])
 const selectedFeatures = computed(() => selectedFeaturesRef.value)
 const setSelectedFeatures = (features: OlFeature[]) => {
+  console.log('setSelectedFeatures')
   selectedFeaturesRef.value = features
+  console.log('End setSelectedFeatures')
 }
 
 const clearSelectedFeatures = () => {
