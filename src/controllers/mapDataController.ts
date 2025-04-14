@@ -24,7 +24,58 @@ interface CompanyDataI {
   'Page in Di': string
 }
 
-const CompanyData: Ref<CompanyDataI[]> = ref([])
+const companyDataCategory = [
+  'Y',
+  'NUMBER',
+  'NAME',
+  'CH-NAME',
+  'STREET',
+  'ST-Number',
+  'SCOPE OF B',
+  'Phone',
+  'Cable addr',
+  'Registered',
+  'Capital',
+  'Proprietor',
+  'CH-Proprie',
+  'Telegraphi',
+  'Other Note',
+  'Page in Di',
+]
+
+const CompanyDataRaw: Ref<CompanyDataI[]> = ref([])
+
+const filterCategory: Ref<keyof CompanyDataI | undefined> = ref('NAME')
+const filterKey = ref()
+
+const CompanyData = computed(() => {
+  if (!filterCategory.value || !filterKey.value || filterCategory.value === undefined) {
+    return CompanyDataRaw.value
+  }
+
+  const normalizedFilterKey = filterKey.value.toLowerCase().replace(/\s/g, '')
+  return CompanyDataRaw.value.filter((item) => {
+    // To prevent typescript error
+    if (filterCategory.value === undefined) return CompanyDataRaw.value
+
+    // Get the value from the specified category
+    const value = item[filterCategory.value]
+
+    // Handle cases where value might be null or undefined
+    if (value === null || value === undefined) {
+      return false
+    }
+
+    // Convert to string, lowercase, and remove spaces for comparison
+    const normalizedValue = String(value).toLowerCase().replace(/\s/g, '')
+
+    // Check if the normalized value includes the normalized filter key
+    return normalizedValue.includes(normalizedFilterKey)
+  })
+})
+
+const setFilterCategory = (cat: keyof CompanyDataI) => (filterCategory.value = cat)
+const setFilterKey = (k: string) => (filterKey.value = k)
 
 const fetchCompanyJSON = async (url: string): Promise<CompanyDataI[]> => {
   try {
@@ -44,10 +95,39 @@ const setSelectedFeatures = (features: OlFeature[]) => {
   selectedFeaturesRef.value = features
   console.log('End setSelectedFeatures')
 }
-
 const clearSelectedFeatures = () => {
   selectedFeaturesRef.value = []
 }
+
+const csvUrl = 'data/SG Shophouse DB.json'
+
+fetchCompanyJSON(csvUrl)
+  .then((data) => {
+    // console.log('Fetched data:', data)
+    // You can work with the data here
+    CompanyDataRaw.value = data
+    // console.log(data)
+  })
+  .catch((error) => {
+    console.error('Failed to fetch data:', error)
+  })
+
+export {
+  CompanyData,
+  selectedFeatures,
+  setSelectedFeatures,
+  clearSelectedFeatures,
+  companyDataCategory,
+  filterCategory,
+  filterKey,
+  setFilterCategory,
+  setFilterKey,
+}
+
+export type { CompanyDataI }
+
+// ============================================================== //
+// ============ Some Old Code Snippet, DO NOT DELETE ============ //
 
 // const fetchCompanyData = async (url: string): Promise<CompanyDataI[]> => {
 //   console.log('fetchCompanyData Start')
@@ -92,20 +172,3 @@ const clearSelectedFeatures = () => {
 // }
 // const csvUrl =
 //   'https://docs.google.com/spreadsheets/d/e/2PACX-1vR9S4_ZaOXJkPcDg3dsyiuoKyNYM3BxpaqbYFvDnLkELrSnUyuv_hRNFXkB2SPiz1jzYvKaNvZ4WNMI/pub?gid=0&single=true&output=csv'
-
-const csvUrl = 'data/SG Shophouse DB.json'
-
-fetchCompanyJSON(csvUrl)
-  .then((data) => {
-    // console.log('Fetched data:', data)
-    // You can work with the data here
-    CompanyData.value = data
-    // console.log(data)
-  })
-  .catch((error) => {
-    console.error('Failed to fetch data:', error)
-  })
-
-export { CompanyData, selectedFeatures, setSelectedFeatures, clearSelectedFeatures }
-
-export type { CompanyDataI }

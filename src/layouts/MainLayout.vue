@@ -27,24 +27,9 @@
       :breakpoint="0"
     >
       <div class="flex row" :class="{ 'justify-center': miniState }">
-        <!-- <q-list padding>
-
-          <q-item>
-            <q-icon name="info" @click="activeTab = 'info'" size="md" />
-          </q-item>
-
-          <q-item>
-            <q-icon name="face" @click="activeTab = 'user'" size="md" />
-          </q-item> -->
-
-        <!-- <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" class="hidden" /> -->
-        <!-- </q-list> -->
-
-        <!-- <q-scroll-area class="fit"> -->
         <div v-show="navContent">
           <InfoTab />
         </div>
-        <!-- </q-scroll-area> -->
       </div>
     </q-drawer>
 
@@ -69,13 +54,6 @@ const miniState = ref(true)
 const navContent = ref(false)
 
 watch(miniState, () => {
-  // if (miniState.value) {
-  //   navContent.value = !miniState.value
-  // } else {
-  //   setTimeout(() => {
-  //     navContent.value = !miniState.value
-  //   }, 100)
-  // }
   navContent.value = !miniState.value
 })
 

@@ -1,7 +1,7 @@
 <template>
   <ol-map
     class="flex"
-    style="min-width: 100vw; min-height: 100vh"
+    style="min-width: 100vw; min-height: calc(100vh - 72px)"
     @click="handleMapClick"
     ref="mapRef"
   >
@@ -100,7 +100,7 @@ const overrideStyleFunction = (feature, style, resolution) => {
     selectedFeatures.value[0] &&
     clusteredFeatures[0].get('X') === selectedFeatures.value[0].get('X') &&
     clusteredFeatures[0].get('Y') === selectedFeatures.value[0].get('Y')
-  
+
 
   // Reset all cluster style color
   style.getImage().getFill().setColor('green')
