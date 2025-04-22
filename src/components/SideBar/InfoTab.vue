@@ -1,6 +1,28 @@
 <template>
-  <div v-if="selectedFeatures.length" class="q-pa-md" style="max-width: 800px; margin-top: 20px">
-    <q-list bordered class="rounded-borders">
+  <!-- For locations with only 1 data point -->
+  <div v-if="listData.length == 1">
+    <h5>{{ listData[0] ? listData[0].NAME : '' }}</h5>
+    <ul class="props">
+      <li v-for="(value, key) in listData[0]" :key="key">
+        <div>
+          <span class="label"
+            ><b>{{ key }}:</b>
+          </span>
+          <span class="value">{{ value }}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- For locations with multiple data point -->
+  <div v-if="listData.length > 1" style="width: 100%" class="column justify-center">
+    <p>
+      Details of <b>{{ selectedFeatures.length }}</b> Shophouses
+    </p>
+    <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET (SI'] : '' }}</p>
+    <p><b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}</p>
+
+    <q-list bordered class="rounded-borders full-width column">
       <q-expansion-item
         v-for="(feature, key) in listData"
         :key="key"
@@ -23,9 +45,12 @@
     </q-list>
 
     <q-btn
+      flat
+      color="teal"
+      class="q-my-sm"
       @click="() => (listDataCount = listDataCount + 10)"
       v-if="selectedFeatures.length > listData.length"
-      >Show More</q-btn
+      >Show More ({{ listData.length }}/ {{ selectedFeatures.length }})</q-btn
     >
   </div>
 </template>

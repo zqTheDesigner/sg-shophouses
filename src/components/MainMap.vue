@@ -12,7 +12,7 @@
     </ol-tile-layer>
 
     <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
-      <ol-source-cluster :distance="40">
+      <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
       </ol-source-cluster>
 
@@ -58,7 +58,7 @@ const getClusterColor = (features: OlFeature[]) => {
   ) {
     return 'orange'
   } else {
-    return 'green'
+    return '#006064'
   }
 }
 
@@ -103,13 +103,15 @@ const overrideStyleFunction = (feature, style, resolution) => {
 
 
   // Reset all cluster style color
-  style.getImage().getFill().setColor('green')
+  style.getImage().getFill().setColor('#006064')
 
   // If contains feature
   if (size > 1) {
     style.getText().setText(size.toString())
+    style.getText().getFill().setColor('#fff')
   } else if (size === 1 && clusteredFeatures[0] !== undefined) {
     style.getText().setText(clusteredFeatures[0].getProperties()['NAME'])
+    style.getText().getFill().setColor('#000')
   } else {
     // This is unlikely to happe, just prevent some ts warning
     // return

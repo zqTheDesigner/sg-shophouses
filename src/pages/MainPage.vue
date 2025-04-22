@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex">
-    <SearchBar class="absolute justify-center" style="z-index: 99; top: 0; width: 100%" />
+    <SearchBar class="absolute justify-center " style="z-index: 99; top: 0; width: 100%" />
     <MainMap :points="{ 'Company Data': CompanyData }" />
   </q-page>
 </template>
