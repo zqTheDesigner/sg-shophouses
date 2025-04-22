@@ -1,4 +1,7 @@
 <template>
+  <div v-if="listData.length == 0">
+    <p>Please select feature on map to view detials.</p>
+  </div>
   <!-- For locations with only 1 data point -->
   <div v-if="listData.length == 1">
     <h5>{{ listData[0] ? listData[0].NAME : '' }}</h5>
@@ -21,6 +24,10 @@
     </p>
     <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET (SI'] : '' }}</p>
     <p><b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}</p>
+
+    <q-btn rounded dense class="q-mb-md" color="teal" @click="() => (tableView = true)"
+      >View In Table</q-btn
+    >
 
     <q-list bordered class="rounded-borders full-width column">
       <q-expansion-item
@@ -53,6 +60,20 @@
       >Show More ({{ listData.length }}/ {{ selectedFeatures.length }})</q-btn
     >
   </div>
+
+  <q-dialog v-model="tableView">
+    <q-table
+      :rows="listData"
+      :columns="columns"
+      row-key="NAME"
+      dense
+      flat
+      bordered
+      wrap-cells
+      virtual-scroll
+      :rows-per-page-options="[10, 20, 50]"
+    />
+  </q-dialog>
 </template>
 
 <script setup lang="ts">
@@ -60,6 +81,8 @@ import { selectedFeatures } from '../../controllers/mapDataController'
 import { computed, ref, watch } from 'vue'
 
 const listDataCount = ref(10)
+
+const tableView = ref(false)
 
 // Extract keys from the first selected feature to create list items dynamically
 const listData = computed(() => {
@@ -78,5 +101,19 @@ const listData = computed(() => {
 
 watch(selectedFeatures, () => {
   listDataCount.value = 10
+})
+
+const columns = computed(() => {
+  const firstRow = listData.value[0]
+  if (!firstRow) return []
+
+  return Object.keys(firstRow)
+    .filter((key) => key !== 'X' && key !== 'Y')
+    .map((key) => ({
+      name: key,
+      label: key,
+      field: key,
+      sortable: true,
+    }))
 })
 </script>
