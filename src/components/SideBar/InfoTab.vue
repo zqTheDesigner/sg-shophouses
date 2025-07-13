@@ -24,7 +24,7 @@
         selectedFeatures.length > 1 ? 's' : ''
       }}
     </p>
-    <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET (SI'] : '' }}</p>
+    <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET'] : '' }}</p>
     <p><b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}</p>
 
     <q-btn rounded dense class="q-mb-md" color="teal" @click="() => (tableView = true)"

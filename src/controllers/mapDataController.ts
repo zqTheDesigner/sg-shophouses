@@ -10,44 +10,46 @@ interface CompanyDataI {
   NUMBER: string
   NAME: string
   'CH-NAME': string
-  "STREET (SI": string
+  'STREET (SINGAPORE)': string
   'ST-Number': string
   'SCOPE OF B': string
   Phone: string
-  'Cable addr': string
-  Registered: string
+  'Cable Address': string
+  'Registered Date': string
   Capital: string
   Proprietor: string
-  'CH-Proprie': string
-  Telegraphi: string
+  'Telegraphic Address': string
   'Other Note': string
-  'Page in Di': string
-  'Proprietors': string
+  'Page in Directory': string
+  Proprietors: string
   'CH-Proprietors': string
 }
 
+interface StreetDataI {
+  street: string
+  level: number // or number if you prefer
+  coordinates: [number, number][] // Array of [lng, lat] pairs
+}
+
 const companyDataCategory = [
-  'Y',
   'NUMBER',
   'NAME',
   'CH-NAME',
-  'STREET (SI',
   'ST-Number',
-  'SCOPE OF B',
+  'SCOPE OF BUSINESS',
   'Phone',
-  'Cable addr',
-  'Registered',
+  'Cable Address',
+  'Registered Date',
   'Capital',
-  'Proprietor',
-  'CH-Proprie',
-  'Telegraphi',
-  'Other Note',
-  'Page in Di',
   'Proprietors',
-  'CH-Proprietors'
+  'CH-Proprietors',
+  'Telegraphic Address',
+  'Page in Directory',
+  'STREET',
 ]
 
 const CompanyDataRaw: Ref<CompanyDataI[]> = ref([])
+const StreetDataRaw: Ref<StreetDataI[]> = ref([])
 
 const filterCategory: Ref<keyof CompanyDataI | undefined> = ref('NAME')
 const filterKey = ref()
@@ -78,10 +80,23 @@ const CompanyData = computed(() => {
   })
 })
 
+const StreetData = computed(() => StreetDataRaw.value)
+
 const setFilterCategory = (cat: keyof CompanyDataI) => (filterCategory.value = cat)
 const setFilterKey = (k: string) => (filterKey.value = k)
 
 const fetchCompanyJSON = async (url: string): Promise<CompanyDataI[]> => {
+  try {
+    const response = await fetch(url)
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+    return response.json()
+  } catch (error) {
+    console.error('Error:', error)
+    throw error
+  }
+}
+
+const fetchStreetJSON = async (url: string): Promise<StreetDataI[]> => {
   try {
     const response = await fetch(url)
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
@@ -103,18 +118,46 @@ const clearSelectedFeatures = () => {
   selectedFeaturesRef.value = []
 }
 
-const csvUrl = 'data/SG Shophouse DB.json'
+// const csvUrl = 'data/SG Shophouse DB.json'
+const csvUrls = ['data/batch_1.json', 'data/batch_2.json']
+const streetDataUrls = ['data/streets.json']
 
-fetchCompanyJSON(csvUrl)
-  .then((data) => {
-    // console.log('Fetched data:', data)
-    // You can work with the data here
-    CompanyDataRaw.value = data
-    // console.log(data)
-  })
-  .catch((error) => {
-    console.error('Failed to fetch data:', error)
-  })
+csvUrls.forEach((url) => {
+  fetchCompanyJSON(url)
+    .then((data) => {
+      // console.log('Fetched data:', data)
+      // You can work with the data here
+      CompanyDataRaw.value = CompanyDataRaw.value.concat(data)
+      // console.log(data)
+    })
+    .catch((error) => {
+      console.error('Failed to fetch data:', error)
+    })
+})
+
+streetDataUrls.forEach((url) => {
+  fetchStreetJSON(url)
+    .then((data) => {
+      // console.log('Fetched data:', data)
+      // You can work with the data here
+      StreetDataRaw.value = StreetDataRaw.value.concat(data)
+      // console.log(data)
+    })
+    .catch((error) => {
+      console.error('Failed to fetch data:', error)
+    })
+})
+
+// fetchCompanyJSON(csvUrl)
+//   .then((data) => {
+//     // console.log('Fetched data:', data)
+//     // You can work with the data here
+//     CompanyDataRaw.value = data
+//     // console.log(data)
+//   })
+//   .catch((error) => {
+//     console.error('Failed to fetch data:', error)
+//   })
 
 export {
   CompanyData,
@@ -126,9 +169,10 @@ export {
   filterKey,
   setFilterCategory,
   setFilterKey,
+  StreetData,
 }
 
-export type { CompanyDataI }
+export type { CompanyDataI, StreetDataI }
 
 // ============================================================== //
 // ============ Some Old Code Snippet, DO NOT DELETE ============ //

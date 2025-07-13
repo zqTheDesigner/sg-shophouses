@@ -11,16 +11,30 @@
       <ol-source-osm />
     </ol-tile-layer>
 
+    <!-- Displaying Lines -->
+    <ol-vector-layer v-for="(lines, key) in lineGroups" :key="key">
+      <ol-source-vector>
+        <ol-feature v-for="(line, k) in lines" :key="k">
+          <ol-geom-line-string :coordinates="line.coordinates"></ol-geom-line-string>
+          <ol-style>
+            <ol-style-stroke color="green" :width="line.level"></ol-style-stroke>
+            <ol-style-text :text="line.street" font="12px sans-serif" />
+          </ol-style>
+        </ol-feature>
+      </ol-source-vector>
+    </ol-vector-layer>
+
+    <!-- Display Points -->
     <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
       <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
       </ol-source-cluster>
 
-      <ol-style :overrideStyleFunction="overrideStyleFunction"  :key="styleVersion" >
+      <ol-style :overrideStyleFunction="overrideStyleFunction" :key="styleVersion">
         <ol-style-stroke color="red" :width="2" />
         <ol-style-fill color="rgba(255,255,255,0.1)" />
         <ol-style-circle :radius="10">
-          <ol-style-fill :color="getClusterColor(features)"/>
+          <ol-style-fill :color="getClusterColor(features)" />
           <ol-style-stroke color="#fff" :width="1" />
         </ol-style-circle>
         <ol-style-text text="test" />
@@ -32,7 +46,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { Feature } from 'ol'
-import Point from 'ol/geom/Point'
+import { Point } from 'ol/geom'
 import {
   clearSelectedFeatures,
   setSelectedFeatures,
@@ -40,17 +54,18 @@ import {
 } from '../controllers/mapDataController'
 import type { Feature as OlFeature } from 'ol'
 import type { Geometry } from 'ol/geom'
-import type { CompanyDataI } from '../controllers/mapDataController'
+import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
+// import Stroke from 'ol/style/Stroke'
 
-const props = defineProps(['points'])
+const props = defineProps(['points', 'lines'])
 
 const mapRef = ref()
 // const selectedClusterId = ref<string | null>(null)
 const styleVersion = ref(0) // Add a version counter to force style updates
 
 const getClusterColor = (features: OlFeature[]) => {
-  console.log('getClusterColor')
+  // console.log('getClusterColor')
   if (
     features[0] &&
     selectedFeatures.value[0] &&
@@ -71,6 +86,15 @@ function createFeature(point: CompanyDataI): OlFeature<Geometry> {
   return feature
 }
 
+// Add this near the createFeature function
+// function createLineFeature(lineData: any): OlFeature<Geometry> {
+//   const feature = new Feature({
+//     geometry: new LineString(lineData.coordinates),
+//     ...lineData,
+//   })
+//   return feature
+// }
+
 // Preprocess points into grouped features
 const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
   const result: Record<string, OlFeature<Geometry>[]> = {}
@@ -83,9 +107,20 @@ const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
   return result
 })
 
+const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
+  const result: Record<string, []> = {}
+
+  for (const key in props.lines) {
+    const linesArray = props.lines[key]
+    result[key] = linesArray
+  }
+
+  return result
+})
+
 // @ts-expect-error some error
 const overrideStyleFunction = (feature, style, resolution) => {
-  console.log('overrideStyleFunction')
+  // console.log('overrideStyleFunction')
   // console.log({ feature, style, resolution })
 
   if (!resolution) {
@@ -100,7 +135,6 @@ const overrideStyleFunction = (feature, style, resolution) => {
     selectedFeatures.value[0] &&
     clusteredFeatures[0].get('X') === selectedFeatures.value[0].get('X') &&
     clusteredFeatures[0].get('Y') === selectedFeatures.value[0].get('Y')
-
 
   // Reset all cluster style color
   style.getImage().getFill().setColor('#006064')
