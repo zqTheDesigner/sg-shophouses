@@ -10,7 +10,7 @@ interface CompanyDataI {
   NUMBER: string
   NAME: string
   'CH-NAME': string
-  STREET: string
+  "STREET (SI": string
   'ST-Number': string
   'SCOPE OF B': string
   Phone: string
@@ -22,6 +22,8 @@ interface CompanyDataI {
   Telegraphi: string
   'Other Note': string
   'Page in Di': string
+  'Proprietors': string
+  'CH-Proprietors': string
 }
 
 const companyDataCategory = [
@@ -29,7 +31,7 @@ const companyDataCategory = [
   'NUMBER',
   'NAME',
   'CH-NAME',
-  'STREET',
+  'STREET (SI',
   'ST-Number',
   'SCOPE OF B',
   'Phone',
@@ -41,6 +43,8 @@ const companyDataCategory = [
   'Telegraphi',
   'Other Note',
   'Page in Di',
+  'Proprietors',
+  'CH-Proprietors'
 ]
 
 const CompanyDataRaw: Ref<CompanyDataI[]> = ref([])

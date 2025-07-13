@@ -7,7 +7,7 @@
         class="bg-white"
         :options="companyDataCategory"
         label="Search By"
-        style="max-width: 120px; width: 100%"
+        style="max-width: 160px; width: 100%"
         @update:model-value="setFilterCategory"
         dense
       />

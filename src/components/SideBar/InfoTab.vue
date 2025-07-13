@@ -20,7 +20,9 @@
   <!-- For locations with multiple data point -->
   <div v-if="listData.length > 1" style="width: 100%" class="column justify-center">
     <p>
-      Details of <b>{{ selectedFeatures.length }}</b> Shophouses
+      Details of <b>{{ selectedFeatures.length }}</b> Merchant{{
+        selectedFeatures.length > 1 ? 's' : ''
+      }}
     </p>
     <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET (SI'] : '' }}</p>
     <p><b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}</p>
@@ -63,7 +65,7 @@
 
   <q-dialog v-model="tableView">
     <q-table
-      :rows="listData"
+      :rows="fullListData"
       :columns="columns"
       row-key="NAME"
       dense
@@ -87,6 +89,20 @@ const tableView = ref(false)
 // Extract keys from the first selected feature to create list items dynamically
 const listData = computed(() => {
   return selectedFeatures.value.slice(0, listDataCount.value).map((feature) => {
+    const properties = feature.getProperties()
+    const data: Record<string, string> = {}
+    for (const key in properties) {
+      if (key !== 'geometry') {
+        // Skip the geometry
+        data[key] = properties[key]
+      }
+    }
+    return data
+  })
+})
+
+const fullListData = computed(() => {
+  return selectedFeatures.value.map((feature) => {
     const properties = feature.getProperties()
     const data: Record<string, string> = {}
     for (const key in properties) {
