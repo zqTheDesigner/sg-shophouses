@@ -20,12 +20,19 @@
   <!-- For locations with multiple data point -->
   <div v-if="listData.length > 1" style="width: 100%" class="column justify-center">
     <p>
-      Details of <b>{{ selectedFeatures.length }}</b> Merchant{{
+      Details of <b>{{ selectedFeatures.length }}</b> Location{{
         selectedFeatures.length > 1 ? 's' : ''
       }}
     </p>
-    <p><b>Street: </b> {{ listData[0] ? listData[0]['STREET'] : '' }}</p>
-    <p><b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}</p>
+    <p>
+      <b>Street: </b>
+      {{
+        listData[0] ? (listData[0]['STREET'] ? listData[0]['STREET'] : listData[0]['address']) : ''
+      }}
+    </p>
+    <p v-show="listData[0] && listData[0]['ST-Number']">
+      <b>Street Number: </b> {{ listData[0] ? listData[0]['ST-Number'] : '' }}
+    </p>
 
     <q-btn rounded dense class="q-mb-md" color="teal" @click="() => (tableView = true)"
       >View In Table</q-btn
@@ -37,7 +44,7 @@
         :key="key"
         expand-separator
         icon="perm_identity"
-        :label="feature.NAME"
+        :label="feature.NAME || feature.siteNameEn"
         :caption="feature.COMPANY"
       >
         <ul class="props">

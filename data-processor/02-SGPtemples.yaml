@@ -1,0 +1,5847 @@
+# nanyangSiteID: ID for past and present (until 2017) sites. Collected by Kenneth Dean (kd) and Guan Thye Hue.
+# projectSiteNo : Number of the temple in the original data collection
+# simplifiedZh: simplified Chinese characters
+# traditionalZh: traditional Chinese characters
+# nameEn: English name
+# address
+# postalCode
+- nanyangSiteId: sct-kd-001
+  projectSiteNo: '1'
+  simplifiedZh: 阿乐佳佛教中心
+  traditionalZh: 阿樂佳佛教中心
+  nameEn: Aloka Buddhist Centre
+  address: '11 Lorong 22 Geylang, #02-00'
+  postalCode: '398670'
+- nanyangSiteId: sct-kd-002
+  projectSiteNo: '2'
+  simplifiedZh: 阿弥陀佛佛教中心
+  traditionalZh: 阿彌陀佛佛教中心
+  nameEn: Amitabha Buddhist Centre
+  address: 44 Lorong 25A Geylang
+  postalCode: '388244'
+- nanyangSiteId: sct-kd-003
+  projectSiteNo: '4'
+  simplifiedZh: 阿难陀泰佛寺
+  traditionalZh: 阿難陀泰佛寺
+  nameEn: Wat Ananda Metyarama Thai Buddhist Temple
+  address: 50B Jalan Bukit Merah
+  postalCode: '169454'
+- nanyangSiteId: sct-kd-004
+  projectSiteNo: '5'
+  simplifiedZh: 爱道小苑
+  traditionalZh: 愛道小苑
+  nameEn: Aidao Xiaoyuan
+  address: 66 Lorong J Telok Kurau
+  postalCode: '425864'
+- nanyangSiteId: sct-kd-005
+  projectSiteNo: '6'
+  simplifiedZh: 爱民宫
+  traditionalZh: 愛民宮
+  nameEn: Aik Beng Keng
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-006
+  projectSiteNo: '7'
+  simplifiedZh: 安济圣王庙
+  traditionalZh: 安濟圣王廟
+  nameEn: Ang Chee Sia Ong Temple
+  address: 131 West Coast Drive
+  postalCode: '128014'
+- nanyangSiteId: sct-kd-007
+  projectSiteNo: '9'
+  simplifiedZh: 安仁宫
+  traditionalZh: 安仁宮
+  nameEn: An'ren Gong
+  address: 18 Hougang Street 11
+  postalCode: '538747'
+- nanyangSiteId: sct-kd-008
+  projectSiteNo: '10'
+  simplifiedZh: 安山庙
+  traditionalZh: 安山廟
+  nameEn: Ann San Temple
+  address: 488 Serangoon North Avenue 1
+  postalCode: '555894'
+- nanyangSiteId: sct-kd-009
+  projectSiteNo: '13'
+  simplifiedZh: 巴利莱佛堂
+  traditionalZh: 巴利萊佛堂
+  nameEn: Palelai Buddhist Temple
+  address: 49 Bedok Walk
+  postalCode: '469145'
+- nanyangSiteId: sct-kd-010
+  projectSiteNo: '14'
+  simplifiedZh: 八巃元帅殿
+  traditionalZh: 八巃元帅殿
+  nameEn: Pak Leng Guard Seow Tian
+  address: 11  Choa Chu Kang Street 51
+  postalCode: '689334'
+- nanyangSiteId: sct-kd-011
+  projectSiteNo: '15'
+  simplifiedZh: 巴耶利峇联合庙
+  traditionalZh: 巴耶利峇聯合廟
+  nameEn: Paya Lebar United Temple
+  address: 148 Paya Lebar Road
+  postalCode: '409018'
+- nanyangSiteId: sct-kd-012
+  projectSiteNo: '17'
+  simplifiedZh: 半港天后宫
+  traditionalZh: 半港天后宮
+  nameEn: Kampong Tengah Thian Hou Keng
+  address: '80 Rivervale Crescent, #01-01'
+  postalCode: '545087'
+- nanyangSiteId: sct-kd-013
+  projectSiteNo: '18'
+  simplifiedZh: 榜鹅联合庙
+  traditionalZh: 榜鵝聯合廟
+  nameEn: Punggol Joint Temple
+  address: 3 Tebing Lane
+  postalCode: '828849'
+- nanyangSiteId: sct-kd-014
+  projectSiteNo: '20'
+  simplifiedZh: 保安宫
+  traditionalZh: 保安宮
+  nameEn: Poh Ann Keng
+  address: '95 Tampines Link #01-02'
+  postalCode: '528745'
+- nanyangSiteId: sct-kd-015
+  projectSiteNo: '22'
+  simplifiedZh: 保赤宫
+  traditionalZh: 保赤宮
+  nameEn: Po Chiak Keng
+  address: 15 Magazine Rd
+  postalCode: '59568'
+- nanyangSiteId: sct-kd-016
+  projectSiteNo: '23'
+  simplifiedZh: 报德善堂
+  traditionalZh: 報德善堂
+  nameEn: Poh Teck Siang Tng
+  address: 109 Hougang Ave 5
+  postalCode: '538817'
+- nanyangSiteId: sct-kd-017
+  projectSiteNo: '25'
+  simplifiedZh: 包公庙
+  traditionalZh: 包公廟
+  nameEn: Bao Gong Temple
+  address: 72 Sengkang West Avenue
+  postalCode: '797651'
+- nanyangSiteId: sct-kd-018
+  projectSiteNo: '27'
+  simplifiedZh: 宝光佛堂
+  traditionalZh: 寶光佛堂
+  nameEn: Pao Kwan Foh TangTp
+  address: 21 Shunfu Road
+  postalCode: '575741'
+- nanyangSiteId: sct-kd-019
+  projectSiteNo: '28'
+  simplifiedZh: 保生庙
+  traditionalZh: 保生廟
+  nameEn: Baosheng Miao
+  address: Blk 3, 400 Geylang Lor 3
+  postalCode: '560557'
+- nanyangSiteId: sct-kd-020
+  projectSiteNo: '29'
+  simplifiedZh: 宝兴坛
+  traditionalZh: 寶興壇
+  nameEn: Baoxing Tan
+  address: '139 Bedok Reservoir Road #02-1489'
+  postalCode: '470139'
+- nanyangSiteId: sct-kd-021
+  projectSiteNo: '30'
+  simplifiedZh: 北辰宫
+  traditionalZh: 北辰宮
+  nameEn: Beichen Gong
+  address: 526A Geylang Road
+  postalCode: '389482'
+- nanyangSiteId: sct-kd-022
+  projectSiteNo: '31'
+  simplifiedZh: 北海社
+  traditionalZh: 北海社
+  nameEn: Pei Hai Seventh Moon Scoiety
+  address: 282-A Bedok Shopping Complex
+  postalCode: '469439'
+- nanyangSiteId: sct-kd-023
+  projectSiteNo: '34'
+  simplifiedZh: 北莲坛
+  traditionalZh: 北蓮壇
+  nameEn: Beilian Tan
+  address: '119B Kim Tian Road #21-240'
+  postalCode: '162119'
+- nanyangSiteId: sct-kd-024
+  projectSiteNo: '35'
+  simplifiedZh: 北南坛
+  traditionalZh: 北南壇
+  nameEn: Pak Nam Temple
+  address: 715 Bedok Reservoir Rd
+  postalCode: '470715'
+- nanyangSiteId: sct-kd-025
+  projectSiteNo: '36'
+  simplifiedZh: 北善坛
+  traditionalZh: 北善壇
+  nameEn: Beishan Tan
+  address: 'BLK 758 Jurong West Street74 #01-96'
+  postalCode: '640758'
+- nanyangSiteId: sct-kd-026
+  projectSiteNo: '40'
+  simplifiedZh: 本元虚灵山总道堂
+  traditionalZh: 本元虛靈山總道堂
+  nameEn: Poon Guan Hui Leng Sun Chong Tao Tong
+  address: 553 Bukit Batok Street 23
+  postalCode: '659521'
+- nanyangSiteId: sct-kd-027
+  projectSiteNo: '44'
+  simplifiedZh: 碧山善世坛
+  traditionalZh: 碧山善世壇
+  nameEn: Bi Shan Shanshi Tan
+  address: 'BLK 631 Woodlands Ring Road #02-204'
+  postalCode: '730631'
+- nanyangSiteId: sct-kd-028
+  projectSiteNo: '45'
+  simplifiedZh: 碧山庙
+  traditionalZh: 碧山廟
+  nameEn: Bishan Temple
+  address: 50 Kampong San Teng
+  postalCode: '576498'
+- nanyangSiteId: sct-kd-029
+  projectSiteNo: '46'
+  simplifiedZh: 碧山亭福德祠
+  traditionalZh: 碧山亭福德祠
+  nameEn: Peck San Theng Fu De Ci
+  address: 50 Kampong San Teng
+  postalCode: '576498'
+- nanyangSiteId: sct-kd-030
+  projectSiteNo: '47'
+  simplifiedZh: 波东巴西联合庙
+  traditionalZh: 波東巴西聯合廟
+  nameEn: Potong Pasir Joint Temples
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569254'
+- nanyangSiteId: sct-kd-031
+  projectSiteNo: '48'
+  simplifiedZh: 蔡厝港齐天宫
+  traditionalZh: 蔡厝港齊天宮
+  nameEn: Caicuogang Qitiangong
+  address: 'BLK 329 Bukit Batok St 33 #08-89'
+  postalCode: '650329'
+- nanyangSiteId: sct-kd-032
+  projectSiteNo: '49'
+  simplifiedZh: 蔡厝港关帝庙
+  traditionalZh: 蔡厝港關帝廟
+  nameEn: ''
+  address: 11  Choa Chu Kang Street 51
+  postalCode: '689334'
+- nanyangSiteId: sct-kd-033
+  projectSiteNo: '50'
+  simplifiedZh: 蔡厝港联合殿
+  traditionalZh: 蔡厝港聯合殿
+  nameEn: Choa Chu Kang Lian He Temple.
+  address: 11  Choa Chu Kang Street 51
+  postalCode: '689334'
+- nanyangSiteId: sct-kd-034
+  projectSiteNo: '51'
+  simplifiedZh: 蔡厝港联圣宫
+  traditionalZh: 蔡厝港聯聖宮
+  nameEn: Chua Chu Kang Lian Sing Keng
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-035
+  projectSiteNo: '52'
+  simplifiedZh: 蔡厝港油池村联合庙
+  traditionalZh: 蔡厝港油池村聯合廟
+  nameEn: Choa Chu Kang Yew Tee Chun Lian He Miow
+  address: 3 Choa Chu Kang Street 51
+  postalCode: '689338'
+- nanyangSiteId: sct-kd-036
+  projectSiteNo: '54'
+  simplifiedZh: 菜市联合宫
+  traditionalZh: 菜市聯合宮
+  nameEn: Chai Chee United Temple
+  address: 6 Chai Chee Lane
+  postalCode: '469020'
+- nanyangSiteId: sct-kd-037
+  projectSiteNo: '56'
+  simplifiedZh: 禅定佛学会
+  traditionalZh: 禪定佛學會
+  nameEn: Samadhi Buddhist Society
+  address: 34 Tembeling Road
+  postalCode: '423643'
+- nanyangSiteId: sct-kd-038
+  projectSiteNo: '57'
+  simplifiedZh: 禅之园
+  traditionalZh: 禪之園
+  nameEn: Chan Zhi Yuan
+  address: 98 Jalan Pintan
+  postalCode: '577140'
+- nanyangSiteId: sct-kd-039
+  projectSiteNo: '58'
+  simplifiedZh: 禅宗寺
+  traditionalZh: 禪宗寺
+  nameEn: Chanzong Si
+  address: 39 Lorong 20 Geylang
+  postalCode: '398755'
+- nanyangSiteId: sct-kd-040
+  projectSiteNo: '59'
+  simplifiedZh: 长天宫
+  traditionalZh: 長天宮
+  nameEn: Chang Tien Kong Temple
+  address: 109b Hougang Avenue 5
+  postalCode: '538819'
+- nanyangSiteId: sct-kd-041
+  projectSiteNo: '60'
+  simplifiedZh: 长秀馆
+  traditionalZh: 長秀館
+  nameEn: Teong Siew Kuan
+  address: 362, Yishun Avenue 3
+  postalCode: '769060'
+- nanyangSiteId: sct-kd-042
+  projectSiteNo: '61'
+  simplifiedZh: 长秀威灵东山联合庙
+  traditionalZh: 長秀威靈東山聯合廟
+  nameEn: Teong Siew Wei Ling Dong Shan Temple
+  address: 362, Yishun Avenue 3
+  postalCode: '769060'
+- nanyangSiteId: sct-kd-043
+  projectSiteNo: '62'
+  simplifiedZh: 朝云殿
+  traditionalZh: 朝云殿
+  nameEn: Tiow Hoon Tien
+  address: 523 Yishun Industrial Park A
+  postalCode: '768770'
+- nanyangSiteId: sct-kd-044
+  projectSiteNo: '63'
+  simplifiedZh: 朝云宫
+  traditionalZh: 朝雲宮
+  nameEn: Chaoyun Gong
+  address: 56 / 58 / 60 Hougang Avenue 3
+  postalCode: '538841'
+- nanyangSiteId: sct-kd-045
+  projectSiteNo: '64'
+  simplifiedZh: 陈佐勉堂
+  traditionalZh: 陳佐勉堂
+  nameEn: Chan Chor Min Tong Temple
+  address: 2 Jalan Kemaman
+  postalCode: '329318'
+- nanyangSiteId: sct-kd-046
+  projectSiteNo: '65'
+  simplifiedZh: 成邦大伯公宫
+  traditionalZh: 成邦大伯公宮
+  nameEn: Seng Pang Tua Pek Kong Keng
+  address: 475 Yishun Ring Road
+  postalCode: '768678'
+- nanyangSiteId: sct-kd-047
+  projectSiteNo: '66'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Cheng Teck Sian See Temple
+  address: 98 Prince Philip Avenue
+  postalCode: '158937'
+- nanyangSiteId: sct-kd-048
+  projectSiteNo: '67'
+  simplifiedZh: 城凤联合庙
+  traditionalZh: 城鳳聯合廟
+  nameEn: Cheng Feng Lianhemiao
+  address: 15 Arumugam Road
+  postalCode: '409960'
+- nanyangSiteId: sct-kd-049
+  projectSiteNo: '69'
+  simplifiedZh: 城隍庙万寿寺
+  traditionalZh: 城隍廟萬壽寺
+  nameEn: Sheng Hong Temple Wan Shou Si
+  address: 300 Pandan Gardens
+  postalCode: '609341'
+- nanyangSiteId: sct-kd-050
+  projectSiteNo: '70'
+  simplifiedZh: 城隍庙杨桃园
+  traditionalZh: 城隍廟楊桃園
+  nameEn: Sheng Hong Temple
+  address: 300 Pandan Gardens
+  postalCode: '609341'
+- nanyangSiteId: sct-kd-051
+  projectSiteNo: '72'
+  simplifiedZh: 敕封川弓殿
+  traditionalZh: 敕封川弓殿
+  nameEn: Chifeng Chuan'gong Dian
+  address: 'BLK 5 Bandan Street #05-64'
+  postalCode: '50005'
+- nanyangSiteId: sct-kd-052
+  projectSiteNo: '73'
+  simplifiedZh: 敕封观灵坛
+  traditionalZh: 敕封觀靈壇
+  nameEn: Chifeng Guanling Tan
+  address: 'BLK 212 Hougang St 21 #01-335'
+  postalCode: '530212'
+- nanyangSiteId: sct-kd-053
+  projectSiteNo: '85'
+  simplifiedZh: 慈忠坛
+  traditionalZh: 慈忠壇
+  nameEn: Chee Tong Temple
+  address: 62 Hougang Ave 3
+  postalCode: '538844'
+- nanyangSiteId: sct-kd-054
+  projectSiteNo: '86'
+  simplifiedZh: 崇德善堂
+  traditionalZh: 崇德善堂
+  nameEn: Chongde Shantang
+  address: 30 - 32 Bedok Reservoir Road
+  postalCode: '479231'
+- nanyangSiteId: sct-kd-055
+  projectSiteNo: '87'
+  simplifiedZh: 崇峰善堂
+  traditionalZh: 崇峰善堂
+  nameEn: Chung Hong Siang Tng
+  address: 106 Pasir Panjang Road
+  postalCode: '118534'
+- nanyangSiteId: sct-kd-056
+  projectSiteNo: '88'
+  simplifiedZh: 崇福堂
+  traditionalZh: 崇福堂
+  nameEn: ChongfuTang
+  address: 9 Wolskel Road
+  postalCode: '357961'
+- nanyangSiteId: sct-kd-057
+  projectSiteNo: '90'
+  simplifiedZh: 崇文阁
+  traditionalZh: 崇文閣
+  nameEn: Chongwen Ge
+  address: 168 Telok Ayer St
+  postalCode: '68619'
+- nanyangSiteId: sct-kd-058
+  projectSiteNo: '91'
+  simplifiedZh: 重兴祖庙
+  traditionalZh: 重興祖廟
+  nameEn: Tioh Hin Cho Temple
+  address: 121A Langsat Road
+  postalCode: '426774'
+- nanyangSiteId: sct-kd-059
+  projectSiteNo: '92'
+  simplifiedZh: 崇义庙  万兴山
+  traditionalZh: 崇義廟  萬興山
+  nameEn: Chong Ghee Temple
+  address: '80 Rivervale Crescent, #01-01'
+  postalCode: '545087'
+- nanyangSiteId: sct-kd-060
+  projectSiteNo: '94'
+  simplifiedZh: 创价协会中心 芽龙
+  traditionalZh: 創價協會中心  芽龍
+  nameEn: Singapore Soka Centre Geylang
+  address: 57 Lorong 18 Geylang
+  postalCode: '398827'
+- nanyangSiteId: sct-kd-061
+  projectSiteNo: '95'
+  simplifiedZh: 创价学会 直落布蘭雅
+  traditionalZh: 創價學會 直落布蘭雅
+  nameEn: Telok Blangah Soka Centre
+  address: 91 Wishart Road
+  postalCode: '98728'
+- nanyangSiteId: sct-kd-062
+  projectSiteNo: '96'
+  simplifiedZh: 创价学会 裕廊西
+  traditionalZh: 創價學會 裕廊西
+  nameEn: Soka Culture Centre Jurong West
+  address: 8 Jurong West Street 76
+  postalCode: '648369'
+- nanyangSiteId: sct-kd-063
+  projectSiteNo: '97'
+  simplifiedZh: 创价学会 巴西班让
+  traditionalZh: 創價學會 巴西班讓
+  nameEn: Soka Youth Centre (SSA)Pasir Panjang
+  address: 156 Pasir Panjang Road
+  postalCode: '118554'
+- nanyangSiteId: sct-kd-064
+  projectSiteNo: '98'
+  simplifiedZh: 创价学会  淡濱尼
+  traditionalZh: 創價學會  淡濱尼
+  nameEn: Tampines Soka Centre
+  address: 5 Tampines Street 92
+  postalCode: '528890'
+- nanyangSiteId: sct-kd-065
+  projectSiteNo: '100'
+  simplifiedZh: 慈悲精舍
+  traditionalZh: 慈悲精舍
+  nameEn: Ci Bei Jing She Buddhist Vihara
+  address: No 379A Bedok Rd Changi Complex
+  postalCode: '469553'
+- nanyangSiteId: sct-kd-066
+  projectSiteNo: '101'
+  simplifiedZh: 慈恩阁  大树下
+  traditionalZh: 慈恩閣  大樹下
+  nameEn: Ci Ern Ge
+  address: 177 Toa Payoh Central
+  postalCode: '310177'
+- nanyangSiteId: sct-kd-067
+  projectSiteNo: '102'
+  simplifiedZh: 赐福宫大伯公联谊会
+  traditionalZh: 賜福宮大伯公聯誼會
+  nameEn: Sze Hock Keng Tua Peh Kong Association
+  address: 146D Paya Lebar Road
+  postalCode: '409041'
+- nanyangSiteId: sct-kd-068
+  projectSiteNo: '105'
+  simplifiedZh: 慈观坛
+  traditionalZh: 慈觀壇
+  nameEn: Ciguan Tan
+  address: 'BLK 22 Jalan Tenteram #04-557'
+  postalCode: '320022'
+- nanyangSiteId: sct-kd-069
+  projectSiteNo: '106'
+  simplifiedZh: 慈航念佛社
+  traditionalZh: 慈航念佛社
+  nameEn: HE BUDDHA VOYAGE SOCIETY
+  address: 29 Eng Kong Terrace
+  postalCode: '599002'
+- nanyangSiteId: sct-kd-070
+  projectSiteNo: '107'
+  simplifiedZh: 慈济宫圣果园
+  traditionalZh: 慈濟宮圣果園
+  nameEn: Cijigong Shengguoyuan
+  address: 'Blk 262, Waterloo Street #07-221'
+  postalCode: '180262'
+- nanyangSiteId: sct-kd-071
+  projectSiteNo: '110'
+  simplifiedZh: 慈莲堂
+  traditionalZh: 慈蓮堂
+  nameEn: Cher Lian Tong Buddhist Temple
+  address: 23 Bangkit Road
+  postalCode: '679972'
+- nanyangSiteId: sct-kd-072
+  projectSiteNo: '112'
+  simplifiedZh: 慈灵宫
+  traditionalZh: 慈靈宮
+  nameEn: Ciling Gong
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-073
+  projectSiteNo: '113'
+  simplifiedZh: 慈灵联合庙
+  traditionalZh: 慈靈聫合廟
+  nameEn: Ciling Lianhemiao
+  address: 525 Yishun Industrial Park A
+  postalCode: '768769'
+- nanyangSiteId: sct-kd-074
+  projectSiteNo: '115'
+  simplifiedZh: 慈善坛
+  traditionalZh: 慈善壇
+  nameEn: Cishan Tan
+  address: 12 Jurong West Street 76
+  postalCode: '648349'
+- nanyangSiteId: sct-kd-075
+  projectSiteNo: '117'
+  simplifiedZh: 慈义堂
+  traditionalZh: 慈義堂
+  nameEn: Chee Ghee Deang
+  address: 3302 Clementi Service Rd / 3302 Commonwealth Avenue West
+  postalCode: '129582'
+- nanyangSiteId: sct-kd-076
+  projectSiteNo: '118'
+  simplifiedZh: 慈义堂将军庙
+  traditionalZh: 慈義堂將軍廟
+  nameEn: Ciyitang Jiangjunmiao
+  address: 3302 Clementi Service Rd / 3302 Commonwealth Avenue West
+  postalCode: '129582'
+- nanyangSiteId: sct-kd-077
+  projectSiteNo: '121'
+  simplifiedZh: 慈云山宮
+  traditionalZh: 慈雲山宮
+  nameEn: Chee Hoon Sun Kong
+  address: 525 Yishun Industrial Park A
+  postalCode: '768769'
+- nanyangSiteId: sct-kd-078
+  projectSiteNo: '122'
+  simplifiedZh: 赐正宫
+  traditionalZh: 賜正宮
+  nameEn: Sze Cheng Keng Temple
+  address: '16 Ubi Road 4  #02-01'
+  postalCode: '408624'
+- nanyangSiteId: sct-kd-079
+  projectSiteNo: '123'
+  simplifiedZh: 赐正宫石牛洞
+  traditionalZh: 賜正宮石牛洞
+  nameEn: Sze Cheng Keng Shi Niu Dong
+  address: '16 Ubi Road 4  #02-01'
+  postalCode: '408624'
+- nanyangSiteId: sct-kd-080
+  projectSiteNo: '124'
+  simplifiedZh: 新加坡慈忠庙
+  traditionalZh: 新加坡慈忠廟
+  nameEn: Singapore Chee Chung Huay
+  address: 364D Macpherson Road (378 Macpherson Road , 368113)
+  postalCode: '368112'
+- nanyangSiteId: sct-kd-081
+  projectSiteNo: '125'
+  simplifiedZh: 葱茅园九皇宫
+  traditionalZh: 葱茅园九皇宫
+  nameEn: Charn Mao Hern Kew Huang Keng
+  address: 28 Arumugam Road
+  postalCode: '409965'
+- nanyangSiteId: sct-kd-082
+  projectSiteNo: '127'
+  simplifiedZh: 大芭窑修德善堂
+  traditionalZh: 大芭窯修德善堂
+  nameEn: Toa Payoh Seu Teck Sean Tong
+  address: 2 Lorong 6 Toa Payoh
+  postalCode: '319377'
+- nanyangSiteId: sct-kd-083
+  projectSiteNo: '128'
+  simplifiedZh: 大悲佛教中心
+  traditionalZh: 大悲佛教中心
+  nameEn: Tai Pei Buddhist Centre
+  address: 2 Lavender Street
+  postalCode: '338823'
+- nanyangSiteId: sct-kd-084
+  projectSiteNo: '129'
+  simplifiedZh: 大悲院
+  traditionalZh: 大悲院
+  nameEn: Tai Pei Yuen Temple
+  address: 7 Jalan Kemaman
+  postalCode: '329333'
+- nanyangSiteId: sct-kd-085
+  projectSiteNo: '130'
+  simplifiedZh: 篮投巷大伯公
+  traditionalZh: 藍投巷大伯公
+  nameEn: Lan Tou Xiang Tua Pek Kong Temple
+  address: 36 Joo Avenue
+  postalCode: '219331'
+- nanyangSiteId: sct-kd-086
+  projectSiteNo: '131'
+  simplifiedZh: 梧槽大伯公宫
+  traditionalZh: 梧槽大伯公宫
+  nameEn: Goh Cho Tua Peh Kong Temple Rochor
+  address: 249 Balestier Rd
+  postalCode: '329708'
+- nanyangSiteId: sct-kd-087
+  projectSiteNo: '132'
+  simplifiedZh: 大伯公庙  龟屿
+  traditionalZh: 大伯公廟  龜嶼
+  nameEn: Da Bogong Temple   Kusu Island
+  address: 10 Kusu Island
+  postalCode: '98586'
+- nanyangSiteId: sct-kd-088
+  projectSiteNo: '133'
+  simplifiedZh: 乌敏岛佛山亭大伯公庙
+  traditionalZh: 烏敏島佛山亭大伯公廟
+  nameEn: Pulau Ubin Fo Shan Teng Da Bo Gong Temple
+  address: 46 Jalan Pekan Ubin, Pulau Ubin
+  postalCode: ''
+- nanyangSiteId: sct-kd-089
+  projectSiteNo: '134'
+  simplifiedZh: 大伯公庙  云南
+  traditionalZh: 大伯公廟  雲南
+  nameEn: Hoon Lam Tua Peh Kong Temple
+  address: 10 Bukit Batok Street 21
+  postalCode: '659632'
+- nanyangSiteId: sct-kd-090
+  projectSiteNo: '135'
+  simplifiedZh: 大伯公坛  桥北路
+  traditionalZh: 大伯公壇  橋北路
+  nameEn: North Bridge Road Tua Pek Kong
+  address: 861 North Bridge Road
+  postalCode: '198783'
+- nanyangSiteId: sct-kd-091
+  projectSiteNo: '136'
+  simplifiedZh: 武吉知马七英里大伯公宫
+  traditionalZh: 武吉知馬七英里大伯公宮
+  nameEn: Bukit Timah Tua Pek Kong Temple
+  address: 10 Jalan Seh Chuan
+  postalCode: '598416'
+- nanyangSiteId: sct-kd-092
+  projectSiteNo: '137'
+  simplifiedZh: 大乘禅寺
+  traditionalZh: 大乘禪寺
+  nameEn: Thekchen Cho-Ling
+  address: 6 Hindhede Road
+  postalCode: '589242'
+- nanyangSiteId: sct-kd-093
+  projectSiteNo: '138'
+  simplifiedZh: 大觉寺
+  traditionalZh: 大覺寺
+  nameEn: Tai Kak Seah Temple
+  address: 86 Lorong K Telok Kurau
+  postalCode: '425720'
+- nanyangSiteId: sct-kd-094
+  projectSiteNo: '139'
+  simplifiedZh: 大菩提学佛会
+  traditionalZh: 大菩提學佛會
+  nameEn: Bodhiraja Buddhist Society
+  address: 9, Lorong 30. Geylang Road.
+  postalCode: '398347'
+- nanyangSiteId: sct-kd-095
+  projectSiteNo: '140'
+  simplifiedZh: 大圣宫
+  traditionalZh: 大聖宮
+  nameEn: Da Sheng Kong Chinese Temple
+  address: 148 Paya Lebar Road
+  postalCode: '409018'
+- nanyangSiteId: sct-kd-096
+  projectSiteNo: '142'
+  simplifiedZh: 大士伯公宫
+  traditionalZh: 大士伯公宮
+  nameEn: Tuas Pek Kong Keng
+  address: 118 Boon Lay Drive
+  postalCode: '649923'
+- nanyangSiteId: sct-kd-097
+  projectSiteNo: '143'
+  simplifiedZh: 大树宫
+  traditionalZh: 大樹宮
+  nameEn: Dashu Gong
+  address: 322G Changi Road
+  postalCode: '419797'
+- nanyangSiteId: sct-kd-098
+  projectSiteNo: '144'
+  simplifiedZh: 大愿共修会
+  traditionalZh: 大願共修會
+  nameEn: Dayuan Gongxiuhui
+  address: 11 Lorong 30 Geylang Road
+  postalCode: '398348'
+- nanyangSiteId: sct-kd-099
+  projectSiteNo: '145'
+  simplifiedZh: 大众学佛研究会
+  traditionalZh: 大眾學佛研究會
+  nameEn: People's Buddhism Study Society
+  address: 25 Lorong 22 Geylang
+  postalCode: '398682'
+- nanyangSiteId: sct-kd-100
+  projectSiteNo: '146'
+  simplifiedZh: 淡滨尼凤山寺
+  traditionalZh: 淡濱尼鳯山寺
+  nameEn: Danbinni Fengshansi
+  address: '849 Tampines Street 83 #01-230'
+  postalCode: '520849'
+- nanyangSiteId: sct-kd-101
+  projectSiteNo: '147'
+  simplifiedZh: 淡滨尼九哩大伯公
+  traditionalZh: 淡濱尼九哩大伯公
+  nameEn: Danbinni Jiuli Dabogong Miao
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-102
+  projectSiteNo: '148'
+  simplifiedZh: 淡滨尼联合宫
+  traditionalZh: 淡濱尼聯合宮
+  nameEn: Tampines Chinese Temple  United Temple
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-103
+  projectSiteNo: '149'
+  simplifiedZh: 丹霞精舍
+  traditionalZh: 丹霞精舍
+  nameEn: Danxia Jingshe
+  address: 'Blk 419 Bedok North St 1 #10-164'
+  postalCode: '460419'
+- nanyangSiteId: sct-kd-104
+  projectSiteNo: '151'
+  simplifiedZh: 道教新加坡青松观
+  traditionalZh: 道教新加坡青松觀
+  nameEn: Ching Chung Taoist Association  Singapore
+  address: '9, Lorong 35, Geylang #04-01'
+  postalCode: '387941'
+- nanyangSiteId: sct-kd-105
+  projectSiteNo: '152'
+  simplifiedZh: 德光岛天降佛堂太阳宫
+  traditionalZh: 德光島天降佛堂太陽宮
+  nameEn: Pulau Tekong Joint Temple
+  address: 51 Bedok North Ave 4
+  postalCode: '469695'
+- nanyangSiteId: sct-kd-106
+  projectSiteNo: '153'
+  simplifiedZh: 德国姑娘 拿督姑娘庙
+  traditionalZh: 德國姑娘  拿督姑娘廟
+  nameEn: Berlin Heiligtum  German Girl Shrine
+  address: South West of Pulau Ubin, Changi, Singapore
+  postalCode: ''
+- nanyangSiteId: sct-kd-107
+  projectSiteNo: '154'
+  simplifiedZh: 德海宫
+  traditionalZh: 德海宮
+  nameEn: Dehai Gong
+  address: 30-32 Bedok Reservoir Road
+  postalCode: '479231'
+- nanyangSiteId: sct-kd-108
+  projectSiteNo: '155'
+  simplifiedZh: 德教会紫新阁
+  traditionalZh: 德教會紫新閣
+  nameEn: Che Sen Khor Moral Uplifting Society, Singapore
+  address: 90 Cuscaden Road
+  postalCode: '249725'
+- nanyangSiteId: sct-kd-109
+  projectSiteNo: '156'
+  simplifiedZh: 德教会紫盈阁
+  traditionalZh: 德教會紫盈閣
+  nameEn: Che Wein Khor Moral Uplifting Society, Singapore
+  address: 39 Jurong West Avenue 1
+  postalCode: '649518'
+- nanyangSiteId: sct-kd-110
+  projectSiteNo: '157'
+  simplifiedZh: 德教太和观
+  traditionalZh: 德教太和觀
+  nameEn: Thye Hua Kwan Moral Society   Moral Home for The Disabled
+  address: 20 Jalan Eunos
+  postalCode: '419494'
+- nanyangSiteId: sct-kd-111
+  projectSiteNo: '158'
+  simplifiedZh: 德教太和观  新桥路
+  traditionalZh: 德教太和觀  新橋路
+  nameEn: Thye Hua Kwan Moral Society  New Bridge Road
+  address: '1 North Bridge Road #23-03 High Street Centre'
+  postalCode: '179094'
+- nanyangSiteId: sct-kd-112
+  projectSiteNo: '163'
+  simplifiedZh: 帝君坛
+  traditionalZh: 帝君壇
+  nameEn: The Kun Association
+  address: 'Blk 13 Upper Boon Keng #01-658'
+  postalCode: '380013'
+- nanyangSiteId: sct-kd-113
+  projectSiteNo: '164'
+  simplifiedZh: 地万大伯公  淡滨尼
+  traditionalZh: 地萬大伯公  淡濱尼
+  nameEn: Diwan Dabogong  Tampines
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-114
+  projectSiteNo: '166'
+  simplifiedZh: 地藏林
+  traditionalZh: 地藏林
+  nameEn: Dizang Lin
+  address: 3F Geylang Lorong 12
+  postalCode: '398984'
+- nanyangSiteId: sct-kd-115
+  projectSiteNo: '167'
+  simplifiedZh: 地藏行愿会
+  traditionalZh: 地藏行願會
+  nameEn: Kshitigarbha Buddhist Society
+  address: 55 Lorong 4 Geylang
+  postalCode: '399295'
+- nanyangSiteId: sct-kd-116
+  projectSiteNo: '169'
+  simplifiedZh: 东山庙
+  traditionalZh: 東山廟
+  nameEn: Dongshan Miao
+  address: 358, Yishun Avenue 3
+  postalCode: '769058'
+- nanyangSiteId: sct-kd-117
+  projectSiteNo: '171'
+  simplifiedZh: 东天宫
+  traditionalZh: 東天宮
+  nameEn: Tong Tien Kung Temple
+  address: 8 Bukit Batok Street 21
+  postalCode: '659631'
+- nanyangSiteId: sct-kd-118
+  projectSiteNo: '172'
+  simplifiedZh: 东狱齐阴殿
+  traditionalZh: 東獄齊陰殿
+  nameEn: Dongyu Qiyin Dian
+  address: 29A Geylang lor 32
+  postalCode: ''
+- nanyangSiteId: sct-kd-119
+  projectSiteNo: '174'
+  simplifiedZh: 东岳庙
+  traditionalZh: 東岳廟
+  nameEn: Tang Gah Beo
+  address: 6 Bukit Purmei
+  postalCode: '99866'
+- nanyangSiteId: sct-kd-120
+  projectSiteNo: '175'
+  simplifiedZh: 斗母宫  蔡厝港
+  traditionalZh: 斗母宮  蔡厝港
+  nameEn: Choa Chu Kang Dou Mu Gong
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-121
+  projectSiteNo: '177'
+  simplifiedZh: 斗母星君圣宫联谊会
+  traditionalZh: 斗母星君聖宮聯誼會
+  nameEn: Doumu Xingjun Shenggong Lianyihui
+  address: No.14 Geylang Lorong 25
+  postalCode: '388295'
+- nanyangSiteId: sct-kd-122
+  projectSiteNo: '178'
+  simplifiedZh: 斗天宫
+  traditionalZh: 斗天宮
+  nameEn: Tao Tian Keng
+  address: 2 Jurong West Street 76
+  postalCode: '648370'
+- nanyangSiteId: sct-kd-123
+  projectSiteNo: '179'
+  simplifiedZh: 斗天宫 联合宫
+  traditionalZh: 斗天宮  聯合宮
+  nameEn: Tao Tian Keng   United Temple
+  address: 3 Jurong West Street 76
+  postalCode: '648370'
+- nanyangSiteId: sct-kd-124
+  projectSiteNo: '180'
+  simplifiedZh: 都城隍庙
+  traditionalZh: 都城隍廟
+  nameEn: Seng Wong Beo Temple
+  address: 113 Peck Seah Street
+  postalCode: '79332'
+- nanyangSiteId: sct-kd-125
+  projectSiteNo: '182'
+  simplifiedZh: 对山庙
+  traditionalZh: 對山廟
+  nameEn: Duishan Miao
+  address: 398 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-126
+  projectSiteNo: '184'
+  simplifiedZh: 恩庆寺
+  traditionalZh: 恩慶寺
+  nameEn: Ean Keng Si Buddhist Tp
+  address: 48 Frankel Avenue
+  postalCode: '458176'
+- nanyangSiteId: sct-kd-127
+  projectSiteNo: '185'
+  simplifiedZh: 法华寺
+  traditionalZh: 法華寺
+  nameEn: Fa Hua Monastery
+  address: 381 Upper Paya Lebar Road
+  postalCode: '534974'
+- nanyangSiteId: sct-kd-128
+  projectSiteNo: '187'
+  simplifiedZh: 法轮社
+  traditionalZh: 法輪社
+  nameEn: Dharna Cakra Society
+  address: 38 Jalan Eunos
+  postalCode: '419500'
+- nanyangSiteId: sct-kd-129
+  projectSiteNo: '189'
+  simplifiedZh: 法圣殿
+  traditionalZh: 法聖殿
+  nameEn: Fasheng Dian
+  address: 112 Joo Chiat Place
+  postalCode: '427837'
+- nanyangSiteId: sct-kd-130
+  projectSiteNo: '190'
+  simplifiedZh: 法施林
+  traditionalZh: 法施林
+  nameEn: Fa Shi Lin Temple
+  address: 1 Lengkong Satu
+  postalCode: '417474'
+- nanyangSiteId: sct-kd-131
+  projectSiteNo: '192'
+  simplifiedZh: 法溪禅寺
+  traditionalZh: 法溪禪寺
+  nameEn: Faxi Zen Centre   Singapore  Society
+  address: 67A Tessensohn Road
+  postalCode: '217667'
+- nanyangSiteId: sct-kd-132
+  projectSiteNo: '193'
+  simplifiedZh: 法阴坛
+  traditionalZh: 法陰壇
+  nameEn: Fayin Tan
+  address: BLK 164 Pasir Ris Drive 4
+  postalCode: '520164'
+- nanyangSiteId: sct-kd-133
+  projectSiteNo: '197'
+  simplifiedZh: 飞龙宫
+  traditionalZh: 飛龍宮
+  nameEn: Feilong Gong
+  address: 15 Woodlands Industrial Park E4
+  postalCode: '757749'
+- nanyangSiteId: sct-kd-134
+  projectSiteNo: '198'
+  simplifiedZh: 飞霞精舍
+  traditionalZh: 飛霞精舍
+  nameEn: Phang Pheng Mei Temple
+  address: 12 Jalan Ampas
+  postalCode: '329515'
+- nanyangSiteId: sct-kd-135
+  projectSiteNo: '199'
+  simplifiedZh: 风火院
+  traditionalZh: 風火院
+  nameEn: Fung Huo Yuan Temple
+  address: 148 Paya Lebar Road
+  postalCode: '409018'
+- nanyangSiteId: sct-kd-136
+  projectSiteNo: '200'
+  simplifiedZh: 凤廓汾阳公会
+  traditionalZh: 鳳廓汾陽公會
+  nameEn: Hong Kuak Hoon Yang Kong See
+  address: 21 Lor 26 Geylang
+  postalCode: '398491'
+- nanyangSiteId: sct-kd-137
+  projectSiteNo: '202'
+  simplifiedZh: 凤山宫  葱茅园
+  traditionalZh: 鳳山宮  蔥茅園
+  nameEn: Hong San Temple
+  address: 49 Defu Lane 12 ( off Airport Road)
+  postalCode: '539142'
+- nanyangSiteId: sct-kd-138
+  projectSiteNo: '203'
+  simplifiedZh: 凤山寺  裕廊
+  traditionalZh: 鳳山寺  裕廊
+  nameEn: Jurong Hong San See Association
+  address: 555 Bukit Batok Street 23
+  postalCode: '659522'
+- nanyangSiteId: sct-kd-139
+  projectSiteNo: '204'
+  simplifiedZh: 凤山寺  水廊头
+  traditionalZh: 鳳山寺  水廊頭
+  nameEn: Hong San See Temple  Mohamed Sultan
+  address: 30 Mohamed Sultan Road
+  postalCode: '238974'
+- nanyangSiteId: sct-kd-140
+  projectSiteNo: '206'
+  simplifiedZh: 凤山寺  樟宜
+  traditionalZh: 鳳山寺  樟宜
+  nameEn: Hong San Si   Changi
+  address: 17 Lorong Melayu
+  postalCode: '416912'
+- nanyangSiteId: sct-kd-141
+  projectSiteNo: '208'
+  simplifiedZh: 凤山坛  德惠
+  traditionalZh: 鳳山壇  德惠
+  nameEn: Hong San Tan Temple
+  address: 17 Woodlands Industrial Park E4
+  postalCode: '757750'
+- nanyangSiteId: sct-kd-142
+  projectSiteNo: '209'
+  simplifiedZh: 风山坛飞龙宫 联合庙
+  traditionalZh: 風山壇飛龍宮 聯合廟
+  nameEn: Hong Sun Tan Fei Loong Gong Combined Temple
+  address: 15 Woodlands Industrial Park E4
+  postalCode: '757749'
+- nanyangSiteId: sct-kd-143
+  projectSiteNo: '210'
+  simplifiedZh: 凤山堂
+  traditionalZh: 鳳山堂
+  nameEn: Fengshan Tang
+  address: 4 \ 6 \ 8 Ang Mo Kio St 63 Avenue 9, Singapore
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-144
+  projectSiteNo: '211'
+  simplifiedZh: 凤山堂进法殿全盛宫
+  traditionalZh: 鳳山堂進法殿全盛宮
+  nameEn: Fengshan Tang Jinfa Dian Quansheng Gong
+  address: 4 \ 6 \ 8 Ang Mo Kio St 63 Avenue 9, Singapore
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-145
+  projectSiteNo: '212'
+  simplifiedZh: 凤图庙
+  traditionalZh: 鳳圖廟
+  nameEn: Hong Tho Bilw Temple
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-146
+  projectSiteNo: '213'
+  simplifiedZh: 凤图庙 联合庙
+  traditionalZh: 風圖廟 聯合廟
+  nameEn: Fengtu Miao Lianhemiao
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-147
+  projectSiteNo: '214'
+  simplifiedZh: 凤玄宫
+  traditionalZh: 鳳玄宮
+  nameEn: Fengxuan  Gong
+  address: 15 Arumugam Rd
+  postalCode: '409960'
+- nanyangSiteId: sct-kd-148
+  projectSiteNo: '217'
+  simplifiedZh: 佛光山
+  traditionalZh: 佛光山
+  nameEn: Fo Guang Shan Buddiste Temple  Singapore
+  address: 1 Punggol Place
+  postalCode: '828844'
+- nanyangSiteId: sct-kd-149
+  projectSiteNo: '218'
+  simplifiedZh: 佛海救世堂
+  traditionalZh: 佛海救世堂
+  nameEn: Fohai Jiushi Tang
+  address: 74 Lorong 19 Geylang Road
+  postalCode: '388510'
+- nanyangSiteId: sct-kd-150
+  projectSiteNo: '219'
+  simplifiedZh: 佛教慈济基金会   新加坡
+  traditionalZh: 佛教慈濟基金會
+  nameEn: Buddhist Tzu Chi Foundation  Singapore
+  address: 9 Elias Road
+  postalCode: '519937'
+- nanyangSiteId: sct-kd-151
+  projectSiteNo: '220'
+  simplifiedZh: 佛教古蹟中心
+  traditionalZh: 佛教古蹟中心
+  nameEn: Buddhist Heritage Centre
+  address: 27 Jalan Senyum
+  postalCode: '418151'
+- nanyangSiteId: sct-kd-152
+  projectSiteNo: '221'
+  simplifiedZh: 佛教华严学会
+  traditionalZh: 佛教華嚴學會
+  nameEn: Hwa Yen Buddhist Society
+  address: '219 Henderson Road #03-04 Henderson Industrial Park'
+  postalCode: '159556'
+- nanyangSiteId: sct-kd-153
+  projectSiteNo: '222'
+  simplifiedZh: 佛教会
+  traditionalZh: 佛教會
+  nameEn: Buddhist Union
+  address: 28 Jalan Senyum
+  postalCode: '418152'
+- nanyangSiteId: sct-kd-154
+  projectSiteNo: '224'
+  simplifiedZh: 佛教曼荼罗学会
+  traditionalZh: 佛教曼荼羅學會
+  nameEn: BUDDHA DHAMMA MANDALA SOCIETY
+  address: 567-A Balestier Road
+  postalCode: '329884'
+- nanyangSiteId: sct-kd-155
+  projectSiteNo: '225'
+  simplifiedZh: 佛教图书馆
+  traditionalZh: 佛教圖書館
+  nameEn: Buddhist Library
+  address: 2 Lorong 24A Geylang
+  postalCode: '398526'
+- nanyangSiteId: sct-kd-156
+  projectSiteNo: '227'
+  simplifiedZh: 佛陀佛教中心
+  traditionalZh: 佛陀佛教中心
+  nameEn: Dhamma Duta Buddhist Centre
+  address: 11, Lorong Bachok Geylang
+  postalCode: '387785'
+- nanyangSiteId: sct-kd-157
+  projectSiteNo: '228'
+  simplifiedZh: 佛心苑  新加坡
+  traditionalZh: 佛心苑  新加坡
+  nameEn: BUDDHIST HEART LEARNING SOCIETY
+  address: 4D Jalan Kemaman Singapore
+  postalCode: '329323'
+- nanyangSiteId: sct-kd-158
+  projectSiteNo: '229'
+  simplifiedZh: 佛牙寺
+  traditionalZh: 佛牙寺
+  nameEn: Buddha Tooth Relic Temple
+  address: 293 South Bridge Road
+  postalCode: '58837'
+- nanyangSiteId: sct-kd-159
+  projectSiteNo: '230'
+  simplifiedZh: 佛友會
+  traditionalZh: 佛友會
+  nameEn: Buddhist Fellowship Centre
+  address: '9 Lorong 29 Geylang #04-02'
+  postalCode: '388065'
+- nanyangSiteId: sct-kd-160
+  projectSiteNo: '231'
+  simplifiedZh: 佛缘林
+  traditionalZh: 佛緣林
+  nameEn: FOO YEUN LIM
+  address: 3 Jalan Angin Laut
+  postalCode: '489176'
+- nanyangSiteId: sct-kd-161
+  projectSiteNo: '232'
+  simplifiedZh: 福安殿
+  traditionalZh: 福安殿
+  nameEn: Fu'an Dian
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-162
+  projectSiteNo: '233'
+  simplifiedZh: 福安庙
+  traditionalZh: 福安廟
+  nameEn: Fu'an Miao
+  address: 12 Jurong West Street 76
+  postalCode: '648349'
+- nanyangSiteId: sct-kd-163
+  projectSiteNo: '234'
+  simplifiedZh: 福德祠 望海
+  traditionalZh: 福德祠 望海
+  nameEn: Fook Tek Chinese Temple
+  address: 50H Palmer Road (off Shenton Way)
+  postalCode: '79426'
+- nanyangSiteId: sct-kd-164
+  projectSiteNo: '235'
+  simplifiedZh: 福德祠 海唇
+  traditionalZh: 福德祠 海唇
+  nameEn: Hock Teck See Temple Fuk Tak Chi
+  address: 76 Telok Ayer Street
+  postalCode: '48464'
+- nanyangSiteId: sct-kd-165
+  projectSiteNo: '236'
+  simplifiedZh: 福德祠 万里港
+  traditionalZh: 福德祠 萬里港
+  nameEn: Sin Choon Huat Temple
+  address: 17D Moonstone Lane
+  postalCode: '328459'
+- nanyangSiteId: sct-kd-166
+  projectSiteNo: '237'
+  simplifiedZh: 福德祠緑野亭公会
+  traditionalZh: 福德祠緑野亭公會
+  nameEn: Fudeci Lvyeting Gonghui
+  address: 17 Geylang Lorong 11
+  postalCode: '388709'
+- nanyangSiteId: sct-kd-167
+  projectSiteNo: '238'
+  simplifiedZh: 福德宫 友诺士
+  traditionalZh: 福德宮 友諾士
+  nameEn: Fude Gong Younuoshi
+  address: 103 Eunos Road 5
+  postalCode: '409352'
+- nanyangSiteId: sct-kd-168
+  projectSiteNo: '239'
+  simplifiedZh: 福德宫 芋峡塘
+  traditionalZh: 福德宮 芋峽塘
+  nameEn: Fu Hup Thong Fook Tak Kung
+  address: 15 Kim Keat Lane
+  postalCode: '328873'
+- nanyangSiteId: sct-kd-169
+  projectSiteNo: '240'
+  simplifiedZh: 福德堂 河水山
+  traditionalZh: 福德堂 河水山
+  nameEn: Hock Teck Tong Temple
+  address: 534 Havelock Rd
+  postalCode: '169636'
+- nanyangSiteId: sct-kd-170
+  projectSiteNo: '241'
+  simplifiedZh: 福德堂 合乐路
+  traditionalZh: 福德堂  合樂路
+  nameEn: Hock Teck Tong  Havelock Road
+  address: 534 Havelock Road
+  postalCode: '169636'
+- nanyangSiteId: sct-kd-171
+  projectSiteNo: '242'
+  simplifiedZh: 福发宫
+  traditionalZh: 福發宫
+  nameEn: Hock Huat Keng Temple
+  address: 523 Yishun Industrial Park A
+  postalCode: '768770'
+- nanyangSiteId: sct-kd-172
+  projectSiteNo: '243'
+  simplifiedZh: 福海禅寺
+  traditionalZh: 福海禪寺
+  nameEn: Foo Hai Ch'an Monastery
+  address: 87 Geylang East Avenue 2
+  postalCode: '389753'
+- nanyangSiteId: sct-kd-173
+  projectSiteNo: '244'
+  simplifiedZh: 福慧讲堂
+  traditionalZh: 福慧講堂
+  nameEn: Fuhui Jiangtang
+  address: 105 Punggol Road
+  postalCode: '546636'
+- nanyangSiteId: sct-kd-174
+  projectSiteNo: '245'
+  simplifiedZh: 福建坛
+  traditionalZh: 福建壇
+  nameEn: Fujian Tan
+  address: 'BLK 601 Hougang Ave 4 #01-123'
+  postalCode: '530601'
+- nanyangSiteId: sct-kd-175
+  projectSiteNo: '246'
+  simplifiedZh: 福连宫
+  traditionalZh: 福連宮
+  nameEn: Fulian Gong
+  address: 131 West Coast Drive
+  postalCode: '128014'
+- nanyangSiteId: sct-kd-176
+  projectSiteNo: '247'
+  simplifiedZh: 福灵宫
+  traditionalZh: 福靈宮
+  nameEn: Hock Leng Keng Temple
+  address: 6 Chai Chee Lane
+  postalCode: '469020'
+- nanyangSiteId: sct-kd-177
+  projectSiteNo: '248'
+  simplifiedZh: 阜龙宫
+  traditionalZh: 阜龍宮
+  nameEn: Hoo Leong Keong Temple
+  address: 101B Sin Min Industrial Estate, Sin Ming Road
+  postalCode: '575594'
+- nanyangSiteId: sct-kd-178
+  projectSiteNo: '249'
+  simplifiedZh: 福泉寺
+  traditionalZh: 福泉寺
+  nameEn: Chwee Bee Temple
+  address: 1 Bedok North Street 5
+  postalCode: '486115'
+- nanyangSiteId: sct-kd-179
+  projectSiteNo: '250'
+  simplifiedZh: 福善庵
+  traditionalZh: 福善庵
+  nameEn: Fushan An
+  address: 28 Lorong 27A Geylang
+  postalCode: '388117'
+- nanyangSiteId: sct-kd-180
+  projectSiteNo: '251'
+  simplifiedZh: 福善坛
+  traditionalZh: 福善壇
+  nameEn: Fushan Tan
+  address: 29 Lor 15 Geylang
+  postalCode: '388616'
+- nanyangSiteId: sct-kd-181
+  projectSiteNo: '252'
+  simplifiedZh: 福山亭
+  traditionalZh: 福山亭
+  nameEn: Hock San Teng
+  address: 6 Chai Chee Lane
+  postalCode: '469020'
+- nanyangSiteId: sct-kd-182
+  projectSiteNo: '253'
+  simplifiedZh: 福通联合庙
+  traditionalZh: 福通聯合廟
+  nameEn: Hock Thong Temple
+  address: 551/553/555 Bukit Batok Street 23
+  postalCode: '659520'
+- nanyangSiteId: sct-kd-183
+  projectSiteNo: '254'
+  simplifiedZh: 福星殿
+  traditionalZh: 福星殿
+  nameEn: Fo Xin Dian
+  address: 'Blk 11 Upper Boon Keng Road #10-919'
+  postalCode: '380011'
+- nanyangSiteId: sct-kd-184
+  projectSiteNo: '255'
+  simplifiedZh: 福寿堂
+  traditionalZh: 福壽堂
+  nameEn: Hock Siew Tong Temple
+  address: 357 Race Course Road
+  postalCode: '218633'
+- nanyangSiteId: sct-kd-185
+  projectSiteNo: '256'
+  simplifiedZh: 福智协会
+  traditionalZh: 福智協會
+  nameEn: Bliss and Wisdom Society
+  address: '23 Lorong 29 Geylang # 04-02'
+  postalCode: '388072'
+- nanyangSiteId: sct-kd-186
+  projectSiteNo: '257'
+  simplifiedZh: 噶举金刚乘佛教中心
+  traditionalZh: 噶舉金剛乘佛教中心
+  nameEn: Karma Choying Kukyab Ling
+  address: 2 Telok Blangah Street 31 2nd Floor Yeo's Building
+  postalCode: '108942'
+- nanyangSiteId: sct-kd-187
+  projectSiteNo: '258'
+  simplifiedZh: 加冷桥头感天大帝庙
+  traditionalZh: 加冷橋頭感天大帝廟
+  nameEn: Kallang River Bridgehead Gan Tian Da Di Temple
+  address: 17 Loongr Bachok
+  postalCode: '387787'
+- nanyangSiteId: sct-kd-188
+  projectSiteNo: '260'
+  simplifiedZh: 檺林宫 宏茂桥
+  traditionalZh: 檺林宮 宏茂橋
+  nameEn: Kong Lim Kong Temple
+  address: 791 Ang Mo Kio Ave 1
+  postalCode: '569974'
+- nanyangSiteId: sct-kd-189
+  projectSiteNo: '261'
+  simplifiedZh: 檺林宫  勿洛北
+  traditionalZh: 檺林宮 勿洛北
+  nameEn: Kuah Na Keng
+  address: 9  Bedok North Street 5, Ave 4.
+  postalCode: '485875'
+- nanyangSiteId: sct-kd-190
+  projectSiteNo: '262'
+  simplifiedZh: 檺林宫  欧南山
+  traditionalZh: 檺林宮  歐南山
+  nameEn: Outram Hill Ho Lim Keng Temple
+  address: 20 Outram Hil
+  postalCode: '169115'
+- nanyangSiteId: sct-kd-191
+  projectSiteNo: '263'
+  simplifiedZh: 葛岸馆
+  traditionalZh: 葛岸館
+  nameEn: Kueh Hua Kwan
+  address: 46 Ang Mo Kio Street 61
+  postalCode: '569161'
+- nanyangSiteId: sct-kd-192
+  projectSiteNo: '264'
+  simplifiedZh: 功德林佛寺
+  traditionalZh: 功德林佛寺
+  nameEn: Sattha Puchaiyaram Buddhit Temple
+  address: 395 Bukit Batok West Avenue 8
+  postalCode: '658963'
+- nanyangSiteId: sct-kd-193
+  projectSiteNo: '265'
+  simplifiedZh: 宫天大地寺
+  traditionalZh: 宮天大地寺
+  nameEn: Gang Tian Da Di Temple
+  address: 26 Lorong 30 Geylang
+  postalCode: '398359'
+- nanyangSiteId: sct-kd-194
+  projectSiteNo: '266'
+  simplifiedZh: 观慈精舍
+  traditionalZh: 觀慈精舍
+  nameEn: Guanci Jingshe
+  address: 23 lorong mydin
+  postalCode: '416824'
+- nanyangSiteId: sct-kd-195
+  projectSiteNo: '267'
+  simplifiedZh: 关帝庙 义顺
+  traditionalZh: 關帝廟 義順
+  nameEn: Kwang Tee Temple
+  address: '561 Yishun Ring Road , #01-04'
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-196
+  projectSiteNo: '268'
+  simplifiedZh: 关帝庙 蔡厝港
+  traditionalZh: 關帝廟 蔡厝港
+  nameEn: Kuan Ti Temple
+  address: 15  Choa Chu Kang Street 51
+  postalCode: '689336'
+- nanyangSiteId: sct-kd-197
+  projectSiteNo: '271'
+  simplifiedZh: 观济阁
+  traditionalZh: 觀濟閣
+  nameEn: Kuan Ji Ke
+  address: 'Blk 348, #11-1064 Ubi Avenue 1'
+  postalCode: '400348'
+- nanyangSiteId: sct-kd-198
+  projectSiteNo: '272'
+  simplifiedZh: 观莲坛
+  traditionalZh: 關莲壇
+  nameEn: Guanlian Tan
+  address: 3 Geylang Lor 33
+  postalCode: '387973'
+- nanyangSiteId: sct-kd-199
+  projectSiteNo: '274'
+  simplifiedZh: 关龙殿善堂
+  traditionalZh: 関龍殿善堂
+  nameEn: Guanlongdian Shantang
+  address: 78 Lorong 6 Geylang
+  postalCode: '399230'
+- nanyangSiteId: sct-kd-200
+  projectSiteNo: '276'
+  simplifiedZh: 观山殿
+  traditionalZh: 觀山殿
+  nameEn: Guanshan Dian
+  address: 741 Jurong Wes Street 42
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-201
+  projectSiteNo: '277'
+  simplifiedZh: 关善庙
+  traditionalZh: 關善廟
+  nameEn: Guanshan Miao
+  address: 31, Cantonment Road
+  postalCode: '89747'
+- nanyangSiteId: sct-kd-202
+  projectSiteNo: '278'
+  simplifiedZh: 关善庙大贰坛
+  traditionalZh: 關善廟大貳壇
+  nameEn: Guan Shan Temple
+  address: 25 Lorong 25 Geylang
+  postalCode: '388302'
+- nanyangSiteId: sct-kd-203
+  projectSiteNo: '279'
+  simplifiedZh: 关善坛
+  traditionalZh: 關善壇
+  nameEn: Guanshan Tan
+  address: 'BLK571 Hougang  St 51 #02-117'
+  postalCode: '530571'
+- nanyangSiteId: sct-kd-204
+  projectSiteNo: '280'
+  simplifiedZh: 观善堂
+  traditionalZh: 觀善堂
+  nameEn: Kwan Siang Tng Temple
+  address: 70 Lowland Road
+  postalCode: '547460'
+- nanyangSiteId: sct-kd-205
+  projectSiteNo: '281'
+  simplifiedZh: 观圣坛
+  traditionalZh: 觀圣壇
+  nameEn: Guansheng Tan
+  address: BLK 536 Ang Mo Kio Ave 10#02-2553
+  postalCode: '560536'
+- nanyangSiteId: sct-kd-206
+  projectSiteNo: '282'
+  simplifiedZh: 关圣坛
+  traditionalZh: 關圣壇
+  nameEn: Guansheng Tan
+  address: 'BLK 832 Yishun St 81 #02-440'
+  postalCode: '760832'
+- nanyangSiteId: sct-kd-207
+  projectSiteNo: '285'
+  simplifiedZh: 观世坛
+  traditionalZh: 觀世壇
+  nameEn: Guanshi Tan
+  address: 30, Petain Road
+  postalCode: '208099'
+- nanyangSiteId: sct-kd-208
+  projectSiteNo: '290'
+  simplifiedZh: 观音禅林
+  traditionalZh: 觀音禪林
+  nameEn: KWAN YIN CHAN LIN
+  address: 203D Lavender St
+  postalCode: '338763'
+- nanyangSiteId: sct-kd-209
+  projectSiteNo: '291'
+  simplifiedZh: 观音慈堂
+  traditionalZh: 觀音慈堂
+  nameEn: Guanyin Citang
+  address: 'BLK 124 Toa Payoh Lor 1 #03-465'
+  postalCode: '310124'
+- nanyangSiteId: sct-kd-210
+  projectSiteNo: '293'
+  simplifiedZh: 观音佛法坛
+  traditionalZh: 觀音佛法壇
+  nameEn: Guanyinfofa Tan
+  address: 'BLK 57 Geylang Bahru #01-3513'
+  postalCode: '330057'
+- nanyangSiteId: sct-kd-211
+  projectSiteNo: '294'
+  simplifiedZh: 观音宫
+  traditionalZh: 觀音宮
+  nameEn: Guanyin Gong
+  address: 19 Cuff Rd
+  postalCode: '209730'
+- nanyangSiteId: sct-kd-212
+  projectSiteNo: '295'
+  simplifiedZh: 观音救苦会 车水路
+  traditionalZh: 觀音救苦會 車水路
+  nameEn: Kwan-In Welfare Society
+  address: 7 Kreta Ayer Road
+  postalCode: '88984'
+- nanyangSiteId: sct-kd-213
+  projectSiteNo: '296'
+  simplifiedZh: 观音救苦会 惹兰友诺士
+  traditionalZh: 觀音救苦會 惹兰友诺士
+  nameEn: Guanyin Jiuku Hui Relanyounuoshi
+  address: 34 Jalan Eunos
+  postalCode: '419496'
+- nanyangSiteId: sct-kd-214
+  projectSiteNo: '297'
+  simplifiedZh: 观音救苦会 河谷径
+  traditionalZh: 觀音救苦會 河谷徑
+  nameEn: Guanyin Jiuku Hui Relanyounuoshi
+  address: 'Blk 111 Rivervale Walk #01-11'
+  postalCode: '540111'
+- nanyangSiteId: sct-kd-215
+  projectSiteNo: '298'
+  simplifiedZh: 观音庙
+  traditionalZh: 觀音廟
+  nameEn: Guanyin Miao
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-216
+  projectSiteNo: '299'
+  simplifiedZh: 观音山庙
+  traditionalZh: 觀音山廟
+  nameEn: Kuan Yin Shan Temple
+  address: 396 / 398 Dunearn Road
+  postalCode: '289606'
+- nanyangSiteId: sct-kd-217
+  projectSiteNo: '300'
+  simplifiedZh: 观音寺
+  traditionalZh: 觀音寺
+  nameEn: Kwan Imm Sze
+  address: 39 Lorong 31 Geylang
+  postalCode: '388035'
+- nanyangSiteId: sct-kd-218
+  projectSiteNo: '302'
+  simplifiedZh: 观音堂 麦波申路
+  traditionalZh: 觀音堂 麥波申路
+  nameEn: Kuan Yin Temple
+  address: 560 Macpherson Road
+  postalCode: '368233'
+- nanyangSiteId: sct-kd-219
+  projectSiteNo: '303'
+  simplifiedZh: 观音堂  如切
+  traditionalZh: 觀音堂  如切
+  nameEn: Kuan Im Tng Temple  Joo Chiat
+  address: 62 Tembeling Rd
+  postalCode: '423586'
+- nanyangSiteId: sct-kd-220
+  projectSiteNo: '304'
+  simplifiedZh: 观音堂 淡美岭路
+  traditionalZh: 觀音堂 淡美嶺路
+  nameEn: Kuan Im Kuan Ti Kong Temple
+  address: 205 Joo Chiat Road
+  postalCode: '427476'
+- nanyangSiteId: sct-kd-221
+  projectSiteNo: '306'
+  simplifiedZh: 观音堂  马里士他路
+  traditionalZh: 觀音堂  馬里士他路
+  nameEn: Kwang Im Tng Temple (Balestier Road)
+  address: 525 Balestier Road
+  postalCode: '329854'
+- nanyangSiteId: sct-kd-222
+  projectSiteNo: '307'
+  simplifiedZh: 观音堂佛祖庙  四马路
+  traditionalZh: 觀音佛堂佛祖廟  四馬路
+  nameEn: Kwan Im Tong Hood Che Temple
+  address: 178, Waterloo Street
+  postalCode: '187964'
+- nanyangSiteId: sct-kd-223
+  projectSiteNo: '310'
+  simplifiedZh: 观音亭佛寺
+  traditionalZh: 觀音亭佛寺
+  nameEn: Kwan Yam Theng Budh Tp
+  address: 245 Alexandra Road
+  postalCode: '159933'
+- nanyangSiteId: sct-kd-224
+  projectSiteNo: '311'
+  simplifiedZh: 关云殿
+  traditionalZh: 關云殿
+  nameEn: Guanyun Dian
+  address: 19 Choa Chu Kang Street 51
+  postalCode: '689342'
+- nanyangSiteId: sct-kd-225
+  projectSiteNo: '312'
+  simplifiedZh: 观中善财坛
+  traditionalZh: 觀中善財壇
+  nameEn: Guanzhong Shancai Tan
+  address: 'BLK62 Telok Blangah Height #05-205'
+  postalCode: '100062'
+- nanyangSiteId: sct-kd-226
+  projectSiteNo: '313'
+  simplifiedZh: 广福宫
+  traditionalZh: 廣福宮
+  nameEn: Kong Hock Keng
+  address: 101 Telok Blangah Drive 31
+  postalCode: '109260'
+- nanyangSiteId: sct-kd-227
+  projectSiteNo: '314'
+  simplifiedZh: 广福宫联合庙
+  traditionalZh: 廣福宮聯合廟
+  nameEn: Kong Hock Keng United Temple
+  address: 101 Telok Blangah Drive 31
+  postalCode: '109260'
+- nanyangSiteId: sct-kd-228
+  projectSiteNo: '315'
+  simplifiedZh: 广福古庙
+  traditionalZh: 廣福古廟
+  nameEn: Guangfu Gumiao
+  address: 2 Lavender St
+  postalCode: '338823'
+- nanyangSiteId: sct-kd-229
+  projectSiteNo: '316'
+  simplifiedZh: 广化寺  佛教
+  traditionalZh: 廣化寺  佛教
+  nameEn: Kwang hua Buddhist Monastery
+  address: 87 Tampines Link
+  postalCode: '528742'
+- nanyangSiteId: sct-kd-230
+  projectSiteNo: '317'
+  simplifiedZh: 广惠肇碧山亭
+  traditionalZh: 廣惠肇碧山亭
+  nameEn: Kwong Wai Siew Peck San Theng
+  address: 50 Kampong San Teng (Bishan Lane)
+  postalCode: '576498'
+- nanyangSiteId: sct-kd-231
+  projectSiteNo: '318'
+  simplifiedZh: 广进殿
+  traditionalZh: 廣进殿
+  nameEn: Guang Jin Dian
+  address: 'Blk 860A, Tampines Ave 5 #01-623'
+  postalCode: '521860'
+- nanyangSiteId: sct-kd-232
+  projectSiteNo: '319'
+  simplifiedZh: 广林亭
+  traditionalZh: 廣林亭
+  nameEn: Guang Lin Ting
+  address: Yio Chu Kang Rd, 200
+  postalCode: '545647'
+- nanyangSiteId: sct-kd-233
+  projectSiteNo: '320'
+  simplifiedZh: 光明坊禅修中心
+  traditionalZh: 光明坊禪修中心
+  nameEn: Awareness Place Meditation Centre
+  address: 'Blk 231 Bain Street Bras Basah Complex #03-39'
+  postalCode: '180231'
+- nanyangSiteId: sct-kd-234
+  projectSiteNo: '321'
+  simplifiedZh: 光明山普觉禅寺
+  traditionalZh: 光明山普覺禪寺
+  nameEn: Kong Meng San Phor Kark See temple
+  address: 88 Bright Hill Road
+  postalCode: '574117'
+- nanyangSiteId: sct-kd-235
+  projectSiteNo: '322'
+  simplifiedZh: 广明堂
+  traditionalZh: 廣明堂
+  nameEn: Kong Beng Tong Temple Association
+  address: 23 Serangoon North Ave 3
+  postalCode: '555862'
+- nanyangSiteId: sct-kd-236
+  projectSiteNo: '325'
+  simplifiedZh: 广寿堂
+  traditionalZh: 廣壽堂
+  nameEn: Kong Siew Temple
+  address: 15 Yishun Avenue 9
+  postalCode: '768889'
+- nanyangSiteId: sct-kd-237
+  projectSiteNo: '327'
+  simplifiedZh: 桂林联合庙
+  traditionalZh: 桂林聯合廟
+  nameEn: Guilin Combined Temple
+  address: 397 Bukit Batok West Avenue 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-238
+  projectSiteNo: '328'
+  simplifiedZh: 龟屿福山宫大伯公庙
+  traditionalZh: 龜嶼福山宮大伯公廟
+  nameEn: Guiyufushan Gong Dabogong Miao
+  address: 10 Khusu Island
+  postalCode: '98586'
+- nanyangSiteId: sct-kd-239
+  projectSiteNo: '329'
+  simplifiedZh: 海唇福德祠
+  traditionalZh: 海唇福德祠
+  nameEn: Haichun Fude Ci
+  address: 76 Telok Ayer St
+  postalCode: '48464'
+- nanyangSiteId: sct-kd-240
+  projectSiteNo: '330'
+  simplifiedZh: 海洞坛
+  traditionalZh: 海洞壇
+  nameEn: Hai Tong Tan
+  address: 'BLK 446 Tampines St 42 #10-36'
+  postalCode: '520446'
+- nanyangSiteId: sct-kd-241
+  projectSiteNo: '331'
+  simplifiedZh: 海莲坛
+  traditionalZh: 海蓮壇
+  nameEn: Hai Lian Tan
+  address: Bukit Batok east ave 3 blk 220
+  postalCode: '650220'
+- nanyangSiteId: sct-kd-242
+  projectSiteNo: '332'
+  simplifiedZh: 海南山天公坛
+  traditionalZh: 海南山天公壇
+  nameEn: Hai Lam Sua Tee Kong Toa Temple
+  address: 175 Upper Thomson Road
+  postalCode: '574426'
+- nanyangSiteId: sct-kd-243
+  projectSiteNo: '333'
+  simplifiedZh: 海印精舍
+  traditionalZh: 海印精舍
+  nameEn: Sagaramudra Buddhist Hermitage
+  address: 574 Changi Road
+  postalCode: '419944'
+- nanyangSiteId: sct-kd-244
+  projectSiteNo: '334'
+  simplifiedZh: 海印寺
+  traditionalZh: 海印寺
+  nameEn: Buddhist Colledge Hai Inn Temple
+  address: 33 Brickland Road S' 688254 aka 339 Choa Chu Kang Road, S' 689479
+  postalCode: '688254'
+- nanyangSiteId: sct-kd-245
+  projectSiteNo: '335'
+  simplifiedZh: 海印学佛会
+  traditionalZh: 海印學佛會
+  nameEn: Sagaramudra Buddhist Society
+  address: No 5 Lorong 29 Geylang
+  postalCode: '388060'
+- nanyangSiteId: sct-kd-246
+  projectSiteNo: '336'
+  simplifiedZh: 韩氏祠
+  traditionalZh: 韓氏祠
+  nameEn: Singapore  Han Clan Temple
+  address: 2 Derbyshire Road
+  postalCode: '309458'
+- nanyangSiteId: sct-kd-247
+  projectSiteNo: '337'
+  simplifiedZh: 汉阳大伯公
+  traditionalZh: 漢陽大伯公
+  nameEn: Hanyang Dabogong
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-248
+  projectSiteNo: '338'
+  simplifiedZh: 航善宫
+  traditionalZh: 航善宮
+  nameEn: Hangshan Gong
+  address: 35 Geylang Lor 24
+  postalCode: '398232'
+- nanyangSiteId: sct-kd-249
+  projectSiteNo: '339'
+  simplifiedZh: 何碧山宫
+  traditionalZh: 何碧山宮
+  nameEn: Hebishan Gong
+  address: 475 Yishun Ring Road
+  postalCode: '768678'
+- nanyangSiteId: sct-kd-250
+  projectSiteNo: '340'
+  simplifiedZh: 合兴光庙
+  traditionalZh: 合興光廟
+  nameEn: Hup Heng Kwang Beo
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569731'
+- nanyangSiteId: sct-kd-251
+  projectSiteNo: '341'
+  simplifiedZh: 横山庙 潘氏宗祠
+  traditionalZh: 橫山廟  潘氏宗祠
+  nameEn: Hwee San Temple
+  address: 527 Yishun Industrial Park A
+  postalCode: '768771'
+- nanyangSiteId: sct-kd-252
+  projectSiteNo: '344'
+  simplifiedZh: 宏茂桥联合庙
+  traditionalZh: 宏茂橋聯合廟
+  nameEn: Ang Mo Kio United Temple
+  address: 791 Ang Mo Kio Avenue 1
+  postalCode: '569974'
+- nanyangSiteId: sct-kd-253
+  projectSiteNo: '346'
+  simplifiedZh: 后池厅
+  traditionalZh: 後池廳
+  nameEn: Hou Chi Tin aka Pu An Gu Fo
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-254
+  projectSiteNo: '347'
+  simplifiedZh: 斗母宫 后港
+  traditionalZh: 斗母宮  後港
+  nameEn: Hougang Tao Mu Temple   Jiu Huang Da Di Temple
+  address: 779A Upper Serangoon Rd
+  postalCode: '534648'
+- nanyangSiteId: sct-kd-255
+  projectSiteNo: '349'
+  simplifiedZh: 护国金塔寺
+  traditionalZh: 護國金塔寺
+  nameEn: Golden Pagoda Buddhist Temple
+  address: 83 Tampines Link
+  postalCode: '528740'
+- nanyangSiteId: sct-kd-256
+  projectSiteNo: '350'
+  simplifiedZh: 华报善堂
+  traditionalZh: 華報善堂
+  nameEn: Hwa Poh Siang Tng
+  address: '561 Yishun Ring Road,  #01-01'
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-257
+  projectSiteNo: '351'
+  simplifiedZh: 华德善堂
+  traditionalZh: 華德善堂
+  nameEn: Hua Teck Siang Tng
+  address: 177L Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-258
+  projectSiteNo: '352'
+  simplifiedZh: 华光大帝庙
+  traditionalZh: 華光大帝廟
+  nameEn: Hwa Kwang Tai Tee Temple
+  address: 99 Sin Ming Industrial Estate Sector B
+  postalCode: '575660'
+- nanyangSiteId: sct-kd-259
+  projectSiteNo: '353'
+  simplifiedZh: 花果山福广宫
+  traditionalZh: 花果山福廣宮
+  nameEn: Far Kor Sun Monkey God Temple
+  address: 56E Marne Road
+  postalCode: ''
+- nanyangSiteId: sct-kd-260
+  projectSiteNo: '354'
+  simplifiedZh: 花果山平安明德宫
+  traditionalZh: 花果山平安明德宮
+  nameEn: Hua Guo Shan Ping An Ming De Gong
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-261
+  projectSiteNo: '355'
+  simplifiedZh: 花莲宫
+  traditionalZh: 花蓮宮
+  nameEn: Huay Lian Keng
+  address: 15 Lorong 25A Geylang
+  postalCode: '388227'
+- nanyangSiteId: sct-kd-262
+  projectSiteNo: '356'
+  simplifiedZh: 华山宫  华山芭
+  traditionalZh: 華山宮  華山芭
+  nameEn: Hua Shan Gong
+  address: 569 Yishun Ring Road
+  postalCode: '768691'
+- nanyangSiteId: sct-kd-263
+  projectSiteNo: '357'
+  simplifiedZh: 华堂府
+  traditionalZh: 華堂府
+  nameEn: Huatang Fu
+  address: 48 Ang Mo Kio Street 61
+  postalCode: '569162'
+- nanyangSiteId: sct-kd-264
+  projectSiteNo: '358'
+  simplifiedZh: 华严禅寺
+  traditionalZh: 華嚴禪寺
+  nameEn: Huayan Chansi
+  address: 37 Lorong 30 Geylang
+  postalCode: '398370'
+- nanyangSiteId: sct-kd-265
+  projectSiteNo: '359'
+  simplifiedZh: 华严佛学会
+  traditionalZh: 華嚴佛學會
+  nameEn: Hua Yan Buddhist Society
+  address: 280A Sim's Avenue
+  postalCode: '387515'
+- nanyangSiteId: sct-kd-266
+  projectSiteNo: '360'
+  simplifiedZh: 环图庙
+  traditionalZh: 環圖廟
+  nameEn: Huantu Miao
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-267
+  projectSiteNo: '362'
+  simplifiedZh: 慧明讲堂
+  traditionalZh: 慧明講堂
+  nameEn: Hui Ming Buddhist Society
+  address: 64 Lorong 24A Geylang
+  postalCode: '398588'
+- nanyangSiteId: sct-kd-268
+  projectSiteNo: '364'
+  simplifiedZh: 慧严精舍
+  traditionalZh: 慧嚴精舍
+  nameEn: The Maharajna Vihara
+  address: 11 Lor 35 Geylang
+  postalCode: '387943'
+- nanyangSiteId: sct-kd-269
+  projectSiteNo: '366'
+  simplifiedZh: 济德堂
+  traditionalZh: 濟德堂
+  nameEn: Ji De Tang Temple
+  address: 10 Rangoon Lane
+  postalCode: '218506'
+- nanyangSiteId: sct-kd-270
+  projectSiteNo: '367'
+  simplifiedZh: 济芳阁
+  traditionalZh: 濟芳閣
+  nameEn: Chee Hoon Kog Temple
+  address: 67 Anchorvale Link
+  postalCode: '545071'
+- nanyangSiteId: sct-kd-271
+  projectSiteNo: '369'
+  simplifiedZh: 集福宫
+  traditionalZh: 集福宮
+  nameEn: Jifu Gong
+  address: 48 Ang Mo Kio Street 61
+  postalCode: '569162'
+- nanyangSiteId: sct-kd-272
+  projectSiteNo: '370'
+  simplifiedZh: 济公坛
+  traditionalZh: 濟公壇
+  nameEn: Chai Kong Temple
+  address: 10 Marsiling Industrial Estate Road 3
+  postalCode: '739254'
+- nanyangSiteId: sct-kd-273
+  projectSiteNo: '371'
+  simplifiedZh: 济公堂
+  traditionalZh: 濟公堂
+  nameEn: Chee Kong Tong
+  address: 2 Beatty Lane
+  postalCode: '209945'
+- nanyangSiteId: sct-kd-274
+  projectSiteNo: '374'
+  simplifiedZh: 吉龙山庙
+  traditionalZh: 吉龍山廟
+  nameEn: Kiat Leng San Temple
+  address: 487 Serangoon North Avenue 1
+  postalCode: '555893'
+- nanyangSiteId: sct-kd-275
+  projectSiteNo: '376'
+  simplifiedZh: 吉山庙
+  traditionalZh: 吉山廟
+  nameEn: Jishan Miao
+  address: 56 / 58 / 60 Hougang Avenue 3
+  postalCode: '538842'
+- nanyangSiteId: sct-kd-276
+  projectSiteNo: '377'
+  simplifiedZh: 济善堂
+  traditionalZh: 濟善堂
+  nameEn: Chay Sian Tong
+  address: 7 Hamilton Road
+  postalCode: '209178'
+- nanyangSiteId: sct-kd-277
+  projectSiteNo: '378'
+  simplifiedZh: 积善堂
+  traditionalZh: 積善堂
+  nameEn: Chek Sian Tng
+  address: 10 Ang Mo Kio Ave 10
+  postalCode: '569732'
+- nanyangSiteId: sct-kd-278
+  projectSiteNo: '379'
+  simplifiedZh: 济圣坛
+  traditionalZh: 濟圣壇
+  nameEn: Jisheng Tan
+  address: 'BLK 122 Sengkang East Way #03-11'
+  postalCode: '540122'
+- nanyangSiteId: sct-kd-279
+  projectSiteNo: '380'
+  simplifiedZh: 吉圣坛
+  traditionalZh: 吉圣壇
+  nameEn: Jisheng Tan
+  address: 'BLK 561 Ang Mo Kio Ave 10 #06-1830'
+  postalCode: '560561'
+- nanyangSiteId: sct-kd-280
+  projectSiteNo: '381'
+  simplifiedZh: 集声宫
+  traditionalZh: 集聲宮
+  nameEn: Jisheng Gong
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-281
+  projectSiteNo: '385'
+  simplifiedZh: 吉星亭
+  traditionalZh: 吉星亭
+  nameEn: Kiat Sing Ting
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-282
+  projectSiteNo: '386'
+  simplifiedZh: 济阳堂
+  traditionalZh: 濟陽堂
+  nameEn: Jiyang Tang
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-283
+  projectSiteNo: '388'
+  simplifiedZh: 济云阁 星洲德教
+  traditionalZh: 濟雲閣 星洲德教
+  nameEn: Chee Hoon Kog Moral Promotion Society, Singapore
+  address: 1 Jalan Bilai (off Bedok Road)
+  postalCode: '468854'
+- nanyangSiteId: sct-kd-284
+  projectSiteNo: '390'
+  simplifiedZh: 迦马佳育佛教中心
+  traditionalZh: 迦馬佳育佛教中心
+  nameEn: Karma Kagyud Budh Ctr
+  address: 38 Lorong 22 Geylang
+  postalCode: '398695'
+- nanyangSiteId: sct-kd-285
+  projectSiteNo: '393'
+  simplifiedZh: 将军庙
+  traditionalZh: 將軍廟
+  nameEn: Chiang Chin Meow
+  address: 3302 Clementi Service Rd / 3302 Commonwealth Avenue West
+  postalCode: '129582'
+- nanyangSiteId: sct-kd-286
+  projectSiteNo: '394'
+  simplifiedZh: 介谷殿
+  traditionalZh: 介穀殿
+  nameEn: Kai Kok Tian
+  address: 98T Redhill Close
+  postalCode: '158900'
+- nanyangSiteId: sct-kd-287
+  projectSiteNo: '396'
+  simplifiedZh: 金洞府
+  traditionalZh: 金洞府
+  nameEn: Kim Tong Hu
+  address: 4, Lorong 40, Geylang Road
+  postalCode: '398050'
+- nanyangSiteId: sct-kd-288
+  projectSiteNo: '397'
+  simplifiedZh: 进法殿
+  traditionalZh: 進法殿
+  nameEn: Jinfa Dian
+  address: 6 Ang Mo Kio St 63 Avenue 9
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-289
+  projectSiteNo: '398'
+  simplifiedZh: 金凤庙
+  traditionalZh: 金鳳廟
+  nameEn: Kim Hong Temple
+  address: 26 Arumugam Road
+  postalCode: '409964'
+- nanyangSiteId: sct-kd-290
+  projectSiteNo: '399'
+  simplifiedZh: 金凤庙三宝佛光寺  联合庙
+  traditionalZh: 金鳳廟三寶佛光寺 聯合廟
+  nameEn: Kim Hong Temple Lord Buddha Temple   United temple
+  address: 24 Arumugam Road
+  postalCode: '409963'
+- nanyangSiteId: sct-kd-291
+  projectSiteNo: '400'
+  simplifiedZh: 金佛三宝坛
+  traditionalZh: 金佛三寶壇
+  nameEn: Jinfo Sanbao Tan
+  address: 'Blk 472 Segar Road #08-258'
+  postalCode: '670472'
+- nanyangSiteId: sct-kd-292
+  projectSiteNo: '401'
+  simplifiedZh: 金福宫  裕廊西  总行
+  traditionalZh: 金福宮  裕廊西  總行
+  nameEn: Jin Fu Gong Temple   Jurong West  Main
+  address: 20 Jurong West St 92
+  postalCode: '649000'
+- nanyangSiteId: sct-kd-293
+  projectSiteNo: '402'
+  simplifiedZh: 金福宫  仑仔尾大伯公
+  traditionalZh: 金福宮  侖仔尾大伯公
+  nameEn: Thiam Hock Keng Temple
+  address: 101 Sin Min Industrial Estate, Sin Ming Rd
+  postalCode: '575592'
+- nanyangSiteId: sct-kd-294
+  projectSiteNo: '403'
+  simplifiedZh: 金福宫功德堂   兀兰分行
+  traditionalZh: 金福宮功德堂  兀蘭分行
+  nameEn: Jin Fu Gong Temple   Woodlands  Branch  Gong De Tang
+  address: 9 Woodlands Industrial Park E8
+  postalCode: '757786'
+- nanyangSiteId: sct-kd-295
+  projectSiteNo: '405'
+  simplifiedZh: 锦福庙
+  traditionalZh: 錦福廟
+  nameEn: Chin Fook Meow
+  address: 16 Hougang Street 11
+  postalCode: '538746'
+- nanyangSiteId: sct-kd-296
+  projectSiteNo: '406'
+  simplifiedZh: 金花庙
+  traditionalZh: 金花廟
+  nameEn: Jin Hua Temple
+  address: 799 Mountbatten Road
+  postalCode: '437799'
+- nanyangSiteId: sct-kd-297
+  projectSiteNo: '407'
+  simplifiedZh: 金兰庙
+  traditionalZh: 金蘭廟
+  nameEn: Kim Lan Beo
+  address: 119A Kim Tian Road
+  postalCode: '169263'
+- nanyangSiteId: sct-kd-298
+  projectSiteNo: '408'
+  simplifiedZh: 金龙寺
+  traditionalZh: 金龍寺
+  nameEn: Jinlong Si
+  address: 32 Tai Seng Avenue
+  postalCode: '534084'
+- nanyangSiteId: sct-kd-299
+  projectSiteNo: '410'
+  simplifiedZh: 金门会馆孚济庙
+  traditionalZh: 金門會館孚濟廟
+  nameEn: Jinmen Huiguan Fuji Miao
+  address: 72 Keng Lee Rd
+  postalCode: '219248'
+- nanyangSiteId: sct-kd-300
+  projectSiteNo: '412'
+  simplifiedZh: 晋平寺
+  traditionalZh: 晉平寺
+  nameEn: Chin Pin Tze Temple
+  address: 7 Bedok North Street 5, Ave 4
+  postalCode: '485874'
+- nanyangSiteId: sct-kd-301
+  projectSiteNo: '413'
+  simplifiedZh: 晋平寺善莲山宫
+  traditionalZh: 晉平寺善蓮山宮
+  nameEn: Chin Pin Tze Temple
+  address: 7 Bedok North Street 5, Ave 4.
+  postalCode: '485874'
+- nanyangSiteId: sct-kd-302
+  projectSiteNo: '414'
+  simplifiedZh: 金全法坛
+  traditionalZh: 金全法壇
+  nameEn: Jinquanfa Tan
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-303
+  projectSiteNo: '415'
+  simplifiedZh: 金全法坛集声宫
+  traditionalZh: 金全法壇集聲宮
+  nameEn: Jinquanfa Tan Jisheng Gong
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-304
+  projectSiteNo: '416'
+  simplifiedZh: 金山寺
+  traditionalZh: 金山寺
+  nameEn: Kim San Tze Temple Association
+  address: 25 Jln Ulu Siglap
+  postalCode: '457182'
+- nanyangSiteId: sct-kd-305
+  projectSiteNo: '418'
+  simplifiedZh: 金水馆
+  traditionalZh: 金水館
+  nameEn: Jin Shui Guan
+  address: 6 Ang Mo Kio St 63
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-306
+  projectSiteNo: '419'
+  simplifiedZh: 金英堂
+  traditionalZh: 金英堂
+  nameEn: Jin Ying Tang
+  address: 791 Ang Mo Kio Ave 1
+  postalCode: '569974'
+- nanyangSiteId: sct-kd-307
+  projectSiteNo: '420'
+  simplifiedZh: 净名佛学社
+  traditionalZh: 淨名佛學社
+  nameEn: Cheng Beng Buddhist Societ
+  address: 20 Lorong 27A Geylang
+  postalCode: '388112'
+- nanyangSiteId: sct-kd-308
+  projectSiteNo: '421'
+  simplifiedZh: 汫水港斗母宫凤山寺
+  traditionalZh: 汫水港斗母宮鳳山寺
+  nameEn: Jiazhuikang Kew Ong Yah Temple Hong San See Temple
+  address: '561 Yishun Ring Road #01-03'
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-309
+  projectSiteNo: '423'
+  simplifiedZh: 韭菜芭城隍庙
+  traditionalZh: 韭菜芭城隍廟
+  nameEn: Lorong Koo Chye Sheng Hong Temple
+  address: 15 Arumugam Rd
+  postalCode: '409960'
+- nanyangSiteId: sct-kd-310
+  projectSiteNo: '424'
+  simplifiedZh: 韭菜芭城隍庙三清宫
+  traditionalZh: 韭菜芭城隍廟三清宮
+  nameEn: Koo Chye Ba Seng Hong Temple San Qing Gong
+  address: 21 Bedok North Avenue 4
+  postalCode: '489948'
+- nanyangSiteId: sct-kd-311
+  projectSiteNo: '425'
+  simplifiedZh: 九峰岩通淮庙
+  traditionalZh: 九峰岩通淮廟
+  nameEn: Jiufengyan Tonghuai Miao
+  address: '691 Geylang Rd #04-01'
+  postalCode: '389684'
+- nanyangSiteId: sct-kd-312
+  projectSiteNo: '426'
+  simplifiedZh: 九福元帅坛
+  traditionalZh: 九福元帥壇
+  nameEn: Jiufuyuanshuai Tan
+  address: 3006 Ubi Rd 1
+  postalCode: '408700'
+- nanyangSiteId: sct-kd-313
+  projectSiteNo: '427'
+  simplifiedZh: 九华山报恩寺
+  traditionalZh: 九華山報恩寺
+  nameEn: Poh Ern Shin Temple
+  address: 9 Chwee Chian Road
+  postalCode: '117488'
+- nanyangSiteId: sct-kd-314
+  projectSiteNo: '428'
+  simplifiedZh: 九鲤洞
+  traditionalZh: 九鯉洞
+  nameEn: Kiew Lee Tong Temple
+  address: 5 Jalan Tambur
+  postalCode: '576778'
+- nanyangSiteId: sct-kd-315
+  projectSiteNo: '429'
+  simplifiedZh: 九龙宫
+  traditionalZh: 九龍宮
+  nameEn: Chin Long Kong Temple
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-316
+  projectSiteNo: '431'
+  simplifiedZh: 救世坛
+  traditionalZh: 救世壇
+  nameEn: Siang San Temple
+  address: 19 Woodlands Industrial Park E7
+  postalCode: '757722'
+- nanyangSiteId: sct-kd-317
+  projectSiteNo: '433'
+  simplifiedZh: 九天玄女宫 宏茂桥
+  traditionalZh: 九天玄女宮 宏茂橋
+  nameEn: Kiew Thian Hian Keng
+  address: 772, Lorong 3, Geylang Road
+  postalCode: '389087'
+- nanyangSiteId: sct-kd-318
+  projectSiteNo: '434'
+  simplifiedZh: 九天玄女宫 四马路
+  traditionalZh: 九天玄女宮 四馬路
+  nameEn: Jiu Tian Xuan Nv Gong Si Ma Lu
+  address: 'BLK 269 Queen  St #02-250'
+  postalCode: '180269'
+- nanyangSiteId: sct-kd-319
+  projectSiteNo: '435'
+  simplifiedZh: 九条桥新芭拿督坛
+  traditionalZh: 九條橋新芭拿督壇
+  nameEn: Jiutiao Qiao Xinba Nadu Tan
+  address: '778 Tampines Road, #01-01'
+  postalCode: '518486'
+- nanyangSiteId: sct-kd-320
+  projectSiteNo: '436'
+  simplifiedZh: 九仙宫
+  traditionalZh: 九仙宮
+  nameEn: Jiuxian Gong
+  address: 7 Tampines Avenue
+  postalCode: '529786'
+- nanyangSiteId: sct-kd-321
+  projectSiteNo: '437'
+  simplifiedZh: 九玄宫
+  traditionalZh: 九玄宮
+  nameEn: Jiu Xuan Gong Society
+  address: '15 Geylang Lor 29, #04-01 PTH Bldg'
+  postalCode: '388069'
+- nanyangSiteId: sct-kd-322
+  projectSiteNo: '438'
+  simplifiedZh: 九阴圣天宫
+  traditionalZh: 九陰圣天宮
+  nameEn: Jiuyingshengtian Gong
+  address: 'Blk 674A Jurong West St 65 #03-68'
+  postalCode: '641674'
+- nanyangSiteId: sct-kd-323
+  projectSiteNo: '439'
+  simplifiedZh: 聚善华山宫
+  traditionalZh: 聚善華山宮
+  nameEn: Chu Siang Wah Sua Temple
+  address: 569 Yishun Ring Road
+  postalCode: '768691'
+- nanyangSiteId: sct-kd-324
+  projectSiteNo: '440'
+  simplifiedZh: 聚善堂
+  traditionalZh: 聚善堂
+  nameEn: Ju Shan Tang   Chu Siang Tong
+  address: 569 Yishun Ring Road
+  postalCode: '768691'
+- nanyangSiteId: sct-kd-325
+  projectSiteNo: '441'
+  simplifiedZh: 聚圣庙
+  traditionalZh: 聚圣廟
+  nameEn: Chu Sheng Temple
+  address: 48 Ang Mo Kio Street 61
+  postalCode: '569162'
+- nanyangSiteId: sct-kd-326
+  projectSiteNo: '442'
+  simplifiedZh: 聚天宫
+  traditionalZh: 聚天宫
+  nameEn: Chee Tian Keng Temple
+  address: 177P Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-327
+  projectSiteNo: '443'
+  simplifiedZh: 觉音讲堂
+  traditionalZh: 覺音講堂
+  nameEn: Jue Ying Buddhist Association
+  address: 34 Boon Teck Road
+  postalCode: '329604'
+- nanyangSiteId: sct-kd-328
+  projectSiteNo: '444'
+  simplifiedZh: 开福堂
+  traditionalZh: 開福堂
+  nameEn: Kaifu Tang
+  address: 56 / 58 / 60 Hougang Avenue 3
+  postalCode: '538842'
+- nanyangSiteId: sct-kd-329
+  projectSiteNo: '445'
+  simplifiedZh: 开山庙
+  traditionalZh: 開山廟
+  nameEn: Kai San Temple
+  address: 1300 Jalan Bukit Merah
+  postalCode: '169546'
+- nanyangSiteId: sct-kd-330
+  projectSiteNo: '446'
+  simplifiedZh: 坎甘拉马佛寺
+  traditionalZh: 坎甘拉馬佛寺
+  nameEn: Kancanrama Budh Temple
+  address: 2 Lorong Ong Lye
+  postalCode: '536358'
+- nanyangSiteId: sct-kd-331
+  projectSiteNo: '448'
+  simplifiedZh: 孔中府
+  traditionalZh: 孔中府
+  nameEn: Kongzhong Fu
+  address: 'BLK 916 Jurong West St 91 #06-172'
+  postalCode: '640916'
+- nanyangSiteId: sct-kd-332
+  projectSiteNo: '451'
+  simplifiedZh: 宽济堂
+  traditionalZh: 寬濟堂
+  nameEn: Kuang Chee Tng Buddhist Ass
+  address: 125 Moulmein Road
+  postalCode: '308081'
+- nanyangSiteId: sct-kd-333
+  projectSiteNo: '452'
+  simplifiedZh: 坤德观音堂
+  traditionalZh: 坤德觀音堂
+  nameEn: Kunde Guanyin Tang
+  address: 525 Balestier Rd
+  postalCode: '329854'
+- nanyangSiteId: sct-kd-334
+  projectSiteNo: '454'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Kwan Sai Tuah Taoism Association
+  address: 478 Sims Ave
+  postalCode: '387550'
+- nanyangSiteId: sct-kd-335
+  projectSiteNo: '455'
+  simplifiedZh: 阆苑岩
+  traditionalZh: 閬苑岩
+  nameEn: Langyuan Yan
+  address: 15 Arumugam Road
+  postalCode: '409960'
+- nanyangSiteId: sct-kd-336
+  projectSiteNo: '457'
+  simplifiedZh: 雷音寺
+  traditionalZh: 雷音寺
+  nameEn: Lei Yin Temple
+  address: 195E Bukit Merah View
+  postalCode: '159681'
+- nanyangSiteId: sct-kd-337
+  projectSiteNo: '458'
+  simplifiedZh: 立德传心堂
+  traditionalZh: 立德傳心堂
+  nameEn: Li Teck Chuan Cin Tang temple
+  address: 8 Lorong 102 Changi
+  postalCode: '426603'
+- nanyangSiteId: sct-kd-338
+  projectSiteNo: '459'
+  simplifiedZh: 鲤江庙
+  traditionalZh: 鯉江廟
+  nameEn: Lijiang Miao
+  address: 68 Sing Avenue
+  postalCode: '217915'
+- nanyangSiteId: sct-kd-339
+  projectSiteNo: '460'
+  simplifiedZh: 莲安殿
+  traditionalZh: 蓮安殿
+  nameEn: Lianan Dian
+  address: '855 Woodlands St 83 #06-68'
+  postalCode: '730855'
+- nanyangSiteId: sct-kd-340
+  projectSiteNo: '462'
+  simplifiedZh: 莲池阁寺
+  traditionalZh: 蓮池閣寺
+  nameEn: Lian Chee Kek Temple
+  address: 36b Paya Lebar Crescent
+  postalCode: '536190'
+- nanyangSiteId: sct-kd-341
+  projectSiteNo: '463'
+  simplifiedZh: 莲池精舍
+  traditionalZh: 蓮池精舍
+  nameEn: Lin Chee Cheng Sia Temple
+  address: 14E / F Richards Avenue, 546415-6
+  postalCode: '546415'
+- nanyangSiteId: sct-kd-342
+  projectSiteNo: '464'
+  simplifiedZh: 莲峰寺
+  traditionalZh: 蓮峰寺
+  nameEn: Liang Hong Sze
+  address: 101 Telok Blangah Drive
+  postalCode: '109260'
+- nanyangSiteId: sct-kd-343
+  projectSiteNo: '465'
+  simplifiedZh: 莲关宫
+  traditionalZh: 蓮關宮
+  nameEn: Lianguan Gong
+  address: 'BLK 242 Bukit Batok Ave 4 #10-194'
+  postalCode: '650242'
+- nanyangSiteId: sct-kd-344
+  projectSiteNo: '466'
+  simplifiedZh: 莲合坛
+  traditionalZh: 蓮合壇
+  nameEn: Lianhe Tan
+  address: '1 Bukit Batok Cres, WCEGA Plaza #03~49'
+  postalCode: '658064'
+- nanyangSiteId: sct-kd-345
+  projectSiteNo: '467'
+  simplifiedZh: 莲花宫
+  traditionalZh: 蓮花宮
+  nameEn: Lian Hua Gong Association
+  address: Blk 8, 552 Geylang Lor 3
+  postalCode: '388977'
+- nanyangSiteId: sct-kd-346
+  projectSiteNo: '468'
+  simplifiedZh: 莲花坛
+  traditionalZh: 蓮花壇
+  nameEn: Lian Huay Temple
+  address: 99 Sin Ming Industrial Estate Sector B
+  postalCode: '575660'
+- nanyangSiteId: sct-kd-347
+  projectSiteNo: '469'
+  simplifiedZh: 莲山双林寺
+  traditionalZh: 蓮山雙林寺
+  nameEn: Lianshan Shuanglin Si
+  address: 184E Jalan Toa Payoh
+  postalCode: '319941'
+- nanyangSiteId: sct-kd-348
+  projectSiteNo: '473'
+  simplifiedZh: 莲圣宫
+  traditionalZh: 蓮圣宮
+  nameEn: Liansheng Gong
+  address: 'Blk 4 Toa Payoh Lorong 7 #11-129'
+  postalCode: '310004'
+- nanyangSiteId: sct-kd-349
+  projectSiteNo: '478'
+  simplifiedZh: 莲显宫
+  traditionalZh: 蓮顯宫
+  nameEn: Lian Xian Gong Temple
+  address: 37 Geylang Lor 30
+  postalCode: '398370'
+- nanyangSiteId: sct-kd-350
+  projectSiteNo: '480'
+  simplifiedZh: 莲阴殿
+  traditionalZh: 蓮陰殿
+  nameEn: Lianyin Dian
+  address: 'BLK 22 Havelock Road #04-689'
+  postalCode: '160022'
+- nanyangSiteId: sct-kd-351
+  projectSiteNo: '481'
+  simplifiedZh: 莲音坛
+  traditionalZh: 蓮音壇
+  nameEn: Liam Yim Tham
+  address: Blk 178 Bukit Batok West Ave 8
+  postalCode: '650178'
+- nanyangSiteId: sct-kd-352
+  projectSiteNo: '482'
+  simplifiedZh: 临江殿
+  traditionalZh: 臨江殿
+  nameEn: Linjiang Dian
+  address: 399 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-353
+  projectSiteNo: '483'
+  simplifiedZh: 临江殿对山庙
+  traditionalZh: 臨江殿對山廟
+  nameEn: Linjiang Dian Duishan Miao
+  address: '397 Bukit Batok West Avenue 8, Singapore Tel: 6561 4171, 6560 3651'
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-354
+  projectSiteNo: '484'
+  simplifiedZh: 麟山亭北极宫
+  traditionalZh: 麟山亭北極宮
+  nameEn: Leng San Teng Temple   Bei Ji Gong
+  address: 1 Leng Kee Road
+  postalCode: '159085'
+- nanyangSiteId: sct-kd-355
+  projectSiteNo: '485'
+  simplifiedZh: 林氏大宗祠九龙堂家族自治会
+  traditionalZh: 林氏大宗祠九龍堂家族自治會
+  nameEn: Lim See Tai Chong Soo Kiu Leong Tong
+  address: 239 & 241, Cantonment Road
+  postalCode: '89768'
+- nanyangSiteId: sct-kd-356
+  projectSiteNo: '487'
+  simplifiedZh: 灵宝皇坛
+  traditionalZh: 靈寶皇壇
+  nameEn: Lingbaohuang Tan
+  address: 'Blk 160 Toa Payoh Lor 1 #01-1584'
+  postalCode: '310160'
+- nanyangSiteId: sct-kd-357
+  projectSiteNo: '489'
+  simplifiedZh: 灵慈行宫
+  traditionalZh: 靈慈行宮
+  nameEn: Lingci Xinggong
+  address: 53 Truro Road
+  postalCode: '217590'
+- nanyangSiteId: sct-kd-358
+  projectSiteNo: '490'
+  simplifiedZh: 灵峰般若讲堂
+  traditionalZh: 靈峰般若講堂
+  nameEn: Leng Foong Prajna Temple
+  address: 28 Lengkong Dua
+  postalCode: '417705'
+- nanyangSiteId: sct-kd-359
+  projectSiteNo: '491'
+  simplifiedZh: 灵罡殿
+  traditionalZh: 靈罡殿
+  nameEn: Linggang Dian
+  address: 'BLK 37 Jalan Rumah Tinggi  #06-405'
+  postalCode: '150037'
+- nanyangSiteId: sct-kd-360
+  projectSiteNo: '492'
+  simplifiedZh: 灵晋宫
+  traditionalZh: 靈晉宮
+  nameEn: Ling Jing Gong  Jurong Temple
+  address: '741 Jurong West Street 42, #01-01'
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-361
+  projectSiteNo: '493'
+  simplifiedZh: 灵莲坛
+  traditionalZh: 靈蓮壇
+  nameEn: Linglian Tan
+  address: Jurong West St64
+  postalCode: '640661'
+- nanyangSiteId: sct-kd-362
+  projectSiteNo: '495'
+  simplifiedZh: 灵山宫寺
+  traditionalZh: 靈山宮寺
+  nameEn: Leang San King Temple
+  address: 55 Lorong Puntong
+  postalCode: '576442'
+- nanyangSiteId: sct-kd-363
+  projectSiteNo: '496'
+  simplifiedZh: 灵山柒阴坛
+  traditionalZh: 靈山柒陰壇
+  nameEn: Lingshan Qiyin Tan
+  address: Hougang Ave 3
+  postalCode: '530006'
+- nanyangSiteId: sct-kd-364
+  projectSiteNo: '497'
+  simplifiedZh: 灵山寺
+  traditionalZh: 靈山寺
+  nameEn: Ling Shan Temple
+  address: 27 Lorong 12 Geylang
+  postalCode: '399004'
+- nanyangSiteId: sct-kd-365
+  projectSiteNo: '499'
+  simplifiedZh: 凌霄殿
+  traditionalZh: 凌霄殿
+  nameEn: Lingxiao Dian
+  address: 37 Kim Chuan Drive
+  postalCode: '537089'
+- nanyangSiteId: sct-kd-366
+  projectSiteNo: '501'
+  simplifiedZh: 灵隐寺
+  traditionalZh: 靈隱寺
+  nameEn: Leng Ern Jee temple
+  address: 15 Jalan Rajah
+  postalCode: '329136'
+- nanyangSiteId: sct-kd-367
+  projectSiteNo: '502'
+  simplifiedZh: 灵隐寺新加坡德教联合总会  联合庙
+  traditionalZh: 靈隱寺新加坡德教聯合總會  聯合廟
+  nameEn: Leng Ern Jee temple The Singapore Federation of Moral Missions   United
+    temple
+  address: 16 Jalan Rajah
+  postalCode: '329137'
+- nanyangSiteId: sct-kd-368
+  projectSiteNo: '503'
+  simplifiedZh: 凌云殿
+  traditionalZh: 凌雲殿
+  nameEn: Lin Hoon Dian
+  address: 526A Geylang Road
+  postalCode: '389482'
+- nanyangSiteId: sct-kd-369
+  projectSiteNo: '504'
+  simplifiedZh: 凌云殿北辰宫  莆田
+  traditionalZh: 凌雲殿北辰宫  莆田
+  nameEn: Lin Hoon Dian
+  address: 526A Geylang Road
+  postalCode: '389482'
+- nanyangSiteId: sct-kd-370
+  projectSiteNo: '506'
+  simplifiedZh: 六巡三合庙
+  traditionalZh: 六巡三合廟
+  nameEn: Liuxun Sanhemiao
+  address: 4-8, Ang Mo Kio Street 63 Avenue 9
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-371
+  projectSiteNo: '508'
+  simplifiedZh: 龙德佛堂
+  traditionalZh: 龍德佛堂
+  nameEn: Leng Teck Hood Yee Temple
+  address: 36 Jalan Kembangan
+  postalCode: '419110'
+- nanyangSiteId: sct-kd-372
+  projectSiteNo: '509'
+  simplifiedZh: 龙凤洞
+  traditionalZh: 龍鳳洞
+  nameEn: Ling Hong Tong Temple
+  address: 10 Bukit Batok Street 21
+  postalCode: '659632'
+- nanyangSiteId: sct-kd-373
+  projectSiteNo: '510'
+  simplifiedZh: 龙凤洞云南大伯公  联合庙
+  traditionalZh: 龍鳳洞雲南大伯公  聯合廟
+  nameEn: Ling Hong Tong Hoon Lam Tua Pek Kong
+  address: 10 Bukit Batok Street 21
+  postalCode: '659632'
+- nanyangSiteId: sct-kd-374
+  projectSiteNo: '512'
+  simplifiedZh: 龙合山宫 万礼路
+  traditionalZh: 龍合山宮 萬禮路
+  nameEn: Leng Hup San Mandai Road
+  address: 4 Teck Whye Lane
+  postalCode: '688800'
+- nanyangSiteId: sct-kd-375
+  projectSiteNo: '513'
+  simplifiedZh: 龙合山七寨庙  联合庙
+  traditionalZh: 龍合山七寨廟  聯合廟
+  nameEn: Leng Hup San Chee Chea Temple   United Temple
+  address: 4 Teck Whye Lane
+  postalCode: '688800'
+- nanyangSiteId: sct-kd-376
+  projectSiteNo: '514'
+  simplifiedZh: 龙虎山玄灵坛
+  traditionalZh: 龍虎山玄靈壇
+  nameEn: Leng Hok San Hian Leng Temple Temple
+  address: 'Blk 7, #01-518 Lorong 3 Geylang'
+  postalCode: '388960'
+- nanyangSiteId: sct-kd-377
+  projectSiteNo: '515'
+  simplifiedZh: 龙华寺
+  traditionalZh: 龍華寺
+  nameEn: Longhua Si
+  address: 67 Shrewbury Road (Off Moulmein Road)
+  postalCode: '307834'
+- nanyangSiteId: sct-kd-378
+  projectSiteNo: '516'
+  simplifiedZh: 龙华藏院
+  traditionalZh: 龍華藏院
+  nameEn: Leong Wah Si Temple
+  address: 67 Shrewsbury Road
+  postalCode: '307834'
+- nanyangSiteId: sct-kd-379
+  projectSiteNo: '517'
+  simplifiedZh: 龙莲花山宫
+  traditionalZh: 龍蓮花山宮
+  nameEn: Dragon Lotus Hill Temple
+  address: 5 Choa Chu Kang Street 51
+  postalCode: '689339'
+- nanyangSiteId: sct-kd-380
+  projectSiteNo: '518'
+  simplifiedZh: 龙南殿
+  traditionalZh: 龍南殿
+  nameEn: Leong Nam Temple
+  address: 70 Sengkang West Avenue
+  postalCode: '797651'
+- nanyangSiteId: sct-kd-381
+  projectSiteNo: '519'
+  simplifiedZh: 龙泉庙
+  traditionalZh: 龍泉廟
+  nameEn: Long Chuen Temple
+  address: 33 Kranji Loop
+  postalCode: '739565'
+- nanyangSiteId: sct-kd-382
+  projectSiteNo: '520'
+  simplifiedZh: 龙泉寺
+  traditionalZh: 龍泉寺
+  nameEn: Long Quan Si Temple
+  address: 36 / 38 Carpmael Road.
+  postalCode: '429965'
+- nanyangSiteId: sct-kd-383
+  projectSiteNo: '521'
+  simplifiedZh: 龙泉岩
+  traditionalZh: 龍泉岩
+  nameEn: Longquan Yan
+  address: 48 Ang Mo Kio Street 61
+  postalCode: '569162'
+- nanyangSiteId: sct-kd-384
+  projectSiteNo: '523'
+  simplifiedZh: 龙山宫
+  traditionalZh: 龍山宮
+  nameEn: Longshan Gong
+  address: 55 Lorong Puntong
+  postalCode: '576442'
+- nanyangSiteId: sct-kd-385
+  projectSiteNo: '524'
+  simplifiedZh: 龙山庙
+  traditionalZh: 龍山廟
+  nameEn: Longshan Miao
+  address: 485 Serangoon North Avenue 1
+  postalCode: '555890'
+- nanyangSiteId: sct-kd-386
+  projectSiteNo: '525'
+  simplifiedZh: 龙山寺
+  traditionalZh: 龍山寺
+  nameEn: Leong San See temple
+  address: 371 Race Course Road
+  postalCode: '218641'
+- nanyangSiteId: sct-kd-387
+  projectSiteNo: '526'
+  simplifiedZh: 龙山堂
+  traditionalZh: 龍山堂
+  nameEn: Long Shan Tang Temple
+  address: 9 / 11 Tessensohn Road
+  postalCode: '217647'
+- nanyangSiteId: sct-kd-388
+  projectSiteNo: '527'
+  simplifiedZh: 龙山亭 红山
+  traditionalZh: 龍山亭  紅山
+  nameEn: Longshanting Red Hill
+  address: 98T Redhill Close
+  postalCode: '158900'
+- nanyangSiteId: sct-kd-389
+  projectSiteNo: '528'
+  simplifiedZh: 龙山亭 友诺士
+  traditionalZh: 龍山亭  友諾士
+  nameEn: Longshanting Eunos
+  address: 103 Eunos Road 5
+  postalCode: '409352'
+- nanyangSiteId: sct-kd-390
+  projectSiteNo: '529'
+  simplifiedZh: 龙山岩斗母宫
+  traditionalZh: 龍山岩斗母宮
+  nameEn: Leng San Giam Dou Mu Gong
+  address: 791 Ang Mo Kio Ave 1
+  postalCode: '569974'
+- nanyangSiteId: sct-kd-391
+  projectSiteNo: '531'
+  simplifiedZh: 龙天门慈圣宮
+  traditionalZh: 龍天門慈聖宮
+  nameEn: Longtianmen Cishenggong
+  address: Blk 122 8th flr Eunos Ave 7
+  postalCode: '409575'
+- nanyangSiteId: sct-kd-392
+  projectSiteNo: '532'
+  simplifiedZh: 龙霞馆
+  traditionalZh: 龍霞館
+  nameEn: Longxia Guan
+  address: 17 Yishun Avenue 9
+  postalCode: '768890'
+- nanyangSiteId: sct-kd-393
+  projectSiteNo: '533'
+  simplifiedZh: 龙显山宫
+  traditionalZh: 龍顯山宮
+  nameEn: Longxianshan Gong
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-394
+  projectSiteNo: '535'
+  simplifiedZh: 龙须岩
+  traditionalZh: 龍須岩
+  nameEn: Longxu Yan
+  address: 741 Jurong West Street 42
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-395
+  projectSiteNo: '536'
+  simplifiedZh: 龙云宫
+  traditionalZh: 龍雲宮
+  nameEn: Longyun Gong
+  address: 'BLK 525 Hougang Ave 6 #04-181'
+  postalCode: '530525'
+- nanyangSiteId: sct-kd-396
+  projectSiteNo: '537'
+  simplifiedZh: 龙镇宫
+  traditionalZh: 龍鎮宮
+  nameEn: Leng Tian Keng
+  address: 489 Serangoon North Avenue 1
+  postalCode: '555891'
+- nanyangSiteId: sct-kd-397
+  projectSiteNo: '538'
+  simplifiedZh: 龙须岩金水馆
+  traditionalZh: 龍須岩金水館
+  nameEn: Longxuyan Jinshuiguan
+  address: 4 Ang Mo Kio Street 63 Avenue 9
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-398
+  projectSiteNo: '539'
+  simplifiedZh: 洛伽山庄  佛学会
+  traditionalZh: 洛伽山莊  佛學會
+  nameEn: Luojia Shanzhuang Foxuehui
+  address: 305, River Valley Road
+  postalCode: '238346'
+- nanyangSiteId: sct-kd-399
+  projectSiteNo: '540'
+  simplifiedZh: 洛口齐忠坛
+  traditionalZh: 洛口齊忠壇
+  nameEn: Luokou Qizhong Tan
+  address: 'BLK 38 Tanglin Halt Road #01-119'
+  postalCode: '140038'
+- nanyangSiteId: sct-kd-400
+  projectSiteNo: '541'
+  simplifiedZh: 洛阳大伯公
+  traditionalZh: 洛陽大伯公
+  nameEn: Luoyang Dabogong
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-401
+  projectSiteNo: '542'
+  simplifiedZh: 洛阳大伯公宫
+  traditionalZh: 洛陽大伯公宮
+  nameEn: Loyang Tua Pek Kong Temple
+  address: 20 Loyang Way
+  postalCode: '508774'
+- nanyangSiteId: sct-kd-402
+  projectSiteNo: '543'
+  simplifiedZh: 洛阳天公坛
+  traditionalZh: 洛陽天公壇
+  nameEn: Luoyang Tiangong Tan
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-403
+  projectSiteNo: '544'
+  simplifiedZh: 慧严佛学会
+  traditionalZh: 慧嚴佛學會
+  nameEn: Huiyan Foxuehui
+  address: 11 Lorong 35 Geylang
+  postalCode: '387943'
+- nanyangSiteId: sct-kd-404
+  projectSiteNo: '546'
+  simplifiedZh: 茅山天音法坛恒佛寺
+  traditionalZh: 茅山天音法壇恆佛寺
+  nameEn: Maoshan Tianyin Fatan Hengfo Si
+  address: 370 Race Course Road
+  postalCode: '218640'
+- nanyangSiteId: sct-kd-405
+  projectSiteNo: '547'
+  simplifiedZh: 梅峰佛心禅寺
+  traditionalZh: 梅峰佛心禪寺
+  nameEn: Meifeng Foxin Chansi
+  address: 19 Lor 27 Geylang
+  postalCode: ''
+- nanyangSiteId: sct-kd-406
+  projectSiteNo: '548'
+  simplifiedZh: 緬甸玉佛寺
+  traditionalZh: 緬甸玉佛寺
+  nameEn: Burmese Buddhist Temple
+  address: 14 Tai Gin Road
+  postalCode: '327873'
+- nanyangSiteId: sct-kd-407
+  projectSiteNo: '550'
+  simplifiedZh: 妙威坛
+  traditionalZh: 妙威壇
+  nameEn: Miao Wei Tan
+  address: 'BLK 115 Jurong East St 13 #10-384'
+  postalCode: '600115'
+- nanyangSiteId: sct-kd-408
+  projectSiteNo: '551'
+  simplifiedZh: 妙音觉苑
+  traditionalZh: 妙音覺苑
+  nameEn: Meow Im Kok Yuen Tp
+  address: 9 Jalan Lateh
+  postalCode: '359108'
+- nanyangSiteId: sct-kd-409
+  projectSiteNo: '552'
+  simplifiedZh: 妙音坛
+  traditionalZh: 妙音壇
+  nameEn: Miaoyin Tan
+  address: 'BLK 157 #07-70 Mei Ling Street'
+  postalCode: '140157'
+- nanyangSiteId: sct-kd-410
+  projectSiteNo: '555'
+  simplifiedZh: 闽王氏宗祠
+  traditionalZh: 閩王氏宗祠
+  nameEn: Seh Ong Charity
+  address: 560 Bukit Batok Street 23
+  postalCode: '658115'
+- nanyangSiteId: sct-kd-411
+  projectSiteNo: '557'
+  simplifiedZh: 鸣凤坛
+  traditionalZh: 鳴鳳壇
+  nameEn: Meng Hong Thua
+  address: 'BLK 30 #08-35 Jalan Klinik'
+  postalCode: '160030'
+- nanyangSiteId: sct-kd-412
+  projectSiteNo: '558'
+  simplifiedZh: 鸣凤坛公庙
+  traditionalZh: 鳴鳳壇公廟
+  nameEn: Mingfengtan Gongmiao
+  address: Blk 690 Hougang St 61
+  postalCode: ''
+- nanyangSiteId: sct-kd-413
+  projectSiteNo: '559'
+  simplifiedZh: 明光坛
+  traditionalZh: 明光壇
+  nameEn: Mingguang Tan
+  address: 'BLK 683A Choa Chu Kang Crescent #01-404'
+  postalCode: '681683'
+- nanyangSiteId: sct-kd-414
+  projectSiteNo: '560'
+  simplifiedZh: 明愿阁
+  traditionalZh: 明願閣
+  nameEn: Mingyuan Ge
+  address: 320 Circuit Road
+  postalCode: '379483'
+- nanyangSiteId: sct-kd-415
+  projectSiteNo: '562'
+  simplifiedZh: 木山宫
+  traditionalZh: 木山宮
+  nameEn: Mushan Gong
+  address: 21 Bangkit Road
+  postalCode: '679971'
+- nanyangSiteId: sct-kd-416
+  projectSiteNo: '563'
+  simplifiedZh: 木山圣母宫
+  traditionalZh: 木山聖母宮
+  nameEn: Bak Sua Siah Boo
+  address: 21 Bangkit Road
+  postalCode: '679971'
+- nanyangSiteId: sct-kd-417
+  projectSiteNo: '564'
+  simplifiedZh: 拿督坛保安宫天德宫
+  traditionalZh: 拿督壇保安天德宮
+  nameEn: Nadutan Baoan Tiande Gong
+  address: 95 Tampines Link
+  postalCode: '528745'
+- nanyangSiteId: sct-kd-418
+  projectSiteNo: '567'
+  simplifiedZh: 南安善堂
+  traditionalZh: 南安善堂
+  nameEn: Nam Ann Siang Theon Tp
+  address: 36E Paya Lebar Crescent
+  postalCode: '536067'
+- nanyangSiteId: sct-kd-419
+  projectSiteNo: '568'
+  simplifiedZh: 南大齐玄坛
+  traditionalZh: 南大齊玄壇
+  nameEn: Nanda Qixuan Tan
+  address: 'BLK 737 Jurong West St 75 #05-55'
+  postalCode: '640737'
+- nanyangSiteId: sct-kd-420
+  projectSiteNo: '569'
+  simplifiedZh: 南岛天心洞
+  traditionalZh: 南島天心洞
+  nameEn: Nandao Tianxin Dong
+  address: 399A Guillemard Rd
+  postalCode: '399793'
+- nanyangSiteId: sct-kd-421
+  projectSiteNo: '571'
+  simplifiedZh: 南风善堂
+  traditionalZh: 南風善堂
+  nameEn: Nam Hong Siang Theon
+  address: 475 Yishun Ring Road
+  postalCode: '768678'
+- nanyangSiteId: sct-kd-422
+  projectSiteNo: '572'
+  simplifiedZh: 南凤善堂
+  traditionalZh: 南鳳善堂
+  nameEn: Nam Hong Siang Theon
+  address: 561 Yishun Ring Road
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-423
+  projectSiteNo: '573'
+  simplifiedZh: 南府玄善庙
+  traditionalZh: 南府玄善廟
+  nameEn: Nanfu Xuanshan Miao
+  address: 'BLK 853 Jurong West St 81 #08-323'
+  postalCode: '640853'
+- nanyangSiteId: sct-kd-424
+  projectSiteNo: '575'
+  simplifiedZh: 南海飞来寺
+  traditionalZh: 南海飛來寺
+  nameEn: Nan Hai Fei Lai Temple
+  address: 35 Lorong 27 Geylang
+  postalCode: '388170'
+- nanyangSiteId: sct-kd-425
+  projectSiteNo: '576'
+  simplifiedZh: 南海宫
+  traditionalZh: 南海宮
+  nameEn: Nam Hai Kieng
+  address: '9 Lor 35 Geylang #02-01'
+  postalCode: '387941'
+- nanyangSiteId: sct-kd-426
+  projectSiteNo: '577'
+  simplifiedZh: 南海觀福壇
+  traditionalZh: 南海觀福壇
+  nameEn: Lam Hai Kwan Hock Tua
+  address: 253A Choa Chu Kang Ave 1
+  postalCode: '689956'
+- nanyangSiteId: sct-kd-427
+  projectSiteNo: '580'
+  simplifiedZh: 南海普陀山寺
+  traditionalZh: 南海普陀山寺
+  nameEn: Lam Hai Poh Toh San Temple
+  address: 825B Chuan Hoe Avenue
+  postalCode: '549853'
+- nanyangSiteId: sct-kd-428
+  projectSiteNo: '582'
+  simplifiedZh: 南海寺
+  traditionalZh: 南海寺
+  nameEn: Nan Hai Temple
+  address: 11 Ava Road
+  postalCode: '329950'
+- nanyangSiteId: sct-kd-429
+  projectSiteNo: '583'
+  simplifiedZh: 南音坛
+  traditionalZh: 南音壇
+  nameEn: Nam Im Tuan Temple
+  address: 'BLK 547 Serangoon North Ave 3 #12-152'
+  postalCode: '550547'
+- nanyangSiteId: sct-kd-430
+  projectSiteNo: '585'
+  simplifiedZh: 南莱殿
+  traditionalZh: 南萊殿
+  nameEn: Nanlai Dian
+  address: 'Blk 119 Chua Chu Kang Road #07-782'
+  postalCode: '680119'
+- nanyangSiteId: sct-kd-431
+  projectSiteNo: '590'
+  simplifiedZh: 南山海庙
+  traditionalZh: 南山海廟
+  nameEn: Nanshanhai Miao
+  address: 701 Bedok Reservoir Rd
+  postalCode: '470701'
+- nanyangSiteId: sct-kd-432
+  projectSiteNo: '596'
+  simplifiedZh: 南天宫
+  traditionalZh: 南天宮
+  nameEn: Nantian Gong
+  address: 'Blk 916 Tampines Street 91 #01-77'
+  postalCode: '520916'
+- nanyangSiteId: sct-kd-433
+  projectSiteNo: '599'
+  simplifiedZh: 南仙坛
+  traditionalZh: 南仙壇
+  nameEn: Nanxian Tan
+  address: '119 Bukit Merah View #12-63'
+  postalCode: '152119'
+- nanyangSiteId: sct-kd-434
+  projectSiteNo: '603'
+  simplifiedZh: 南洋圣教总会
+  traditionalZh: 南洋聖教總會
+  nameEn: Nanyang Sacred Union
+  address: 253 River Valley Road
+  postalCode: '238304'
+- nanyangSiteId: sct-kd-435
+  projectSiteNo: '604'
+  simplifiedZh: 南洋同奉善堂
+  traditionalZh: 南洋同奉善堂
+  nameEn: Nanyang Thong Hong Siang Thng Tp
+  address: 63 Anchorvale Walk
+  postalCode: '545060'
+- nanyangSiteId: sct-kd-436
+  projectSiteNo: '605'
+  simplifiedZh: 南洋德教总会
+  traditionalZh: 南洋德教總會
+  nameEn: Nanyang Moral Uplifting General Society
+  address: 90 Cuscaden Road
+  postalCode: '249725'
+- nanyangSiteId: sct-kd-437
+  projectSiteNo: '606'
+  simplifiedZh: 南洋德教总会紫新阁  联合庙
+  traditionalZh: 南洋德教總會紫新閣  聯合廟
+  nameEn: Nanyang Moral Uplifting General Society Che Sen Khor Moral Uplifting Society   United
+    Temple
+  address: 90 Cuscaden Road
+  postalCode: '249725'
+- nanyangSiteId: sct-kd-438
+  projectSiteNo: '607'
+  simplifiedZh: 南云宫
+  traditionalZh: 南雲宮
+  nameEn: Nanyun Gong
+  address: 'Blk 4 Ghin Moh Road #11-250'
+  postalCode: '270004'
+- nanyangSiteId: sct-kd-439
+  projectSiteNo: '609'
+  simplifiedZh: 哪吒坛
+  traditionalZh: 哪吒壇
+  nameEn: Nezha Tan
+  address: 12 Ruby Lane
+  postalCode: '328287'
+- nanyangSiteId: sct-kd-440
+  projectSiteNo: '610'
+  simplifiedZh: 哪吒行宫道教协会
+  traditionalZh: 哪吒行宮道教協會
+  nameEn: Ne Zha Taoist Association
+  address: 399-B, Guillemard Road
+  postalCode: '399793'
+- nanyangSiteId: sct-kd-441
+  projectSiteNo: '611'
+  simplifiedZh: 内观禅修中心   新加坡
+  traditionalZh: 內觀禪修中心  新加坡
+  nameEn: VIPASSANA MEDITATION CENTRE   SINGAPORE
+  address: 1 Paya Lebar Walk
+  postalCode: '535926'
+- nanyangSiteId: sct-kd-442
+  projectSiteNo: '612'
+  simplifiedZh: 宁玛巴白玉佛教中心
+  traditionalZh: 寧瑪巴白玉佛教中心
+  nameEn: PALYUL NYINGMA BUDDHIST ASSOCIATION
+  address: 17 H Geylang Lorong 15 T
+  postalCode: '388608'
+- nanyangSiteId: sct-kd-443
+  projectSiteNo: '613'
+  simplifiedZh: 藏传  宁玛巴噶陀佛学会
+  traditionalZh: 藏傳  寧瑪巴噶陀佛學會
+  nameEn: NYINGMA KATHOK BUDDHIST CENTRE
+  address: 397 Guillemard Road
+  postalCode: '399792'
+- nanyangSiteId: sct-kd-444
+  projectSiteNo: '617'
+  simplifiedZh: 鹏峰宫
+  traditionalZh: 鵬峰宮
+  nameEn: Peng Hong Temple
+  address: 432 Geylang Lor 3
+  postalCode: '388903'
+- nanyangSiteId: sct-kd-445
+  projectSiteNo: '618'
+  simplifiedZh: 蓬莱殿
+  traditionalZh: 蓬萊殿
+  nameEn: Penglai Dian
+  address: 26 Admiralty Street
+  postalCode: '757613'
+- nanyangSiteId: sct-kd-446
+  projectSiteNo: '619'
+  simplifiedZh: 蓬莱寺
+  traditionalZh: 蓬萊寺
+  nameEn: Hong Lai Sze Ltd
+  address: 150 Hougang Avenue 1
+  postalCode: '538886'
+- nanyangSiteId: sct-kd-447
+  projectSiteNo: '620'
+  simplifiedZh: 霹靂坛  芽笼
+  traditionalZh: 霹靂壇  芽籠
+  nameEn: Pili Tan  Geylang
+  address: Geylang East Ave 3 Blk 1016
+  postalCode: '389731'
+- nanyangSiteId: sct-kd-448
+  projectSiteNo: '621'
+  simplifiedZh: 霹雳坛  阿裕尼
+  traditionalZh: 霹靂壇  阿裕尼
+  nameEn: Pili Tan  Aljunied
+  address: 'BLK 105 Aljunied Crescent #10-221'
+  postalCode: '380105'
+- nanyangSiteId: sct-kd-449
+  projectSiteNo: '622'
+  simplifiedZh: 毗卢寺  天竺山
+  traditionalZh: 毗盧寺  天竺山
+  nameEn: Bee Low See Temple   Thin Chof Sun
+  address: 71b Jalan Jurong Kechil
+  postalCode: '598588'
+- nanyangSiteId: sct-kd-450
+  projectSiteNo: '625'
+  simplifiedZh: 普庵宫
+  traditionalZh: 普庵宮
+  nameEn: Puan Gong
+  address: ' 31 Woodlands Close, #08-09 Woodlands Horizon'
+  postalCode: '737855'
+- nanyangSiteId: sct-kd-451
+  projectSiteNo: '626'
+  simplifiedZh: 普德善堂
+  traditionalZh: 普德善堂
+  nameEn: Phoh Teck Siang Tng Temple
+  address: 106 Pasir Panjang Road
+  postalCode: '118534'
+- nanyangSiteId: sct-kd-452
+  projectSiteNo: '627'
+  simplifiedZh: 普觀堂
+  traditionalZh: 普觀堂
+  nameEn: Pu Guan Tang Buddhist Society
+  address: 5 Geylang Lor 9
+  postalCode: '388753'
+- nanyangSiteId: sct-kd-453
+  projectSiteNo: '629'
+  simplifiedZh: 般若念佛堂
+  traditionalZh: 般若念佛堂
+  nameEn: Puat Jit Buddhist Temple
+  address: 344 Jalan Woodbridge
+  postalCode: '548506'
+- nanyangSiteId: sct-kd-454
+  projectSiteNo: '631'
+  simplifiedZh: 普济寺
+  traditionalZh: 普濟寺
+  nameEn: Poh Jay Buddhist Research Institue
+  address: 66 Lorong G Telok Kurau
+  postalCode: '426248'
+- nanyangSiteId: sct-kd-455
+  projectSiteNo: '632'
+  simplifiedZh: 普救善堂
+  traditionalZh: 普救善堂
+  nameEn: Phoh Kiu Siang Tng Tp
+  address: 15 Simon Lane
+  postalCode: '546040'
+- nanyangSiteId: sct-kd-456
+  projectSiteNo: '633'
+  simplifiedZh: 普明寺
+  traditionalZh: 普明寺
+  nameEn: Poh Ming Tse Temple
+  address: 438 Dunearn Road
+  postalCode: '289613'
+- nanyangSiteId: sct-kd-457
+  projectSiteNo: '634'
+  simplifiedZh: 普平寺
+  traditionalZh: 普平寺
+  nameEn: Chin Pin Tze
+  address: 'BLK 924 Tampines Street 91 #08-258'
+  postalCode: '520925'
+- nanyangSiteId: sct-kd-458
+  projectSiteNo: '635'
+  simplifiedZh: 普平寺善联山宫
+  traditionalZh: 普平寺善聯山宮
+  nameEn: Chin Pin Tze San Lian Sun
+  address: 'BLK 924 Tampines Street 91 #08-257'
+  postalCode: '520924'
+- nanyangSiteId: sct-kd-459
+  projectSiteNo: '637'
+  simplifiedZh: 菩提佛院
+  traditionalZh: 菩提佛院
+  nameEn: Pu Ti Buddhist Temple
+  address: 121C Punggol Road
+  postalCode: '546637'
+- nanyangSiteId: sct-kd-460
+  projectSiteNo: '638'
+  simplifiedZh: 菩提阁
+  traditionalZh: 菩提閣
+  nameEn: Phou Tai Kok Tp   MAHABODHI MONASTERY
+  address: 8 Lorong Kilat
+  postalCode: '598114'
+- nanyangSiteId: sct-kd-461
+  projectSiteNo: '639'
+  simplifiedZh: 菩提兰若
+  traditionalZh: 菩提蘭若
+  nameEn: Puti Lanruo
+  address: 37 Saint Patrick's Road.
+  postalCode: '424161'
+- nanyangSiteId: sct-kd-462
+  projectSiteNo: '640'
+  simplifiedZh: 菩提协会
+  traditionalZh: 菩提協會
+  nameEn: The Bodhi Association
+  address: 15 Lorong 10 Geylang
+  postalCode: '399046'
+- nanyangSiteId: sct-kd-463
+  projectSiteNo: '641'
+  simplifiedZh: 普陀寺
+  traditionalZh: 普陀寺
+  nameEn: Poo Thor Jee Temple
+  address: 7 Yan Kit Road
+  postalCode: '88262'
+- nanyangSiteId: sct-kd-464
+  projectSiteNo: '642'
+  simplifiedZh: 普贤讲堂
+  traditionalZh: 普賢講堂
+  nameEn: Pu Xian Buddhist Society
+  address: 217-A Lorong 7 Geylang Road
+  postalCode: '389277'
+- nanyangSiteId: sct-kd-465
+  projectSiteNo: '643'
+  simplifiedZh: 普音堂
+  traditionalZh: 普音堂
+  nameEn: Puyin Tang
+  address: 'BLK 131 Bishan St 21 #02-211'
+  postalCode: '570131'
+- nanyangSiteId: sct-kd-466
+  projectSiteNo: '644'
+  simplifiedZh: 普照禅寺
+  traditionalZh: 普照禪寺
+  nameEn: Pu Zhao Chan Si Temple
+  address: 3 Lorong Marican
+  postalCode: '417204'
+- nanyangSiteId: sct-kd-467
+  projectSiteNo: '645'
+  simplifiedZh: 普忠殿助善堂
+  traditionalZh: 普忠殿助善堂
+  nameEn: Poh Chung Tian Chor Sian Tong
+  address: 201 Toa Payoh Lorong 6
+  postalCode: '319385'
+- nanyangSiteId: sct-kd-468
+  projectSiteNo: '646'
+  simplifiedZh: 普照庙
+  traditionalZh: 普照廟
+  nameEn: ''
+  address: 44 Lorong 25A Geylang
+  postalCode: '388244'
+- nanyangSiteId: sct-kd-469
+  projectSiteNo: '647'
+  simplifiedZh: 普忠庙
+  traditionalZh: 普忠廟
+  nameEn: Poh Tiong Kiong Temple
+  address: 48 Lorong 25a Geylang
+  postalCode: '388266'
+- nanyangSiteId: sct-kd-470
+  projectSiteNo: '648'
+  simplifiedZh: 齐保坛
+  traditionalZh: 齊保壇
+  nameEn: ''
+  address: '5 Soon Lee Street Pioneer Point #06-40'
+  postalCode: '627607'
+- nanyangSiteId: sct-kd-471
+  projectSiteNo: '649'
+  simplifiedZh: 七福宫
+  traditionalZh: 七福宮
+  nameEn: Chi Hock Keng Temple
+  address: 15 Fajar Road
+  postalCode: '679003'
+- nanyangSiteId: sct-kd-472
+  projectSiteNo: '650'
+  simplifiedZh: 七福宫联合宫
+  traditionalZh: 七福宮  聯合宮
+  nameEn: Chi Hock Keng United Temple
+  address: 15 Fajar Road
+  postalCode: '679003'
+- nanyangSiteId: sct-kd-473
+  projectSiteNo: '652'
+  simplifiedZh: 齐南坛
+  traditionalZh: 齊南壇
+  nameEn: Chay Lam Dua
+  address: 'Blk 827 Jurong West Street #08-282'
+  postalCode: '640827'
+- nanyangSiteId: sct-kd-474
+  projectSiteNo: '654'
+  simplifiedZh: 齐神宫
+  traditionalZh: 齊神宮
+  nameEn: Chee Seng Temple
+  address: 17  Choa Chu Kang Street 51
+  postalCode: '689337'
+- nanyangSiteId: sct-kd-475
+  projectSiteNo: '655'
+  simplifiedZh: 武吉巴督齐天宫
+  traditionalZh: 武吉巴督齊天宮
+  nameEn: Wujibadu Qitiangong
+  address: 'BLK 116 Bukit Batok West Ave 6 #04-224'
+  postalCode: '650116'
+- nanyangSiteId: sct-kd-476
+  projectSiteNo: '656'
+  simplifiedZh: 齐天宫中峇鲁
+  traditionalZh: 齊天宮中峇魯
+  nameEn: Qui Tian Gong Temple Tiong Bahru
+  address: 44 Eng Hoon Street
+  postalCode: '169786'
+- nanyangSiteId: sct-kd-477
+  projectSiteNo: '657'
+  simplifiedZh: 齐天坛
+  traditionalZh: 齊天壇
+  nameEn: Qi Tian Tan Temple
+  address: 98 Depot Road
+  postalCode: '109669'
+- nanyangSiteId: sct-kd-478
+  projectSiteNo: '659'
+  simplifiedZh: 七星宫
+  traditionalZh: 七星宮
+  nameEn: Zeh Shing Keong Temple
+  address: 20 Jalan Keli
+  postalCode: '577905'
+- nanyangSiteId: sct-kd-479
+  projectSiteNo: '660'
+  simplifiedZh: 齐玄坛
+  traditionalZh: 齊玄壇
+  nameEn: Qixuan Tan
+  address: 'BLK 128 Bukit Merah View #04-36'
+  postalCode: '150128'
+- nanyangSiteId: sct-kd-480
+  projectSiteNo: '662'
+  simplifiedZh: 柒阴坛
+  traditionalZh: 柒陰壇
+  nameEn: Qiyin Tan
+  address: 'Blk 1 Hougang Ave 3, #02-300'
+  postalCode: '530001'
+- nanyangSiteId: sct-kd-481
+  projectSiteNo: '663'
+  simplifiedZh: 七寨龙泉庙 联合庙
+  traditionalZh: 七寨龍泉廟   聯合廟
+  nameEn: Chek Chai Long Chuen Temple
+  address: 33 Kranji Loop
+  postalCode: '739565'
+- nanyangSiteId: sct-kd-482
+  projectSiteNo: '664'
+  simplifiedZh: 七寨庙
+  traditionalZh: 七寨廟
+  nameEn: Chek Chai Temple
+  address: 33 Kranji Loop
+  postalCode: '739565'
+- nanyangSiteId: sct-kd-483
+  projectSiteNo: '666'
+  simplifiedZh: 林厝港阿妈宫路七寨庙
+  traditionalZh: 七寨廟  林厝港阿媽宮路
+  nameEn: Chee Chea Temple   Lim Chu Gang Ah Ma Keng Road
+  address: 4 Teck Whye Lane
+  postalCode: '688800'
+- nanyangSiteId: sct-kd-484
+  projectSiteNo: '667'
+  simplifiedZh: 谦福律天公坛
+  traditionalZh: 謙福律天公壇
+  nameEn: Tian Gong Tan Temple
+  address: 101A Sin Min Industrial Estate, Sin Ming Rd
+  postalCode: '575593'
+- nanyangSiteId: sct-kd-485
+  projectSiteNo: '670'
+  simplifiedZh: 乾坤庙
+  traditionalZh: 乾坤廟
+  nameEn: Qiankun Miao
+  address: 103 Eunos Road 5
+  postalCode: '409352'
+- nanyangSiteId: sct-kd-486
+  projectSiteNo: '673'
+  simplifiedZh: 伽陀精舍
+  traditionalZh: 伽陀精舍
+  nameEn: Katho Chengsia Temple
+  address: 18 Lorong 31 Geylang
+  postalCode: '388026'
+- nanyangSiteId: sct-kd-487
+  projectSiteNo: '674'
+  simplifiedZh: 清德宫
+  traditionalZh: 清德宮
+  nameEn: Qing De Gong Temple
+  address: 52 Truro Road
+  postalCode: '217589'
+- nanyangSiteId: sct-kd-488
+  projectSiteNo: '675'
+  simplifiedZh: 庆德楼
+  traditionalZh: 慶德樓
+  nameEn: Keng Teck Whay
+  address: 32 Lorong 104 Changi Road
+  postalCode: '426576'
+- nanyangSiteId: sct-kd-489
+  projectSiteNo: '676'
+  simplifiedZh: 清德堂
+  traditionalZh: 清德堂
+  nameEn: Qing De Tang Temple
+  address: 13 Lorong Ampas
+  postalCode: '328777'
+- nanyangSiteId: sct-kd-490
+  projectSiteNo: '677'
+  simplifiedZh: 清莲寺
+  traditionalZh: 清蓮寺
+  nameEn: Cheng Lim See Temple
+  address: 8/10 Jalan Soo Bee
+  postalCode: '488112'
+- nanyangSiteId: sct-kd-491
+  projectSiteNo: '678'
+  simplifiedZh: 清凉精舍
+  traditionalZh: 清涼精舍
+  nameEn: Qingliang Jingshe
+  address: 84-B Lorong 25A Geylang
+  postalCode: '388262'
+- nanyangSiteId: sct-kd-492
+  projectSiteNo: '679'
+  simplifiedZh: 青龙宫 芽笼
+  traditionalZh: 青龍宮
+  nameEn: Chi Leng Keng Geylang
+  address: 193 Lorong 23 Geylang
+  postalCode: '388407'
+- nanyangSiteId: sct-kd-493
+  projectSiteNo: '681'
+  simplifiedZh: 清水庙东圣殿
+  traditionalZh: 清水廟東聖殿
+  nameEn: Chin Chwee Temple
+  address: '11 Woodlands Industrial Park E8, # 01 - 03'
+  postalCode: '757701'
+- nanyangSiteId: sct-kd-494
+  projectSiteNo: '684'
+  simplifiedZh: 青云联合庙
+  traditionalZh: 青雲聯合廟
+  nameEn: Qing Yun Combined Tp
+  address: 16 -20 Hougang Street 11
+  postalCode: '538746'
+- nanyangSiteId: sct-kd-495
+  projectSiteNo: '685'
+  simplifiedZh: 青云庙
+  traditionalZh: 青雲廟
+  nameEn: Qing Yun Temple
+  address: 20 Hougang Street 11
+  postalCode: '538748'
+- nanyangSiteId: sct-kd-496
+  projectSiteNo: '686'
+  simplifiedZh: 琼山塔市关圣帝君坛
+  traditionalZh: 瓊山塔市關聖帝君壇
+  nameEn: Qiongshan Tashi Guansheng Dijun Tan
+  address: 'BLK 205 Toa PayohNorth #05-1147'
+  postalCode: '310205'
+- nanyangSiteId: sct-kd-497
+  projectSiteNo: '687'
+  simplifiedZh: 琼瑶教邸
+  traditionalZh: 瓊瑤教邸
+  nameEn: Qiong Yao Jiao Di Temple   Jurong Temple
+  address: '741 Jurong West Street 42, #01-01'
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-498
+  projectSiteNo: '688'
+  simplifiedZh: 琼瑶仙教
+  traditionalZh: 瓊瑤仙教
+  nameEn: Qiongyao Xianjiao
+  address: 10 C Lorong 22 Geylang
+  postalCode: '398669'
+- nanyangSiteId: sct-kd-499
+  projectSiteNo: '689'
+  simplifiedZh: 琼州天后宫
+  traditionalZh: 瓊州天后宮
+  nameEn: Qiongzhou Tianhougong
+  address: 47 Beach Road
+  postalCode: '189683'
+- nanyangSiteId: sct-kd-500
+  projectSiteNo: '690'
+  simplifiedZh: 全盛宫
+  traditionalZh: 全盛宮
+  nameEn: Feng Shan Tang Jin Fa Dian Quan Sheng Gong
+  address: 4 \ 6 \ 8 Ang Mo Kio St 63 Avenue 9, Singapore
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-501
+  projectSiteNo: '691'
+  simplifiedZh: 惹兰加由联合庙
+  traditionalZh: 惹蘭加由聯合廟
+  nameEn: Jalan Kayu Joint Temple
+  address: 70 Sengkang West Avenue
+  postalCode: '797651'
+- nanyangSiteId: sct-kd-502
+  projectSiteNo: '692'
+  simplifiedZh: 惹亚曼加佛寺
+  traditionalZh: 惹亞曼加佛寺
+  nameEn: Jayamangal Buddhist Temple, The
+  address: 24 Sirat Road
+  postalCode: '545782'
+- nanyangSiteId: sct-kd-503
+  projectSiteNo: '693'
+  simplifiedZh: 壬慈观
+  traditionalZh: 壬慈觀
+  nameEn: Renci Guan
+  address: 'BLK 557 Ang Mo Kio Ave 10 #02-1874'
+  postalCode: '560557'
+- nanyangSiteId: sct-kd-504
+  projectSiteNo: '694'
+  simplifiedZh: 日蓮宗
+  traditionalZh: 日蓮宗
+  nameEn: Nichiren Shoushu Buddhist Association
+  address: 177 Sims Avenue
+  postalCode: '387493'
+- nanyangSiteId: sct-kd-505
+  projectSiteNo: '695'
+  simplifiedZh: 如是我闻
+  traditionalZh: 如是我聞
+  nameEn: Rushi Wowen
+  address: 34 Lorong Kilat
+  postalCode: '598133'
+- nanyangSiteId: sct-kd-506
+  projectSiteNo: '696'
+  simplifiedZh: 如望佛學社
+  traditionalZh: 如望佛學社
+  nameEn: Ruwan Buddhist Society
+  address: 87 Aida Street
+  postalCode: '459988'
+- nanyangSiteId: sct-kd-507
+  projectSiteNo: '697'
+  simplifiedZh: 三安府
+  traditionalZh: 叁安府
+  nameEn: Sanan Fu
+  address: 4 \ 6 \ 8 Ang Mo Kio St 63
+  postalCode: '569112'
+- nanyangSiteId: sct-kd-508
+  projectSiteNo: '698'
+  simplifiedZh: 三巴旺财神庙
+  traditionalZh: 叁巴旺財神廟
+  nameEn: Sembawang God of Wealth Temple
+  address: 28 Admiralty Street
+  postalCode: '757611'
+- nanyangSiteId: sct-kd-509
+  projectSiteNo: '699'
+  simplifiedZh: 三巴旺成邦联合庙
+  traditionalZh: 叁巴旺成邦聯合廟
+  nameEn: Sanbawang Chengbang Lianhemiao
+  address: 475 Yishun Ring Road
+  postalCode: '768678'
+- nanyangSiteId: sct-kd-510
+  projectSiteNo: '700'
+  simplifiedZh: 三巴旺联合宫
+  traditionalZh: 叁巴旺聯合宮
+  nameEn: Sembawang United Temple
+  address: 24/26/28 Admiralty Stree
+  postalCode: '757611'
+- nanyangSiteId: sct-kd-511
+  projectSiteNo: '701'
+  simplifiedZh: 三巴旺天后宫
+  traditionalZh: 叁巴旺天后宮
+  nameEn: Sembawang Tian Ho Keng
+  address: 24 Admiralty Street
+  postalCode: '757612'
+- nanyangSiteId: sct-kd-512
+  projectSiteNo: '702'
+  simplifiedZh: 三巴旺天云殿财神庙
+  traditionalZh: 叁巴旺天雲殿財神廟
+  nameEn: Sembawang Tian Hoon Tien   God of Wealth Temple
+  address: 28 Admiralty Street
+  postalCode: '757611'
+- nanyangSiteId: sct-kd-513
+  projectSiteNo: '703'
+  simplifiedZh: 三宝佛光寺
+  traditionalZh: 叁寶佛光寺
+  nameEn: Lord Buddha Temple
+  address: 24 Arumugam Road
+  postalCode: '409963'
+- nanyangSiteId: sct-kd-514
+  projectSiteNo: '704'
+  simplifiedZh: 三宝佛教会
+  traditionalZh: 叁寶佛教會
+  nameEn: Tisarana Buddhist Association
+  address: 90 Duku Road
+  postalCode: '429254'
+- nanyangSiteId: sct-kd-515
+  projectSiteNo: '706'
+  simplifiedZh: 三宝堂
+  traditionalZh: 叁寶堂
+  nameEn: Sanbao Tang
+  address: 70 Lor L Telok Kurau
+  postalCode: '425511'
+- nanyangSiteId: sct-kd-516
+  projectSiteNo: '708'
+  simplifiedZh: 三皇五帝
+  traditionalZh: 叁皇五帝
+  nameEn: San Wang Wu Ti Religious Society
+  address: 151 Braddell Rd
+  postalCode: '359934'
+- nanyangSiteId: sct-kd-517
+  projectSiteNo: '709'
+  simplifiedZh: 三江公祠
+  traditionalZh: 叁江公祠
+  nameEn: San Jiang Gong Ci Tp
+  address: 96 Depot Road
+  postalCode: '109668'
+- nanyangSiteId: sct-kd-518
+  projectSiteNo: '713'
+  simplifiedZh: 三龙坛
+  traditionalZh: 叁龍壇
+  nameEn: Sanlong Tan
+  address: 129 Ang Mo Kio Ave 3
+  postalCode: '560129'
+- nanyangSiteId: sct-kd-519
+  projectSiteNo: '714'
+  simplifiedZh: 三清宫
+  traditionalZh: 叁清宮
+  nameEn: Sanqing Gong
+  address: 21 Bedok North Ave 4
+  postalCode: '489948'
+- nanyangSiteId: sct-kd-520
+  projectSiteNo: '718'
+  simplifiedZh: 三坛白龙宫
+  traditionalZh: 叁壇白龍宮
+  nameEn: Santan Bailong Gong
+  address: 'Blk 321 Woodlands Street 32 #02-235'
+  postalCode: '730321'
+- nanyangSiteId: sct-kd-521
+  projectSiteNo: '721'
+  simplifiedZh: 三童子兴坛
+  traditionalZh: 叁童子興壇
+  nameEn: San Tong Zi Xing Tan
+  address: 'BLK 525 Bedok North St 3 #10-106'
+  postalCode: '460525'
+- nanyangSiteId: sct-kd-522
+  projectSiteNo: '724'
+  simplifiedZh: 三中宫
+  traditionalZh: 叁中宮
+  nameEn: Sanzhong Gong
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-523
+  projectSiteNo: '730'
+  simplifiedZh: 善德堂
+  traditionalZh: 善德堂
+  nameEn: Sian Teck Tng Vegetarian Convent
+  address: 57 Cuppage Road
+  postalCode: '229468'
+- nanyangSiteId: sct-kd-524
+  projectSiteNo: '731'
+  simplifiedZh: 上帝庙
+  traditionalZh: 上帝廟
+  nameEn: Shandi Miao
+  address: 10 Marsiling Industrial Estate Road 3
+  postalCode: '739254'
+- nanyangSiteId: sct-kd-525
+  projectSiteNo: '732'
+  simplifiedZh: 善法殿
+  traditionalZh: 善法殿
+  nameEn: Shanfa Dian
+  address: BLK 13 NO 682 Geylang Lorong 3
+  postalCode: '389042'
+- nanyangSiteId: sct-kd-526
+  projectSiteNo: '733'
+  simplifiedZh: 善福堂
+  traditionalZh: 善福堂
+  nameEn: Shan Fook Tong Temple
+  address: 5 - 7 Lorong 7 Geylang
+  postalCode: '388789'
+- nanyangSiteId: sct-kd-527
+  projectSiteNo: '734'
+  simplifiedZh: 善联山
+  traditionalZh: 善聯山
+  nameEn: San Lian Sun
+  address: 'BLK 924 Tampines Street 91 #08-259'
+  postalCode: '520926'
+- nanyangSiteId: sct-kd-528
+  projectSiteNo: '735'
+  simplifiedZh: 善莲山宫
+  traditionalZh: 善蓮山宮
+  nameEn: Shanlianshan Gong
+  address: 7 Bedok North Street 5, Ave 4
+  postalCode: '485874'
+- nanyangSiteId: sct-kd-529
+  projectSiteNo: '736'
+  simplifiedZh: 善莲堂
+  traditionalZh: 善蓮堂
+  nameEn: Shanlian Tang
+  address: 18 Admiralty Street
+  postalCode: '757439'
+- nanyangSiteId: sct-kd-530
+  projectSiteNo: '737'
+  simplifiedZh: 善灵坛道教会
+  traditionalZh: 善靈壇道教會
+  nameEn: Shan Ling Tuah Society
+  address: 'Blk 310A Anchorvale Rd #01-31'
+  postalCode: '541310'
+- nanyangSiteId: sct-kd-531
+  projectSiteNo: '742'
+  simplifiedZh: 善兴坛
+  traditionalZh: 善興壇
+  nameEn: Shanxing Tang
+  address: 13 Choa Chu Kang Street 51
+  postalCode: '689335'
+- nanyangSiteId: sct-kd-532
+  projectSiteNo: '748'
+  simplifiedZh: 山竹园福德祠
+  traditionalZh: 山竹园福德祠
+  nameEn: Shanzhuyuan Fudeci
+  address: 177N Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-533
+  projectSiteNo: '749'
+  simplifiedZh: 上帝庙济公坛  联合庙
+  traditionalZh: 上帝廟濟公壇  聯合廟
+  nameEn: Shang Di Chai Kong Temple
+  address: 10 Marsiling Industrial Estate Road 3
+  postalCode: '739254'
+- nanyangSiteId: sct-kd-534
+  projectSiteNo: '750'
+  simplifiedZh: 上法公坛
+  traditionalZh: 上法公壇
+  nameEn: Shangfa Gongtan
+  address: 'BLK540 Jurong West Ave 1 #01-1098'
+  postalCode: '640540'
+- nanyangSiteId: sct-kd-535
+  projectSiteNo: '752'
+  simplifiedZh: 圣佛山
+  traditionalZh: 聖佛山
+  nameEn: Shengfo Shan
+  address: 'No. 51 Bukit Batok Crescent #06-16'
+  postalCode: '658077'
+- nanyangSiteId: sct-kd-536
+  projectSiteNo: '753'
+  simplifiedZh: 圣公宫
+  traditionalZh: 聖公宮
+  nameEn: Shenggong Gong
+  address: 'BLK 122 Sengkang East Way #01-03'
+  postalCode: '540122'
+- nanyangSiteId: sct-kd-537
+  projectSiteNo: '754'
+  simplifiedZh: 圣君庙
+  traditionalZh: 聖君廟
+  nameEn: Shengjun Miao
+  address: 'BLK 525 Hougang  Ave 8 #01-169'
+  postalCode: '530525'
+- nanyangSiteId: sct-kd-538
+  projectSiteNo: '755'
+  simplifiedZh: 圣风殿
+  traditionalZh: 聖風殿
+  nameEn: Shengfeng Dian
+  address: 3 Jalan Bukit Merah
+  postalCode: '150003'
+- nanyangSiteId: sct-kd-539
+  projectSiteNo: '756'
+  simplifiedZh: 圣封坛
+  traditionalZh: 聖封壇
+  nameEn: Shengfeng Tan
+  address: ' 7030 Ang Mo Kio Ave 5, #07-47'
+  postalCode: '569880'
+- nanyangSiteId: sct-kd-540
+  projectSiteNo: '757'
+  simplifiedZh: 圣佛山
+  traditionalZh: 聖佛山
+  nameEn: Shengfu Shan
+  address: ' 51 Bt Batok Crescent, #06-16 Unity Centre'
+  postalCode: '658077'
+- nanyangSiteId: sct-kd-541
+  projectSiteNo: '758'
+  simplifiedZh: 盛港联合庙
+  traditionalZh: 盛港聯合廟
+  nameEn: Sengkang Joint Temple
+  address: 80 Rivervale Crescent, Sengkang New Town
+  postalCode: '545087'
+- nanyangSiteId: sct-kd-542
+  projectSiteNo: '759'
+  simplifiedZh: 圣家庙
+  traditionalZh: 聖家廟
+  nameEn: Sheng Jia Temple Association
+  address: '3 Tebing Lane, Punggol East #01-01'
+  postalCode: '828849'
+- nanyangSiteId: sct-kd-543
+  projectSiteNo: '760'
+  simplifiedZh: 圣莲宫
+  traditionalZh: 聖蓮宮
+  nameEn: Shenglian Gong
+  address: '1 Bukit Batok Cresent, #08-30 WCEGA Plaza'
+  postalCode: '658064'
+- nanyangSiteId: sct-kd-544
+  projectSiteNo: '763'
+  simplifiedZh: 圣龙庙
+  traditionalZh: 聖龍廟
+  nameEn: Sheng Leng Temple
+  address: 60 Jurong West Street 41
+  postalCode: '649407'
+- nanyangSiteId: sct-kd-545
+  projectSiteNo: '764'
+  simplifiedZh: 圣王宫
+  traditionalZh: 聖王宮
+  nameEn: Shengwang Gong
+  address: 66 Geylang Lor 24A
+  postalCode: '398590'
+- nanyangSiteId: sct-kd-546
+  projectSiteNo: '767'
+  simplifiedZh: 圣旨宫
+  traditionalZh: 聖旨宫
+  nameEn: Shengzhi Gong
+  address: 'Blk 116 Pending Rd #04-218'
+  postalCode: '670116'
+- nanyangSiteId: sct-kd-547
+  projectSiteNo: '771'
+  simplifiedZh: 释迦牟尼菩提迦耶寺
+  traditionalZh: 釋迦牟尼菩提迦耶寺
+  nameEn: Sakya Muni Buddha Gaya Temple
+  address: 366 Race Course Road
+  postalCode: '218638'
+- nanyangSiteId: sct-kd-548
+  projectSiteNo: '773'
+  simplifiedZh: 释迦寺
+  traditionalZh: 释迦寺
+  nameEn: Sakya Tenphel Ling Temple
+  address: 5 Pasir Ris Drive 4
+  postalCode: '519455'
+- nanyangSiteId: sct-kd-549
+  projectSiteNo: '774'
+  simplifiedZh: 石林晋山联合宫
+  traditionalZh: 石林晉山聯合宮
+  nameEn: Cheo Lim Chin Sun Lian Hup Keng
+  address: 7 Bedok North Street 5
+  postalCode: '485874'
+- nanyangSiteId: sct-kd-550
+  projectSiteNo: '775'
+  simplifiedZh: 实龙岗北协灵坛
+  traditionalZh: 實龍崗北協靈壇
+  nameEn: Serangoon North Hiep Leng Tuan
+  address: '7030 Ang Mo Kio Avenue 5 #B1-05'
+  postalCode: '569880'
+- nanyangSiteId: sct-kd-551
+  projectSiteNo: '776'
+  simplifiedZh: 石牛洞
+  traditionalZh: 石牛洞
+  nameEn: Shi Niu Dong Temple
+  address: 33 Geylang Lorong 24
+  postalCode: '398633'
+- nanyangSiteId: sct-kd-552
+  projectSiteNo: '778'
+  simplifiedZh: 石雾洞
+  traditionalZh: 石霧洞
+  nameEn: Cheo Bu Tong Temple
+  address: 11 Bedok North Street 5, Ave 4
+  postalCode: '485876'
+- nanyangSiteId: sct-kd-553
+  projectSiteNo: '780'
+  simplifiedZh: 石竹庙 武吉巴督
+  traditionalZh: 石竹廟  武吉巴督
+  nameEn: Shi Zhu Miao Bukit Batok
+  address: 397 Bt Batok West Ave 8
+  postalCode: '658964'
+- nanyangSiteId: sct-kd-554
+  projectSiteNo: '781'
+  simplifiedZh: 石竹庙 实龙岗
+  traditionalZh: 石竹廟  實龍崗
+  nameEn: Cheo Teik Temple  Serangoon
+  address: 486 Serangoon North Avenue 1
+  postalCode: '555892'
+- nanyangSiteId: sct-kd-555
+  projectSiteNo: '782'
+  simplifiedZh: 树头伯公
+  traditionalZh: 樹頭伯公
+  nameEn: Shutou Bogong
+  address: 'Blk 860A, Tampines Ave 5 #01-623'
+  postalCode: '521860'
+- nanyangSiteId: sct-kd-556
+  projectSiteNo: '783'
+  simplifiedZh: 树头伯公暨广进殿 联合殿
+  traditionalZh: 樹頭伯公暨廣進殿  聯合殿
+  nameEn: Shutou Bogong Ji Guangjindian Lianhedian
+  address: 'Blk 860A, Tampines Ave 5 #01-624'
+  postalCode: '521859'
+- nanyangSiteId: sct-kd-557
+  projectSiteNo: '784'
+  simplifiedZh: 双林城隍庙
+  traditionalZh: 雙林城隍廟
+  nameEn: Shuang Lin Cheng Huang Tp
+  address: 184 Jalan Toa Payoh
+  postalCode: '319944'
+- nanyangSiteId: sct-kd-558
+  projectSiteNo: '785'
+  simplifiedZh: 双龙山嘉应五属义祠
+  traditionalZh: 雙龍山嘉應五屬義祠
+  nameEn: Shuanglongshan Jiaying Wushu Yici
+  address: 9 Commonwealth Lane
+  postalCode: '149551'
+- nanyangSiteId: sct-kd-559
+  projectSiteNo: '786'
+  simplifiedZh: 水池林
+  traditionalZh: 水池林
+  nameEn: Shuichi Lin
+  address: 19 Yishun Avenue 9
+  postalCode: '768891'
+- nanyangSiteId: sct-kd-560
+  projectSiteNo: '787'
+  simplifiedZh: 水沟馆葛岸馆  聯合館
+  traditionalZh: 水溝館葛岸館  聯合館
+  nameEn: Swee Kow Kuan Kueh Hua Kwan
+  address: 46 Ang Mo Kio Street 61
+  postalCode: '569161'
+- nanyangSiteId: sct-kd-561
+  projectSiteNo: '788'
+  simplifiedZh: 水沟馆
+  traditionalZh: 水溝館
+  nameEn: Swee Kow Kuan
+  address: 46 Ang Mo Kio Street 61
+  postalCode: '569161'
+- nanyangSiteId: sct-kd-562
+  projectSiteNo: '789'
+  simplifiedZh: 裕廊水沟馆
+  traditionalZh: 裕廊水溝館
+  nameEn: Jurong Shui Gou Guan
+  address: 741 Jurong West Street 42
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-563
+  projectSiteNo: '790'
+  simplifiedZh: 水沟馆圣德坛
+  traditionalZh: 水溝館聖德壇
+  nameEn: Shuigouguan Shengde Tan
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-564
+  projectSiteNo: '791'
+  simplifiedZh: 水江庙  香友会
+  traditionalZh: 水江廟  香友會
+  nameEn: Chwee Kang Beo Association
+  address: 801 Upper Boon Keng Road
+  postalCode: '387310'
+- nanyangSiteId: sct-kd-565
+  projectSiteNo: '792'
+  simplifiedZh: 水廊头大伯公宫
+  traditionalZh: 水廊頭大伯公宮
+  nameEn: Chwee Long Tow Tua Pek Kong Temple
+  address: 2 Jurong West Street 76
+  postalCode: '648370'
+- nanyangSiteId: sct-kd-566
+  projectSiteNo: '793'
+  simplifiedZh: 水美宫
+  traditionalZh: 水美宫
+  nameEn: Hock Chuan Temple
+  address: 1 Bedok North Street 5
+  postalCode: '486115'
+- nanyangSiteId: sct-kd-567
+  projectSiteNo: '794'
+  simplifiedZh: 水美宫福泉寺  联合庙
+  traditionalZh: 水美宮福泉寺  聯合廟
+  nameEn: Hock Chuan Chwee Bee Temple  United Temple
+  address: Bedok North Street 5
+  postalCode: '486115'
+- nanyangSiteId: sct-kd-568
+  projectSiteNo: '796'
+  simplifiedZh: 后港水尾圣娘庙
+  traditionalZh: 後港水尾聖娘廟
+  nameEn: Hougang Twee Boey Teng Niang Temple
+  address: 109a Hougang Avenue 5
+  postalCode: '538818'
+- nanyangSiteId: sct-kd-569
+  projectSiteNo: '797'
+  simplifiedZh: 寅吉村水尾圣娘庙
+  traditionalZh: 寅吉村水尾聖娘廟
+  nameEn: Yan Kit Village Chinese Temple
+  address: 130 Mariam Way / 980 Upper Changi Road North
+  postalCode: '507078'
+- nanyangSiteId: sct-kd-570
+  projectSiteNo: '799'
+  simplifiedZh: 顺宫殿
+  traditionalZh: 順宮殿
+  nameEn: Shungong Dian
+  address: 'BLK 163 Ang Mo Kio Ave 4 #01-450'
+  postalCode: '560163'
+- nanyangSiteId: sct-kd-571
+  projectSiteNo: '800'
+  simplifiedZh: 顺利坛
+  traditionalZh: 順利壇
+  nameEn: Shunli Tan
+  address: 1076A, Serangoon Road
+  postalCode: '328180'
+- nanyangSiteId: sct-kd-572
+  projectSiteNo: '801'
+  simplifiedZh: 顺龙宫
+  traditionalZh: 順龍宮
+  nameEn: Soon Leng Temple
+  address: 5A  Choa Chu Kang Street 51
+  postalCode: '689339'
+- nanyangSiteId: sct-kd-573
+  projectSiteNo: '802'
+  simplifiedZh: 顺龙庙
+  traditionalZh: 順龍廟
+  nameEn: Soon Leng Temple
+  address: 9 Choa Chu Kang Street 51
+  postalCode: '689341'
+- nanyangSiteId: sct-kd-574
+  projectSiteNo: '804'
+  simplifiedZh: 顺山亭
+  traditionalZh: 順山亭
+  nameEn: Chia Hung Boo Temple
+  address: 42 Senang Crescent
+  postalCode: '416610'
+- nanyangSiteId: sct-kd-575
+  projectSiteNo: '805'
+  simplifiedZh: 顺山亭榕树大伯公宫
+  traditionalZh: 順山亭榕樹大伯公宮
+  nameEn: Soon San Teng Temple
+  address: 42 Jalan Senang
+  postalCode: '418331'
+- nanyangSiteId: sct-kd-576
+  projectSiteNo: '807'
+  simplifiedZh: 顺天宫
+  traditionalZh: 順天宮
+  nameEn: Soon Thian Keing Temple
+  address: 19 Lorong 29 Geylang
+  postalCode: '388070'
+- nanyangSiteId: sct-kd-577
+  projectSiteNo: '808'
+  simplifiedZh: 顺西宫
+  traditionalZh: 順西宮
+  nameEn: Soon Say Keng
+  address: 19 Yishun Avenue 9
+  postalCode: '768891'
+- nanyangSiteId: sct-kd-578
+  projectSiteNo: '809'
+  simplifiedZh: 顺西宫水池林
+  traditionalZh: 順西宮水池林
+  nameEn: Shunxi Gong Shuichi Lin
+  address: 19 Yishun Avenue 9
+  postalCode: '768891'
+- nanyangSiteId: sct-kd-579
+  projectSiteNo: '810'
+  simplifiedZh: 顺兴古庙 淡宾尼
+  traditionalZh: 順興古廟
+  nameEn: Soon Hin Ko Beo Tampines
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-580
+  projectSiteNo: '811'
+  simplifiedZh: 顺兴古庙 实龙岗
+  traditionalZh: 順興古廟
+  nameEn: Shun Xing Gu Miao Serangoon
+  address: 485 Serangoon North Avenue 1
+  postalCode: '555890'
+- nanyangSiteId: sct-kd-581
+  projectSiteNo: '812'
+  simplifiedZh: 顺忠坛 勿洛
+  traditionalZh: 順忠壇
+  nameEn: Shun Zhong Tan  Bedok
+  address: '3011 Bedok Industrial Park E #01-2012'
+  postalCode: '489977'
+- nanyangSiteId: sct-kd-582
+  projectSiteNo: '813'
+  simplifiedZh: 顺忠坛 实龙岗
+  traditionalZh: 順忠壇
+  nameEn: Shun Zhong Tan Serangoon
+  address: 'BLK 30 Defu Lane 10 #04-100'
+  postalCode: '539211'
+- nanyangSiteId: sct-kd-583
+  projectSiteNo: '814'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Si Dao Feng Jiao Temple
+  address: 638 Lorong 3 Geylang
+  postalCode: '389020'
+- nanyangSiteId: sct-kd-584
+  projectSiteNo: '816'
+  simplifiedZh: 斯里兰卡佛寺
+  traditionalZh: 斯里蘭卡佛寺
+  nameEn: Sri Lankaramaya Buddhist Temple
+  address: 30c St. Michael's Road
+  postalCode: '328002'
+- nanyangSiteId: sct-kd-585
+  projectSiteNo: '818'
+  simplifiedZh: 泰山仁清宫
+  traditionalZh: 泰山仁清宮
+  nameEn: Tai Shan Ren Qing Gong
+  address: '6D Mandai Estate, #10-14'
+  postalCode: '729938'
+- nanyangSiteId: sct-kd-586
+  projectSiteNo: '819'
+  simplifiedZh: 太上老君庙
+  traditionalZh: 太上老君廟
+  nameEn: Tai Shang Lao Jun Temple
+  address: 'Block 50 Joo Avenue #01-50'
+  postalCode: '219347'
+- nanyangSiteId: sct-kd-587
+  projectSiteNo: '821'
+  simplifiedZh: 太阳宫
+  traditionalZh: 太陽宮
+  nameEn: Tai Yeong Kon Temple
+  address: 85A Silat Road
+  postalCode: '168851'
+- nanyangSiteId: sct-kd-588
+  projectSiteNo: '823'
+  simplifiedZh: 汤申庙  联合庙
+  traditionalZh: 湯申廟  聯合廟
+  nameEn: Thomson Temple
+  address: 99 Sector B Sin Ming Industrial Estate
+  postalCode: '575660'
+- nanyangSiteId: sct-kd-589
+  projectSiteNo: '825'
+  simplifiedZh: 天保堂
+  traditionalZh: 天保堂
+  nameEn: Tianbao Tang
+  address: 88a Shrewsbury Road,
+  postalCode: '307845'
+- nanyangSiteId: sct-kd-590
+  projectSiteNo: '826'
+  simplifiedZh: 天慈宫
+  traditionalZh: 天慈宮
+  nameEn: Society of Love and Compassion
+  address: '3 Tebing Lane, Punggol East #01-03'
+  postalCode: '828849'
+- nanyangSiteId: sct-kd-591
+  projectSiteNo: '828'
+  simplifiedZh: 天德宫 芽垅
+  traditionalZh: 天德宮 芽垅
+  nameEn: Tian Teck Keng Temple
+  address: 606 Lorong 3 Geylang
+  postalCode: '389004'
+- nanyangSiteId: sct-kd-592
+  projectSiteNo: '830'
+  simplifiedZh: 天德宫
+  traditionalZh: 天德宫
+  nameEn: Tian Teck Keng Temple
+  address: '95 Tampines Link #01-03'
+  postalCode: '528745'
+- nanyangSiteId: sct-kd-593
+  projectSiteNo: '832'
+  simplifiedZh: 天德圣庙
+  traditionalZh: 天德圣廟
+  nameEn: Tian De Temple
+  address: 109 Hougang Avenue 5
+  postalCode: '538817'
+- nanyangSiteId: sct-kd-594
+  projectSiteNo: '833'
+  simplifiedZh: 天地殿
+  traditionalZh: 天地殿
+  nameEn: Tiandi Dian
+  address: 'BLK 672 Jalan Damai #09-23'
+  postalCode: '410672'
+- nanyangSiteId: sct-kd-595
+  projectSiteNo: '836'
+  simplifiedZh: 天福殿
+  traditionalZh: 天福殿
+  nameEn: Tian Hock Dian
+  address: 523 Yishun Industrial Park A
+  postalCode: '768770'
+- nanyangSiteId: sct-kd-596
+  projectSiteNo: '837'
+  simplifiedZh: 天福宫
+  traditionalZh: 天福宮
+  nameEn: Thian Hock Keng
+  address: 158 Telok Ayer St
+  postalCode: '68613'
+- nanyangSiteId: sct-kd-597
+  projectSiteNo: '838'
+  simplifiedZh: 天公庙  直落布兰雅
+  traditionalZh: 天公廟  直落布蘭雅
+  nameEn: Tin Kong Beo Temple  Telok Blangah Ting Kong Beo
+  address: 578 Telok Blangah Road
+  postalCode: '109024'
+- nanyangSiteId: sct-kd-598
+  projectSiteNo: '840'
+  simplifiedZh: 天公坛 振源园
+  traditionalZh: 天公壇 振源園
+  nameEn: Tien Kong Thun Temple
+  address: 68 Jalan Pemimpin
+  postalCode: '576132'
+- nanyangSiteId: sct-kd-599
+  projectSiteNo: '841'
+  simplifiedZh: 天公坛 昭灵宫
+  traditionalZh: 天公壇 昭靈宮
+  nameEn: Tiangong Tan Zhaoling Gong
+  address: 62 Jurong West Street 41
+  postalCode: '649408'
+- nanyangSiteId: sct-kd-600
+  projectSiteNo: '842'
+  simplifiedZh: 天公兴五雷万天主帅大玄坛
+  traditionalZh: 天公兴五雷万天主帥大玄坛
+  nameEn: Tian Kong Heng Woo Looi Ban Tin To Suay Temple
+  address: 36S Paya Lebar Cres
+  postalCode: '536075'
+- nanyangSiteId: sct-kd-601
+  projectSiteNo: '843'
+  simplifiedZh: 金榜山亭天后会
+  traditionalZh: 金榜山亭天后會
+  nameEn: Kampong San Teng Tien How Assn
+  address: 99 Sin Ming Industrial Estate Sector B
+  postalCode: '575660'
+- nanyangSiteId: sct-kd-602
+  projectSiteNo: '844'
+  simplifiedZh: 汕头社天后庙
+  traditionalZh: 汕頭社天后廟
+  nameEn: Swatow Sia Mazu Temple
+  address: 5 Lorong 40 Geylang
+  postalCode: '398051'
+- nanyangSiteId: sct-kd-603
+  projectSiteNo: '845'
+  simplifiedZh: 云峰天后庙
+  traditionalZh: 雲峰天后廟
+  nameEn: Hoon Hong Tian Haw Boo
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569731'
+- nanyangSiteId: sct-kd-604
+  projectSiteNo: '847'
+  simplifiedZh: 天降佛堂
+  traditionalZh: 天降佛堂
+  nameEn: Tian Kong Buddhist Tp
+  address: 51 Bedok North Avenue 4
+  postalCode: '469695'
+- nanyangSiteId: sct-kd-605
+  projectSiteNo: '848'
+  simplifiedZh: 天君府
+  traditionalZh: 天君府
+  nameEn: Tian Jun Temple
+  address: '3 Tebing Lane, Punggol East  #01-02'
+  postalCode: '828849'
+- nanyangSiteId: sct-kd-606
+  projectSiteNo: '849'
+  simplifiedZh: 天空庙
+  traditionalZh: 天空廟
+  nameEn: Tian Kong Temple
+  address: 7030 Ang Mo Kio Avenue 5
+  postalCode: '569880'
+- nanyangSiteId: sct-kd-607
+  projectSiteNo: '850'
+  simplifiedZh: 天公坛
+  traditionalZh: 天公壇
+  nameEn: Tien Kong Thun Temple
+  address: 68 Jalan Pemimpin
+  postalCode: '577220'
+- nanyangSiteId: sct-kd-608
+  projectSiteNo: '852'
+  simplifiedZh: 天灵道堂
+  traditionalZh: 天靈道堂
+  nameEn: Thian Ling Toh Thong
+  address: 551 Bukit Batok Street 23
+  postalCode: '659522'
+- nanyangSiteId: sct-kd-609
+  projectSiteNo: '855'
+  simplifiedZh: 天灵总道堂
+  traditionalZh: 天靈總道堂
+  nameEn: Thian Ling Chong Toh Tong Temple
+  address: 472 Changi Road
+  postalCode: '419890'
+- nanyangSiteId: sct-kd-610
+  projectSiteNo: '856'
+  simplifiedZh: 天龙宫
+  traditionalZh: 天龍宮
+  nameEn: Tian Leong Keng Temple
+  address: 101 / a / b Sector B Sin Ming Industrial Estate
+  postalCode: '575662'
+- nanyangSiteId: sct-kd-611
+  projectSiteNo: '857'
+  simplifiedZh: 天龙坛
+  traditionalZh: 天龍壇
+  nameEn: Tien Loong Thong
+  address: 448 Race Course Road
+  postalCode: '218692'
+- nanyangSiteId: sct-kd-612
+  projectSiteNo: '858'
+  simplifiedZh: 天明顺宫
+  traditionalZh: 天明順宮
+  nameEn: Tian Ming Shun Gong
+  address: No 14A Rochdale Road
+  postalCode: '535828'
+- nanyangSiteId: sct-kd-613
+  projectSiteNo: '860'
+  simplifiedZh: 天善堂
+  traditionalZh: 天善堂
+  nameEn: Then Shen Temple
+  address: 24 Lorong 16 Geylang
+  postalCode: '398866'
+- nanyangSiteId: sct-kd-614
+  projectSiteNo: '861'
+  simplifiedZh: 天圣赐福联合庙
+  traditionalZh: 天聖賜福聯合廟
+  nameEn: Tien Sen Sze Hock Combined Temple
+  address: 146C Paya Lebar Road
+  postalCode: '409040'
+- nanyangSiteId: sct-kd-615
+  projectSiteNo: '864'
+  simplifiedZh: 天圣坛
+  traditionalZh: 天聖壇
+  nameEn: Tien Sen Tua Temple Paya Leba
+  address: 146C Paya Lebar Road
+  postalCode: '409040'
+- nanyangSiteId: sct-kd-616
+  projectSiteNo: '868'
+  simplifiedZh: 天文坛
+  traditionalZh: 天文壇
+  nameEn: Tianwen Tan
+  address: 15 Fajar Road
+  postalCode: '679003'
+- nanyangSiteId: sct-kd-617
+  projectSiteNo: '869'
+  simplifiedZh: 天显庙
+  traditionalZh: 天顯廟
+  nameEn: Tianxian Miao
+  address: 19, 21 Woodlands Industrial Park E4
+  postalCode: '757721'
+- nanyangSiteId: sct-kd-618
+  projectSiteNo: '870'
+  simplifiedZh: 天性祠
+  traditionalZh: 天性祠
+  nameEn: Tian Sing Sze Temple
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569731'
+- nanyangSiteId: sct-kd-619
+  projectSiteNo: '871'
+  simplifiedZh: 天性宮
+  traditionalZh: 天性宮
+  nameEn: Thian Sing Keong Temple
+  address: 58C Upper Weld Road
+  postalCode: '207412'
+- nanyangSiteId: sct-kd-620
+  projectSiteNo: '873'
+  simplifiedZh: 天佑堂
+  traditionalZh: 天佑堂
+  nameEn: The Thian Yew Tong Temple
+  address: 108 Rangoon Road
+  postalCode: '218389'
+- nanyangSiteId: sct-kd-621
+  projectSiteNo: '874'
+  simplifiedZh: 天云殿
+  traditionalZh: 天雲殿
+  nameEn: Tianyun Dian
+  address: 2 Teck Whye Lane
+  postalCode: '688799'
+- nanyangSiteId: sct-kd-622
+  projectSiteNo: '877'
+  simplifiedZh: 天祖庙
+  traditionalZh: 天祖廟
+  nameEn: Tain Chor Temple
+  address: '11 Woodlands Industrial Park E8, # 01 - 01'
+  postalCode: '757701'
+- nanyangSiteId: sct-kd-623
+  projectSiteNo: '878'
+  simplifiedZh: 天竺山毗卢寺
+  traditionalZh: 天竺山毗盧寺
+  nameEn: Beeh Low See Buddhist Temple
+  address: 71B Jalan Jurong Kechil
+  postalCode: '598588'
+- nanyangSiteId: sct-kd-624
+  projectSiteNo: '879'
+  simplifiedZh: 天南堂显源道堂
+  traditionalZh: 天南堂顯源道堂
+  nameEn: Kong Leap Thiam Lim Tua Temple
+  address: 39 Lorong 34 Geylang
+  postalCode: '398233'
+- nanyangSiteId: sct-kd-625
+  projectSiteNo: '880'
+  simplifiedZh: 同德佛堂
+  traditionalZh: 同德佛堂
+  nameEn: Tong Tek Buddhist Temple
+  address: 1055 Serangoon Road
+  postalCode: '328172'
+- nanyangSiteId: sct-kd-626
+  projectSiteNo: '881'
+  simplifiedZh: 同德善堂念心社
+  traditionalZh: 同德善堂念心社
+  nameEn: Thong Teck Sian Thong Lian Sin Sia Temple
+  address: 1A Boon Teck Road
+  postalCode: '329578'
+- nanyangSiteId: sct-kd-627
+  projectSiteNo: '882'
+  simplifiedZh: 通淮庙 南天门
+  traditionalZh: 通淮廟 南天門
+  nameEn: Tong Whye Temple
+  address: 212 Jurong East Street 32
+  postalCode: '609474'
+- nanyangSiteId: sct-kd-628
+  projectSiteNo: '883'
+  simplifiedZh: 同敬善堂诚善社
+  traditionalZh: 同敬善堂誠善社
+  nameEn: Thong Kheng Charitable Institution
+  address: 14 Lorong 29 Geylang
+  postalCode: '388068'
+- nanyangSiteId: sct-kd-629
+  projectSiteNo: '884'
+  simplifiedZh: 通妙旨灵坛
+  traditionalZh: 通妙旨靈壇
+  nameEn: Tongmiaozhi Lingtan
+  address: Blk 12 Upper Boon Keng Road
+  postalCode: '380012'
+- nanyangSiteId: sct-kd-630
+  projectSiteNo: '885'
+  simplifiedZh: 铜山宫山西夫子
+  traditionalZh: 銅山宮山西夫子
+  nameEn: Tang Suahn Kiong San Soh Hoo Chu Temple
+  address: 87A Henderson Rd
+  postalCode: '159543'
+- nanyangSiteId: sct-kd-631
+  projectSiteNo: '886'
+  simplifiedZh: 同善堂  东陵
+  traditionalZh: 同善堂  東陵
+  nameEn: Tanglin Tong Sian Tng
+  address: 31 Devonshire Road
+  postalCode: '239851'
+- nanyangSiteId: sct-kd-632
+  projectSiteNo: '887'
+  simplifiedZh: 通兴港  潮人
+  traditionalZh: 通興港  潮人
+  nameEn: Tongxing Gang
+  address: 177Q Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-633
+  projectSiteNo: '888'
+  simplifiedZh: 托塔院
+  traditionalZh: 托塔院
+  nameEn: Tuo Tat Yuan Pte Ltd
+  address: '6 Lor 35 Geylang #01-01'
+  postalCode: '387938'
+- nanyangSiteId: sct-kd-634
+  projectSiteNo: '889'
+  simplifiedZh: 万佛林
+  traditionalZh: 萬佛林
+  nameEn: Man Fatt Lam Budh Tp
+  address: 211 Bedok Road
+  postalCode: '469416'
+- nanyangSiteId: sct-kd-635
+  projectSiteNo: '890'
+  simplifiedZh: 卍佛暹喜堂
+  traditionalZh: 卍佛暹喜堂
+  nameEn: Wanfo Xianxi Tang
+  address: 'BLK 326, Tah Ching Road #12-94'
+  postalCode: '610329'
+- nanyangSiteId: sct-kd-636
+  projectSiteNo: '891'
+  simplifiedZh: 万福宫
+  traditionalZh: 萬福宮
+  nameEn: Ban Hock Temple
+  address: 485 Serangoon North Avenue 1
+  postalCode: '555891'
+- nanyangSiteId: sct-kd-637
+  projectSiteNo: '892'
+  simplifiedZh: 万国山忠义庙
+  traditionalZh: 萬國山忠義廟
+  nameEn: Man Kok Sua Chong Yee Temple
+  address: 72 Sengkang West Avenue
+  postalCode: '797651'
+- nanyangSiteId: sct-kd-638
+  projectSiteNo: '893'
+  simplifiedZh: 万礼莲合殿
+  traditionalZh: 萬禮蓮合殿
+  nameEn: Wanli lianhe Dian
+  address: 19 Woodlands Industrial Park E7
+  postalCode: '757721'
+- nanyangSiteId: sct-kd-639
+  projectSiteNo: '894'
+  simplifiedZh: 万礼显灵宫
+  traditionalZh: 萬禮顯靈宮
+  nameEn: Wanli Xianling Gong
+  address: 'Northpoint Bizhub 2 Yishun Industrial St 1 #08-03'
+  postalCode: '768159'
+- nanyangSiteId: sct-kd-640
+  projectSiteNo: '895'
+  simplifiedZh: 万山福德祠 土地庙
+  traditionalZh: 萬山福德祠  土地廟
+  nameEn: Man San Fook Tuck Chee Temple
+  address: 124 Sims Drive
+  postalCode: '387379'
+- nanyangSiteId: sct-kd-641
+  projectSiteNo: '896'
+  simplifiedZh: 万寿山观音堂
+  traditionalZh: 萬壽山觀音堂
+  nameEn: Ban Siew San Temple
+  address: 2 Telok Blangah Drive
+  postalCode: '109256'
+- nanyangSiteId: sct-kd-642
+  projectSiteNo: '897'
+  simplifiedZh: 万寿山堃成堂
+  traditionalZh: 萬壽山堃成堂
+  nameEn: Kong Seng Ting Temple
+  address: 4 Telok Blangah Drive
+  postalCode: '109257'
+- nanyangSiteId: sct-kd-643
+  projectSiteNo: '898'
+  simplifiedZh: 万天府
+  traditionalZh: 萬天府
+  nameEn: Wantian Fu
+  address: '50 Serangoon North Ave. 4, First Centre #02-03'
+  postalCode: '555856'
+- nanyangSiteId: sct-kd-644
+  projectSiteNo: '899'
+  simplifiedZh: 万仙庙
+  traditionalZh: 萬仙廟
+  nameEn: Ban Sien Temple
+  address: 98T Redhill Close
+  postalCode: '158900'
+- nanyangSiteId: sct-kd-645
+  projectSiteNo: '900'
+  simplifiedZh: 王府宫
+  traditionalZh: 王府宮
+  nameEn: Wang Fu Gong Taoism Association
+  address: '30 Defu Lane 10 #02-104'
+  postalCode: '539211'
+- nanyangSiteId: sct-kd-646
+  projectSiteNo: '901'
+  simplifiedZh: 望海大伯公庙
+  traditionalZh: 望海大伯公廟
+  nameEn: Wanghai Dabogong Miao
+  address: 50H Palmer Rd
+  postalCode: '79903'
+- nanyangSiteId: sct-kd-647
+  projectSiteNo: '902'
+  simplifiedZh: 旺相堂铜山
+  traditionalZh: 旺相堂銅山
+  nameEn: Ong Siong Tong Tong San aka
+  address: 25 Merpati Rd
+  postalCode: '379302'
+- nanyangSiteId: sct-kd-648
+  projectSiteNo: '904'
+  simplifiedZh: 威灵宫
+  traditionalZh: 威靈宮
+  nameEn: Wei Ling Keng
+  address: 360, Yishun Avenue 3
+  postalCode: '769059'
+- nanyangSiteId: sct-kd-649
+  projectSiteNo: '905'
+  simplifiedZh: 伟苏达禅修中心
+  traditionalZh: 偉蘇達禪修中心
+  nameEn: VISUDDHA MEDITATION CENTRE
+  address: 107 Jalan Langgar Bedok
+  postalCode: '468559'
+- nanyangSiteId: sct-kd-650
+  projectSiteNo: '906'
+  simplifiedZh: 韦陀法宫
+  traditionalZh: 韋陀法宮
+  nameEn: Wei Tuo Fa Gong Temple
+  address: 224J Pulau Ubin
+  postalCode: '508346'
+- nanyangSiteId: sct-kd-651
+  projectSiteNo: '908'
+  simplifiedZh: 文殊图书馆
+  traditionalZh: 文殊圖書館
+  nameEn: Manjusri Library
+  address: 40 Lorong 27 Geylang Road
+  postalCode: '388174'
+- nanyangSiteId: sct-kd-652
+  projectSiteNo: '909'
+  simplifiedZh: 文友善堂
+  traditionalZh: 文友善堂
+  nameEn: Boon Yew Siang Theon
+  address: 7 Sturdee Road
+  postalCode: '207839'
+- nanyangSiteId: sct-kd-653
+  projectSiteNo: '910'
+  simplifiedZh: 梧槽大伯公庙
+  traditionalZh: 梧槽大伯公廟
+  nameEn: Wucao Dabogong Miao
+  address: 249 Balestier Road Singapore
+  postalCode: '329708'
+- nanyangSiteId: sct-kd-654
+  projectSiteNo: '912'
+  simplifiedZh: 呼达嘛严牟尼佛寺
+  traditionalZh: 呼達嘛嚴牟尼佛寺
+  nameEn: Uttamayanmuni Buddhist Temple
+  address: 32B Hong San Terrace
+  postalCode: '688785'
+- nanyangSiteId: sct-kd-655
+  projectSiteNo: '913'
+  simplifiedZh: 武当山庙 兀兰
+  traditionalZh: 武當山廟 兀蘭
+  nameEn: Boo Tong San Temple
+  address: '11 Woodlands Industrial Park E8, # 01 - 02'
+  postalCode: '757701'
+- nanyangSiteId: sct-kd-656
+  projectSiteNo: '914'
+  simplifiedZh: 武当山善龙庙
+  traditionalZh: 武當山善龍廟
+  nameEn: Wudangshan Shanlong Miao
+  address: ' 1 Bukit Batok Cres, #06-09'
+  postalCode: '658064'
+- nanyangSiteId: sct-kd-657
+  projectSiteNo: '915'
+  simplifiedZh: 武当山真武观
+  traditionalZh: 武當山真武觀
+  nameEn: Wuluobei Fu'an Dian
+  address: 'BLK 158 Yung Loh Road #03-56'
+  postalCode: '610158'
+- nanyangSiteId: sct-kd-658
+  projectSiteNo: '916'
+  simplifiedZh: 午峰岩  午峰岩宮
+  traditionalZh: 午峰岩  午峰岩宮
+  nameEn: Wu Hong Yan Kong Temple
+  address: Serangoon North Avenue 3
+  postalCode: '555862'
+- nanyangSiteId: sct-kd-659
+  projectSiteNo: '917'
+  simplifiedZh: 五凤庙
+  traditionalZh: 五鳳廟
+  nameEn: Gow Hong Temple
+  address: 114 Tessensohn Road
+  postalCode: '217686'
+- nanyangSiteId: sct-kd-660
+  projectSiteNo: '918'
+  simplifiedZh: 五福庙
+  traditionalZh: 五福廟
+  nameEn: Wufu Miao
+  address: 3 Choa Chu Kang Street 51
+  postalCode: '689338'
+- nanyangSiteId: sct-kd-661
+  projectSiteNo: '919'
+  simplifiedZh: 伍合庙  大芭窑
+  traditionalZh: 五合廟  大巴窑
+  nameEn: United Five Temples of Toa Payoh
+  address: 177 Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-662
+  projectSiteNo: '920'
+  simplifiedZh: 武吉巴督联合宫
+  traditionalZh: 武吉巴督聯合宮
+  nameEn: Bukit Batok Joint Temple
+  address: 8 Bukit Batok Street 21
+  postalCode: '659631'
+- nanyangSiteId: sct-kd-663
+  projectSiteNo: '922'
+  simplifiedZh: 无极宫
+  traditionalZh: 無極宮
+  nameEn: Wuji Gong
+  address: 177 Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-664
+  projectSiteNo: '923'
+  simplifiedZh: 兀兰联圣庙
+  traditionalZh: 兀蘭聯聖廟
+  nameEn: Woodlands Lian Sheng Miao
+  address: 11 Woodlands Industrial Park E8
+  postalCode: '757701'
+- nanyangSiteId: sct-kd-665
+  projectSiteNo: '924'
+  simplifiedZh: 五雷宮
+  traditionalZh: 五雷宮
+  nameEn: Wu Lui Sien Sze Temple
+  address: 6 Bukit Batok Street 21
+  postalCode: '659630'
+- nanyangSiteId: sct-kd-666
+  projectSiteNo: '926'
+  simplifiedZh: 勿洛北福安殿
+  traditionalZh: 勿洛北福安殿
+  nameEn: Wuluobei Fu'an Dian
+  address: 'Blk 428, Bedok North Road #06-623'
+  postalCode: '460428'
+- nanyangSiteId: sct-kd-667
+  projectSiteNo: '927'
+  simplifiedZh: 乌敏岛佛山亭大伯公庙
+  traditionalZh: 烏敏島佛山亭大伯公廟
+  nameEn: Wu Min Dao Fu Shan Ting Da Bo Gong Miao
+  address: 46, Changi Point, Pulau Ubin
+  postalCode: '508422'
+- nanyangSiteId: sct-kd-668
+  projectSiteNo: '928'
+  simplifiedZh: 乌敏泰佛寺
+  traditionalZh: 烏敏泰佛寺
+  nameEn: Ubin Thai Buddhist Temple
+  address: 72 Sengkang West Avenue
+  postalCode: '797651'
+- nanyangSiteId: sct-kd-669
+  projectSiteNo: '929'
+  simplifiedZh: 五圣宫
+  traditionalZh: 五聖宫
+  nameEn: Wu Sheng Gong Society
+  address: 'Blk 9002 Tampines St 93, #02-72'
+  postalCode: '528836'
+- nanyangSiteId: sct-kd-670
+  projectSiteNo: '931'
+  simplifiedZh: 五台山佛公寺
+  traditionalZh: 五臺山佛公寺
+  nameEn: Wu Tai Shan Buddhist Temple
+  address: 151 West Coast Road
+  postalCode: '127369'
+- nanyangSiteId: sct-kd-671
+  projectSiteNo: '932'
+  simplifiedZh: 武天寺
+  traditionalZh: 武天寺
+  nameEn: Bo Tien Temple
+  address: 6 Fourth Chin Bee Road
+  postalCode: '619708'
+- nanyangSiteId: sct-kd-672
+  projectSiteNo: '934'
+  simplifiedZh: 五显堂
+  traditionalZh: 五顯堂
+  nameEn: Wuxian Tang
+  address: 74 Koon Seng Rd
+  postalCode: '427012'
+- nanyangSiteId: sct-kd-673
+  projectSiteNo: '938'
+  simplifiedZh: 西海岸福德祠
+  traditionalZh: 西海岸福德祠
+  nameEn: West Coast Hock Teck Si
+  address: 64 Jurong West Street 41
+  postalCode: '649332'
+- nanyangSiteId: sct-kd-674
+  projectSiteNo: '939'
+  simplifiedZh: 西河别墅
+  traditionalZh: 西河別墅
+  nameEn: Sai Ho Piat Su
+  address: 777 Upper Serangoon Road
+  postalCode: '534645'
+- nanyangSiteId: sct-kd-675
+  projectSiteNo: '940'
+  simplifiedZh: 西建坛
+  traditionalZh: 西建壇
+  nameEn: Xijian Tan
+  address: 'BLK 78 Indus Road #08-495'
+  postalCode: '161078'
+- nanyangSiteId: sct-kd-676
+  projectSiteNo: '941'
+  simplifiedZh: 西莲宫
+  traditionalZh: 西蓮宮
+  nameEn: Xilian Gong
+  address: 'Blk 417 Ang Mo Kio Ave 10, #02-1021'
+  postalCode: '560417'
+- nanyangSiteId: sct-kd-677
+  projectSiteNo: '942'
+  simplifiedZh: 西龙道坛
+  traditionalZh: 西龍道壇
+  nameEn: Xilongdao Tan
+  address: 'BLK 25 Telok Blangah Crescent #02-75'
+  postalCode: '90025'
+- nanyangSiteId: sct-kd-678
+  projectSiteNo: '944'
+  simplifiedZh: 西山宫
+  traditionalZh: 西山宮
+  nameEn: Xishan Gong
+  address: 741 Jurong West St 42
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-679
+  projectSiteNo: '945'
+  simplifiedZh: 西天道庙
+  traditionalZh: 西天道廟
+  nameEn: See Thian Tao Temple
+  address: 557 Bukit Batok Street 23
+  postalCode: '659523'
+- nanyangSiteId: sct-kd-680
+  projectSiteNo: '946'
+  simplifiedZh: 西天佛庙
+  traditionalZh: 西天佛廟
+  nameEn: See Thian Foh Temple
+  address: 557 Bukit Batok Street 23
+  postalCode: '659523'
+- nanyangSiteId: sct-kd-681
+  projectSiteNo: '947'
+  simplifiedZh: 西天佛庙  联合庙
+  traditionalZh: 西天佛廟  聯合廟
+  nameEn: See Thian Foh Temple  United Temple
+  address: 557 Bukit Batok Street 23
+  postalCode: '659523'
+- nanyangSiteId: sct-kd-682
+  projectSiteNo: '950'
+  simplifiedZh: 西云殿
+  traditionalZh: 西雲殿
+  nameEn: Xiyun Dian
+  address: 722 Woodlands Ave 6
+  postalCode: '730722'
+- nanyangSiteId: sct-kd-683
+  projectSiteNo: '951'
+  simplifiedZh: 显传总道堂
+  traditionalZh: 顯傳總道堂
+  nameEn: Hean Thuan Chong Toh Tong Tp
+  address: 790 Tampines Road
+  postalCode: '518472'
+- nanyangSiteId: sct-kd-684
+  projectSiteNo: '953'
+  simplifiedZh: 贤当宫大伯公
+  traditionalZh: 賢當宮大伯公
+  nameEn: Hiang Tong Keng Tua Pek Kong
+  address: 93 Tampines Link
+  postalCode: '528744'
+- nanyangSiteId: sct-kd-685
+  projectSiteNo: '954'
+  simplifiedZh: 仙宫堂
+  traditionalZh: 仙宮堂
+  nameEn: Sian Keng Tong Temple ( Heng Hwa temple)
+  address: 216 Changi Road
+  postalCode: '419736'
+- nanyangSiteId: sct-kd-686
+  projectSiteNo: '955'
+  simplifiedZh: 仙姑殿
+  traditionalZh: 仙姑殿
+  nameEn: Xiangu Dian
+  address: 1 Tampines Ave 1
+  postalCode: '529783'
+- nanyangSiteId: sct-kd-687
+  projectSiteNo: '956'
+  simplifiedZh: 显龙宫
+  traditionalZh: 縣龍宮
+  nameEn: Xianlong Gong
+  address: 60 Jurong West Street 41
+  postalCode: '649407'
+- nanyangSiteId: sct-kd-688
+  projectSiteNo: '957'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Siang San Temple Association
+  address: 100 Jalan Sultan
+  postalCode: '199001'
+- nanyangSiteId: sct-kd-689
+  projectSiteNo: '959'
+  simplifiedZh: 仙祖宫
+  traditionalZh: 仙祖宮
+  nameEn: Siang Cho Keong Temple
+  address: 66 Amoy Street
+  postalCode: '69886'
+- nanyangSiteId: sct-kd-690
+  projectSiteNo: '960'
+  simplifiedZh: 香莲寺
+  traditionalZh: 香蓮寺
+  nameEn: Sim Poh Seng Temple
+  address: 110 Koon Seng Road
+  postalCode: '427045'
+- nanyangSiteId: sct-kd-691
+  projectSiteNo: '963'
+  simplifiedZh: 协和宫
+  traditionalZh: 協和宮
+  nameEn: Xiehe Gong
+  address: 101 Telok Blangah Drive
+  postalCode: '109260'
+- nanyangSiteId: sct-kd-692
+  projectSiteNo: '965'
+  simplifiedZh: 协天宫灵宝殿
+  traditionalZh: 協天宮靈寶殿
+  nameEn: Hiap Tien Keng Leng Poh Tian
+  address: 81 Tampines Link
+  postalCode: '528739'
+- nanyangSiteId: sct-kd-693
+  projectSiteNo: '968'
+  simplifiedZh: 协源山
+  traditionalZh: 協源山
+  nameEn: Xieyuan Shan
+  address: 2 Telok Blangah Street 31
+  postalCode: '108942'
+- nanyangSiteId: sct-kd-694
+  projectSiteNo: '969'
+  simplifiedZh: 新芭大伯公
+  traditionalZh: 新芭大伯公
+  nameEn: Xinba Dabogong
+  address: 25 Tampines Street 21
+  postalCode: '529394'
+- nanyangSiteId: sct-kd-695
+  projectSiteNo: '970'
+  simplifiedZh: 新恒山亭大伯公庙
+  traditionalZh: 新恆山亭大伯公廟
+  nameEn: Sin Heng San Teng Tua Pek Kong
+  address: Lao Sua (Old Hill), Bukit Brown Cemetery
+  postalCode: ''
+- nanyangSiteId: sct-kd-696
+  projectSiteNo: '972'
+  simplifiedZh: 新加坡德教联合总会
+  traditionalZh: 新加坡德教聯合總會
+  nameEn: The Singapore Federation of Moral Missions
+  address: 17 Jalan Rajah
+  postalCode: '329138'
+- nanyangSiteId: sct-kd-697
+  projectSiteNo: '973'
+  simplifiedZh: 新加坡佛教福利协会
+  traditionalZh: 新加坡佛教福利協會
+  nameEn: Singapore Buddhist Welfare Services
+  address: 105 Punggol Road
+  postalCode: '546636'
+- nanyangSiteId: sct-kd-698
+  projectSiteNo: '974'
+  simplifiedZh: 新加坡佛教会
+  traditionalZh: 新加坡佛教會
+  nameEn: Singapore Buddhist Mission
+  address: 9 Ruby Lane
+  postalCode: '328284'
+- nanyangSiteId: sct-kd-699
+  projectSiteNo: '975'
+  simplifiedZh: 新加坡佛教居士林
+  traditionalZh: 新加坡佛教居士林
+  nameEn: Singapore Buddhist Lodge
+  address: 17 Kim Yam Road
+  postalCode: '239329'
+- nanyangSiteId: sct-kd-700
+  projectSiteNo: '976'
+  simplifiedZh: 新加坡佛教青年弘法团  分团
+  traditionalZh: 新加坡佛教青年弘法團  分團
+  nameEn: Singapore Buddhist Youth Mission  Branch
+  address: 18 Vaughan Road
+  postalCode: '358105'
+- nanyangSiteId: sct-kd-701
+  projectSiteNo: '977'
+  simplifiedZh: 新加坡佛教亚纳协会
+  traditionalZh: 新加坡佛教亞納協會
+  nameEn: Singapore Buddha Yana Organisation
+  address: 15 Jalan Belibas
+  postalCode: '578666'
+- nanyangSiteId: sct-kd-702
+  projectSiteNo: '978'
+  simplifiedZh: 新加坡佛教坐禅中心
+  traditionalZh: 新加坡佛教坐禪中心
+  nameEn: Singapore Buddhist Meditation Centre
+  address: 1 Jalan Mas Puteh
+  postalCode: '128607'
+- nanyangSiteId: sct-kd-703
+  projectSiteNo: '979'
+  simplifiedZh: 新加坡佛教总会
+  traditionalZh: 新加坡佛教總會
+  nameEn: Singapore Buddhist Federation
+  address: 12 Ubi Ave 1
+  postalCode: '408932'
+- nanyangSiteId: sct-kd-704
+  projectSiteNo: '980'
+  simplifiedZh: 新加坡净宗学会
+  traditionalZh: 新加坡凈宗學會
+  nameEn: Amitabha Buddhist Society  Singapore
+  address: 2 Lorong 35 Geylang
+  postalCode: '387934'
+- nanyangSiteId: sct-kd-705
+  projectSiteNo: '982'
+  simplifiedZh: 新加坡三清道教会
+  traditionalZh: 新加坡三清道教會
+  nameEn: Singapore San Ching Taoist Association
+  address: 399-A Guillemard
+  postalCode: '399793'
+- nanyangSiteId: sct-kd-706
+  projectSiteNo: '984'
+  simplifiedZh: 新加坡善灵坛道教会
+  traditionalZh: 新加坡善靈壇道教會
+  nameEn: Shan Ling Tuah Society
+  address: 'Blk 310A,Anchorvale Road, #01-31'
+  postalCode: '541310'
+- nanyangSiteId: sct-kd-707
+  projectSiteNo: '985'
+  simplifiedZh: 新加坡善友禅中心
+  traditionalZh: 新加坡友禪中心
+  nameEn: Kalyanamitta Centre  Singapore
+  address: 83 Pheng Geck Avenue
+  postalCode: '348270'
+- nanyangSiteId: sct-kd-708
+  projectSiteNo: '987'
+  simplifiedZh: 新加坡中华佛教会
+  traditionalZh: 新加坡中華佛教會
+  nameEn: The Singapore Chinese Buddhist Association
+  address: 23 Kreta Ayer Road
+  postalCode: '88992'
+- nanyangSiteId: sct-kd-709
+  projectSiteNo: '988'
+  simplifiedZh: 新加坡中山海洲会馆
+  traditionalZh: 新加坡中山海洲會館
+  nameEn: Chung Shan Hoizou Association
+  address: 27 Ann Siang Road
+  postalCode: '69707'
+- nanyangSiteId: sct-kd-710
+  projectSiteNo: '989'
+  simplifiedZh: 新加坡金锻殿道教协会
+  traditionalZh: 新加坡金鍛殿道教協會
+  nameEn: Jin Duan Dian Taoist Asscoiation
+  address: 'Blk 681, Race Course Road #07-289'
+  postalCode: '210681'
+- nanyangSiteId: sct-kd-711
+  projectSiteNo: '990'
+  simplifiedZh: 新加坡佛教青年弘法团
+  traditionalZh: 新加坡佛教青年弘法團
+  nameEn: Singapore Buddhist Youth Mission
+  address: 3306 Commonwealth Avenue West
+  postalCode: '129583'
+- nanyangSiteId: sct-kd-712
+  projectSiteNo: '991'
+  simplifiedZh: 新马佛善财坛佛
+  traditionalZh: 新馬佛善財壇佛
+  nameEn: Xinmafo Shancaitan Fo
+  address: 2 Yishun Industrial Street 1, Northpoint Bizhub
+  postalCode: ''
+- nanyangSiteId: sct-kd-713
+  projectSiteNo: '993'
+  simplifiedZh: 新胜坛
+  traditionalZh: 新勝壇
+  nameEn: Xinsheng Tan
+  address: 17 Yishun Avenue 9
+  postalCode: '768890'
+- nanyangSiteId: sct-kd-714
+  projectSiteNo: '995'
+  simplifiedZh: 新兴坛
+  traditionalZh: 新興壇
+  nameEn: Xinxing Tan
+  address: 'BLK 52 Toa Payoh Lor 6 #02-04'
+  postalCode: '310052'
+- nanyangSiteId: sct-kd-715
+  projectSiteNo: '997'
+  simplifiedZh: 兴安天后宫
+  traditionalZh: 興安天后宮
+  nameEn: Xing'antianhou Gong
+  address: 25 Lorong 33 Geylang
+  postalCode: '387985'
+- nanyangSiteId: sct-kd-716
+  projectSiteNo: '998'
+  simplifiedZh: 兴都庙
+  traditionalZh: 興都廟
+  nameEn: Veeramuthu Muneeswarar
+  address: 523 Yishun Industrial Park A
+  postalCode: '768770'
+- nanyangSiteId: sct-kd-717
+  projectSiteNo: '999'
+  simplifiedZh: 兴山坛
+  traditionalZh: 興山壇
+  nameEn: Hien San Tuan
+  address: Blk 8, 546 Geylang Road Lorong 3
+  postalCode: '389501'
+- nanyangSiteId: sct-kd-718
+  projectSiteNo: '1000'
+  simplifiedZh: 兴胜宫  芽笼
+  traditionalZh: 興勝宮  芽籠
+  nameEn: Xing Sheng Gong
+  address: 67-A Lorong 14 Gelang
+  postalCode: '398956'
+- nanyangSiteId: sct-kd-719
+  projectSiteNo: '1001'
+  simplifiedZh: 兴胜宫  樟宜
+  traditionalZh: 興勝宮  樟宜
+  nameEn: Xingsheng Gong
+  address: 280-A Changi Road
+  postalCode: '419760'
+- nanyangSiteId: sct-kd-720
+  projectSiteNo: '1003'
+  simplifiedZh: 修本堂
+  traditionalZh: 修本堂
+  nameEn: Xiuben Tang
+  address: 50A Joo Chiat Place
+  postalCode: '427774'
+- nanyangSiteId: sct-kd-721
+  projectSiteNo: '1005'
+  simplifiedZh: 武吉知馬修德善堂
+  traditionalZh: 武吉知馬修德善堂
+  nameEn: Bukit Timah Seu Teck Sean Tong
+  address: 160 Jurong East Avenue 1, Street 24
+  postalCode: '609559'
+- nanyangSiteId: sct-kd-722
+  projectSiteNo: '1006'
+  simplifiedZh: 修德善堂养心社
+  traditionalZh: 修德善堂養心社
+  nameEn: Seu Teck Sean Tong Yiang Sin Sia
+  address: 335 Bedok North Ave 3
+  postalCode: '469718'
+- nanyangSiteId: sct-kd-723
+  projectSiteNo: '1007'
+  simplifiedZh: 玄夫仙庙
+  traditionalZh: 玄夫仙廟
+  nameEn: Hiang Foo Siang Temple
+  address: 485 Serangoon North Avenue 1
+  postalCode: '555890'
+- nanyangSiteId: sct-kd-724
+  projectSiteNo: '1010'
+  simplifiedZh: 玄江殿道教会
+  traditionalZh: 玄江殿道教會
+  nameEn: Heng Kang Tian Taoist Association
+  address: 30 Jln Rama Rama
+  postalCode: '329110'
+- nanyangSiteId: sct-kd-725
+  projectSiteNo: '1011'
+  simplifiedZh: 玄灵宫
+  traditionalZh: 玄靈宮
+  nameEn: Hiang Leng Gong Temple
+  address: 10 Geylang Lorong 24
+  postalCode: '398622'
+- nanyangSiteId: sct-kd-726
+  projectSiteNo: '1016'
+  simplifiedZh: 玄山庙
+  traditionalZh: 玄山廟
+  nameEn: Siang San Temple
+  address: 21 Woodlands Industrial Park E7
+  postalCode: '757722'
+- nanyangSiteId: sct-kd-727
+  projectSiteNo: '1017'
+  simplifiedZh: 玄山庙救世坛
+  traditionalZh: 玄山廟救世壇
+  nameEn: Siang San Temple
+  address: 19 Woodlands Industrial Park E7
+  postalCode: '757722'
+- nanyangSiteId: sct-kd-728
+  projectSiteNo: '1020'
+  simplifiedZh: 玄世坛
+  traditionalZh: 玄世壇
+  nameEn: Xuanshi Tan
+  address: 'BLK 58 Strathmore  Ave #04-107'
+  postalCode: '142058'
+- nanyangSiteId: sct-kd-729
+  projectSiteNo: '1024'
+  simplifiedZh: 玄武山
+  traditionalZh: 玄武山
+  nameEn: Xuanwu Shan
+  address: 'BLK 236 Jurong East St 21 #08-344'
+  postalCode: '600236'
+- nanyangSiteId: sct-kd-730
+  projectSiteNo: '1028'
+  simplifiedZh: 玄云坛
+  traditionalZh: 玄雲壇
+  nameEn: Xuanyun Tan
+  address: 'BLK 505 Jelapang Road #06-436'
+  postalCode: '670505'
+- nanyangSiteId: sct-kd-731
+  projectSiteNo: '1029'
+  simplifiedZh: 玄云坛道教会
+  traditionalZh: 玄雲壇道教會
+  nameEn: Xuanyuntan Dao Jiao Hui
+  address: 61B Lorong 27 Geylang Rd
+  postalCode: '388186'
+- nanyangSiteId: sct-kd-732
+  projectSiteNo: '1030'
+  simplifiedZh: 玄中坛
+  traditionalZh: 玄中壇
+  nameEn: Xuanzhong Tan
+  address: 'BLK 105 Pasir Ris St 12 #03-99'
+  postalCode: '510105'
+- nanyangSiteId: sct-kd-733
+  projectSiteNo: '1031'
+  simplifiedZh: 芽笼芭鲁善世坛
+  traditionalZh: 芽籠芭魯善世壇
+  nameEn: Ya Long Balushanshi Tan
+  address: 'BLK 57 Geylang Bahru #14-3485'
+  postalCode: '330057'
+- nanyangSiteId: sct-kd-734
+  projectSiteNo: '1033'
+  simplifiedZh: 芽笼联合宫
+  traditionalZh: 芽籠聯合宮
+  nameEn: Geylang United Temple
+  address: 103 Eunos Road 5
+  postalCode: '409352'
+- nanyangSiteId: sct-kd-735
+  projectSiteNo: '1034'
+  simplifiedZh: 阎罗殿
+  traditionalZh: 閻羅殿
+  nameEn: Giam Loh Tian Temple
+  address: 3 Beng Wan Road
+  postalCode: '339835'
+- nanyangSiteId: sct-kd-736
+  projectSiteNo: '1036'
+  simplifiedZh: 杨法坛
+  traditionalZh: 楊法壇
+  nameEn: Yangfa Tan
+  address: 1G Yio Chu Kang Rd
+  postalCode: '545513'
+- nanyangSiteId: sct-kd-737
+  projectSiteNo: '1037'
+  simplifiedZh: 杨桃园城隍庙
+  traditionalZh: 楊桃園城隍廟
+  nameEn: Sheng Hong Temple
+  address: 300 Pandan Gardens
+  postalCode: '609341'
+- nanyangSiteId: sct-kd-738
+  projectSiteNo: '1038'
+  simplifiedZh: 药师行愿会
+  traditionalZh: 藥師行願會
+  nameEn: Buddha of Medicine Welfare Society
+  address: 11 Lorong 25 Geylang
+  postalCode: '338293'
+- nanyangSiteId: sct-kd-739
+  projectSiteNo: '1040'
+  simplifiedZh: 义福龙坛
+  traditionalZh: 儀福龍壇
+  nameEn: Yifulong Tan
+  address: 'BLK 407 Choa Chu Kang Ave 3 #02-287'
+  postalCode: '680407'
+- nanyangSiteId: sct-kd-740
+  projectSiteNo: '1043'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Eit San Tong Temple
+  address: 582 Lorong 3 Geylang
+  postalCode: '388992'
+- nanyangSiteId: sct-kd-741
+  projectSiteNo: '1046'
+  simplifiedZh: 义顺镇联合庙
+  traditionalZh: 義順鎮聫合廟
+  nameEn: Yi Shun Town United Temple
+  address: 17 Yishun Avenue 9
+  postalCode: '768890'
+- nanyangSiteId: sct-kd-742
+  projectSiteNo: '1047'
+  simplifiedZh: 壹伍玖济正宫  宏茂桥
+  traditionalZh: 壹伍玖濟正宮  宏茂橋
+  nameEn: Ji Zheng Gong   Main temple at 159 AMK
+  address: 'Blk 159 Ang Mo Kio Ave 4 #01-528'
+  postalCode: '560159'
+- nanyangSiteId: sct-kd-743
+  projectSiteNo: '1048'
+  simplifiedZh: 壹伍玖济正宫  芽龙
+  traditionalZh: 壹伍玖濟正宮   芽龍
+  nameEn: Ji Zheng Gong  New temple at  Geylang
+  address: 15 Geylang Lor 21A
+  postalCode: '388732'
+- nanyangSiteId: sct-kd-744
+  projectSiteNo: '1049'
+  simplifiedZh: ''
+  traditionalZh: ''
+  nameEn: Yixing Ju Temple
+  address: 4 Parkstone Road
+  postalCode: '437651'
+- nanyangSiteId: sct-kd-745
+  projectSiteNo: '1050'
+  simplifiedZh: 义星堂
+  traditionalZh: 義星堂
+  nameEn: Yixing Tang
+  address: 31 Marsiling Industrial Estate Road 3
+  postalCode: '739255'
+- nanyangSiteId: sct-kd-746
+  projectSiteNo: '1052'
+  simplifiedZh: 义忠府
+  traditionalZh: 儀忠府
+  nameEn: Yizhong Fu
+  address: 'BLK 138 Jalan Bukit Merah #06-1398'
+  postalCode: '160138'
+- nanyangSiteId: sct-kd-747
+  projectSiteNo: '1054'
+  simplifiedZh: 阴福殿
+  traditionalZh: 陰福殿
+  nameEn: Yinfu Dian
+  address: 'BLK 55 Lengkok Bahru #07-429'
+  postalCode: '151055'
+- nanyangSiteId: sct-kd-748
+  projectSiteNo: '1056'
+  simplifiedZh: 阴吕府
+  traditionalZh: 陰呂府
+  nameEn: Yinlv Fu
+  address: 'BLK 863B Tampines St 83 #01-468'
+  postalCode: '522863'
+- nanyangSiteId: sct-kd-749
+  projectSiteNo: '1058'
+  simplifiedZh: 阴善殿
+  traditionalZh: 陰善殿
+  nameEn: Yinshan Dian
+  address: 'BLK 3 Jalan Bukit Merah #11-5100'
+  postalCode: '150003'
+- nanyangSiteId: sct-kd-750
+  projectSiteNo: '1062'
+  simplifiedZh: 阴阵殿公庙 芽笼
+  traditionalZh: 廕陣殿公廟
+  nameEn: Yin Zhen Dian Temple Association
+  address: 21 Lorong 34 Geylang
+  postalCode: '398218'
+- nanyangSiteId: sct-kd-751
+  projectSiteNo: '1065'
+  simplifiedZh: 勇义宫
+  traditionalZh: 勇義宫
+  nameEn: Yongyi Gong
+  address: 504A Dunman Rd
+  postalCode: '439197'
+- nanyangSiteId: sct-kd-752
+  projectSiteNo: '1068'
+  simplifiedZh: 虞都庵
+  traditionalZh: 虞都庵
+  nameEn: Yi Do An Chinese Temple
+  address: 7 Choa Chu Kang Street 51
+  postalCode: '689340'
+- nanyangSiteId: sct-kd-753
+  projectSiteNo: '1073'
+  simplifiedZh: 玉封九山宫六壬仙师法坛
+  traditionalZh: 玉封九山宮六壬仙師法壇
+  nameEn: Yufengjiushan Gong Liurenxianshifa Tan
+  address: '48 Enterprise Hub Toh Guan East #09-149'
+  postalCode: '608586'
+- nanyangSiteId: sct-kd-754
+  projectSiteNo: '1074'
+  simplifiedZh: 玉封莲显宫
+  traditionalZh: 玉封蓮顯宮
+  nameEn: Yufenglianxian Gong
+  address: '7 Soon Lee Street #05-38'
+  postalCode: '627608'
+- nanyangSiteId: sct-kd-755
+  projectSiteNo: '1077'
+  simplifiedZh: 玉封南府玄善庙
+  traditionalZh: 玉封南府玄善廟
+  nameEn: Yufengnanfuxuanshan Miao
+  address: 2 Third Lok Yang Rd
+  postalCode: '627997'
+- nanyangSiteId: sct-kd-756
+  projectSiteNo: '1079'
+  simplifiedZh: 玉封圣佛坛
+  traditionalZh: 玉封聖佛壇
+  nameEn: Yufengshengfu Tan
+  address: '858 woodlands streer 83 #02-212'
+  postalCode: '730858'
+- nanyangSiteId: sct-kd-757
+  projectSiteNo: '1086'
+  simplifiedZh: 玉封至富财帛星君庙
+  traditionalZh: 玉封至富財帛星君廟
+  nameEn: Yufengzhifucaibao Xing Jun Miao
+  address: 332A Changi Rd
+  postalCode: '419807'
+- nanyangSiteId: sct-kd-758
+  projectSiteNo: '1087'
+  simplifiedZh: 玉海棠观音救苦会
+  traditionalZh: 玉海棠觀音救苦會
+  nameEn: Jee Hai Tung Kwan Imm Welfare Society
+  address: 30-32 Bedok Reservoir Road
+  postalCode: '479231'
+- nanyangSiteId: sct-kd-759
+  projectSiteNo: '1088'
+  simplifiedZh: 玉皇殿
+  traditionalZh: 玉皇殿
+  nameEn: Yuhuang Dian
+  address: 12 Jurong West Street 76
+  postalCode: '648349'
+- nanyangSiteId: sct-kd-760
+  projectSiteNo: '1089'
+  simplifiedZh: 玉皇殿（黑桥头，天公坛）
+  traditionalZh: 玉皇殿 黑橋頭  天公壇
+  nameEn: Or Kio Tow Geok Hong Tian
+  address: 495 Havelock Road
+  postalCode: '169635'
+- nanyangSiteId: sct-kd-761
+  projectSiteNo: '1090'
+  simplifiedZh: 玉皇殿联合宫
+  traditionalZh: 玉皇殿聯合宮
+  nameEn: Yu Huang Combined Temple
+  address: 13 Jurong West Street 76
+  postalCode: '648349'
+- nanyangSiteId: sct-kd-762
+  projectSiteNo: '1091'
+  simplifiedZh: 玉皇宫
+  traditionalZh: 玉皇宮
+  nameEn: Yuhuang Gong
+  address: 150 Telok Ayer Street
+  postalCode: '68608'
+- nanyangSiteId: sct-kd-763
+  projectSiteNo: '1092'
+  simplifiedZh: 玉皇庙
+  traditionalZh: 玉皇廟
+  nameEn: Gek Hong Temple
+  address: 14 Lorong 26 Geylang
+  postalCode: '398487'
+- nanyangSiteId: sct-kd-764
+  projectSiteNo: '1093'
+  simplifiedZh: 玉皇至尊庙
+  traditionalZh: 玉皇至尊廟
+  nameEn: Yu Huang Zhi Zun Tp
+  address: 26 Lorong 27a Geylang
+  postalCode: '388115'
+- nanyangSiteId: sct-kd-765
+  projectSiteNo: '1097'
+  simplifiedZh: 裕廊西联合宫
+  traditionalZh: 裕廊西聯合宮
+  nameEn: Jurong West United Temple
+  address: 64 Jurong West Street 41
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-766
+  projectSiteNo: '1099'
+  simplifiedZh: 裕廊总宫
+  traditionalZh: 裕廊總宮
+  nameEn: Jurong Combined Temple
+  address: 741 Jurong West Street 42
+  postalCode: '649369'
+- nanyangSiteId: sct-kd-767
+  projectSiteNo: '1100'
+  simplifiedZh: 玉虚道教协会
+  traditionalZh: 玉虛道教協會
+  nameEn: Yu Xu Taoist Association  Singapore
+  address: '26, Boon Lay Way, Tradehub 21 #01-89 '
+  postalCode: '609970'
+- nanyangSiteId: sct-kd-768
+  projectSiteNo: '1102'
+  simplifiedZh: 圆福殿
+  traditionalZh: 圓福殿
+  nameEn: Tan Kong Tian Temple
+  address: 14 Jalan Kebaya
+  postalCode: '278319'
+- nanyangSiteId: sct-kd-769
+  projectSiteNo: '1103'
+  simplifiedZh: 元龙圣庙
+  traditionalZh: 元龍聖廟
+  nameEn: Guan Loong Sheng Temple
+  address: 17 Yishun Avenue 9
+  postalCode: '768890'
+- nanyangSiteId: sct-kd-770
+  projectSiteNo: '1104'
+  simplifiedZh: 圆明寺
+  traditionalZh: 圓明寺
+  nameEn: Yuanming Si
+  address: 631 Upper East Coast Road
+  postalCode: '466596'
+- nanyangSiteId: sct-kd-771
+  projectSiteNo: '1105'
+  simplifiedZh: 元寿堂
+  traditionalZh: 元壽堂
+  nameEn: Yuanshou Tang
+  address: 17 Yishun Avenue 9
+  postalCode: '768890'
+- nanyangSiteId: sct-kd-772
+  projectSiteNo: '1107'
+  simplifiedZh: 粤海清庙
+  traditionalZh: 粵海清廟
+  nameEn: Yuen Hai Ching aka
+  address: 30B Phillip Street
+  postalCode: '48696'
+- nanyangSiteId: sct-kd-773
+  projectSiteNo: '1108'
+  simplifiedZh: 云徳堂同心社
+  traditionalZh: 雲德堂同心社
+  nameEn: Yun Teck Sian Tng Thong Sin Sia
+  address: 15B Geylang Lor 13
+  postalCode: '388655'
+- nanyangSiteId: sct-kd-774
+  projectSiteNo: '1110'
+  simplifiedZh: 云峰古庙
+  traditionalZh: 雲峰古廟
+  nameEn: Hoong Hong Koon Beo
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569731'
+- nanyangSiteId: sct-kd-775
+  projectSiteNo: '1111'
+  simplifiedZh: 云峰古庙合兴光庙
+  traditionalZh: 雲峰古廟合興光廟
+  nameEn: Hoong Hong Koon Beo & Hup Heng Kwang Beo
+  address: 8 Ang Mo Kio Avenue 10 / Street 44
+  postalCode: '569731'
+- nanyangSiteId: sct-kd-776
+  projectSiteNo: '1115'
+  simplifiedZh: 云龙寺
+  traditionalZh: 雲龍寺
+  nameEn: Hong Leng Yien Temple
+  address: 116 Keng Lee Road
+  postalCode: '308402'
+- nanyangSiteId: sct-kd-777
+  projectSiteNo: '1116'
+  simplifiedZh: 云山宫
+  traditionalZh: 雲山宮
+  nameEn: Hoon San Keng Temple
+  address: 27 Jln Lim Tai See
+  postalCode: '268360'
+- nanyangSiteId: sct-kd-778
+  projectSiteNo: '1119'
+  simplifiedZh: 云雾山念佛堂
+  traditionalZh: 雲霧山念佛堂
+  nameEn: Yunwushannianfo Tang
+  address: 'Blk 51 Chin Swee Road #03-87'
+  postalCode: '160051'
+- nanyangSiteId: sct-kd-779
+  projectSiteNo: '1120'
+  simplifiedZh: 云仙宫
+  traditionalZh: 雲仙宮
+  nameEn: Hoon Sian Keng
+  address: 82 Changi Road
+  postalCode: '419716'
+- nanyangSiteId: sct-kd-780
+  projectSiteNo: '1123'
+  simplifiedZh: 藏密佛学研究会
+  traditionalZh: 藏密佛學研究會
+  nameEn: Tibetan Buddhist Studies Society
+  address: 38-B Lorong 23, Geylang
+  postalCode: '388372'
+- nanyangSiteId: sct-kd-781
+  projectSiteNo: '1125'
+  simplifiedZh: 薝卜院
+  traditionalZh: 薝蔔院
+  nameEn: Chian Pok Temple
+  address: 8 Geylang East Avenue 1
+  postalCode: '389780'
+- nanyangSiteId: sct-kd-782
+  projectSiteNo: '1126'
+  simplifiedZh: 旃檀林
+  traditionalZh: 旃檀林
+  nameEn: Tsan Tan Lim Temple
+  address: 20 Jalan Yasin
+  postalCode: '417992'
+- nanyangSiteId: sct-kd-783
+  projectSiteNo: '1128'
+  simplifiedZh: 昭惠庙
+  traditionalZh: 昭惠廟
+  nameEn: Zhaohui Miao
+  address: 416 Race Course Road
+  postalCode: '218663'
+- nanyangSiteId: sct-kd-784
+  projectSiteNo: '1129'
+  simplifiedZh: 昭灵庙  莆田江兜
+  traditionalZh: 昭靈廟  莆田江兜
+  nameEn: Cheow Leng Beo   Xin Hua Temple
+  address: 525 Yishun Industrial Park A
+  postalCode: '768769'
+- nanyangSiteId: sct-kd-785
+  projectSiteNo: '1130'
+  simplifiedZh: 昭灵祖庙
+  traditionalZh: 昭靈祖廟
+  nameEn: Cheow Leng Zhu Beo
+  address: 125 Owen Road
+  postalCode: '218929'
+- nanyangSiteId: sct-kd-786
+  projectSiteNo: '1131'
+  simplifiedZh: 昭灵宫
+  traditionalZh: 昭靈宮
+  nameEn: Zhaoling Gong
+  address: 60 Jurong West Street 41
+  postalCode: '649407'
+- nanyangSiteId: sct-kd-787
+  projectSiteNo: '1132'
+  simplifiedZh: 昭应祠  琼人
+  traditionalZh: 昭應祠  瓊人
+  nameEn: Chow Eng Chee
+  address: 177L Lorong 7 Toa Payoh
+  postalCode: '319318'
+- nanyangSiteId: sct-kd-788
+  projectSiteNo: '1134'
+  simplifiedZh: 真空教复本堂
+  traditionalZh: 真空教複本堂
+  nameEn: Chin Kong Religion Fook Poon Tong
+  address: '561 Yishun Ring Road , #01-05'
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-789
+  projectSiteNo: '1135'
+  simplifiedZh: 真龙宫联合宫
+  traditionalZh: 真龍宮聯合宮
+  nameEn: Chin Leng Keng  United Temple
+  address: 98T Redhill Close
+  postalCode: '158900'
+- nanyangSiteId: sct-kd-790
+  projectSiteNo: '1136'
+  simplifiedZh: 镇南庙
+  traditionalZh: 鎮南廟
+  nameEn: Chern Nam  Temple
+  address: 15 Yishun Avenue 9
+  postalCode: '768889'
+- nanyangSiteId: sct-kd-791
+  projectSiteNo: '1137'
+  simplifiedZh: 镇南庙广寿堂
+  traditionalZh: 鎮南廟廣壽堂
+  nameEn: Chern Nam Kong Siew Temple
+  address: 15 Yishun Avenue 9
+  postalCode: '768889'
+- nanyangSiteId: sct-kd-792
+  projectSiteNo: '1138'
+  simplifiedZh: 真人宫
+  traditionalZh: 真人宮
+  nameEn: Chin Leng Keng Chinese Temple
+  address: 98T Redhill Close
+  postalCode: '158900'
+- nanyangSiteId: sct-kd-793
+  projectSiteNo: '1139'
+  simplifiedZh: 镇山天福宫
+  traditionalZh: 鎮山天福宮
+  nameEn: Teng San Tian Hock Temple
+  address: 489 Serangoon North Avenue 1
+  postalCode: '555891'
+- nanyangSiteId: sct-kd-794
+  projectSiteNo: '1140'
+  simplifiedZh: 真武殿
+  traditionalZh: 真武殿
+  nameEn: Zhenwu Dian
+  address: 'Win 5, 15 Yishun Industrial Street 1, #09-11'
+  postalCode: ''
+- nanyangSiteId: sct-kd-795
+  projectSiteNo: '1141'
+  simplifiedZh: 珍珠坊神壇
+  traditionalZh: 珍珠坊神壇
+  nameEn: People's Park Shrine
+  address: 1 Park Road
+  postalCode: '59108'
+- nanyangSiteId: sct-kd-796
+  projectSiteNo: '1142'
+  simplifiedZh: 正华慈圣宫
+  traditionalZh: 正華慈聖宮
+  nameEn: Cheng Hwa Cher Siah Temple
+  address: 23 Bangkit Road
+  postalCode: '679972'
+- nanyangSiteId: sct-kd-797
+  projectSiteNo: '1147'
+  simplifiedZh: 正觉寺
+  traditionalZh: 正覺寺
+  nameEn: Zheng Jue Si Temple
+  address: 98 Lorong 23 Geylang
+  postalCode: '388397'
+- nanyangSiteId: sct-kd-798
+  projectSiteNo: '1148'
+  simplifiedZh: 正龙宫玄江殿
+  traditionalZh: 正龍宮玄江殿
+  nameEn: Chia Leng Kong Heng Kang Tian
+  address: 85A Silat Road
+  postalCode: '168851'
+- nanyangSiteId: sct-kd-799
+  projectSiteNo: '1155'
+  simplifiedZh: 知归佛社
+  traditionalZh: 知歸佛社
+  nameEn: Tee Kwee Hood Sia Temple   Chih Kuei Fu Ser
+  address: 15 Sennett Road
+  postalCode: '466793'
+- nanyangSiteId: sct-kd-800
+  projectSiteNo: '1156'
+  simplifiedZh: 志愿佛教徒协会
+  traditionalZh: 志願佛教徒協會
+  nameEn: Society Of Buddhist Volunteers
+  address: 26B Kim Keat Road
+  postalCode: '328844'
+- nanyangSiteId: sct-kd-801
+  projectSiteNo: '1158'
+  simplifiedZh: 忠邦联合宫
+  traditionalZh: 忠邦聯合宮
+  nameEn: Chong Pang Combined Temple
+  address: 561 Yishun Ring Road
+  postalCode: '768682'
+- nanyangSiteId: sct-kd-802
+  projectSiteNo: '1160'
+  simplifiedZh: 中宝坛阴世府
+  traditionalZh: 中寶壇陰世府
+  nameEn: Tiong Poh Tuang Yim Say Hu
+  address: 'BLK 702 West Coast Road #05-357'
+  postalCode: '120702'
+- nanyangSiteId: sct-kd-803
+  projectSiteNo: '1161'
+  simplifiedZh: 忠德佛堂
+  traditionalZh: 忠德佛堂
+  nameEn: Chong Tuck Tong Chinese Temple
+  address: 477 Geylang Road
+  postalCode: '389436'
+- nanyangSiteId: sct-kd-804
+  projectSiteNo: '1163'
+  simplifiedZh: 众弘善堂
+  traditionalZh: 眾弘善堂
+  nameEn: Cheng Hong Siang Tng
+  address: 30 Arumugam Road
+  postalCode: '409966'
+- nanyangSiteId: sct-kd-805
+  projectSiteNo: '1164'
+  simplifiedZh: 众弘善堂九皇宫联合宫
+  traditionalZh: 眾弘善堂九皇宮
+  nameEn: Cheng Hong Siang Tng Kew Huang Keng  United Temple
+  address: 30 Arumugam Road
+  postalCode: '409966'
+- nanyangSiteId: sct-kd-806
+  projectSiteNo: '1165'
+  simplifiedZh: 中华善堂蓝十字总会
+  traditionalZh: 中華善堂藍十字總會
+  nameEn: Blue Gross Charitable Institution,Singapore
+  address: ''
+  postalCode: '118534'
+- nanyangSiteId: sct-kd-807
+  projectSiteNo: '1168'
+  simplifiedZh: 忠龙宫
+  traditionalZh: 忠龍宮
+  nameEn: Zhonglong Gong
+  address: 'BLK 504 Jelapang Road #19-358'
+  postalCode: '670504'
+- nanyangSiteId: sct-kd-808
+  projectSiteNo: '1171'
+  simplifiedZh: 钟头宫
+  traditionalZh: 鐘頭宮
+  nameEn: Zhongtou Gong
+  address: 109c Hougang Avenue 5
+  postalCode: '538820'
+- nanyangSiteId: sct-kd-809
+  projectSiteNo: '1174'
+  simplifiedZh: 忠义殿
+  traditionalZh: 忠義殿
+  nameEn: Zhongyi Guan
+  address: 21 Bangkit Road
+  postalCode: '679971'
+- nanyangSiteId: sct-kd-810
+  projectSiteNo: '1175'
+  simplifiedZh: 忠义馆
+  traditionalZh: 忠義館
+  nameEn: Zhongyi Guan
+  address: 25 Serangoon North Avenue 3
+  postalCode: '555862'
+- nanyangSiteId: sct-kd-811
+  projectSiteNo: '1176'
+  simplifiedZh: 忠义庙  女皇镇
+  traditionalZh: 忠義廟  女皇鎮
+  nameEn: Tiong Ghee Temple
+  address: 1085 Stirling Road, Queenstown
+  postalCode: '148953'
+- nanyangSiteId: sct-kd-812
+  projectSiteNo: '1177'
+  simplifiedZh: 忠义天明庙
+  traditionalZh: 忠義天明廟
+  nameEn: Zhongyitianming Miao
+  address: 21 Serangoon North Avenue 3
+  postalCode: '555862'
+- nanyangSiteId: sct-kd-813
+  projectSiteNo: '1178'
+  simplifiedZh: 主唵坛
+  traditionalZh: 主唵壇
+  nameEn: Zhu'an Tan
+  address: 49 Ceylon Road,
+  postalCode: '429367'
+- nanyangSiteId: sct-kd-814
+  projectSiteNo: '1179'
+  simplifiedZh: 祝福寺 惹兰友诺士路
+  traditionalZh: 祝福寺
+  nameEn: Buddha Vihara Society
+  address: 30 Jalan Eunos
+  postalCode: '419495'
+- nanyangSiteId: sct-kd-815
+  projectSiteNo: '1182'
+  simplifiedZh: 竹林寺
+  traditionalZh: 竹林寺
+  nameEn: Zhulin Si
+  address: 817 Bukit Batok West Avenue 5
+  postalCode: '659086'
+- nanyangSiteId: sct-kd-816
+  projectSiteNo: '1184'
+  simplifiedZh: 朱孟迦育佛教中心
+  traditionalZh: 朱孟迦育佛教中心
+  nameEn: Zumang Kalyud Buddhist Ctr
+  address: 'BLK 148 Silat  Ave #12-06'
+  postalCode: '160148'
+- nanyangSiteId: sct-kd-817
+  projectSiteNo: '1186'
+  simplifiedZh: 竹云宫
+  traditionalZh: 竹雲宮
+  nameEn: Zhuyun Gong
+  address: 7 Chai Chee Lane
+  postalCode: '469020'
+- nanyangSiteId: sct-kd-818
+  projectSiteNo: '1187'
+  simplifiedZh: 竹云坛
+  traditionalZh: 竹雲壇
+  nameEn: Zhuyun Tan
+  address: '7030 Ang Mo Kio Avenue 5 #06-29'
+  postalCode: ''
+- nanyangSiteId: sct-kd-819
+  projectSiteNo: '1189'
+  simplifiedZh: 准提阁
+  traditionalZh: 凖提閣
+  nameEn: Zhunti Ge
+  address: 13 Keong Saik Road
+  postalCode: '89120'
+- nanyangSiteId: sct-kd-820
+  projectSiteNo: '1190'
+  simplifiedZh: 准提宫
+  traditionalZh: 準提宫
+  nameEn: Cundhi Gong
+  address: 601 Sin Ming Drive
+  postalCode: '575719'
+- nanyangSiteId: sct-kd-821
+  projectSiteNo: '1191'
+  simplifiedZh: 自度庵
+  traditionalZh: 自度庵
+  nameEn: Tse Tho Aum Temple
+  address: 247-249B South Bridge Road
+  postalCode: '58796'
+- nanyangSiteId: sct-kd-822
+  projectSiteNo: '1192'
+  simplifiedZh: 紫经阁  德教会
+  traditionalZh: 紫經閣  德教會
+  nameEn: Zi Jing Ge Moral Uplifting Society, Singapore
+  address: 5 Bukit Pasoh Road
+  postalCode: '89819'
+- nanyangSiteId: sct-kd-823
+  projectSiteNo: '1193'
+  simplifiedZh: 紫玄阁  德教会
+  traditionalZh: 紫玄閣  德教會
+  nameEn: Che Hian Khor Moral Uplifting Society
+  address: 39 Jurong West Avenue 1
+  postalCode: '649518'
+- nanyangSiteId: sct-kd-824
+  projectSiteNo: '1194'
+  simplifiedZh: 紫云开吉宫
+  traditionalZh: 紫雲開吉宮
+  nameEn: Ziyunkaiji Gong
+  address: 58 Hougang Ave 3
+  postalCode: '538842'
+- nanyangSiteId: sct-kd-825
+  projectSiteNo: '1197'
+  simplifiedZh: 祖佛海南山庙
+  traditionalZh: 祖佛海南山廟
+  nameEn: Beo San Hood Chor Temple
+  address: 443 Race Course Road
+  postalCode: '218687'
+- nanyangSiteId: sct-kd-826
+  projectSiteNo: '1198'
+  simplifiedZh: 法鼓山新加坡护法会
+  traditionalZh: 法鼓山新加坡護法會
+  nameEn: Dharama Drum Singapore
+  address: 100A DuxtonRoad
+  postalCode: '89542'
+- nanyangSiteId: sct-kd-827
+  projectSiteNo: '1199'
+  simplifiedZh: 佛教曼荼罗学会
+  traditionalZh: 佛教曼荼羅學會
+  nameEn: Buddha Dhamma Mandala Society
+  address: 567-A Balestier Road
+  postalCode: '329884'
+- nanyangSiteId: sct-kd-828
+  projectSiteNo: '1200'
+  simplifiedZh: 海印古寺
+  traditionalZh: 海印古寺
+  nameEn: Hai Inn Temple
+  address: No. 33 Bricklands Road  (Off Choa Chu Kang Road Ave 3)
+  postalCode: '688254'
+- nanyangSiteId: sct-kd-829
+  projectSiteNo: '1201'
+  simplifiedZh: 华严佛学会
+  traditionalZh: 華嚴佛學會
+  nameEn: Hua Yan Buddhist Society
+  address: 280A Sim's Avenue
+  postalCode: '387515'
+- nanyangSiteId: sct-kd-830
+  projectSiteNo: '1202'
+  simplifiedZh: 楞严佛学会
+  traditionalZh: 楞嚴佛學會
+  nameEn: Shurangama Buddhist Society
+  address: 203-B Lavender St
+  postalCode: '338763'
+- nanyangSiteId: sct-kd-831
+  projectSiteNo: '1203'
+  simplifiedZh: 四念处禅修中心
+  traditionalZh: 四念處禪修中心
+  nameEn: Satipatthana Meditation Centre
+  address: 735A & 735B Havelock Road
+  postalCode: '169652'
+- nanyangSiteId: sct-kd-832
+  projectSiteNo: '1204'
+  simplifiedZh: 新加坡佛学研究会
+  traditionalZh: 新加坡佛學研究會
+  nameEn: Singapore Buddha Sasana Society  Sakya Tenphel Ling
+  address: 5, Pasir Ris Drive 4
+  postalCode: '519455'
+- nanyangSiteId: sct-kd-833
+  projectSiteNo: '1205'
+  simplifiedZh: 新加坡缅甸玉佛寺
+  traditionalZh: 新加坡緬甸玉佛寺
+  nameEn: Burmese Buddhist Centre
+  address: 14 Tai Gin Road
+  postalCode: '327873'
+- nanyangSiteId: sct-kd-834
+  projectSiteNo: '1206'
+  simplifiedZh: 藏传宁玛巴噶陀佛学会
+  traditionalZh: 藏傳寧瑪巴噶陀佛學會
+  nameEn: Nyingma Kathok Buddhist Centre
+  address: 397 Guillemard Road
+  postalCode: '399792'

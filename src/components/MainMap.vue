@@ -12,7 +12,7 @@
     </ol-tile-layer>
 
     <!-- Displaying Lines -->
-    <ol-vector-layer v-for="(lines, key) in lineGroups" :key="key">
+    <!-- <ol-vector-layer v-for="(lines, key) in lineGroups" :key="key">
       <ol-source-vector>
         <ol-feature v-for="(line, k) in lines" :key="k">
           <ol-geom-line-string :coordinates="line.coordinates"></ol-geom-line-string>
@@ -22,10 +22,10 @@
           </ol-style>
         </ol-feature>
       </ol-source-vector>
-    </ol-vector-layer>
+    </ol-vector-layer> -->
 
     <!-- Display Points -->
-    <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
+    <!-- <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
       <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
       </ol-source-cluster>
@@ -39,14 +39,38 @@
         </ol-style-circle>
         <ol-style-text text="test" />
       </ol-style>
-    </ol-vector-layer>
+    </ol-vector-layer> -->
+
+    <div v-for="mapDataLayer in mapDataLayers" :key="mapDataLayer.title">
+      <ol-vector-layer :visible="mapDataLayer.show">
+        <ol-source-cluster :distance="30">
+          <ol-source-vector :features="mapDataLayer.feature" />
+        </ol-source-cluster>
+
+        <ol-style
+          :overrideStyleFunction="
+            (feature: any, style: any, resolution: any) =>
+              overrideStyleFunction(feature, style, resolution, mapDataLayer.markerColor)
+          "
+          :key="styleVersion"
+        >
+          <ol-style-stroke color="red" :width="2" />
+          <ol-style-fill color="rgba(255,255,255,0.1)" />
+          <ol-style-circle :radius="10">
+            <ol-style-fill :color="mapDataLayer.markerColor" />
+            <ol-style-stroke color="#fff" :width="1" />
+          </ol-style-circle>
+          <ol-style-text text="test" />
+        </ol-style>
+      </ol-vector-layer>
+    </div>
   </ol-map>
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { Feature } from 'ol'
-import { Point } from 'ol/geom'
+import { ref } from 'vue'
+// import { Feature } from 'ol'
+// import { Point } from 'ol/geom'
 import {
   clearSelectedFeatures,
   setSelectedFeatures,
@@ -54,37 +78,41 @@ import {
 } from '../controllers/mapDataController'
 import type { Feature as OlFeature } from 'ol'
 import type { Geometry } from 'ol/geom'
-import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
+// import type { CompanyDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
+import { mapDataLayers } from 'src/stores/mapDataStore'
 
-const props = defineProps(['points', 'lines'])
+// const props = defineProps(['points', 'lines'])
 
 const mapRef = ref()
 // const selectedClusterId = ref<string | null>(null)
 const styleVersion = ref(0) // Add a version counter to force style updates
 
-const getClusterColor = (features: OlFeature[]) => {
-  // console.log('getClusterColor')
-  if (
-    features[0] &&
-    selectedFeatures.value[0] &&
-    features[0].get('X') === selectedFeatures.value[0].get('X')
-  ) {
-    return 'orange'
-  } else {
-    return '#006064'
-  }
-}
+// const getClusterColor = (features: OlFeature[] | null) => {
+//   // console.log('getClusterColor')
+//   if (features === null) {
+//     return '006064'
+//   }
+//   if (
+//     features[0] &&
+//     selectedFeatures.value[0] &&
+//     features[0].get('X') === selectedFeatures.value[0].get('X')
+//   ) {
+//     return 'orange'
+//   } else {
+//     return '#006064'
+//   }
+// }
 
 // Helper function to convert each point to an OpenLayers Feature
-function createFeature(point: CompanyDataI): OlFeature<Geometry> {
-  const feature = new Feature({
-    geometry: new Point([point.X, point.Y]),
-    ...point,
-  })
-  return feature
-}
+// function createFeature(point: CompanyDataI): OlFeature<Geometry> {
+//   const feature = new Feature({
+//     geometry: new Point([point.X, point.Y]),
+//     ...point,
+//   })
+//   return feature
+// }
 
 // Add this near the createFeature function
 // function createLineFeature(lineData: any): OlFeature<Geometry> {
@@ -96,30 +124,30 @@ function createFeature(point: CompanyDataI): OlFeature<Geometry> {
 // }
 
 // Preprocess points into grouped features
-const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
-  const result: Record<string, OlFeature<Geometry>[]> = {}
+// const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
+//   const result: Record<string, OlFeature<Geometry>[]> = {}
 
-  for (const key in props.points) {
-    const pointsArray = props.points[key]
-    result[key] = pointsArray.map(createFeature)
-  }
+//   for (const key in props.points) {
+//     const pointsArray = props.points[key]
+//     result[key] = pointsArray.map(createFeature)
+//   }
 
-  return result
-})
+//   return result
+// })
 
-const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
-  const result: Record<string, []> = {}
+// const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
+//   const result: Record<string, []> = {}
 
-  for (const key in props.lines) {
-    const linesArray = props.lines[key]
-    result[key] = linesArray
-  }
+//   for (const key in props.lines) {
+//     const linesArray = props.lines[key]
+//     result[key] = linesArray
+//   }
 
-  return result
-})
+//   return result
+// })
 
 // @ts-expect-error some error
-const overrideStyleFunction = (feature, style, resolution) => {
+const overrideStyleFunction = (feature, style, resolution, defaultColor) => {
   // console.log('overrideStyleFunction')
   // console.log({ feature, style, resolution })
 
@@ -130,14 +158,23 @@ const overrideStyleFunction = (feature, style, resolution) => {
   const size = clusteredFeatures.length
 
   // If the first element in a cluster is selected, the whole cluster is selected
-  const isSelected =
-    clusteredFeatures[0] &&
-    selectedFeatures.value[0] &&
-    clusteredFeatures[0].get('X') === selectedFeatures.value[0].get('X') &&
-    clusteredFeatures[0].get('Y') === selectedFeatures.value[0].get('Y')
+  // const isSelected =
+  //   clusteredFeatures[0] &&
+  //   selectedFeatures.value[0] &&
+  //   clusteredFeatures[0].get('X') === selectedFeatures.value[0].get('X') &&
+  //   clusteredFeatures[0].get('Y') === selectedFeatures.value[0].get('Y')
 
+  // Check if ANY feature in the cluster is selected (instead of just the first one)
+  const isSelected = clusteredFeatures.some((clusteredFeature) =>
+    selectedFeatures.value.some(
+      (selectedFeature) =>
+        clusteredFeature.get('X') === selectedFeature.get('X') &&
+        clusteredFeature.get('Y') === selectedFeature.get('Y'),
+    ),
+  )
   // Reset all cluster style color
-  style.getImage().getFill().setColor('#006064')
+  style.getImage().getFill().setColor(defaultColor)
+  style.getImage().setRadius(10)
 
   // If contains feature
   if (size > 1) {
@@ -152,7 +189,10 @@ const overrideStyleFunction = (feature, style, resolution) => {
   }
 
   if (isSelected) {
+    // console.log(clusteredFeatures, selectedFeatures)
+
     style.getImage().getFill().setColor('orange')
+    style.getImage().setRadius(15)
   }
 
   return style

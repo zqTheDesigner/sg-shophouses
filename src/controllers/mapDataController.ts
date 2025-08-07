@@ -3,27 +3,10 @@ import { ref, computed } from 'vue'
 import type { Ref } from 'vue'
 
 import type { Feature as OlFeature } from 'ol'
-
-interface CompanyDataI {
-  X: number
-  Y: number
-  NUMBER: string
-  NAME: string
-  'CH-NAME': string
-  'STREET (SINGAPORE)': string
-  'ST-Number': string
-  'SCOPE OF B': string
-  Phone: string
-  'Cable Address': string
-  'Registered Date': string
-  Capital: string
-  Proprietor: string
-  'Telegraphic Address': string
-  'Other Note': string
-  'Page in Directory': string
-  Proprietors: string
-  'CH-Proprietors': string
-}
+import { mapDataLayers, type MapDataI, type MapDataLayerI } from 'src/stores/mapDataStore'
+import type { Geometry } from 'ol/geom'
+import { Feature } from 'ol'
+import { Point } from 'ol/geom'
 
 interface StreetDataI {
   street: string
@@ -48,10 +31,10 @@ const companyDataCategory = [
   'STREET',
 ]
 
-const CompanyDataRaw: Ref<CompanyDataI[]> = ref([])
+const CompanyDataRaw: Ref<MapDataI[]> = ref([])
 const StreetDataRaw: Ref<StreetDataI[]> = ref([])
 
-const filterCategory: Ref<keyof CompanyDataI | undefined> = ref('NAME')
+const filterCategory: Ref<keyof MapDataI | undefined> = ref('NAME')
 const filterKey = ref()
 
 const CompanyData = computed(() => {
@@ -82,10 +65,10 @@ const CompanyData = computed(() => {
 
 const StreetData = computed(() => StreetDataRaw.value)
 
-const setFilterCategory = (cat: keyof CompanyDataI) => (filterCategory.value = cat)
+const setFilterCategory = (cat: keyof MapDataI) => (filterCategory.value = cat)
 const setFilterKey = (k: string) => (filterKey.value = k)
 
-const fetchCompanyJSON = async (url: string): Promise<CompanyDataI[]> => {
+const fetchCompanyJSON = async (url: string): Promise<MapDataI[]> => {
   try {
     const response = await fetch(url)
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
@@ -122,6 +105,17 @@ const clearSelectedFeatures = () => {
 const csvUrls = ['data/batch_1.json', 'data/batch_2.json']
 const streetDataUrls = ['data/streets.json']
 
+// Helper function to convert each point to an OpenLayers Feature
+function createFeature(data: MapDataI): OlFeature<Geometry> {
+  const feature = new Feature({
+    geometry: new Point([data.X, data.Y]),
+    ...data,
+  })
+  return feature
+}
+
+const selectedDataLayer: Ref<MapDataLayerI | undefined> = ref()
+
 csvUrls.forEach((url) => {
   fetchCompanyJSON(url)
     .then((data) => {
@@ -148,6 +142,29 @@ streetDataUrls.forEach((url) => {
     })
 })
 
+mapDataLayers.forEach((mapData) => {
+  const urls = mapData.dataUrls
+  urls.forEach((url) => {
+    fetchCompanyJSON(url)
+      .then((data) => {
+        if (mapData.data) {
+          mapData.data = mapData.data.concat(data)
+        } else {
+          mapData.data = data
+        }
+      })
+      .finally(() => {
+        if (mapData.data) {
+          mapData.feature = mapData.data.map(createFeature)
+        }
+        console.log('loaded,', mapData.title)
+      })
+      .catch((error) => {
+        console.error('Failed to fetch data:', error)
+      })
+  })
+})
+
 // fetchCompanyJSON(csvUrl)
 //   .then((data) => {
 //     // console.log('Fetched data:', data)
@@ -170,9 +187,10 @@ export {
   setFilterCategory,
   setFilterKey,
   StreetData,
+  selectedDataLayer,
 }
 
-export type { CompanyDataI, StreetDataI }
+export type { MapDataI as CompanyDataI, StreetDataI }
 
 // ============================================================== //
 // ============ Some Old Code Snippet, DO NOT DELETE ============ //
