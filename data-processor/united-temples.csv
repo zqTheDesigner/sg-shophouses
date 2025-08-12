@@ -1,0 +1,259 @@
+FID,OID_,Name,Official_N,X,Y,Address,Postal_Cod,Country,Un_Visited,Date_Visit,HDB,United_Tem
+0,1,Ci Shan Tan,Ci Shan Tan,103.7033405,1.3474001,12 Jurong West Street 76,648349,Singapore, , , ,United Temple
+1,2,Fu An Miao,Fuan Miao,103.7035497,1.3474779,12 Jurong West Street 76,648349,Singapore,Visited, , ,United Temple
+2,3,Yu Huang Dian,Yu Huang Dian,103.7031983,1.3476227,12 Jurong West Street 76,648349,Singapore,Visited, , ,United Temple
+3,4,Yu Huang Dian Lianhegong, ,103.7034317,1.3477031,13 Jurong West Street 76,648349,Singapore,Visited, , ,United Temple
+4,5,Dou Tian Gong,Dou Tian Gong Temple,103.703694,1.346909,2 Jurong West Street 76,648370,Singapore,Visited, , ,United Temple
+5,6,Sheng Long Miao,Sheng Leng Temple,103.7199173,1.3493957,60 Jurong West Street 41,649407,Singapore, , , ,United Temple
+6,7,Xian Long Gong,Xian Long Gong,103.719979,1.3493045,60 Jurong West Street 41,649407,Singapore, , , ,United Temple
+7,8,Guan Shan Dian,Guan Shan Dian,103.7241318,1.3529654,741 Jurong Wes Street 42,649369,Singapore, , , ,United Temple
+8,9,Ling Jing Gong,Ling Jing Gong (Jurong Temple),103.7244671,1.3531557,"741 Jurong West Street 42, #01-01",649369,Singapore, , , ,United Temple
+9,10,Long Xu Yan,Long Xu Yan,103.7242418,1.3529305,741 Jurong West Street 42,649369,Singapore,Visited, , ,United Temple
+10,11,Qiong Yao Jiao Di,Qiong Yao Jiao Di Temple (Jurong Temple),103.7242364,1.3532416,"741 Jurong West Street 42, #01-01",649369,Singapore,Visited, , ,United Temple
+11,12,Shui Gou Guan (Yu Lang ),Jurong Shui Gou Guan,103.7240004,1.3530136,741 Jurong West Street 42,649369,Singapore, , , ,United Temple
+12,13,Xi Shan Gong,Xi Shan Gong,103.7241023,1.3532818,741 Jurong West St 42,649369,Singapore, , , ,United Temple
+13,14,Yu Lang Xi Lian He Gong,Jurong West United Temple,103.7243571,1.3528983,64 Jurong West Street 41,649369,Singapore,Visited, , ,United Temple
+14,15,Yu Lang Zong Gong,Jurong Combined Temple,103.7243571,1.3532067,741 Jurong West Street 42,649369,Singapore, , , ,United Temple
+15,16,Gui Lin Lian He Miao,Guilin Combined Temple,103.7399791,1.3471897,397 Bukit Batok West Avenue 8,658964,Singapore,Visited, , ,United Temple
+16,17,Ji Sheng Gong,Ji Sheng Gong,103.7401615,1.3470931,397 Bt Batok West Ave 8,658964,Singapore, , , ,United Temple
+17,18,Jin Quan Fa Tan,Jin Quan Fa Tan,103.7399563,1.3470382,397 Bt Batok West Ave 8,658964,Singapore, , , ,United Temple
+18,19,Lin Jiang Dian / Dui Shan Miao / Ai Min Gong,Lin Jiang Dian / Dui Shan Miao / Ai Min Gong/Aik Beng Keng,103.7401092,1.3469912,"397 Bukit Batok West Avenue 8, Singapore",658964,Singapore, , , , 
+19,20,Long Xian Shan Gong,Long Xian Shan Gong,103.740199,1.3472312,397 Bt Batok West Ave 8,658964,Singapore, , , ,United Temple
+20,21,Shi Zhu Miao,Shi Zhu Miao,103.7400314,1.3472688,397 Bt Batok West Ave 8,658964,Singapore, , , ,United Temple
+21,22,Qi Shen Gong,Chee Seng Temple,103.7425548,1.3915287,17 Choa Chu Kang Street 51,689337,Singapore,Visited, , ,United Temple
+22,23,Guan Yun Dian,Guan Yun Dian,103.7430855,1.3918035,19 Choa Chu Kang Street 51,689342,Singapore,Visited, , ,United Temple
+23,24,Long Lian Hua Shan Gong,Dragon Lotus Hill Temple,103.7426861,1.3919208,5 Choa Chu Kang Street 51,689339,Singapore,Visited, , ,United Temple
+24,25,Guan Di Miao,Kuan Ti Temple,103.7424189,1.39157,15 Choa Chu Kang Street 51,689336,Singapore,Visited, , ,United Temple
+25,26,Yu Du An,Yi Do An Chinese Temple,103.7428093,1.3918903,7 Choa Chu Kang Street 51,689340,Singapore,Visited, , ,United Temple
+26,27,Cai Cuo Kang You Chi Cun Lianhemiao,Choa Chu Kang Yew Tee Chun Lian He Miow,103.7429412,1.3918593,3 Choa Chu Kang Street 51,689338,Singapore,Visited, , ,United Temple
+27,28,Wu Fu Miao,Wu Fu Miao,103.7425415,1.3919612,3 Choa Chu Kang Street 51,689338,Singapore,Visited, , ,United Temple
+28,29,Shan Xing Tang,Shan Xing Tang,103.7430427,1.3915766,13 Choa Chu Kang Street 51,689335,Singapore,Visited, , ,United Temple
+29,30,Shun Long Gong,Soon Leng Temple,103.7429891,1.3914506,5A Choa Chu Kang Street 51,689339,Singapore,Visited, , ,United Temple
+30,31,Shun Long Miao,Soon Leng Temple,103.7430802,1.3917134,9 Choa Chu Kang Street 51,689341,Singapore,Visited, , ,United Temple
+31,32,Ba Long Yuan Shuai Dian,Ba Long Yuan Shuai Dian / Pak Leng Guard Seow Tian,103.742698,1.3914868,11 Choa Chu Kang Street 51,689334,Singapore,Visited, , , 
+32,33,Cai Cuo Gang Lian Sheng Dian, ,103.7424781,1.3917737,11 Choa Chu Kang Street 51,689334,Singapore, , , ,United Temple
+33,34,Guan Yun Dian,Kuan Yun Tian,103.7428777,1.3914573,11 Choa Chu Kang Street 51,689334,Singapore,Visited, , ,United Temple
+34,35,Cheng Huang Miao Wan Shou Si (Yang Tao Yuan ),Sheng Hong Temple Wan Shou Si (Yang Tao Yuan),103.7504055,1.3210772,300 Pandan Gardens,609341,Singapore, , , ,United Temple
+35,36,Cheng Huang Miao (Yang Tao Yuan ), ,103.7505946,1.321041,300 Pandan Gardens,609341,Singapore, , , ,United Temple
+36,37,Yang Tao Yuan Cheng Huang Miao, ,103.7508333,1.320982,300 Pandan Gardens,609341,Singapore,Visited, , ,United Temple
+37,38,Wu Lei Gong,Wu Lui Sien Sze Temple,103.7509307,1.3463798,6 Bukit Batok Street 21,659630,Singapore,Visited, , ,United Temple
+38,39,Wu Lei Gong Dong Tian Gong, ,103.7512324,1.3463825,6 Bukit Batok Street 21,659630,Singapore,Visited, , ,United Temple
+39,40,Da Bo Gong Miao (Yun Nan),Hoon Lam Tua Peh Kong Temple,103.7512287,1.3461912,10 Bukit Batok Street 21,659632,Singapore,Visited, , ,United Temple
+40,41,Long Feng Dong,Ling Hong Tong Temple,103.7512032,1.3460035,10 Bukit Batok Street 21,659632,Singapore,Visited, , ,United Temple
+41,42,Long Feng Dong Yun Nan Da Bo Gong,Ling Hong Tong Hoon Lam Tua Pek Kong,103.7509189,1.3461979,10 Bukit Batok Street 21,659632,Singapore,Visited, , ,United Temple
+42,43,Long He Shan (Wan Li Lu),Leng Hup San (Mandai Road),103.753435,1.3807202,4 Teck Whye Lane,688800,Singapore, , , ,United Temple
+43,44,Long He Shan Qi Zhai Miao,Leng Hup San Chee Chea Temple,103.7536416,1.3806478,4 Teck Whye Lane,688800,Singapore,Visited, , ,United Temple
+44,45,Qi Zhai Miao (Lin Cuo Gang A Ma Gong Lu),Chee Chea Temple (Lim Chu Gang Ah Ma Keng Road),103.7536871,1.3808034,4 Teck Whye Lane,688800,Singapore,Visited, , ,United Temple
+45,46,Cai Cuo Gang Lian Sheng Gong, ,103.7535764,1.3810932,2 Teck Whye Lane,688799,Singapore,Visited, , ,United Temple
+46,47,Dou Mu Gong (Cao Cuo Gang),Choa Chu Kang Dou Mu Gong,103.7537158,1.3811656,2 Teck Whye Lane,688799,Singapore, , , ,United Temple
+47,48,Jiu Long Gong,Chin Long Kong Temple,103.7537319,1.380927,2 Teck Whye Lane,688799,Singapore,Visited, , ,United Temple
+48,49,San Zhong Gong,San Zhong Gong,103.7535415,1.3809886,2 Teck Whye Lane,688799,Singapore, , , ,United Temple
+49,50,Shui Gou Guan Sheng De Tan,Shui Gou Guan Sheng De Tan,103.7538043,1.3811469,2 Teck Whye Lane,688799,Singapore,Visited, , ,United Temple
+50,51,Tian Yun Dian,Tian Yun Dian,103.7536139,1.3812058,2 Teck Whye Lane,688799,Singapore,Visited, , ,United Temple
+51,52,Long Quan Miao,Long Chuen Temple,103.753768,1.4359236,33 Kranji Loop,739565,Singapore, , , ,United Temple
+52,53,Qi Zhai Long Quan Miao, ,103.7537921,1.435811,33 Kranji Loop,739565,Singapore,Visited, , ,United Temple
+53,54,Qi Zhai Miao,Chek Chai Temple,103.7536097,1.4357788,33 Kranji Loop,739565,Singapore, , , ,United Temple
+54,55,Tian Ling Dao Tang,Thian Ling Toh Thong,103.7570734,1.3401327,551 Bukit Batok Street 23,659522,Singapore,Visited, , ,United Temple
+55,56,Feng Shan Si (Yu Lang ),Jurong Hong San See Association,103.7570952,1.3403924,555 Bukit Batok Street 23,659522,Singapore,Visited, , ,United Temple
+56,57,Ben Yuan Xu Ling Shan Zong Dao Tang,Poon Guan Hui Leng Sun Chong Tao Tong,103.7569787,1.3401858,553 Bukit Batok Street 23,659521,Singapore,Visited, , ,United Temple
+57,58,Xi Tian Dao Miao,See Thian Tao Temple,103.7570825,1.339982,557 Bukit Batok Street 23,659523,Singapore, , , ,United Temple
+58,59,Xi Tian Fo Miao,See Thian Foh Temple,103.7572421,1.3399002,557 Bukit Batok Street 23,659523,Singapore, , , ,United Temple
+59,60,Xi Tian Fo Miao Lianhemiao, ,103.7573279,1.3401268,557 Bukit Batok Street 23,659523,Singapore, , , ,United Temple
+60,61,Fu Tong Lianhemiao,Hock Thong Temple,103.7572153,1.3403605,551/553/555 Bukit Batok Street 23,659520,Singapore,Visited, , ,United Temple
+61,62,Ci Yi Tang,Chee Ghee Deang,103.761565,1.3223319,3302 Clementi Service Rd /,129582,Singapore, , , , 
+62,63,Ci Yi Tang Jiang Jun Miao, ,103.761734,1.3221804,3302 Clementi Service Rd /,129582,Singapore,Visited, , , 
+63,64,Jiang Jun Miao,Chiang Chin Meow,103.7617702,1.3223346,3302 Clementi Service Rd /,129582,Singapore, , , , 
+64,65,Qi Fu Gong,Chi Hock Keng Temple,103.7695742,1.3835977,15 Fajar Road,679003,Singapore,Visited, , ,United Temple
+65,66,Qi Fu Gong Lianhegong, ,103.7692229,1.3834985,15 Fajar Road,679003,Singapore, , , ,United Temple
+66,67,Tian Wen Tan,Tian Wen Tan,103.7694455,1.3833671,15 Fajar Road,679003,Singapore, , , ,United Temple
+67,68,Zheng Hua Ci Shan Gong,Cheng Hwa Cher Siah Temple,103.7736665,1.3781152,21/23 Bangkit Road,679972,Singapore,Visited, , ,United Temple
+68,69,Mu Shan Sheng Mu Gong, ,103.7738492,1.3783214,21 Bangkit Road,679971,Singapore,Visited, , ,United Temple
+69,70,Ci Lian Tang,???,103.7736822,1.3783327,23 Bangkit Road,679972,Singapore, , , ,United Temple
+70,71,Feng Tu Miao,Hong Tho Bilw Temple,103.7827294,1.4397081,31 Marsiling Industrial Estate Road 3,739255,Singapore,Visited, , ,United Temple
+71,72,Ji Gong Tan,Chai Kong Temple,103.7828763,1.4393554,10 Marsiling Industrial Estate Road 3,739254,Singapore, , , ,United Temple
+72,73,Shan Di Miao,Shang Di Miao,103.7830131,1.4395217,10 Marsiling Industrial Estate Road 3,739254,Singapore, , , ,United Temple
+73,74,Tian Xian Miao,Tian Xian Miao,103.7954405,1.4509051,"19, 21 Woodlands Industrial Park E4",757721,Singapore,Visited, , , 
+74,75,Wan Li Lian He Dian,Wan Li Lian He Dian,103.7958081,1.4508412,19 Woodlands Industrial Park E7,757721,Singapore,Visited, , ,United Temple
+75,76,Qian Fu lv Tian Gong Tan,Tian Gong Tan Temple,103.8407102,1.3576949,"101A Sin Min Industrial Estate, Sin Ming Rd",575593,Singapore,Visited, , ,United Temple
+76,77,Jin Fu Gong Gong De Tang (Woodlands),"Jin Fu Gong Temple (Woodlands, Branch, Gong De Tang)",103.8007773,1.4528313,9 Woodlands Industrial Park E8,757786,Singapore, , , ,United Temple
+77,78,Qing Shui Miao Dong Sheng Dian,Chin Chwee Temple,103.8004354,1.4526632,"11 Woodlands Industrial Park E8, # 01 - 03",757701,Singapore,Visited, , ,United Temple
+78,79,Tian Zhu Miao,Tain Chor Temple,103.8008726,1.4526847,"11 Woodlands Industrial Park E8, # 01 - 01",757701,Singapore,Visited, , ,United Temple
+79,80,Wu Dang Shan Miao (Wu Lan),Boo Tong San Temple,103.8009316,1.4525104,"11 Woodlands Industrial Park E8, # 01 - 02",757701,Singapore,Visited, , ,United Temple
+80,81,Wu Lan Lian He Miao,Woodlands Lian Sheng Miao,103.8005641,1.4523388,11 Woodlands Industrial Park E8,757701,Singapore,Visited, , ,United Temple
+81,82,Guang Fu Gong Lianhemiao, ,103.8071539,1.2744436,101 Telok Blangah Drive,109260,Singapore,Visited, , ,United Temple
+82,83,Guang Fu Gong,Guang Fu Gong,103.8074407,1.2743278,101 Telok Blangah Drive,109260,Singapore,Visited, , ,United Temple
+83,84,Lian Feng Si,Lian Feng Si,103.8074314,1.2744506,101 Telok Blangah Drive,109260,Singapore,Visited, , ,United Temple
+84,85,San Ba Wang Cai Shen Miao,Sembawang God of Wealth Temple,103.811053,1.4607172,28 Admiralty Street,757611,Singapore,Visited, , ,United Temple
+85,86,San Ba Wang Tian Yun Dian Cai Shen Miao,Sembawang Tian Hoon Tien (God of Wealth Temple),103.8109645,1.4608647,28 Admiralty Street,757611,Singapore,Visited, , ,United Temple
+86,87,San Ba Wang Lianhegong, ,103.8113409,1.4610305,24/26/28 Admiralty Street,757611,Singapore, , , ,United Temple
+87,88,Peng Lai Dian,Peng Lai Dian,103.8113947,1.4608856,26 Admiralty Street,757613,Singapore, , , ,United Temple
+88,89,Placemark,Bao Gong Temple,103.8115047,1.4610947,26 Admiralty St,757613,Singapore, , , ,United Temple
+89,90,San Ba Wang Tian Hou Gong,Sembawang Tian Ho Keng,103.811573,1.4609603,24 Admiralty Street,747612,Singapore,Visited, , ,United Temple
+90,91,Jie Gu Dian,Chin Leng Keng Kai Kok Tian,103.8163986,1.2863197,98T Redhill Close,158900,Singapore, , , ,United Temple
+91,92,Long Shan Ting,Long Shan Ting,103.8162444,1.2862138,98T Redhill Close,158900,Singapore, , , ,United Temple
+92,93,Wan Xian Miao,Wan Xian Miao (Ban Sien Temple),103.8164053,1.286132,98T Redhill Close,158900,Singapore, , , ,United Temple
+93,94,Zhen Long Gong, ,103.8163235,1.2863519,98T Redhill Close,158900,Singapore,Visited, , ,United Temple
+94,95,Zhen Ren Gong,Chin Leng Keng Chinese Temple,103.8164818,1.2862848,98T Redhill Close,158900,Singapore,Visited, , ,United Temple
+95,96,Cheng Bang Da Bo Gong Gong,Seng Pang Tua Pek Kong Keng,103.8280796,1.4337547,475 Yishun Ring Road,768678,Singapore,Visited, , ,United Temple
+96,97,He Bi Shan Gong,He Bi Shan Gong,103.8281466,1.4339182,475 Yishun Ring Road,768678,Singapore, , , ,United Temple
+97,98,Nan Feng Shan Tang,Nam Hong Siang Theon,103.8282432,1.43376,475 Yishun Ring Road,768678,Singapore,Visited, , ,United Temple
+98,99,Tai Yang Gong,Tai Yeong Kon Temple,103.8289155,1.2775921,85A Silat Road,168851,Singapore,Visited, , ,United Temple
+99,100,Zheng Long Gong Xuan Jiang Dian,Chia Leng Kong Heng Kang Tian,103.8286929,1.2774969,85a Silat Road,168851,Singapore,Visited, , ,United Temple
+100,101,Guan Di Miao,Kwang Tee Temple,103.8325434,1.434791,"561 Yishun Ring Road , #01-04",768682,Singapore,Visited, , ,United Temple
+101,102,Hua Bao Shan Tang,Hwa Poh Siang Tng,103.8327956,1.4348742,"561 Yishun Ring Road, #01-01",768682,Singapore,Visited, , ,United Temple
+102,103,Jing Shui Gang Dou Mu Gong Feng Shan Si,Hong San See Temple / Kew Ong Yah Temple aka Jiazhuikang Kew Ong Yah Temple Hong San See Temple,103.83264,1.4347133,"561 Yishun Ring Road , #01-02 & #01-03",768682,Singapore,Visited, , , 
+103,104,Nan Feng Shan Tang,Nam Hong Siang Theon,103.8326024,1.4350485,561 Yishun Ring Road,768682,Singapore,Visited, , ,United Temple
+104,105,San Ba Wang Cheng Bang Lianhemiao, ,103.8329136,1.4350511,561 Yishun Ring Road,768682,Singapore, , , ,United Temple
+105,106,Zhen Kong Jiao Fu Ben Tang,Zhen Kong Jiao Fu Ben Tang (Chin Kong Religion Fook Poon Tong),103.8327312,1.4352147,"561 Yishun Ring Road , #01-05",768682,Singapore,Visited, , , 
+106,107,Zhong Bang Lian He Gong,Chong Pang Combined Temple,103.8324602,1.4348903,561 Yishun Ring Road,768682,Singapore, , , ,United Temple
+107,108,Dong Shan Miao,Dong Shan Miao,103.8328631,1.4226212,"358, Yishun Avenue 3",769058,Singapore,Visited, , ,United Temple
+108,109,Chang Xiu Guang,Chang Xiu Guang ( Teong Siew Kuan Temple) / Teong Siew Wei Ling Dong Shan Temple,103.8330523,1.4224847,"362, Yishun Avenue 3",769060,Singapore,Visited, , ,United Temple
+109,110,Chang Xiu Wei Ling Dong Shan Lianhemiao, ,103.8332427,1.4226268,"362, Yishun Avenue 3",769060,Singapore, , , ,United Temple
+110,111,Hua Shan Gong,Hua Shan Gong,103.8338251,1.4349198,569 Yishun Ring Road,768691,Singapore,Visited, , ,United Temple
+111,112,Ju Shan Hua Shan Gong, ,103.8335247,1.4350646,569 Yishun Ring Road,768691,Singapore, , , ,United Temple
+112,113,Ju Shan Tang,Ju Shan Tang ( Chu Siang Tong),103.83375,1.4351102,569 Yishun Ring Road,768691,Singapore, , , ,United Temple
+113,114,Heng Shan Miao,Hwee San Temple,103.8355183,1.4436185,527 Yishun Industrial Park A,768771,Singapore,Visited, , ,United Temple
+114,115,Ci Ling Lianhemiao,Chee Leng Lian He Miao,103.8356858,1.4433655,525 Yishun Industrial Park A,768769,Singapore,Visited, , ,United Temple
+115,116,Ci Yun Shan Gong,Chee Hoon Sun Kong,103.8358467,1.4437891,525 Yishun Industrial Park A,768769,Singapore, , , ,United Temple
+116,117,Zhao Lin Miao,Cheow Leng Beo (Xin Hua Temple),103.836013,1.4435156,525 Yishun Industrial Park A,768769,Singapore, , , ,United Temple
+117,118,Fu Fa Gong,Hock Huat Keng Temple,103.8358268,1.4432049,523 Yishun Industrial Park A,768770,Singapore,Visited, , ,United Temple
+118,119,Zhao Yun Dian,Tiow Hoon Tien,103.8361326,1.4433631,523 Yishun Industrial Park A,768770,Singapore,Visited, , ,United Temple
+119,120,Gao Lin Gong,Kong Lim Kong Temple,103.8387071,1.3663868,791 Ang Mo Kio Ave 1,569974,Singapore,Visited, , ,United Temple
+120,121,Gao Lin Gong (Hong Mao Qiao),Kong Lim Kong,103.8387366,1.3661696,791 Ang Mo Kio Avenue 1,569974,Singapore, , , ,United Temple
+121,122,Hong Mao Qiao Lianhemiao, ,103.8388519,1.3662473,791 Ang Mo Kio Avenue 1,569974,Singapore, , , ,United Temple
+122,123,Jin Ying Tang,Jin Ying Tang,103.83864,1.3662044,791 Ang Mo Kio Ave 1,569974,Singapore, , , ,United Temple
+123,124,Long Shan Yan Dou Mu Gong,Leng San Giam Dou Mu Gong,103.8388144,1.3661535,791 Ang Mo Kio Ave 1,569974,Singapore, , , ,United Temple
+124,125,Yun Lin j,Hong Lim Jiong Temple,103.8388787,1.3663331,791 Ang Mo Kio Avenue 1,569974,Singapore, , , ,United Temple
+125,126,Hua Guan Tai Chi,Hwa Kwang Tai Tee Temple,103.840493,1.3579817,99 Sin Ming Road,575586,Singapore, , , ,United Temple
+126,127,Hua Guang Da Di Miao,Hwa Kwang Tai Tee Temple,103.8403603,1.3577707,99 Sin Ming Industrial Estate Sector B,575660,Singapore,Visited, , ,United Temple
+127,128,Lian Hua Tan,Lian Huay Temple,103.8402396,1.357953,99 Sin Ming Industrial Estate Sector B,575660,Singapore,Visited, , ,United Temple
+128,129,Tang Shen Miao,Thomson Temple,103.8405078,1.3576876,99 Sector B Sin Ming Industrial Estate,575660,Singapore,Visited, , ,United Temple
+129,130,Tian Hou Hui (Jin Bang Shan Ting),Kampong San Teng Tien How Assn,103.8402101,1.3578485,99 Sin Ming Industrial Estate Sector B,575660,Singapore,Visited, , ,United Temple
+130,131,Fu Long Gong,Hoo Leong Keong Temple,103.8403126,1.3580482,"101B Sin Min Industrial Estate, Sin Ming Road",575594,Singapore, , , , 
+131,132,Jin Fu Gong ( Lun Zai Wei Da Bo Gong),Thiam Hock Keng Temple,103.8405571,1.3579014,"101 Sin Min Industrial Estate, Sin Ming Rd",575592,Singapore, , , ,United Temple
+132,133,Jin Fu Gong Tian Gong Tan Fu Long Gong, ,103.8407551,1.3577689,"101 Sin Min Industrial Estate, Sin Ming Rd",575592,Singapore, , , ,United Temple
+133,134,Tian Long Gong,Tian Leong Keng Temple,103.8406656,1.3576127,"101 / a / b Sector B Sin Ming Industrial Estate, 575662 - 4",575662,Singapore,Visited, , ,United Temple
+134,135,Shun Xi Gong Shui Chi Lin,Shun Xi Gong Shui Chi Lin,103.8412766,1.4342262,19 Yishun Avenue 9,768891,Singapore,Visited, , ,United Temple
+135,136,Placemark, ,103.8414751,1.4343737,19 Yishun Ave 9,768891,Singapore,Visited, , ,United Temple
+136,137,Placemark,Reservoir Tua Pek Kong Temple,103.8416548,1.4342235,19 Yishun Ave 9 Lot 59-7Pt MK 19,768891,Singapore, , , ,United Temple
+137,138,Ge An Guan,2. ?????,103.8415742,1.3806394,46 Ang Mo Kio Street 61,569161,Singapore,Visited, , ,United Temple
+138,139,Shui Gou Guan,???????,103.8417727,1.3807252,46 Ang Mo Kio Street 61,569161,Singapore,Visited, , ,United Temple
+139,140,Shui Gou Guan,Shui Gou Guan,103.8416976,1.3808378,46 Ang Mo Kio Street 61,569161,Singapore,Visited, , ,United Temple
+140,141,Yi Shun Zhen Lianhemiao, ,103.8415441,1.4339538,17 Yishun Avenue 9,768890,Singapore,Visited, , ,United Temple
+141,142,Hua Tang Fu,Hua Tang Fu,103.8413709,1.3808145,48 Ang Mo Kio Street 61,569162,Singapore, , , ,United Temple
+142,143,Ji Fu Gong,Ji Fu Gong,103.8415319,1.3808708,48 Ang Mo Kio Street 61,569162,Singapore, , , ,United Temple
+143,144,Ju Sheng Miao, ,103.8414702,1.3809995,48 Ang Mo Kio Street 61,569162,Singapore, , , ,United Temple
+144,145,Long Quan Yan,Long Quan Yan,103.8413361,1.3809218,48 Ang Mo Kio Street 61,569162,Singapore, , , ,United Temple
+145,146,Placemark, ,103.8416767,1.380962,"48 Ang Mo Kio Avenue 6, Street 61",569162,Singapore, , , ,United Temple
+146,147,Placemark, ,103.8416231,1.3810666,"48 Ang Mo Kio Avenue 6, Street 61",569162,Singapore, , , ,United Temple
+147,148,Yuan Long Sheng Miao,Guan Loong Sheng Temple,103.8417433,1.434132,17 Yishun Avenue 9,768890,Singapore, , , ,United Temple
+148,149,Feng Shan Tang,Feng Shan Tang / Jin Fa Dian / Quan Sheng Gong,103.8487983,1.385685,"4 \ 6 \ 8 Ang Mo Kio St 63 Avenue 9, Singapore",569112,Singapore,Visited, , , 
+149,150,Jin Shui Guan,Jin Shui Guan,103.8484899,1.3859478,4 \ 6 \ 8 Ang Mo Kio St 63,569112,Singapore, , , ,United Temple
+150,151,Longxuyan Jinshuiguan,Longxuyan Jinshuiguan,103.8484738,1.3854705,4 Ang Mo Kio Street 63 Avenue 9,569112,Singapore,Visited, , ,United Temple
+151,152,San An Fu,San An Fu,103.848742,1.3854276,4 \ 6 \ 8 Ang Mo Kio St 63,569112,Singapore, , , ,United Temple
+152,153,Liu Xun San He Miao,Liuxun Sanhemiao,103.8488306,1.3858991,"4-8, Ang Mo Kio Street 63 Avenue 9",569112,Singapore,Visited, , ,United Temple
+153,154,Yun Feng Gu Miao / He Xing Guang Miao,Hoong Hong Koon Beo & Hup Heng Kwang Beo,103.8582365,1.3653886,Ang Mo Kio Street 44,569731,Singapore, , , ,United Temple
+154,155,Tian Hou Miao (Yun Feng ),Hoon Hong Tian Haw Boo,103.8583664,1.3656532,Ang Mo Kio Street 44,569731,Singapore, , , ,United Temple
+155,156,Hua De Shan Tang,Hua Teck Siang Tng,103.8563794,1.3387592,177L Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+156,157,Ju Tian Gong,Chee Tian Keng Temple aka Choo Tian Keng,103.8565779,1.3387538,177P Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+157,158,Shan Yuan Tang,Shan Yuan Tang,103.8563714,1.3385956,177 Lorong 7 Toa Payoh,319318,Singapore,Visited, , ,United Temple
+158,159,Shan Zhu Yuan Fu De Ci,Shan Zhu Yuan Fu De Ci,103.8565779,1.3385956,177N Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+159,160,Tong Xing Gang,Tong Xing Gang,103.856484,1.3385098,177Q Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+160,161,Tong Xing Gang Shen Hui,Tong Heng Kang Sin Huay,103.8564867,1.3387565,177Q Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+161,162,Wu He Miao (Da Ba Yao ),United Five Temples of Toa Payoh,103.8563714,1.3385044,177 Lorong 7 Toa Payoh,319318,Singapore,Visited, , ,United Temple
+162,163,Wu Ji Gong,Wu Ji Gong,103.8563714,1.338676,177 Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+163,164,Zhao Ying Ci,Chow Eng Chee,103.8565887,1.3385125,177L Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+164,165,Placemark, ,103.8565779,1.3386734,177P Lorong 7 Toa Payoh,319318,Singapore, , , ,United Temple
+165,166,Guang Ming Tang,Guang Ming Tang (Kong Beng Tong Temple Association),103.8701437,1.3730527,23 Serangoon North Ave 3,555862,Singapore,Visited, , , 
+166,167,Wu Feng Yan Gong,Wu Hong Yan Kong Temple,103.8699049,1.3730581,Serangoon North Avenue 3,555862,Singapore,Visited, , ,United Temple
+167,168,Zhong Yi Guan,Tiong Gee Kwan Temple,103.8700203,1.3730608,25 Serangoon North Avenue 3,555862,Singapore,Visited, , ,United Temple
+168,169,Zhong Yi Tian Ming Miao,Zhong Yi Tian Ming Miao,103.8699184,1.3732833,21 Serangoon North Avenue 3,555862,Singapore, , , ,United Temple
+169,170,Long Zhen Gong,Long Zhen Gong,103.8725864,1.3687284,489 Serangoon North Avenue 1,55589,Singapore, , , ,United Temple
+170,171,Zhen Shan Tian Fo Gong,Teng San Tian Hock Temple,103.8727554,1.368774,489 Serangoon North Avenue 1,555891,Singapore,Visited, , ,United Temple
+171,172,Long Shan Miao,Long Shan Miao,103.8729494,1.3690232,485 Serangoon North Avenue 1,555890,Singapore, , , ,United Temple
+172,173,Qi Zhai Miao ( Jing Shan Lu),Qi Zhai Miao ( Jing Shan Lu),103.8727858,1.3689722,485 Serangoon North Avenue 1,555890,Singapore, , , ,United Temple
+173,174,Shun Xing Gu Miao,Shun Xing Gu Miao,103.8728341,1.368806,485 Serangoon North Avenue 1,555890,Singapore,Visited, , ,United Temple
+174,175,Xuan Fu Xian Miao,Hiang Foo Siang Temple,103.8730084,1.3688676,485 Serangoon North Avenue 1,555890,Singapore,Visited, , ,United Temple
+175,176,Kan Gan La Ma Fo Si,Kancanrama Budh Temple,103.8797241,1.3488079,2 Lorong Ong Lye,536358,Singapore, , , ,United Temple
+176,177,Placemark, ,103.8804061,1.3528892,No.16 Hougang St 11,538746,Singapore,Visited, , ,United Temple
+177,178,Jin Fu Miao,Chin Fook Meow,103.88039,1.3530368,16 Hougang Street 11,538746,Singapore,Visited, , ,United Temple
+178,179,An Ren Gong,An Ren Gong,103.8805786,1.3530495,18 Hougang Street 11,538747,Singapore,Visited, , ,United Temple
+179,180,Qin Fu Miao,Chin Fook Meow,103.8805002,1.3528985,20 Hougang Street 11,538748,Singapore,Visited, , ,United Temple
+180,181,Qing Yun Miao,Qing Yun Temple,103.8805834,1.3529065,20 Hougang Street 11,538748,Singapore,Visited, , ,United Temple
+181,182,Yao Shi Xing Yuan Hui,Buddha of Medicine Welfare Society,103.8824077,1.314073,11 Lorong 25 Geylang,338293,Singapore, , , ,United Temple
+182,183,Peng Lai Si,Hong Lai Sze Ltd,103.8872886,1.3491824,150 Hougang Avenue 1,538886,Singapore, , , ,United Temple
+183,184,Ba Ye Li Ba Lian He Miao,Paya Lebar United Temple,103.8908278,1.3285608,148A Paya Lebar Road,409018,Singapore,Visited, , ,United Temple
+184,185,Tian Sheng Ci Fu Lian He Miao,Tien Sen Sze Hock Combined Temple,103.8911605,1.3282102,146C Paya Lebar Road,409040,Singapore, , , ,United Temple
+185,186,Tian Sheng Tan,Tien Sen Tua Temple (Bao Gong Miao),103.8912356,1.3280198,146C Paya Lebar Road,409040,Singapore,Visited, , ,United Temple
+186,187,Ci Fu Gong (Jin Quan Lv),Sze Hock Keng,103.8910534,1.3279397,146-D Paya Lebar Road,409041,Singapore,Visited, , ,United Temple
+187,188,Ci Fu Gong Da Bo Gon Lian Yi Hui,Sze Hock Keng Tua Peh Kong Association,103.8909622,1.328122,146D Paya Lebar Road,409041,Singapore,Visited, , ,United Temple
+188,189,Da Sheng Gong,Da Sheng Kong,103.8910693,1.3286694,148 Paya Lebar Road,198783,Singapore,Visited, , ,United Temple
+189,190,Feng Huo Yuan,Fung Huo Yuan Temple aka Da Sheng Kong Chinese Temple,103.8911499,1.3284681,"148 / 150 Paya Lebar Road, Singapore 409018-9",409018,Singapore,Visited, , , 
+190,191,Jin Feng Miao,Kim Hong Temple,103.8920301,1.3256408,26 Arumugam Road,409964,Singapore,Visited, , ,United Temple
+191,192,Cheng Feng Lianhemiao, ,103.8918191,1.3262278,15 Arumugam Road,409960,Singapore, , , ,United Temple
+192,193,Feng Xuan Gong,Feng Xuan Gong,103.8916796,1.3263941,15 Arumugam Rd,409960,Singapore,Visited, , ,United Temple
+193,194,Jiu Cai Ba Cheng Huang Miao,Lorong Koo Chye Sheng Hong Temple,103.891854,1.3264236,15 Arumugam Rd,409960,Singapore,Visited, , ,United Temple
+194,195,San Bao Fo Guang Si,Lord Buddha Temple,103.8918344,1.3256076,24 Arumugam Road,409963,Singapore,Visited, , ,United Temple
+195,196,Zhong Hong Shan Tang Jiu Huang Gong (Lianhe Gong),Cheng Hong Siang Tng Kew Huang Keng,103.8921836,1.3258518,30 Arumugam Road,409966,Singapore,Visited, , ,United Temple
+196,197,Ji Shan Miao,Ji Shan Miao,103.8923326,1.358655,56 / 58 / 60 Hougang Avenue 3,538842,Singapore,Visited, , ,United Temple
+197,198,Kai Fu Tang,Kai Fu Tang,103.8924828,1.359009,56 / 58 / 60 Hougang Avenue 3,538842,Singapore,Visited, , ,United Temple
+198,199,Chao Yun Gong,Chao Yun Gong,103.8927639,1.3588726,56 / 58 / 60 Hougang Avenue 3 Singapore 538841 - 3,538842,Singapore,Visited, , ,United Temple
+199,200,Chang Tian Gong,Chang Tien Kong Temple,103.8954104,1.3657837,"109b Hougang Avenue 5, Singapore",538819,Singapore,Visited, , ,United Temple
+200,201,Tian De Miao,Tian De Temple,103.8955126,1.3654052,109 / a / b / c Hougang Avenue 5,538817,Singapore, , , ,United Temple
+201,202,Tian De Sheng Miao,Tian De Temple,103.8955662,1.3657886,109 Hougang Avenue 5,538817,Singapore,Visited, , ,United Temple
+202,203,Placemark, ,103.895408,1.3656063,109 Hougang Ave 5,538817,Singapore,Visited, , ,United Temple
+203,204,Placemark, ,103.8957432,1.3656036,109 Hougang Ave 5,538817,Singapore,Visited, , ,United Temple
+204,205,Placemark, ,103.8956413,1.3654079,109C Hougang Ave 5,538817,Singapore,Visited, , ,United Temple
+205,206,Zhong Tou Gong,Zhong Tou Gong,103.8957436,1.3658018,109c Hougang Avenue 5,538820,Singapore, , , ,United Temple
+206,207,Placemark, ,103.895749,1.3654023,109A Hougang Ave 5,538818,Singapore,Visited, , ,United Temple
+207,208,Placemark, ,103.8954084,1.3654076,109B Hougang Ave 5,538819,Singapore,Visited, , ,United Temple
+208,209,Fu De Gong,Fu De Gong,103.8959985,1.3195523,103 Eunos Road 5,409352,Singapore, , , ,United Temple
+209,210,Long Shan Ting,Long Shan Ting,103.8961434,1.3197319,103 Eunos Road 5,409352,Singapore, , , ,United Temple
+210,211,Qian Kun Miao,Qian Kun Miao,103.8959717,1.3196971,103 Eunos Road 5,409352,Singapore, , , ,United Temple
+211,212,Ya Long Lian He Gong,Geylang United Temple,103.8961809,1.3195871,103 Eunos Road 5,409352,Singapore, , , ,United Temple
+212,213,Ban Gang Tian Hou Gong,Kampong Tengah Thian Hou Keng,103.9070121,1.389521,"80 Rivervale Crescent, #01-01",545087,Singapore,Visited, , ,United Temple
+213,214,Chong Yi Miao Wan Xin Shan,Chong Ghee Temple,103.907342,1.3893226,"80 Rivervale Crescent, #01-01",545087,Singapore,Visited, , ,United Temple
+214,215,Sheng Gang Lianhemiao,Sengkang Joint Temple,103.9071704,1.3890974,"80 Rivervale Crescent, Sengkang New Town",545087,Singapore,Visited, , ,United Temple
+215,216,Chong De Shan Tang,Chong De Shan Tang,103.9081172,1.3313616,30 - 32 Bedok Reservoir Road,479231,Singapore, , , ,United Temple
+216,217,Yu Hai Tang Guan Yin Jiu Ku Hui,Jee Hai Tung Kwan Imm Welfare Society,103.9079267,1.3311474,30 Bedok Reservoir Road,479231,Singapore, , , , 
+217,218,Bang E Lianhemiao,Punggol Joint Temple,103.9153957,1.3924165,3 Tebing Lane,828849,Singapore, , , ,United Temple
+218,219,Sheng Jia Miao,Sheng Jia Temple Association,103.9155325,1.3921109,"3 Tebing Lane, Punggol East #01-01",828849,Singapore, , , ,United Temple
+219,220,Tian Ci Gong,Society of Love and Compassion,103.9157444,1.3923629,"3 Tebing Lane, Punggol East #01-03",828849,Singapore, , , ,United Temple
+220,221,Tian Jun Fu,Tian Jun Temple,103.9154977,1.3925453,"3 Tebing Lane, Punggol East #01-02",828849,Singapore, , , ,United Temple
+221,222,Placemark, ,103.9153019,1.3922798,No.3 Tebing Lane #01-01,828849,Singapore, , , ,United Temple
+222,223,Cai Shi Lianhegong, ,103.9190531,1.328438,6 Chai Chee Lane,469020,Singapore, , , ,United Temple
+223,224,Fu Ling Gong,Hock Leng Keng Temple,103.9191979,1.32843,6 Chai Chee Lane,469020,Singapore,Visited, , ,United Temple
+224,225,Fu Shan Ting,Fu Shan Ting,103.9190638,1.3285908,6 Chai Chee Lane,469020,Singapore,Visited, , ,United Temple
+225,226,Zhu Yun Gong,Zhu Yun Gong,103.9193159,1.3284246,7 Chai Chee Lane,469020,Singapore,Visited, , ,United Temple
+226,227,Placemark, ,103.9193213,1.328564,6 Chai Chee Lane,469020,Singapore,Visited, , ,United Temple
+227,228,Na Du Tan Bao An Gong Tian De Gong, ,103.9287398,1.3671963,95 Tampines Link,528745,Singapore, , , ,United Temple
+228,229,Nadutan Baoangong Tiandegong,Nadutan Baoangong Tiandegong,103.9285226,1.3670649,95 Tampines Link,528745,Singapore,Visited, , ,United Temple
+229,230,Tian De Gong,Tian De Gong Temple,103.9285172,1.3673062,95 Tampines Link #01-03,528745,Singapore,Visited, , ,United Temple
+230,231,Xuan Chuan Zong Dao Tang,Hean Thuan Toh Tong Temple,103.9294729,1.3677979,89 Tampines Link,528743,Singapore, , , ,United Temple
+231,232,Guang Jin Dian,Guang Jin Dian,103.9385481,1.3555039,"Blk 860A, Tampines Ave 5 #01-623",521860,Singapore, , , ,United Temple
+232,233,Shu Tou Bo Gong,Shu Tou Bo Gong,103.9385373,1.355402,"Blk 860A, Tampines Ave 5 #01-623",521860,Singapore, , , ,United Temple
+233,234,Gao Lin Gong (Wu Luo),Kuah Na Keng,103.9488682,1.3354789,9 Bedok North Street 5,485875,Singapore, , , ,United Temple
+234,235,De Guang Dao Tian Jiang Fo Tang Tai Yang Gong,Pulau Tekong Joint Temple,103.9488317,1.3359681,51 Bedok North Ave 4,469695,Singapore, , , ,United Temple
+235,236,Tian Jiang Fo Tang,Tian Kong Buddhist Tp,103.9490034,1.3361022,51 Bedok North Avenue 4,469695,Singapore, , , ,United Temple
+236,237,Gao Lin Gong,Kuah Na Keng,103.9491339,1.3354695,"9 Bedok North Street 5, Ave 4.",485875,Singapore,Visited, , ,United Temple
+237,238,Jin Ping Si Shan Lian Shan Gong,Chin Pin Tze Temple,103.9488236,1.3353043,"7 Bedok North Street 5, Ave 4.",485874,Singapore,Visited, , ,United Temple
+238,239,Shi Lin Jin Shan Lianhegong, ,103.9490864,1.3352801,7 Bedok North Street 5,485874,Singapore,Visited, , ,United Temple
+239,240,Fu Quan Si, ,103.9492701,1.3354215,1 Bedok North Street 5,486115,Singapore,Visited, , ,United Temple
+240,241,Shui Mei Gong,Chwee Bee Temple / Hock Chuan Temple,103.9492165,1.3355234,1 Bedok North Street 5,486115,Singapore,Visited, , , 
+241,242,Shui Mei Gong (Jin Mao Cun),Jin Mao Cun Shui Mei Gong,103.9493828,1.3356146,1 Bedok North Street 5,486115,Singapore, , , ,United Temple
+242,243,Shui Mei Gong Fu Quan si Lianhemiao, ,103.9493426,1.335333,Bedok North Street 5,486115,Singapore, , , ,United Temple
+243,244,Placemark,Chwee Bee Temple / Hock Chuan Temple,103.9495115,1.3354671,1 Bedok North Street 5,486115,Singapore, , , , 
+244,245,Ci Ling Gong,Ci Ling Gong,103.9494926,1.3557676,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+245,246,Dan Bin Ni Jiu Li Da bo Gong Miao akaDan Bin Ni Jiu Li Fu De Zheng Shen Miao,Dan Bin Ni Jiu Li Da bo Gong Miao aka Dan Bin Ni Jiu Li Fu De Zheng Shen Miao,103.9497394,1.3556175,25 Tampines Street 21,529394,Singapore, , , , 
+246,247,Dan Bin Ni Lianhegong, ,103.9494819,1.3556175,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+247,248,Di Wan Da Bo Gong,Di Wan Da Bo Gong,103.9494926,1.3559178,25 Tampines Street 21,529394,Singapore, , , ,United Temple
+248,249,Fu An Dian,Fu An Dian,103.9497447,1.3559124,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+249,250,Han Yang Da Bo Gong,Han Yang Da Bo Gong,103.9496214,1.3556228,25 Tampines Street 21,529394,Singapore, , , ,United Temple
+250,251,Hou Chi Tin aka Pu An Gu Fo,Hou Chi Tin aka Pu An Gu Fo,103.9498574,1.3557784,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+251,252,Ji Xing Ting,Kiat Sing Ting,103.9493585,1.3557623,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+252,253,Ji Yang Tang,Ji Yang Tang,103.949616,1.3559124,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+253,254,Luo Yang Da Bo Gong,Luo Yang Da Bo Gong,103.9493639,1.3556228,25 Tampines Street 21,529394,Singapore, , , ,United Temple
+254,255,Luo Yang Tian Gong Tan,Luo Yang Tian Gong Tan,103.9498628,1.3556443,25 Tampines Street 21,529394,Singapore, , , ,United Temple
+255,256,Shun Xing Gu Miao,Soon Hin Ko Beo,103.9493585,1.3559017,25 Tampines Street 21,529394,Singapore,Visited, , ,United Temple
+256,257,Xin Ba Da Bo Gong,Xin Ba Da Bo Gong,103.9498574,1.3559178,25 Tampines Street 21,529394,Singapore, , , ,United Temple
+257,258,Nanyang Neo Clan Association, ,103.8780919,1.3553683,87 Kovan Road Singapore,548176,Singapore, , , ,United Temple

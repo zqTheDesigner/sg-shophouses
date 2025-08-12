@@ -93,6 +93,18 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     titleField: 'siteNameEn',
     locationField: 'siteNameAlt1',
   },
+  {
+    show: true,
+    title: 'United Temples',
+    dataUrls: ['data/united-temples.json'],
+    type: 'point',
+    loaded: false,
+    feature: null,
+    markerColor: 'red',
+    checkBoxColor: 'red',
+    titleField: 'siteNameEn',
+    locationField: 'siteNameAlt1',
+  },
 ])
 
 export { mapDataLayers }
