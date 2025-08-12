@@ -4,7 +4,7 @@
   </div>
   <!-- For locations with only 1 data point -->
   <div v-if="listData.length == 1">
-    <h5>{{ listData[0] ? listData[0].NAME : '' }}</h5>
+    <h5>{{ listData[0] ? listData[0].NAME || listData[0]['Address'] : '' }}</h5>
     <ul class="props">
       <li v-for="(value, key) in listData[0]" :key="key">
         <div>
@@ -27,7 +27,7 @@
     <p>
       <b>Street: </b>
       {{
-        listData[0] ? (listData[0]['STREET'] ? listData[0]['STREET'] : listData[0]['address']) : ''
+        listData[0] ? listData[0]['STREET'] || listData[0]['address'] || listData[0]['Address'] : ''
       }}
     </p>
     <p v-show="listData[0] && listData[0]['ST-Number']">
@@ -43,8 +43,8 @@
         v-for="(feature, key) in listData"
         :key="key"
         expand-separator
-        icon="perm_identity"
-        :label="feature.NAME || feature.siteNameEn"
+        icon="business"
+        :label="feature.NAME || feature.siteNameEn || feature.Name"
         :caption="feature.COMPANY"
       >
         <ul class="props">
@@ -75,6 +75,8 @@
       :rows="fullListData"
       :columns="columns"
       row-key="NAME"
+      style="max-width: 1400px"
+      class="my-sticky-header-table"
       dense
       flat
       bordered
@@ -140,3 +142,30 @@ const columns = computed(() => {
     }))
 })
 </script>
+
+<style lang="sass">
+.my-sticky-header-table
+  /* height or max-height is important */
+
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child th
+    /* bg color is important for th; just specify one */
+    background-color: #eeeeee
+
+  thead tr th
+    position: sticky
+    z-index: 1
+  thead tr:first-child th
+    top: 0
+
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th
+    /* height of all previous header rows */
+    top: 48px
+
+  /* prevent scrolling behind sticky top row on focus */
+  tbody
+    /* height of all previous header rows */
+    scroll-margin-top: 48px
+</style>

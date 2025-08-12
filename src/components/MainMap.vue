@@ -5,7 +5,7 @@
     @click="handleMapClick"
     ref="mapRef"
   >
-    <ol-view :center="[103.85, 1.286]" :zoom="15" projection="EPSG:4326" />
+    <ol-view :center="[103.85, 1.346]" :zoom="12" projection="EPSG:4326" />
 
     <ol-tile-layer>
       <ol-source-osm />
@@ -181,7 +181,13 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor) => {
     style.getText().setText(size.toString())
     style.getText().getFill().setColor('#fff')
   } else if (size === 1 && clusteredFeatures[0] !== undefined) {
-    style.getText().setText(clusteredFeatures[0].getProperties()['NAME'])
+    style
+      .getText()
+      .setText(
+        clusteredFeatures[0].getProperties()['NAME'] ||
+          clusteredFeatures[0].getProperties()['siteNameEn'] ||
+          clusteredFeatures[0].getProperties()['siteNameAlt1'],
+      )
     style.getText().getFill().setColor('#000')
   } else {
     // This is unlikely to happe, just prevent some ts warning
