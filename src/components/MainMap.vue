@@ -5,7 +5,7 @@
     @click="handleMapClick"
     ref="mapRef"
   >
-    <ol-view :center="[103.85, 1.346]" :zoom="12" projection="EPSG:4326" />
+    <ol-view :center="content.mapCenter" :zoom="content.mapZoomLevel" projection="EPSG:4326" />
 
     <ol-tile-layer>
       <ol-source-osm />
@@ -81,7 +81,7 @@ import type { Geometry } from 'ol/geom'
 // import type { CompanyDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
-import { mapDataLayers } from 'src/stores/mapDataStore'
+import { content, mapDataLayers } from 'src/controllers/contentController'
 
 // const props = defineProps(['points', 'lines'])
 

@@ -1,21 +1,17 @@
 <template>
   <q-layout view="hHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-cyan-10 flex justify-between">
+      <q-toolbar class="bg-cyan-10 flex justify-start">
         <q-btn
           flat
           dense
           round
-          :icon="miniState ? 'arrow_forward' : 'arrow_back'"
+          :icon="miniState ? 'menu' : 'menu_open'"
           aria-label="Menu"
           @click="toggleMini"
         />
 
-        <router-link to="/" style="text-decoration: none; color: white">
-          <h5 class="q-ma-md">Singapore Historical GIS</h5>
-        </router-link>
-
-        <q-btn flat dense round style="visibility: hidden" />
+        <MainHeader class="full-width" />
       </q-toolbar>
     </q-header>
 
@@ -104,7 +100,7 @@ import { ref, watch } from 'vue'
 
 import InfoTab from 'src/components/SideBar/InfoTab.vue'
 import { selectedFeatures } from 'src/controllers/mapDataController'
-
+import MainHeader from 'src/components/MainHeader.vue'
 const leftDrawerOpen = ref(false)
 
 const miniState = ref(true)

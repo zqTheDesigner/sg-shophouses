@@ -1,4 +1,3 @@
-import { type Reactive, reactive } from 'vue'
 import type { Feature as OlFeature } from 'ol'
 
 interface MapDataI {
@@ -35,78 +34,5 @@ interface MapDataLayerI {
   titleField: string | boolean
   locationField: string | boolean
 }
-
-const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
-  // {
-  //   show: true,
-  //   title: 'Singapore Old Shops',
-  //   dataUrls: ['data/batch_1.json', 'data/batch_2.json'],
-  //   type: 'point',
-  //   loaded: false,
-  //   feature: null,
-  // },
-  // {
-  //   show: true,
-  //   title: 'Singapore Streets',
-  //   dataUrls: ['data/streets.json'],
-  //   type: 'line',
-  //   loaded: false,
-  //   feature: null,
-  //   markerColor: '',
-  //   checkBoxColor: 'green',
-  //   titleField: false,
-  //   locationField: false,
-  // },
-  {
-    show: true,
-    title: 'United Temples',
-    dataUrls: ['data/united-temples.json'],
-    type: 'point',
-    loaded: false,
-    feature: null,
-    markerColor: 'red',
-    checkBoxColor: 'red',
-    titleField: 'siteNameEn',
-    locationField: 'siteNameAlt1',
-  },
-  {
-    show: false,
-    title: 'Chinese Temples',
-    dataUrls: ['data/02-SGPtemples.json'],
-    type: 'point',
-    loaded: false,
-    feature: null,
-    markerColor: '#E43636',
-    checkBoxColor: 'red',
-    titleField: 'siteNameEn',
-    locationField: 'address',
-  },
-  {
-    show: false,
-    title: 'Chinese Associations',
-    dataUrls: ['data/01-SGPchineseAssociations.json'],
-    type: 'point',
-    loaded: false,
-    feature: null,
-    markerColor: '#239BA7',
-    checkBoxColor: 'teal-5',
-    titleField: 'siteNameEn',
-    locationField: 'address',
-  },
-  {
-    show: false,
-    title: 'Keramat Shrines',
-    dataUrls: ['data/03-keramatShrines.json'],
-    type: 'point',
-    loaded: false,
-    feature: null,
-    markerColor: '#E1AA36',
-    checkBoxColor: 'yellow-9',
-    titleField: 'siteNameEn',
-    locationField: 'siteNameAlt1',
-  }
-])
-
-export { mapDataLayers }
 
 export type { MapDataI, MapDataLayerI }

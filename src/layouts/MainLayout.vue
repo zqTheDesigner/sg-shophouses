@@ -1,11 +1,11 @@
 <template>
   <q-layout view="hHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-cyan-10 flex justify-between">
-        <div></div>
-        <h5 class="q-ma-md">Singapore Historical GIS</h5>
-
+      <q-toolbar class="bg-cyan-10 flex justify-start">
         <q-btn flat dense round style="visibility: hidden" />
+        <div>
+          <MainHeader class="full-width" />
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -19,7 +19,7 @@
 import { ref, watch } from 'vue'
 
 import { selectedFeatures } from 'src/controllers/mapDataController'
-
+import MainHeader from 'src/components/MainHeader.vue'
 const miniState = ref(true)
 
 const navContent = ref(false)

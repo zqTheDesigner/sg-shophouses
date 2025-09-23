@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { watch } from 'vue'
-import { mapDataLayers } from 'src/stores/mapDataStore'
+import { mapDataLayers } from 'src/controllers/contentController'
 
 watch(
   mapDataLayers,
