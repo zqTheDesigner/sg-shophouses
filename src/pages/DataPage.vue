@@ -26,8 +26,8 @@
 
 <script setup lang="ts">
 import { content as pageContent } from 'src/content/sgShops'
-const content = pageContent.about
 
+const content = pageContent.dataPage
 </script>
 
 <style scoped></style>

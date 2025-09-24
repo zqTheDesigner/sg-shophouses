@@ -18,6 +18,30 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('pages/AboutUs.vue') }],
   },
 
+  {
+    path: '/data',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/DataPage.vue') }],
+  },
+
+  {
+    path: '/people',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/PeoplePage.vue') }],
+  },
+
+  {
+    path: '/content',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/ContentPage.vue') }],
+  },
+
+  {
+    path: '/samplearticle',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/articles/SampleArticlePage.vue') }],
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {

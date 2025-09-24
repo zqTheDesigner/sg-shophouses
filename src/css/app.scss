@@ -13,5 +13,9 @@ h6 {
 
 p {
   font-size: 18px;
-  color: rgba($color: #636363, $alpha: 1.0);
+  color: rgba($color: #636363, $alpha: 1);
+}
+
+.q-markdown--heading-h2 {
+  text-align: center;
 }

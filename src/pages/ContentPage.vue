@@ -18,16 +18,41 @@
       </q-img>
     </div>
 
-    <div style="max-width: 800px" class="q-mx-auto q-px-md">
+    <div style="max-width: 800px" class="q-mb-xl q-mx-auto flex column full-width q-px-md">
       <q-markdown no-heading-anchor-links> {{ content.content }}</q-markdown>
+
+      <div
+        v-for="content in content.listOfContent"
+        :key="content.title"
+        class="full-width column flex justify-begin"
+      >
+        <a
+          v-if="content.link.startsWith('http')"
+          :href="content.link"
+          class="text-black"
+          target="_blank"
+        >
+          <h5 class="q-mb-sm">{{ content.title }}</h5>
+        </a>
+        <router-link
+          v-if="!content.link.startsWith('http')"
+          :to="content.link"
+          class="text-black"
+          target="_blank"
+        >
+          <h5 class="q-mb-sm">{{ content.title }}</h5>
+        </router-link>
+        <i>{{ content.subtitle }}</i>
+        <p class="q-my-sm">{{ content.brief }}</p>
+      </div>
     </div>
   </q-page>
 </template>
 
 <script setup lang="ts">
 import { content as pageContent } from 'src/content/sgShops'
-const content = pageContent.about
 
+const content = pageContent.contentPage
 </script>
 
 <style scoped></style>

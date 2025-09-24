@@ -18,16 +18,26 @@
       </q-img>
     </div>
 
-    <div style="max-width: 800px" class="q-mx-auto q-px-md">
+    <div style="max-width: 800px" class="q-mb-xl q-px-md q-mx-auto flex column full-width">
       <q-markdown no-heading-anchor-links> {{ content.content }}</q-markdown>
+
+      <div
+        v-for="people in content.people"
+        :key="people.name"
+        class="full-width column flex justify-begin"
+      >
+        <h5 class="q-mb-sm">{{ people.name }}</h5>
+        <i>{{ people.subtitle }}</i>
+        <p class="q-my-sm">{{ people.info }}</p>
+      </div>
     </div>
   </q-page>
 </template>
 
 <script setup lang="ts">
 import { content as pageContent } from 'src/content/sgShops'
-const content = pageContent.about
 
+const content = pageContent.peoplePage
 </script>
 
 <style scoped></style>

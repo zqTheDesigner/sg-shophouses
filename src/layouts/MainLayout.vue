@@ -9,9 +9,13 @@
       </q-toolbar>
     </q-header>
 
-    <q-page-container>
+    <q-page-container class="q-mb-lg">
       <router-view />
     </q-page-container>
+
+    <q-footer class="bg-cyan-10 q-pa-sm text-center">
+      <div>© {{ currentYear }} National University of Singapore. All rights reserved.</div>
+    </q-footer>
   </q-layout>
 </template>
 
@@ -21,6 +25,8 @@ import { ref, watch } from 'vue'
 import { selectedFeatures } from 'src/controllers/mapDataController'
 import MainHeader from 'src/components/MainHeader.vue'
 const miniState = ref(true)
+
+const currentYear = new Date().getFullYear()
 
 const navContent = ref(false)
 
