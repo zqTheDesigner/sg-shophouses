@@ -25,7 +25,7 @@
     </ol-vector-layer> -->
 
     <!-- Display Points -->
-    <!-- <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
+    <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
       <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
       </ol-source-cluster>
@@ -39,10 +39,10 @@
         </ol-style-circle>
         <ol-style-text text="test" />
       </ol-style>
-    </ol-vector-layer> -->
+    </ol-vector-layer>
 
     <div v-for="mapDataLayer in mapDataLayers" :key="mapDataLayer.title">
-      <ol-vector-layer :visible="mapDataLayer.show">
+      <!-- <ol-vector-layer :visible="mapDataLayer.show">
         <ol-source-cluster :distance="30">
           <ol-source-vector :features="mapDataLayer.feature" />
         </ol-source-cluster>
@@ -62,15 +62,15 @@
           </ol-style-circle>
           <ol-style-text text="test" />
         </ol-style>
-      </ol-vector-layer>
+      </ol-vector-layer> -->
     </div>
   </ol-map>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-// import { Feature } from 'ol'
-// import { Point } from 'ol/geom'
+import { ref, computed } from 'vue'
+import { Feature } from 'ol'
+import { Point } from 'ol/geom'
 import {
   clearSelectedFeatures,
   setSelectedFeatures,
@@ -78,41 +78,41 @@ import {
 } from '../controllers/mapDataController'
 import type { Feature as OlFeature } from 'ol'
 import type { Geometry } from 'ol/geom'
-// import type { CompanyDataI } from '../controllers/mapDataController'
+import type { CompanyDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
 import { content, mapDataLayers } from 'src/controllers/contentController'
 
-// const props = defineProps(['points', 'lines'])
+const props = defineProps(['points', 'lines'])
 
 const mapRef = ref()
 // const selectedClusterId = ref<string | null>(null)
 const styleVersion = ref(0) // Add a version counter to force style updates
 
-// const getClusterColor = (features: OlFeature[] | null) => {
-//   // console.log('getClusterColor')
-//   if (features === null) {
-//     return '006064'
-//   }
-//   if (
-//     features[0] &&
-//     selectedFeatures.value[0] &&
-//     features[0].get('X') === selectedFeatures.value[0].get('X')
-//   ) {
-//     return 'orange'
-//   } else {
-//     return '#006064'
-//   }
-// }
+const getClusterColor = (features: OlFeature[] | null) => {
+  // console.log('getClusterColor')
+  if (features === null) {
+    return '006064'
+  }
+  if (
+    features[0] &&
+    selectedFeatures.value[0] &&
+    features[0].get('X') === selectedFeatures.value[0].get('X')
+  ) {
+    return 'orange'
+  } else {
+    return '#006064'
+  }
+}
 
 // Helper function to convert each point to an OpenLayers Feature
-// function createFeature(point: CompanyDataI): OlFeature<Geometry> {
-//   const feature = new Feature({
-//     geometry: new Point([point.X, point.Y]),
-//     ...point,
-//   })
-//   return feature
-// }
+function createFeature(point: CompanyDataI): OlFeature<Geometry> {
+  const feature = new Feature({
+    geometry: new Point([point.X, point.Y]),
+    ...point,
+  })
+  return feature
+}
 
 // Add this near the createFeature function
 // function createLineFeature(lineData: any): OlFeature<Geometry> {
@@ -124,16 +124,16 @@ const styleVersion = ref(0) // Add a version counter to force style updates
 // }
 
 // Preprocess points into grouped features
-// const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
-//   const result: Record<string, OlFeature<Geometry>[]> = {}
+const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
+  const result: Record<string, OlFeature<Geometry>[]> = {}
 
-//   for (const key in props.points) {
-//     const pointsArray = props.points[key]
-//     result[key] = pointsArray.map(createFeature)
-//   }
+  for (const key in props.points) {
+    const pointsArray = props.points[key]
+    result[key] = pointsArray.map(createFeature)
+  }
 
-//   return result
-// })
+  return result
+})
 
 // const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
 //   const result: Record<string, []> = {}
