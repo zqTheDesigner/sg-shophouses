@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white q-pa-md" style="border-radius: 10px;">
     Map Layers
     <div class="flex column">
       <q-checkbox

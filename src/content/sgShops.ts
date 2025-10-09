@@ -2,34 +2,39 @@ import { type MapDataLayerI } from 'src/stores/mapDataStore'
 import { type Reactive, reactive } from 'vue'
 
 const content = {
-  siteTitle: 'SG Old Shops',
-  mapZoomLevel: 14.5,
+  siteTitle: 'Singapore Historical Business Database',
+  mapZoomLevel: 16,
   mapCenter: [103.84, 1.286],
   headerLinks: [
     { label: 'Map', link: 'map' },
-    { label: 'Content', link: 'content' },
+    { label: 'Paper', link: 'content' },
     { label: 'Data', link: 'data' },
     { label: 'People', link: 'people' },
     { label: 'About', link: 'about' },
+    { label: 'Acknowledgement', link: 'acknowledgement' },
   ],
   about: {
-    title: 'Singapore Old House',
+    title: 'Singapore Historical Business Database',
     subtitle: '',
     bgImage: '/images/markus-leo-g5YqLybBtmA-unsplash.jpg',
-    content: `## Project Description/项目简介 (ongoing...) \n\n This research project, "Mapping the Vernacular City," presents a groundbreaking spatial analysis of Singapore's urban fabric during a critical period of its history. At its core is a newly constructed geospatial dataset that precisely locates over 14,000 shophouses from the 1950s, meticulously mapped onto the contemporary landscape of Singapore. This innovative methodology allows us to transcend traditional archival research, offering an unprecedented, bird's-eye view of the city's most iconic building typography at the dawn of its transition to modernity. \n The project's primary objective is to investigate the distribution, density, and clustering of these shophouses to reveal previously hidden patterns of urban development, economic activity, and community formation. By georeferencing historical maps, directories, and aerial photographs, we have not only placed these structures on a modern map but have also begun to reconstruct the vanished streetscapes of 1950s Singapore. This dataset serves as a foundational layer for multi-layered historical inquiry.\n Key research questions include: How did shophouse density correlate with specific ethnic enclaves, transportation networks, and commercial hubs? What can the spatial distribution tell us about the socio-economic hierarchies of the time? Furthermore, by comparing the 1950s map with present-day satellite imagery, the project will quantitatively and qualitatively analyze the extent of urban renewal, conservation efforts, and the literal erasure of historical precincts. This comparative analysis provides a powerful narrative of change, loss, and preservation.\n Ultimately, this project moves beyond architecture to write a social history from the ground up. The shophouse was not merely a building but the lived environment for a vast majority of the city's population—combining residence, commerce, and light industry. By mapping these 14,000 points, we are reconstructing the skeleton of mid-century Singaporean life, enabling a deeper understanding of how the city's physical form shaped, and was shaped by, the daily experiences of its people. The findings will be disseminated through an interactive public digital map, academic publications, and visualizations, making this vital aspect of Singapore's heritage accessible to all.`,
+    content: `Singapore Historical Business Database is a website that reconstructs the spatial evolution of Singapore’s urban landscape by mapping locations of companies across different historical eras, thereby giving us a glimpse of the city state’s transformation into a global commercial hub that it is today.\n\n<img src='/images/map image.png' style='max-width:800px;width:100%'>Tapping on a comprehensive 1949 business directory, our team is building an extensive database of Singapore’s businesses to analyse the city’s economic and social structures during the colonial era. The 1949 Business Name Registration Directory is a treasure trove of information that contains more than 14,000 business names and 30,000 proprietors, and allows us to study how some businesses have evolved to keep up with the times and how others have vanished as.\n\nWe begin our exploration along the bustling banks of Boat Quay by using GIS technology to dot the locations of a myriad of companies around the vicinity. The diversity of businesses ranging from shipping companies to sundries shops in the downtown area – known colloquially in Hokkien as po dei (坡底) – is testament to Singapore’s role as a regional entrepot with trade crisscrossing the East and the West since the early 1800s.\n\nThis first phase of our project was funded by the National Heritage Board’s Heritage Research Grant (HRG059) and we have plans to expand our research in two main areas: (1) enriching existing entries with primary sources related to each business; (2) developing new GIS layers representing the 19th and early 20th centuries based on newly collected historical materials.`,
   },
   landingPage: {
-    title: 'Singapore Old House',
+    title: 'Singapore Historical Business Database',
     subtitle: '',
     bgImage: '/images/markus-leo-g5YqLybBtmA-unsplash.jpg',
-    content: `## Project Description/项目简介 (ongoing...) \n\n This research project, "Mapping the Vernacular City," presents a groundbreaking spatial analysis of Singapore's urban fabric during a critical period of its history. At its core is a newly constructed geospatial dataset that precisely locates over 14,000 shophouses from the 1950s, meticulously mapped onto the contemporary landscape of Singapore. This innovative methodology allows us to transcend traditional archival research, offering an unprecedented, bird's-eye view of the city's most iconic building typography at the dawn of its transition to modernity. \n The project's primary objective is to investigate the distribution, density, and clustering of these shophouses to reveal previously hidden patterns of urban development, economic activity, and community formation. By georeferencing historical maps, directories, and aerial photographs, we have not only placed these structures on a modern map but have also begun to reconstruct the vanished streetscapes of 1950s Singapore. This dataset serves as a foundational layer for multi-layered historical inquiry.\n Key research questions include: How did shophouse density correlate with specific ethnic enclaves, transportation networks, and commercial hubs? What can the spatial distribution tell us about the socio-economic hierarchies of the time? Furthermore, by comparing the 1950s map with present-day satellite imagery, the project will quantitatively and qualitatively analyze the extent of urban renewal, conservation efforts, and the literal erasure of historical precincts. This comparative analysis provides a powerful narrative of change, loss, and preservation.\n Ultimately, this project moves beyond architecture to write a social history from the ground up. The shophouse was not merely a building but the lived environment for a vast majority of the city's population—combining residence, commerce, and light industry. By mapping these 14,000 points, we are reconstructing the skeleton of mid-century Singaporean life, enabling a deeper understanding of how the city's physical form shaped, and was shaped by, the daily experiences of its people. The findings will be disseminated through an interactive public digital map, academic publications, and visualizations, making this vital aspect of Singapore's heritage accessible to all.`,
+    content: ``,
   },
   dataPage: {
     title: 'Data',
     subtitle: 'Subtitle About Data',
     bgImage: '/images/markus-leo-g5YqLybBtmA-unsplash.jpg',
-    content:
-      '## Data\n The Data contains shophouse locations and other information from 1950s Singapore',
+    content: '',
+    data: [
+      { title: 'Boat Quay', link: 'csv/Boat Quay.csv' },
+      { title: 'Collyer Quay', link: 'csv/Collyer Quay.csv' },
+      { title: 'Havelock Road', link: 'csv/Havelock Road.csv' },
+    ],
   },
   peoplePage: {
     title: 'People',
@@ -38,44 +43,93 @@ const content = {
     content: '',
     people: [
       {
-        name: 'DEAN, Kenneth',
-        subtitle: 'Research Leader',
-        info: 'Prof Kenneth Dean is Kwan Im Thong Hood Cho Temple Professor in the Humanities Division at Yale-NUS College, and Professor at Department of Chinese Studies, NUS. He has been Cluster Leader of the Religion and Globalisation Cluster at ARI since January 2015, on an 8-year joint appointment as Professor with the Religion and Globalisation Cluster, Inter-Asia Engagements Cluster, and the NUS Department of Chinese Studies. He received his PhD and MA in Chinese from Stanford University. His recent publications include Epigraphical Materials on the History of Religion in Fujian: Zhanghou Region (Fuzhou 2019), Secularism in South, East, and Southeast Asia (NY: Palgrave, 2018), co-edited with Peter van der Veer, and Chinese Epigraphy of Singapore: 1819-1911 (2 vols.) (Singapore: NUS Press, 2017), co-edited with Dr Hue Guan Thye. He also directed Bored in Heaven: A Film about Ritual Sensation (2010), on celebrations around Chinese New Year in Putian, Fujian, China. His other publications include Ritual Alliances of the Putian Plain, 2 vols. (Leiden: Brill, 2010) (with Zheng Zhenman). His current project involves the construction of two interactive, multi-media databases, Singapore Historical GIS (SHGIS) and Singapore Biographical Database (SBDB). These projects may be viewed online at http://shgis.nus.edu.sg and http://sbdb.nus.edu.sg.',
-      },
-      {
         name: 'YU, Kang',
-        subtitle: 'Postdoctoral Fellow',
-        info: 'Dr Yu Kang commenced his appointment as Postdoctoral Fellow with the Religion and Globalisation Cluster on 21 February 2023. He obtained his PhD in Chinese Studies at NUS in 2022 with a thesis focusing on Huizhou merchants and their transregional trade institutions. His current research interests include business history and overseas Chinese, with a particular focus on the networks interweaving Chinese temples and businesses in Southeast Asia. At ARI he will work on projects on the historical records of temples and businesses in Singapore, aiming to build a new database that will add another layer to the Singapore Historical GIS.',
+        subtitle: 'Research Fellow',
+        info: 'YU Kang is a research fellow with the Religion and Globalisation Cluster at the Asia Research Institute. He obtained his PhD in Chinese Studies at NUS with a thesis focusing on Huizhou merchants and their transregional trade institutions. His research interests include business history and overseas Chinese. He is currently the Principal Investigator of a Heritage Research Grant supported by National Heritage Board and is working on a book about importers and exporters in Singapore.',
       },
       {
         name: 'Wang Sisi',
-        subtitle: 'Postdoctoral Fellow',
-        info: 'Wang Sisi is a Postdoctoral Fellow in Buddhist Studies at the National University of Singapore. Her research interests include Chinese Buddhism, sacred space, pilgrimage, social history of late imperial and modern China, and Sino-Southeast Asian interactions. She obtained a PhD in Chinese Studies at the National University of Singapore, with a dissertation on Mount Jiuhua in late imperial and Republican China. Wang’s postdoctoral research focuses on transnational Buddhist interactions in modern Asia. She aims to investigate the role of Buddhist sacred sites in the conduct of religious diplomacy, as well as the Buddhist networks between China and the overseas Chinese in Southeast Asia.',
+        subtitle: 'Research Fellow',
+        info: 'WANG Sisi is a research fellow in the Department of Chinese Studies at National University of Singapore. Her research interests include Chinese Buddhism and overseas Chinese history. She received her PhD in Chinese Studies from NUS, with a dissertation examining the development of Mount Jiuhua into a pilgrimage centre during late imperial and Republican China. She is the translator of Lisan Fayuan (離散法緣), a book by NUS Associate Prof by Jack Meng-Tat Chia, and has published articles in Asian Theatre Journal and New History (Xin Shixue) journal. Currently, she is working on a book project about Southeast Asia’s Guanyin temples since the 17th century.',
+      },
+      {
+        name: 'LEE Chyen Yee',
+        subtitle: 'Research Associate',
+        info: 'LEE Chyen Yee is an associate faculty member of SUSS who lectures on economics, political economy and communications. A former journalist with Reuters, she has since ventured into research in economics history focusing on Southeast Asia and China. She is currently working on a project funded by the National Heritage Board on the history and networks of Chinese businesses in Singapore during colonial times. Previously, she co-authored a paper published in the World Development journal on China’s poverty campaign.',
       },
       {
         name: 'Zhang Qiao',
         subtitle: 'Independent Scholar & Artist',
-        info: 'Multidisciplinary creative professional with over a decade of experience spanning art, design, AI, and digital humanities research. Founder of ArchPlate, a home-based printmaking studio focused on developing eco-friendly electro-etching techniques as a safer and more sustainable alternative to acid-based printmaking. As an independent scholar, I have contributed to research teams in NUS on overseas Chinese heritage, applying digital humanities methods such as GIS mapping, text digitization, and AI- based analysis to cultural archives. With a background in UI/UX design, web development, and data engineering, I bridge technology and the humanities to create tools and artworks that are both innovative and human-centered. My work seeks to connect craft, history with identity, and digital practice with the tactile world of printmaking',
+        info: 'ZHANG Qiao is a multidisciplinary creative professional with over a decade of experience spanning art, design, AI, and digital humanities research. He is a founder of ArchPlate, a home-based printmaking studio that focuses on developing eco-friendly electro-etching techniques as a safer and more sustainable alternative to acid-based printmaking. As an independent scholar, he has contributed to research teams in NUS on overseas Chinese heritage by applying digital humanities methods, such as GIS mapping, text digitisation, and AI-based analysis, to study cultural archives.',
+      },
+    ],
+    'special-advisors': [
+      {
+        name: 'Kenneth DEAN',
+        info: 'Professor at the Department of Chinese Studies at NUS and Cluster Leader of the Religion and Globalisation Cluster at the Asia Research Institute',
+      },
+      {
+        name: 'KOH Khee Heong',
+        info: 'Associate Professor at the Department of Chinese Studies at NUS',
       },
     ],
   },
   contentPage: {
-    title: 'Content',
+    title: 'Paper',
     subtitle: '',
     bgImage: '/images/library.jpg',
     content: '',
     listOfContent: [
       {
-        title: 'Sample Page 1',
-        subtitle: 'Sample Page',
-        link: 'https://fass.nus.edu.sg/cs/',
-        brief: 'Sample Link, the link will be open in a new tab by default',
+        title: '',
+        subtitle: 'Lee, C.Y. (2025). Maps, money, and merchants in colonial Singapore. ARIscope.',
+        link: 'https://ari.nus.edu.sg/ariscope/maps-money-merchants-colonial-singapore/',
+        brief: '',
       },
       {
-        title: 'Sample Local Article',
-        subtitle: 'This is a article inside the website',
-        link: '/samplearticle',
-        brief: 'By default, will open in new tab',
+        title: '',
+        subtitle:
+          'Lee, C. Y. (2025). Trading tales from a 1949 directory: Mapping Boat Quay’s commercial heart. MUSE SG. ',
+        link: 'https://www.roots.gov.sg/MUSE/articles/Trading-Tales-from-a-1949-Directory-Mapping-Boat-Quays-Commercial-Heart',
+        brief: '',
+      },
+    ],
+  },
+  acknowledgementPage: {
+    title: 'Acknowledgement',
+    subtitle: '',
+    bgImage: '/images/nus.png',
+    content: '',
+    shops: [
+      {
+        name: 'Eng Diang Huat 翁展发 ',
+        image: '',
+      },
+      {
+        name: ' Pek Sin Choon 白新春',
+        image: '/images/Pek Sin Choon.jpg',
+      },
+      {
+        name: 'Chop Wah On 华安  ',
+        image: '',
+      },
+      {
+        name: 'Ng Choon Seng 黄春生 ',
+        image: '',
+      },
+      {
+        name: 'Kim Chuan Choon 金泉春 ',
+        image: '',
+      },
+      {
+        name: 'Gan Chong Bee 源崇美',
+        image: '',
+      },
+    ],
+    individuals: [
+      {
+        name: 'Mr. Victor Yue 尤祥瑞',
+        image: '',
       },
     ],
   },
@@ -90,19 +144,31 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     loaded: false,
     feature: null,
     markerColor: '#E43636',
-    checkBoxColor: 'green',
+    checkBoxColor: 'teal-8',
     titleField: false,
     locationField: false,
   },
   {
-    show: true,
+    show: false,
     title: 'Singapore Streets',
     dataUrls: ['data/streets.json'],
     type: 'line',
     loaded: false,
     feature: null,
-    markerColor: '#239BA7',
-    checkBoxColor: 'teal-5',
+    markerColor: '#147179',
+    checkBoxColor: 'green-8',
+    titleField: 'siteNameEn',
+    locationField: 'address',
+  },
+  {
+    show: false,
+    title: 'Singapore 1950s Map',
+    dataUrls: [],
+    type: 'line',
+    loaded: false,
+    feature: null,
+    markerColor: '#147179',
+    checkBoxColor: 'amber-8',
     titleField: 'siteNameEn',
     locationField: 'address',
   },

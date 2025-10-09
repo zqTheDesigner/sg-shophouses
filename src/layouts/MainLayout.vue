@@ -14,7 +14,7 @@
     </q-page-container>
 
     <q-footer class="bg-cyan-10 q-pa-sm text-center">
-      <div>© {{ currentYear }} National University of Singapore. All rights reserved.</div>
+      <div>© {{ currentYear }}. All rights reserved.</div>
     </q-footer>
   </q-layout>
 </template>

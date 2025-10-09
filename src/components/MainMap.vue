@@ -11,8 +11,24 @@
       <ol-source-osm />
     </ol-tile-layer>
 
+    <!-- Display Image Layer -->
+    <ol-image-layer :visible="mapDataLayers[2] && mapDataLayers[2].show">
+      <ol-source-image-static
+        url="images/1950-map-combined.jpg"
+        :imageSize="[13425, 7213]"
+        :imageExtent="[103.7963526, 1.2502186, 103.9325787, 1.3263565]"
+        projection="EPSG:4326"
+      >
+      </ol-source-image-static>
+    </ol-image-layer>
+
     <!-- Displaying Lines -->
-    <!-- <ol-vector-layer v-for="(lines, key) in lineGroups" :key="key">
+    <!-- The way of displaying points and lines are hard coded, going to make it much smarter when add more layers -->
+    <ol-vector-layer
+      v-for="(lines, key) in lineGroups"
+      :key="key"
+      :visible="mapDataLayers[1] && mapDataLayers[1].show"
+    >
       <ol-source-vector>
         <ol-feature v-for="(line, k) in lines" :key="k">
           <ol-geom-line-string :coordinates="line.coordinates"></ol-geom-line-string>
@@ -22,10 +38,14 @@
           </ol-style>
         </ol-feature>
       </ol-source-vector>
-    </ol-vector-layer> -->
+    </ol-vector-layer>
 
     <!-- Display Points -->
-    <ol-vector-layer v-for="(features, key) in featureGroups" :key="key">
+    <ol-vector-layer
+      v-for="(features, key) in featureGroups"
+      :key="key"
+      :visible="mapDataLayers[0] && mapDataLayers[0].show"
+    >
       <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
       </ol-source-cluster>
@@ -78,7 +98,7 @@ import {
 } from '../controllers/mapDataController'
 import type { Feature as OlFeature } from 'ol'
 import type { Geometry } from 'ol/geom'
-import type { CompanyDataI } from '../controllers/mapDataController'
+import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
 import { content, mapDataLayers } from 'src/controllers/contentController'
@@ -135,19 +155,19 @@ const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
   return result
 })
 
-// const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
-//   const result: Record<string, []> = {}
+const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
+  const result: Record<string, []> = {}
 
-//   for (const key in props.lines) {
-//     const linesArray = props.lines[key]
-//     result[key] = linesArray
-//   }
+  for (const key in props.lines) {
+    const linesArray = props.lines[key]
+    result[key] = linesArray
+  }
 
-//   return result
-// })
+  return result
+})
 
 // @ts-expect-error some error
-const overrideStyleFunction = (feature, style, resolution, defaultColor) => {
+const overrideStyleFunction = (feature, style, resolution, defaultColor = '#147179') => {
   // console.log('overrideStyleFunction')
   // console.log({ feature, style, resolution })
 

@@ -24,25 +24,27 @@
       <div
         v-for="content in content.listOfContent"
         :key="content.title"
-        class="full-width column flex justify-begin"
+        class="full-width column flex justify-begin q-mt-xl"
       >
+        <i>{{ content.subtitle }}</i>
         <a
           v-if="content.link.startsWith('http')"
           :href="content.link"
           class="text-black"
           target="_blank"
         >
-          <h5 class="q-mb-sm">{{ content.title }}</h5>
+          <p class="q-mb-sm">{{ content.link }}</p>
         </a>
+
         <router-link
           v-if="!content.link.startsWith('http')"
           :to="content.link"
           class="text-black"
           target="_blank"
         >
-          <h5 class="q-mb-sm">{{ content.title }}</h5>
+          <p class="q-mb-sm">{{ content.link }}</p>
         </router-link>
-        <i>{{ content.subtitle }}</i>
+
         <p class="q-my-sm">{{ content.brief }}</p>
       </div>
     </div>

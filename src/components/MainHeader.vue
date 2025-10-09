@@ -1,7 +1,8 @@
 <template>
   <div class="row full-width items-center justify-between">
     <router-link to="/" style="text-decoration: none; color: white">
-      <h5 class="q-ma-md">{{ content.siteTitle }}</h5>
+      <h5 style="max-width: 240px;font-size:22px" class="q-ma-md">
+      <b>{{ content.siteTitle }}</b></h5>
     </router-link>
     <div class="gt-sm absolute full-width d-flex row justify-between" style="pointer-events: none">
       <div class="q-mx-auto row" style="padding-right: 80px">

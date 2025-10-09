@@ -30,6 +30,19 @@
         <i>{{ people.subtitle }}</i>
         <p class="q-my-sm">{{ people.info }}</p>
       </div>
+
+      <div v-if="content['special-advisors']">
+        <div style="border-top: 1px solid black" class="q-mt-lg"></div>
+        <h4 class="q-mb-sm q-mt-xl">Special Advisors</h4>
+        <div
+          v-for="people in content['special-advisors']"
+          :key="people.name"
+          class="full-width column flex justify-begin"
+        >
+          <h5 class="q-mb-sm">{{ people.name }}</h5>
+          <p class="q-my-sm">{{ people.info }}</p>
+        </div>
+      </div>
     </div>
   </q-page>
 </template>

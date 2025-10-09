@@ -18,7 +18,7 @@
       </q-img>
     </div>
 
-    <div style="max-width: 800px" class="q-mx-auto q-px-md">
+    <div style="max-width: 800px" class="q-mx-auto q-px-md q-my-lg">
       <q-markdown no-heading-anchor-links> {{ content.content }}</q-markdown>
     </div>
   </q-page>

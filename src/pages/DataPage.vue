@@ -20,6 +20,12 @@
 
     <div style="max-width: 800px" class="q-mx-auto q-px-md">
       <q-markdown no-heading-anchor-links> {{ content.content }}</q-markdown>
+
+      <div v-for="data in content.data" :key="data.title" class="q-my-md">
+        <a style="font-size: 20px" class="text-black" :href="data.link"
+          ><q-icon name="download" />{{ data.title }}</a
+        >
+      </div>
     </div>
   </q-page>
 </template>
