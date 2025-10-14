@@ -19,6 +19,7 @@ interface MapDataI {
   'Page in Directory': string
   Proprietors: string
   'CH-Proprietors': string
+  links: [{ name: string; link: string }]
 }
 
 interface MapDataLayerI {

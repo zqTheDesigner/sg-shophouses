@@ -6,12 +6,12 @@ const content = {
   mapZoomLevel: 16,
   mapCenter: [103.84, 1.286],
   headerLinks: [
-    { label: 'Map', link: 'map' },
-    { label: 'Paper', link: 'content' },
-    { label: 'Data', link: 'data' },
-    { label: 'People', link: 'people' },
     { label: 'About', link: 'about' },
-    { label: 'Acknowledgement', link: 'acknowledgement' },
+    { label: 'People', link: 'people' },
+    { label: 'Map', link: 'map' },
+    { label: 'Data', link: 'data' },
+    { label: 'Papers', link: 'content' },
+    { label: 'Acknowledgements', link: 'acknowledgement' },
   ],
   about: {
     title: 'Singapore Historical Business Database',

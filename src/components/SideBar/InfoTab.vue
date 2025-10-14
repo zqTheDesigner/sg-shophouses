@@ -11,7 +11,7 @@
           <span class="label"
             ><b>{{ key }}:</b>
           </span>
-          <span class="value">{{ value }}</span>
+          <span class="value"> x </span>
         </div>
       </li>
     </ul>
@@ -53,7 +53,10 @@
               <span class="label"
                 ><b>{{ key }}:</b></span
               >
-              <span class="value">{{ value }}</span>
+              <span class="value"
+                ><q-markdown v-if="key == 'detail'">{{ value }}</q-markdown>
+                <span v-else>{{ value }}</span></span
+              >
             </div>
           </li>
         </ul>
