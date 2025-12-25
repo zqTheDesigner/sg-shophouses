@@ -11,7 +11,7 @@
           <span class="label"
             ><b>{{ key }}:</b>
           </span>
-          <span class="value"> x </span>
+          <span class="value"> {{value}} </span>
         </div>
       </li>
     </ul>

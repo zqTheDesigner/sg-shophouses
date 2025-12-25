@@ -50,6 +50,9 @@ const CompanyData = computed(() => {
 
     // Get the value from the specified category
     const value = item[filterCategory.value]
+    if (typeof value == 'object') {
+      return false
+    }
 
     // Handle cases where value might be null or undefined
     if (value === null || value === undefined) {
@@ -103,7 +106,7 @@ const clearSelectedFeatures = () => {
 }
 
 // const csvUrl = 'data/SG Shophouse DB.json'
-const csvUrls = ['data/batch_1.json', 'data/batch_2.json']
+const csvUrls = ['data/batch_1.json', 'data/batch_2.json','data/batch_3.json']
 const streetDataUrls = ['data/streets.json']
 
 // Helper function to convert each point to an OpenLayers Feature

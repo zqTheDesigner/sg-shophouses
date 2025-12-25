@@ -139,7 +139,7 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
   {
     show: true,
     title: 'Singapore Old Shops',
-    dataUrls: ['data/batch_1.json', 'data/batch_2.json'],
+    dataUrls: ['data/batch_1.json', 'data/batch_2.json', 'data/batch_3.json'],
     type: 'point',
     loaded: false,
     feature: null,
