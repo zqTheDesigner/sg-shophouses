@@ -22,6 +22,17 @@
       </ol-source-image-static>
     </ol-image-layer>
 
+    <!-- Display Image Layer -->
+    <ol-image-layer :visible="mapDataLayers[3] && mapDataLayers[3].show">
+      <ol-source-image-static
+        url="images/map-downtown.jpg"
+        :imageSize="[8156, 9638]"
+        :imageExtent="[103.809855, 1.2590, 103.859158, 1.317654]"
+        projection="EPSG:4326"
+      >
+      </ol-source-image-static>
+    </ol-image-layer>
+
     <!-- Displaying Lines -->
     <!-- The way of displaying points and lines are hard coded, going to make it much smarter when add more layers -->
     <ol-vector-layer

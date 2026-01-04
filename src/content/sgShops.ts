@@ -172,6 +172,19 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     titleField: 'siteNameEn',
     locationField: 'address',
   },
+
+  {
+    show: false,
+    title: 'Singapore 1950s Downtown Map',
+    dataUrls: [],
+    type: 'line',
+    loaded: false,
+    feature: null,
+    markerColor: '#147179',
+    checkBoxColor: 'amber-8',
+    titleField: 'siteNameEn',
+    locationField: 'address',
+  },
 ])
 
 export { content, mapDataLayers }

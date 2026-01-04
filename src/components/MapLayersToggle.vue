@@ -21,7 +21,7 @@ import { mapDataLayers } from 'src/controllers/contentController'
 watch(
   mapDataLayers,
   () => {
-    // console.log(mapDataLayers)
+    console.log('start')
   },
   { deep: true },
 )
