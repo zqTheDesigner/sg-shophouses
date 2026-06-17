@@ -11,8 +11,10 @@
       <ol-source-osm />
     </ol-tile-layer>
 
+    <!-- Enable below 2 layers for Nanyang sources map -->
+
     <!-- Display Image Layer -->
-    <ol-image-layer :visible="mapDataLayers[2] && mapDataLayers[2].show">
+    <!-- <ol-image-layer :visible="mapDataLayers[2] && mapDataLayers[2].show">
       <ol-source-image-static
         url="images/1950-map-combined.jpg"
         :imageSize="[13425, 7213]"
@@ -20,10 +22,10 @@
         projection="EPSG:4326"
       >
       </ol-source-image-static>
-    </ol-image-layer>
+    </ol-image-layer> -->
 
     <!-- Display Image Layer -->
-    <ol-image-layer :visible="mapDataLayers[3] && mapDataLayers[3].show">
+    <!-- <ol-image-layer :visible="mapDataLayers[3] && mapDataLayers[3].show">
       <ol-source-image-static
         url="images/map-downtown.jpg"
         :imageSize="[8156, 9638]"
@@ -31,7 +33,7 @@
         projection="EPSG:4326"
       >
       </ol-source-image-static>
-    </ol-image-layer>
+    </ol-image-layer> -->
 
     <!-- Displaying Lines -->
     <!-- The way of displaying points and lines are hard coded, going to make it much smarter when add more layers -->
@@ -73,7 +75,9 @@
     </ol-vector-layer>
 
     <div v-for="mapDataLayer in mapDataLayers" :key="mapDataLayer.title">
-      <!-- <ol-vector-layer :visible="mapDataLayer.show">
+
+    <!-- Start from here is for SHGIS to display map points -->
+      <ol-vector-layer :visible="mapDataLayer.show">
         <ol-source-cluster :distance="30">
           <ol-source-vector :features="mapDataLayer.feature" />
         </ol-source-cluster>
@@ -93,7 +97,9 @@
           </ol-style-circle>
           <ol-style-text text="test" />
         </ol-style>
-      </ol-vector-layer> -->
+      </ol-vector-layer>
+      <!-- End -->
+
     </div>
   </ol-map>
 </template>
@@ -109,6 +115,7 @@ import {
 } from '../controllers/mapDataController'
 import type { Feature as OlFeature } from 'ol'
 import type { Geometry } from 'ol/geom'
+
 import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
 import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'

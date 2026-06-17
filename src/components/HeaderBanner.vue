@@ -1,6 +1,6 @@
 <template>
   <div class="row no-wrap items-center fit q-px-sm q-my-xl" style="max-width: 800px">
-    <div class="fit" style="max-width: 400px">
+    <div class="fit" style="max-width: 400px" v-if="props.bgImage">
       <q-img :src="props.bgImage">
         <div
           class="fit row items-end q-py-none"

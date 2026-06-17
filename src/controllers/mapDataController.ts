@@ -106,8 +106,14 @@ const clearSelectedFeatures = () => {
 }
 
 // const csvUrl = 'data/SG Shophouse DB.json'
-const csvUrls = ['data/batch_1.json', 'data/batch_2.json','data/batch_3.json']
-const streetDataUrls = ['data/streets.json']
+
+// Enable below 2 lines for Nanyang Sources data
+// const csvUrls = ['data/batch_1.json', 'data/batch_2.json','data/batch_3.json']
+// const streetDataUrls = ['data/streets.json']
+
+// Temporary fix - to display SHGIS data
+const csvUrls = ['']
+const streetDataUrls = ['']
 
 // Helper function to convert each point to an OpenLayers Feature
 function createFeature(data: MapDataI): OlFeature<Geometry> {

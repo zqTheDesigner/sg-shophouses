@@ -2,7 +2,10 @@
 // all the content .ts code should be in the same structure
 // The only thing need to do is to uncomment the correct content data
 
-import { content, mapDataLayers } from '../content/sgShops'
-// import { content } from 'src/content/shgis'
+// Temporary fix - also need to edit code in MainMap.vue to display the correct map data layers
+// Also need to modify the mapDataController.ts the csvUrls part
+
+// import { content, mapDataLayers } from '../content/sgShops'
+import { content,mapDataLayers } from 'src/content/shgis'
 
 export { content, mapDataLayers }
