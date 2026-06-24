@@ -35,7 +35,7 @@
         :key="key"
         expand-separator
         icon="business"
-        :label="feature.NAME || feature.siteNameEn || feature.Name"
+        :label="feature.NAME || feature.siteNameEn || feature.Name || feature.name"
         :caption="feature.COMPANY"
       >
         <InfoTabList :feature="feature" />

@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex">
     <div class="flex-row">
-      <SearchBar class="absolute justify-center" style="z-index: 99; top: 0; width: 100%" />
+      <SearchBar class="hidden absolute justify-center" style="z-index: 99; top: 0; width: 100%"  />
       <MapLayersToggle
         class="absolute justify-right"
         style="z-index: 99; top: 20px; right: 20px;"

@@ -1,0 +1,27 @@
+<mxfile host="65bd71144e">
+    <diagram id="CSHPA8M2a09bVKSGLOnL" name="Page-1">
+        <mxGraphModel dx="774" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="P-jsXl3BU4TpmzQk7Ift" name="Todos">
+        <mxGraphModel dx="774" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="l9Wgn-tMq9zyqyyObKZT-1" value="Update Landing page background image" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="240" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="l9Wgn-tMq9zyqyyObKZT-4" value="1 key switch between nanyang sources and shgis" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="320" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="WYBDbVpRpHBj31pcK-Kp-1" value="Search Function (Currently disabled the search bar)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="280" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
