@@ -18,7 +18,7 @@
               />
             </div>
 
-            <span v-else>{{ value }}</span>
+            <span v-else v-html="useHighlight(value)"></span>
           </span>
         </div>
       </li>
@@ -32,6 +32,11 @@
 
 <script setup>
 import { defineProps, ref } from 'vue'
+import {highlight} from 'src/utils/highlight'
+
+const useHighlight = (text) => {
+  return highlight(text)
+}
 const props = defineProps(['feature'])
 
 const imagePopup = ref(false)
@@ -41,6 +46,8 @@ const openImage = (src) => {
   imagePopup.value = true
   imageSrc.value = src
 }
+
+
 </script>
 
 <style lang="scss" scoped></style>

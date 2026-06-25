@@ -35,9 +35,22 @@
         :key="key"
         expand-separator
         icon="business"
-        :label="feature.NAME || feature.siteNameEn || feature.Name || feature.name"
         :caption="feature.COMPANY"
       >
+      <!-- Below is a bit messy, the purpose is to display the highlighted search key -->
+        <template #header>
+          <q-item-section>
+            <div
+              v-html="
+                useHighlight(feature.NAME || feature.siteNameEn || feature.Name || feature.name)
+              "
+            />
+            <div class="text-caption">
+              {{ feature.COMPANY }}
+            </div>
+          </q-item-section>
+        </template>
+
         <InfoTabList :feature="feature" />
       </q-expansion-item>
     </q-list>
@@ -69,11 +82,15 @@
   </q-dialog>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { selectedFeatures } from '../../controllers/mapDataController'
 import { computed, ref, watch } from 'vue'
 import InfoTabList from './InfoTabList.vue'
+import { highlight } from 'src/utils/highlight'
 
+const useHighlight = (text) => {
+  return highlight(text)
+}
 const listDataCount = ref(10)
 
 const tableView = ref(false)
@@ -82,7 +99,7 @@ const tableView = ref(false)
 const listData = computed(() => {
   return selectedFeatures.value.slice(0, listDataCount.value).map((feature) => {
     const properties = feature.getProperties()
-    const data: Record<string, string> = {}
+    const data = {}
     for (const key in properties) {
       if (key !== 'geometry') {
         // Skip the geometry
@@ -96,7 +113,7 @@ const listData = computed(() => {
 const fullListData = computed(() => {
   return selectedFeatures.value.map((feature) => {
     const properties = feature.getProperties()
-    const data: Record<string, string> = {}
+    const data = {}
     for (const key in properties) {
       if (key !== 'geometry') {
         // Skip the geometry

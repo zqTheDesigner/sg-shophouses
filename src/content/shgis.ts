@@ -82,7 +82,7 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     titleField: 'siteNameEn',
     locationField: 'siteNameAlt1',
   },
-    {
+  {
     show: false,
     title: 'Cemeteries',
     dataUrls: ['data/shgis/cemeteries.json'],
@@ -94,7 +94,7 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     titleField: 'name',
     locationField: 'siteNameAlt1',
   },
-      {
+  {
     show: false,
     title: 'Schools',
     dataUrls: ['data/shgis/schools.json'],
@@ -106,18 +106,20 @@ const mapDataLayers: Reactive<MapDataLayerI>[] = reactive([
     titleField: 'name',
     locationField: 'siteNameAlt1',
   },
-      {
-    show: false,
-    title: 'Temples',
-    dataUrls: ['data/shgis/temples.json'],
-    type: 'point',
-    loaded: false,
-    feature: null,
-    markerColor: '#23c5b0',
-    checkBoxColor: 'teal-3',
-    titleField: 'SCNTemple',
-    locationField: 'siteNameAlt1',
-  },
+  // Disabled in 2025 June as requested by Yu Kang, the previous
+  // Chinese Temples data already been cleaned and updated
+  //     {
+  //   show: false,
+  //   title: 'Temples',
+  //   dataUrls: ['data/shgis/temples.json'],
+  //   type: 'point',
+  //   loaded: false,
+  //   feature: null,
+  //   markerColor: '#23c5b0',
+  //   checkBoxColor: 'teal-3',
+  //   titleField: 'SCNTemple',
+  //   locationField: 'siteNameAlt1',
+  // },
 ])
 
 export { content, mapDataLayers }

@@ -1,25 +1,12 @@
-import { ref, computed } from 'vue'
-
-import type { Ref } from 'vue'
-
-import type { Feature as OlFeature } from 'ol'
-import { type MapDataI, type MapDataLayerI } from 'src/stores/mapDataStore'
+import { ref, computed, watch } from 'vue'
 import { mapDataLayers } from './contentController'
-import type { Geometry } from 'ol/geom'
+
 import { Feature } from 'ol'
 import { Point } from 'ol/geom'
 
-
-
-interface StreetDataI {
-  street: string
-  level: number // or number if you prefer
-  coordinates: [number, number][] // Array of [lng, lat] pairs
-}
-
 const companyDataCategory = [
   'NUMBER',
-  'NAME',
+  'Name',
   'CH-NAME',
   'ST-Number',
   'SCOPE OF BUSINESS',
@@ -34,10 +21,10 @@ const companyDataCategory = [
   'STREET',
 ]
 
-const CompanyDataRaw: Ref<MapDataI[]> = ref([])
-const StreetDataRaw: Ref<StreetDataI[]> = ref([])
+const CompanyDataRaw = ref([])
+const StreetDataRaw = ref([])
 
-const filterCategory: Ref<keyof MapDataI | undefined> = ref('NAME')
+const filterCategory = ref('Name')
 const filterKey = ref()
 
 const CompanyData = computed(() => {
@@ -71,10 +58,10 @@ const CompanyData = computed(() => {
 
 const StreetData = computed(() => StreetDataRaw.value)
 
-const setFilterCategory = (cat: keyof MapDataI) => (filterCategory.value = cat)
-const setFilterKey = (k: string) => (filterKey.value = k)
+const setFilterCategory = (cat) => (filterCategory.value = cat)
+const setFilterKey = (k) => (filterKey.value = k)
 
-const fetchCompanyJSON = async (url: string): Promise<MapDataI[]> => {
+const fetchCompanyJSON = async (url) => {
   try {
     const response = await fetch(url)
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
@@ -85,7 +72,8 @@ const fetchCompanyJSON = async (url: string): Promise<MapDataI[]> => {
   }
 }
 
-const fetchStreetJSON = async (url: string): Promise<StreetDataI[]> => {
+// New generic function to fetch map data by URL
+const fetchMapData = async (url) => {
   try {
     const response = await fetch(url)
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
@@ -96,9 +84,20 @@ const fetchStreetJSON = async (url: string): Promise<StreetDataI[]> => {
   }
 }
 
-const selectedFeaturesRef: Ref<OlFeature[]> = ref([])
+const fetchStreetJSON = async (url) => {
+  try {
+    const response = await fetch(url)
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+    return response.json()
+  } catch (error) {
+    console.error('Error:', error)
+    throw error
+  }
+}
+
+const selectedFeaturesRef = ref([])
 const selectedFeatures = computed(() => selectedFeaturesRef.value)
-const setSelectedFeatures = (features: OlFeature[]) => {
+const setSelectedFeatures = (features) => {
   console.log('setSelectedFeatures')
   selectedFeaturesRef.value = features
   console.log('End setSelectedFeatures')
@@ -118,7 +117,7 @@ const csvUrls = ['']
 const streetDataUrls = ['']
 
 // Helper function to convert each point to an OpenLayers Feature
-function createFeature(data: MapDataI): OlFeature<Geometry> {
+function createFeature(data) {
   const feature = new Feature({
     geometry: new Point([data.X, data.Y]),
     ...data,
@@ -126,8 +125,9 @@ function createFeature(data: MapDataI): OlFeature<Geometry> {
   return feature
 }
 
-const selectedDataLayer: Ref<MapDataLayerI | undefined> = ref()
+const selectedDataLayer = ref()
 
+// This has been used only for NanyangSources
 csvUrls.forEach((url) => {
   fetchCompanyJSON(url)
     .then((data) => {
@@ -141,6 +141,7 @@ csvUrls.forEach((url) => {
     })
 })
 
+// This only been used for NanyangSources and 1 street data
 streetDataUrls.forEach((url) => {
   fetchStreetJSON(url)
     .then((data) => {
@@ -154,27 +155,59 @@ streetDataUrls.forEach((url) => {
     })
 })
 
-mapDataLayers.forEach((mapData) => {
-  const urls = mapData.dataUrls
+// Actual main data loading function
+mapDataLayers.forEach((mapLayer) => {
+  const urls = mapLayer.dataUrls
+  // console.log('Loading data for:', mapLayer.dataRef.value)
   urls.forEach((url) => {
-    fetchCompanyJSON(url)
+    fetchMapData(url)
       .then((data) => {
-        if (mapData.data) {
-          mapData.data = mapData.data.concat(data)
+        if (mapLayer.data) {
+          mapLayer.data = mapLayer.data.concat(data)
         } else {
-          mapData.data = data
+          mapLayer.data = data
         }
       })
       .finally(() => {
-        if (mapData.data) {
-          mapData.feature = mapData.data.map(createFeature)
+        if (mapLayer.data) {
+          mapLayer.feature = mapLayer.data.map(createFeature)
         }
-        console.log('loaded,', mapData.title)
+        console.log('loaded,', mapLayer.title)
       })
       .catch((error) => {
         console.error('Failed to fetch data:', error)
       })
   })
+})
+
+const filterFeatures = (newKey) => {
+  mapDataLayers.forEach((mapLayer) => {
+    if (mapLayer.show) {
+      if (!newKey) {
+        mapLayer.feature = mapLayer.data.map(createFeature)
+      } else {
+        const normalizedFilterKey = newKey.toLowerCase().replace(/\s/g, '')
+
+        mapLayer.feature = mapLayer.data
+          .filter((item) => {
+            return Object.values(item).some((value) => {
+              if (value === null || value === undefined) return false
+              if (typeof value === 'object') return false
+
+              return String(value).toLowerCase().replace(/\s/g, '').includes(normalizedFilterKey)
+            })
+          })
+          .map(createFeature)
+      }
+    }
+  })
+
+  console.log(newKey)
+}
+
+// This is the global search and filter function
+watch(filterKey, (newKey) => {
+  console.log(newKey)
 })
 
 // fetchCompanyJSON(csvUrl)
@@ -200,9 +233,10 @@ export {
   setFilterKey,
   StreetData,
   selectedDataLayer,
+  filterFeatures,
 }
 
-export type { MapDataI as CompanyDataI, StreetDataI }
+// export type { MapDataI as CompanyDataI, StreetDataI }
 
 // ============================================================== //
 // ============ Some Old Code Snippet, DO NOT DELETE ============ //

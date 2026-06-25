@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex">
     <div class="flex-row">
-      <SearchBar class="hidden absolute justify-center" style="z-index: 99; top: 0; width: 100%"  />
+      <SearchBar class="absolute justify-center" style="z-index: 99; top: 0; width: 100%"  />
       <MapLayersToggle
         class="absolute justify-right"
         style="z-index: 99; top: 20px; right: 20px;"
@@ -11,7 +11,7 @@
   </q-page>
 </template>
 
-<script setup lang="ts">
+<script setup >
 import { CompanyData, StreetData } from '../controllers/mapDataController'
 import MainMap from 'src/components/MainMap.vue'
 import SearchBar from '../components/SearchBar.vue'

@@ -75,8 +75,7 @@
     </ol-vector-layer>
 
     <div v-for="mapDataLayer in mapDataLayers" :key="mapDataLayer.title">
-
-    <!-- Start from here is for SHGIS to display map points -->
+      <!-- Start from here is for SHGIS to display map points -->
       <ol-vector-layer :visible="mapDataLayer.show">
         <ol-source-cluster :distance="30">
           <ol-source-vector :features="mapDataLayer.feature" />
@@ -84,7 +83,7 @@
 
         <ol-style
           :overrideStyleFunction="
-            (feature: any, style: any, resolution: any) =>
+            (feature, style, resolution) =>
               overrideStyleFunction(feature, style, resolution, mapDataLayer.markerColor)
           "
           :key="styleVersion"
@@ -99,12 +98,11 @@
         </ol-style>
       </ol-vector-layer>
       <!-- End -->
-
     </div>
   </ol-map>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref, computed } from 'vue'
 import { Feature } from 'ol'
 import { Point } from 'ol/geom'
@@ -113,21 +111,23 @@ import {
   setSelectedFeatures,
   selectedFeatures,
 } from '../controllers/mapDataController'
-import type { Feature as OlFeature } from 'ol'
-import type { Geometry } from 'ol/geom'
+// import type { Feature as OlFeature } from 'ol'
+// import type { Geometry } from 'ol/geom'
 
-import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
-import type MapBrowserEvent from 'ol/MapBrowserEvent'
+// import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
+// import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
 import { content, mapDataLayers } from 'src/controllers/contentController'
 
+// Type of data received based on props
 const props = defineProps(['points', 'lines'])
 
 const mapRef = ref()
 // const selectedClusterId = ref<string | null>(null)
 const styleVersion = ref(0) // Add a version counter to force style updates
 
-const getClusterColor = (features: OlFeature[] | null) => {
+// What does this do???
+const getClusterColor = (features) => {
   // console.log('getClusterColor')
   if (features === null) {
     return '006064'
@@ -144,7 +144,7 @@ const getClusterColor = (features: OlFeature[] | null) => {
 }
 
 // Helper function to convert each point to an OpenLayers Feature
-function createFeature(point: CompanyDataI): OlFeature<Geometry> {
+function createFeature(point) {
   const feature = new Feature({
     geometry: new Point([point.X, point.Y]),
     ...point,
@@ -162,8 +162,8 @@ function createFeature(point: CompanyDataI): OlFeature<Geometry> {
 // }
 
 // Preprocess points into grouped features
-const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
-  const result: Record<string, OlFeature<Geometry>[]> = {}
+const featureGroups = computed(() => {
+  const result = {}
 
   for (const key in props.points) {
     const pointsArray = props.points[key]
@@ -173,8 +173,8 @@ const featureGroups = computed<Record<string, OlFeature<Geometry>[]>>(() => {
   return result
 })
 
-const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
-  const result: Record<string, []> = {}
+const lineGroups = computed(() => {
+  const result = {}
 
   for (const key in props.lines) {
     const linesArray = props.lines[key]
@@ -184,7 +184,7 @@ const lineGroups = computed<Record<string, StreetDataI[]>>(() => {
   return result
 })
 
-// @ts-expect-error some error
+// //@ts-expect-error some error
 const overrideStyleFunction = (feature, style, resolution, defaultColor = '#147179') => {
   // console.log('overrideStyleFunction')
   // console.log({ feature, style, resolution })
@@ -192,7 +192,7 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
   if (!resolution) {
     // console.log(resolution)
   }
-  const clusteredFeatures: OlFeature[] = feature.get('features')
+  const clusteredFeatures = feature.get('features')
   const size = clusteredFeatures.length
 
   // If the first element in a cluster is selected, the whole cluster is selected
@@ -243,7 +243,7 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
 }
 
 // Handle map clicks
-function handleMapClick(event: MapBrowserEvent<PointerEvent>) {
+function handleMapClick(event) {
   console.log('handleMapClick')
   const map = event.map
   // createPopupOverlay(map) // ensure overlay is added
@@ -254,11 +254,9 @@ function handleMapClick(event: MapBrowserEvent<PointerEvent>) {
 
   map.forEachFeatureAtPixel(pixel, (feature) => {
     console.log('forEachFeatureAtPixel')
-    const clusterFeatures = feature.get('features') as OlFeature<Geometry>[] | undefined
-    // const geometry = feature.getGeometry() as Point
-    // const coord = geometry.getCoordinates()
+    const clusterFeatures = feature.get('features')
     if (clusterFeatures && clusterFeatures.length >= 1) {
-      // console.log(clusterFeatures)
+      console.log(clusterFeatures)
       setSelectedFeatures(clusterFeatures)
     }
   })
