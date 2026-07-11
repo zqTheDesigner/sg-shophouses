@@ -26,7 +26,7 @@ interface MapDataLayerI {
   show: boolean
   title: string
   dataUrls: string[]
-  type: 'point' | 'polygon' | 'line' // string fallback for other possible values
+  type: 'point' | 'polygon' | 'line' | 'geotiff' // string fallback for other possible values
   loaded: boolean //Track if the data already loaded
   data?: MapDataI[]
   feature: OlFeature[] | null

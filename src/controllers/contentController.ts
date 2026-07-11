@@ -6,6 +6,12 @@
 // Also need to modify the mapDataController.ts the csvUrls part
 
 // import { content, mapDataLayers } from '../content/sgShops'
-import { content,mapDataLayers } from 'src/content/shgis'
+import { content, mapDataLayers } from 'src/content/shgis'
+
+// For SHGIS to display PuTian Data
+import { content as puTianContent, mapDataLayers as puTianMapDataLayers } from 'src/content/puTian'
 
 export { content, mapDataLayers }
+ 
+// For SHGIS to display PuTian Data
+export { puTianContent, puTianMapDataLayers }

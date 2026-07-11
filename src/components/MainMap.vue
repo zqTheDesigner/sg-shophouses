@@ -5,7 +5,11 @@
     @click="handleMapClick"
     ref="mapRef"
   >
-    <ol-view :center="content.mapCenter" :zoom="content.mapZoomLevel" projection="EPSG:4326" />
+    <ol-view
+      :center="props.content.mapCenter"
+      :zoom="props.content.mapZoomLevel"
+      projection="EPSG:4326"
+    />
 
     <ol-tile-layer>
       <ol-source-osm />
@@ -40,7 +44,7 @@
     <ol-vector-layer
       v-for="(lines, key) in lineGroups"
       :key="key"
-      :visible="mapDataLayers[1] && mapDataLayers[1].show"
+      :visible="props.mapDataLayers[1] && props.mapDataLayers[1].show"
     >
       <ol-source-vector>
         <ol-feature v-for="(line, k) in lines" :key="k">
@@ -57,7 +61,7 @@
     <ol-vector-layer
       v-for="(features, key) in featureGroups"
       :key="key"
-      :visible="mapDataLayers[0] && mapDataLayers[0].show"
+      :visible="props.mapDataLayers[0] && props.mapDataLayers[0].show"
     >
       <ol-source-cluster :distance="30">
         <ol-source-vector :features="features" />
@@ -74,9 +78,11 @@
       </ol-style>
     </ol-vector-layer>
 
-    <div v-for="mapDataLayer in mapDataLayers" :key="mapDataLayer.title">
+    <!-- Display of mapDataLayers -->
+
+    <div v-for="mapDataLayer in props.mapDataLayers" :key="mapDataLayer.title">
       <!-- Start from here is for SHGIS to display map points -->
-      <ol-vector-layer :visible="mapDataLayer.show">
+      <ol-vector-layer v-if="mapDataLayer.type === 'point'" :visible="mapDataLayer.show">
         <ol-source-cluster :distance="30">
           <ol-source-vector :features="mapDataLayer.feature" />
         </ol-source-cluster>
@@ -84,7 +90,13 @@
         <ol-style
           :overrideStyleFunction="
             (feature, style, resolution) =>
-              overrideStyleFunction(feature, style, resolution, mapDataLayer.markerColor)
+              overrideStyleFunction(
+                feature,
+                style,
+                resolution,
+                mapDataLayer.markerColor,
+                mapDataLayer.titleField
+              )
           "
           :key="styleVersion"
         >
@@ -98,31 +110,60 @@
         </ol-style>
       </ol-vector-layer>
       <!-- End -->
+
+      <!-- Polygons -->
+      <ol-vector-layer :visible="mapDataLayer.show">
+        <ol-source-vector :features="mapDataLayer.feature" />
+
+        <ol-style>
+          <ol-style-fill color="rgba(64, 196, 255, 0.30)" />
+          <ol-style-stroke color="#0288d1" :width="2.5" />
+        </ol-style>
+      </ol-vector-layer>
     </div>
   </ol-map>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { Feature } from 'ol'
-import { Point } from 'ol/geom'
+import { ref, computed } from "vue"
+import { Feature } from "ol"
+import { Stroke } from "ol/style"
+import { Point } from "ol/geom"
 import {
   clearSelectedFeatures,
   setSelectedFeatures,
   selectedFeatures,
-} from '../controllers/mapDataController'
+} from "../controllers/mapDataController"
+
+import { onMounted, watch } from "vue"
+
+import WebGLTileLayer from "ol/layer/WebGLTile"
+import GeoTIFF from "ol/source/GeoTIFF"
 // import type { Feature as OlFeature } from 'ol'
 // import type { Geometry } from 'ol/geom'
 
 // import type { CompanyDataI, StreetDataI } from '../controllers/mapDataController'
 // import type MapBrowserEvent from 'ol/MapBrowserEvent'
 // import Stroke from 'ol/style/Stroke'
-import { content, mapDataLayers } from 'src/controllers/contentController'
-
+// import { content, mapDataLayers } from 'src/controllers/contentController'
 // Type of data received based on props
-const props = defineProps(['points', 'lines'])
+const props = defineProps(["points", "lines", "content", "mapDataLayers"])
 
 const mapRef = ref()
+
+const historicalMapLayer = new WebGLTileLayer({
+  opacity: 0.75,
+  visible: true,
+
+  source: new GeoTIFF({
+    sources: [
+      {
+        url: "data/shgis/sg_1913.tiff",
+      },
+    ],
+  }),
+})
+
 // const selectedClusterId = ref<string | null>(null)
 const styleVersion = ref(0) // Add a version counter to force style updates
 
@@ -130,16 +171,16 @@ const styleVersion = ref(0) // Add a version counter to force style updates
 const getClusterColor = (features) => {
   // console.log('getClusterColor')
   if (features === null) {
-    return '006064'
+    return "006064"
   }
   if (
     features[0] &&
     selectedFeatures.value[0] &&
-    features[0].get('X') === selectedFeatures.value[0].get('X')
+    features[0].get("X") === selectedFeatures.value[0].get("X")
   ) {
-    return 'orange'
+    return "orange"
   } else {
-    return '#006064'
+    return "#006064"
   }
 }
 
@@ -150,6 +191,25 @@ function createFeature(point) {
     ...point,
   })
   return feature
+}
+
+function wrapText(str, maxChars = 15) {
+  const words = str.split(" ")
+  const lines = []
+  let line = ""
+
+  for (const word of words) {
+    if ((line + " " + word).trim().length <= maxChars) {
+      line += (line ? " " : "") + word
+    } else {
+      lines.push(line)
+      line = word
+    }
+  }
+
+  if (line) lines.push(line)
+
+  return lines.join("\n")
 }
 
 // Add this near the createFeature function
@@ -185,14 +245,20 @@ const lineGroups = computed(() => {
 })
 
 // //@ts-expect-error some error
-const overrideStyleFunction = (feature, style, resolution, defaultColor = '#147179') => {
+const overrideStyleFunction = (
+  feature,
+  style,
+  resolution,
+  defaultColor = "#147179",
+  titleField = "NAME"
+) => {
   // console.log('overrideStyleFunction')
   // console.log({ feature, style, resolution })
 
   if (!resolution) {
     // console.log(resolution)
   }
-  const clusteredFeatures = feature.get('features')
+  const clusteredFeatures = feature.get("features")
   const size = clusteredFeatures.length
 
   // If the first element in a cluster is selected, the whole cluster is selected
@@ -206,9 +272,9 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
   const isSelected = clusteredFeatures.some((clusteredFeature) =>
     selectedFeatures.value.some(
       (selectedFeature) =>
-        clusteredFeature.get('X') === selectedFeature.get('X') &&
-        clusteredFeature.get('Y') === selectedFeature.get('Y'),
-    ),
+        clusteredFeature.get("X") === selectedFeature.get("X") &&
+        clusteredFeature.get("Y") === selectedFeature.get("Y")
+    )
   )
   // Reset all cluster style color
   style.getImage().getFill().setColor(defaultColor)
@@ -217,16 +283,26 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
   // If contains feature
   if (size > 1) {
     style.getText().setText(size.toString())
-    style.getText().getFill().setColor('#fff')
+    style.getText().getFill().setColor("#fff")
+
+    new Stroke()
+    style.getText().setFont("bold 13px Arial")
   } else if (size === 1 && clusteredFeatures[0] !== undefined) {
-    style
-      .getText()
-      .setText(
-        clusteredFeatures[0].getProperties()['NAME'] ||
-          clusteredFeatures[0].getProperties()['siteNameEn'] ||
-          clusteredFeatures[0].getProperties()['siteNameAlt1'],
-      )
-    style.getText().getFill().setColor('#000')
+    style.getText().setText(
+      // wrapText(
+      clusteredFeatures[0].getProperties()[titleField] ||
+        clusteredFeatures[0].getProperties()["siteNameEn"] ||
+        clusteredFeatures[0].getProperties()["siteNameAlt1"]
+      // )
+    )
+    wrapText("")
+    style.getText().getFill().setColor("#000")
+    style.getText().setFont("bold 13px Arial")
+    // style.getText().setStroke(
+    //   new Stroke({
+    //     width: 1,
+    //   })
+    // )
   } else {
     // This is unlikely to happe, just prevent some ts warning
     // return
@@ -235,7 +311,7 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
   if (isSelected) {
     // console.log(clusteredFeatures, selectedFeatures)
 
-    style.getImage().getFill().setColor('orange')
+    style.getImage().getFill().setColor("orange")
     style.getImage().setRadius(15)
   }
 
@@ -244,7 +320,7 @@ const overrideStyleFunction = (feature, style, resolution, defaultColor = '#1471
 
 // Handle map clicks
 function handleMapClick(event) {
-  console.log('handleMapClick')
+  console.log("handleMapClick")
   const map = event.map
   // createPopupOverlay(map) // ensure overlay is added
 
@@ -253,21 +329,41 @@ function handleMapClick(event) {
   clearSelectedFeatures()
 
   map.forEachFeatureAtPixel(pixel, (feature) => {
-    console.log('forEachFeatureAtPixel')
-    const clusterFeatures = feature.get('features')
+    console.log("forEachFeatureAtPixel")
+    const clusterFeatures = feature.get("features")
     if (clusterFeatures && clusterFeatures.length >= 1) {
       console.log(clusterFeatures)
       setSelectedFeatures(clusterFeatures)
     }
   })
 
-  console.log('end ForEachFeature')
+  console.log("end ForEachFeature")
 
   styleVersion.value++
   // olStyleRef.value.overrideStyleFunction()
-  console.log('end handle map click', styleVersion.value)
+  console.log("end handle map click", styleVersion.value)
   return true
 }
+
+onMounted(() => {
+  const map = mapRef.value?.map
+
+  if (!map) {
+    console.error("Cannot access OpenLayers map.")
+    return
+  }
+
+  map.getLayers().insertAt(1, historicalMapLayer)
+})
+
+watch(props.mapDataLayers, () => {
+  // set historicalMapLayer's visibility based on the last mapDataLayer's show property
+  if (props.mapDataLayers.length > 0) {
+    historicalMapLayer.setVisible(
+      props.mapDataLayers[props.mapDataLayers.length - 1].show
+    )
+  }
+})
 </script>
 
 <style scoped></style>

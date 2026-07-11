@@ -12,6 +12,13 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('pages/MainPage.vue') }],
   },
 
+  // Added on 2026-07-11 for PuTian map page
+  {
+    path: '/putian',
+    component: () => import('layouts/MapLayout.vue'),
+    children: [{ path: '', component: () => import('pages/PuTian.vue') }],
+  },
+
   {
     path: '/about',
     component: () => import('layouts/MainLayout.vue'),

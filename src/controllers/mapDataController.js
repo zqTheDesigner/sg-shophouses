@@ -1,8 +1,9 @@
 import { ref, computed, watch } from 'vue'
-import { mapDataLayers } from './contentController'
+import { mapDataLayers, puTianMapDataLayers } from './contentController'
 
 import { Feature } from 'ol'
 import { Point } from 'ol/geom'
+import MultiPolygon from 'ol/geom/MultiPolygon'
 
 const companyDataCategory = [
   'NUMBER',
@@ -117,12 +118,39 @@ const csvUrls = ['']
 const streetDataUrls = ['']
 
 // Helper function to convert each point to an OpenLayers Feature
-function createFeature(data) {
-  const feature = new Feature({
-    geometry: new Point([data.X, data.Y]),
-    ...data,
-  })
-  return feature
+// function createFeature(data) {
+//   console.log('Creating feature for data:', data)
+//   const feature = new Feature({
+//     geometry: new Point([data.X, data.Y]),
+//     ...data,
+//   })
+//   return feature
+// }
+
+// function createPolygonFeature(data) {
+//   console.log('Creating polygon feature for data:', data)
+//   return new Feature({
+//     geometry: new MultiPolygon(data.GEOMETRY.coordinates),
+//     ...data,
+//   })
+// }
+
+function createFeature(data, type) {
+  if (type === 'point') {
+    console.log('Creating point feature for data:')
+    return new Feature({
+      geometry: new Point([data.X, data.Y]),
+      ...data,
+    })
+  }
+
+  if (type === 'polygon') {
+    console.log('Creating polygon feature for data:')
+    return new Feature({
+      geometry: new MultiPolygon(data.GEOMETRY.coordinates),
+      ...data,
+    })
+  }
 }
 
 const selectedDataLayer = ref()
@@ -170,9 +198,10 @@ mapDataLayers.forEach((mapLayer) => {
       })
       .finally(() => {
         if (mapLayer.data) {
-          mapLayer.feature = mapLayer.data.map(createFeature)
+          mapLayer.feature = mapLayer.data.map((data) => createFeature(data, mapLayer.type))
         }
         console.log('loaded,', mapLayer.title)
+        // console.log(mapLayer.feature.getGeometry().getType())
       })
       .catch((error) => {
         console.error('Failed to fetch data:', error)
@@ -184,7 +213,7 @@ const filterFeatures = (newKey) => {
   mapDataLayers.forEach((mapLayer) => {
     if (mapLayer.show) {
       if (!newKey) {
-        mapLayer.feature = mapLayer.data.map(createFeature)
+        mapLayer.feature = mapLayer.data.map((data) => createFeature(data, mapLayer.type))
       } else {
         const normalizedFilterKey = newKey.toLowerCase().replace(/\s/g, '')
 
@@ -197,7 +226,56 @@ const filterFeatures = (newKey) => {
               return String(value).toLowerCase().replace(/\s/g, '').includes(normalizedFilterKey)
             })
           })
-          .map(createFeature)
+          .map((data) => createFeature(data, mapLayer.type))
+      }
+    }
+  })
+
+  console.log(newKey)
+}
+
+// For PuTian data loading
+puTianMapDataLayers.forEach((mapLayer) => {
+  const urls = mapLayer.dataUrls
+  urls.forEach((url) => {
+    fetchMapData(url)
+      .then((data) => {
+        if (mapLayer.data) {
+          mapLayer.data = mapLayer.data.concat(data)
+        } else {
+          mapLayer.data = data
+        }
+      })
+      .finally(() => {
+        if (mapLayer.data) {
+          mapLayer.feature = mapLayer.data.map((data) => createFeature(data, mapLayer.type))
+        }
+        console.log('loaded,', mapLayer.title, mapLayer.data)
+      })
+      .catch((error) => {
+        console.error('Failed to fetch data:', error)
+      })
+  })
+})
+
+const puTianFilteredFeatures = (newKey) => {
+  puTianMapDataLayers.forEach((mapLayer) => {
+    if (mapLayer.show) {
+      if (!newKey) {
+        mapLayer.feature = mapLayer.data.map((data) => createFeature(data, mapLayer.type))
+      } else {
+        const normalizedFilterKey = newKey.toLowerCase().replace(/\s/g, '')
+
+        mapLayer.feature = mapLayer.data
+          .filter((item) => {
+            return Object.values(item).some((value) => {
+              if (value === null || value === undefined) return false
+              if (typeof value === 'object') return false
+
+              return String(value).toLowerCase().replace(/\s/g, '').includes(normalizedFilterKey)
+            })
+          })
+          .map((data) => createFeature(data, mapLayer.type))
       }
     }
   })
@@ -209,17 +287,6 @@ const filterFeatures = (newKey) => {
 watch(filterKey, (newKey) => {
   console.log(newKey)
 })
-
-// fetchCompanyJSON(csvUrl)
-//   .then((data) => {
-//     // console.log('Fetched data:', data)
-//     // You can work with the data here
-//     CompanyDataRaw.value = data
-//     // console.log(data)
-//   })
-//   .catch((error) => {
-//     console.error('Failed to fetch data:', error)
-//   })
 
 export {
   CompanyData,
@@ -234,6 +301,9 @@ export {
   StreetData,
   selectedDataLayer,
   filterFeatures,
+
+  // For PuTian data
+  puTianFilteredFeatures,
 }
 
 // export type { MapDataI as CompanyDataI, StreetDataI }

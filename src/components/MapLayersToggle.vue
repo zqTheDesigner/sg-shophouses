@@ -14,7 +14,7 @@
       <div class="q-mt-md">
         <div class="flex column">
           <q-checkbox
-            v-for="dataLayer in mapDataLayers"
+            v-for="dataLayer in props.mapDataLayers"
             v-model="dataLayer.show"
             :label="dataLayer.title"
             :color="dataLayer.checkBoxColor"
@@ -30,12 +30,14 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import { mapDataLayers } from 'src/controllers/contentController'
+// import { mapDataLayers } from 'src/controllers/contentController'
+
+const props = defineProps(['mapDataLayers'])
 
 const mapLayersToggled = ref(true)
 
 watch(
-  mapDataLayers,
+  () => props.mapDataLayers,
   () => {
     console.log('start')
   },
