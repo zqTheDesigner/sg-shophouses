@@ -44,13 +44,16 @@
         outline
         class="q-my-md"
       />
+
+      <!-- Quick fix for putian button -->
+      <q-btn style="color: #d5b895" to="/putian" label="Putian" outline class="q-mx-md" />
     </div>
   </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-const props = defineProps(['title', 'subtitle', 'bgImage', 'link'])
+import { defineProps } from "vue"
+const props = defineProps(["title", "subtitle", "bgImage", "link"])
 </script>
 
 <style lang="scss" scoped></style>
