@@ -137,7 +137,7 @@ const streetDataUrls = ['']
 
 function createFeature(data, type) {
   if (type === 'point') {
-    console.log('Creating point feature for data:')
+    // console.log('Creating point feature for data:')
     return new Feature({
       geometry: new Point([data.X, data.Y]),
       ...data,
@@ -145,7 +145,7 @@ function createFeature(data, type) {
   }
 
   if (type === 'polygon') {
-    console.log('Creating polygon feature for data:')
+    // console.log('Creating polygon feature for data:')
     return new Feature({
       geometry: new MultiPolygon(data.GEOMETRY.coordinates),
       ...data,
